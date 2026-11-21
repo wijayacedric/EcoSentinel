@@ -1,0 +1,395 @@
+year,measurement,flag,count,definition
+2014,BarometricPress_kPa,C,13,Faulty or unrealistic measurement
+2014,BarometricPress_kPa,M,5,Missing measurement
+2014,RelativeHum_%,C,13,Faulty or unrealistic measurement
+2014,RelativeHum_%,M,5,Missing measurement
+2014,WindDir_Degree,C,13,Faulty or unrealistic measurement
+2014,WindDir_Degree,M,5,Missing measurement
+2014,WindSp_km/h,C,13,Faulty or unrealistic measurement
+2014,WindSp_km/h,M,5,Missing measurement
+2014,DailyRain_mm,C,13,Faulty or unrealistic measurement
+2014,DailyRain_mm,M,5,Missing measurement
+2014,AirTemp_C,C,17,Faulty or unrealistic measurement
+2014,AirTemp_C,M,5,Missing measurement
+2014,PARAir_umol/s/m2,A2,1087,PAR below sensor operating range; adjusted to zero
+2014,PARAir_umol/s/m2,C,13,Faulty or unrealistic measurement
+2014,PARW1_umol/s/m2,C,1272,Faulty or unrealistic measurement
+2014,PARW1_umol/s/m2,A3,1206,Inverted PAR readings; requires inspection
+2014,PARW2_umol/s/m2,C,1400,Faulty or unrealistic measurement
+2014,PARW2_umol/s/m2,A3,1206,Inverted PAR readings; requires inspection
+2014,TempShallow_C,C,13,Faulty or unrealistic measurement
+2014,pHShallow,C,13,Faulty or unrealistic measurement
+2014,pHmVShallow_mV,C,13,Faulty or unrealistic measurement
+2014,ODOSatShallow_%,C,13,Faulty or unrealistic measurement
+2014,ODOShallow_mg/L,C,13,Faulty or unrealistic measurement
+2014,SpCondShallow_uS/cm,C,13,Faulty or unrealistic measurement
+2014,SpCondShallowRaw_uS/cm,C,13,Faulty or unrealistic measurement
+2014,TurbShallow_NTU+,B7,604,Potential fouling-related pigment or turbidity spike
+2014,TurbShallow_NTU+,C,1,Faulty or unrealistic measurement
+2014,ChlRFUShallow_RFU,B7,604,Potential fouling-related pigment or turbidity spike
+2014,BGPCShallowRFU_RFU,B7,604,Potential fouling-related pigment or turbidity spike
+2014,TempDeep_C,C,13,Faulty or unrealistic measurement
+2014,pHDeep,C,13,Faulty or unrealistic measurement
+2014,pHmVDeep_mV,C,13,Faulty or unrealistic measurement
+2014,ODODeep_mg/L,C,13,Faulty or unrealistic measurement
+2014,ODOSatDeep_%,C,13,Faulty or unrealistic measurement
+2014,SpCondDeep_uS/cm,C,13,Faulty or unrealistic measurement
+2014,SpCondDeepRaw_uS/cm,C,13,Faulty or unrealistic measurement
+2014,BGPCDeepRFU_RFU,C,13,Faulty or unrealistic measurement
+2014,Temp01_C,C,13,Faulty or unrealistic measurement
+2014,Temp02_C,C,14,Faulty or unrealistic measurement
+2014,Temp03_C,C,14,Faulty or unrealistic measurement
+2015,BarometricPress_kPa,M,13,Missing measurement
+2015,BarometricPress_kPa,C,6,Faulty or unrealistic measurement
+2015,RelativeHum_%,M,13,Missing measurement
+2015,RelativeHum_%,C,6,Faulty or unrealistic measurement
+2015,WindDir_Degree,M,13,Missing measurement
+2015,WindDir_Degree,C,6,Faulty or unrealistic measurement
+2015,WindSp_km/h,M,13,Missing measurement
+2015,WindSp_km/h,C,6,Faulty or unrealistic measurement
+2015,DailyRain_mm,M,13,Missing measurement
+2015,DailyRain_mm,C,6,Faulty or unrealistic measurement
+2015,AirTemp_C,M,13,Missing measurement
+2015,AirTemp_C,C,6,Faulty or unrealistic measurement
+2015,PARAir_umol/s/m2,M,13,Missing measurement
+2015,PARAir_umol/s/m2,A2,7,PAR below sensor operating range; adjusted to zero
+2015,PARW1_umol/s/m2,A4,4003,2015 underwater PAR sensor shading; use higher sensor value
+2015,PARW1_umol/s/m2,A2,1186,PAR below sensor operating range; adjusted to zero
+2015,PARW1_umol/s/m2,M,13,Missing measurement
+2015,PARW2_umol/s/m2,A2,7839,PAR below sensor operating range; adjusted to zero
+2015,PARW2_umol/s/m2,A4,4003,2015 underwater PAR sensor shading; use higher sensor value
+2015,PARW2_umol/s/m2,M,13,Missing measurement
+2015,TempShallow_C,M,3150,Missing measurement
+2015,pHShallow,M,3150,Missing measurement
+2015,pHmVShallow_mV,M,3150,Missing measurement
+2015,ODOSatShallow_%,C,9416,Faulty or unrealistic measurement
+2015,ODOSatShallow_%,M,3150,Missing measurement
+2015,ODOShallow_mg/L,C,9416,Faulty or unrealistic measurement
+2015,ODOShallow_mg/L,M,3150,Missing measurement
+2015,SpCondShallow_uS/cm,M,3150,Missing measurement
+2015,SpCondShallowRaw_uS/cm,M,3150,Missing measurement
+2015,TurbShallow_NTU+,M,3150,Missing measurement
+2015,TurbShallow_NTU+,C,1202,Faulty or unrealistic measurement
+2015,ChlRFUShallow_RFU,M,3150,Missing measurement
+2015,BGPCShallowRFU_RFU,M,3150,Missing measurement
+2015,TempDeep_C,M,99,Missing measurement
+2015,pHDeep,M,99,Missing measurement
+2015,pHmVDeep_mV,M,99,Missing measurement
+2015,ODODeep_mg/L,M,99,Missing measurement
+2015,ODOSatDeep_%,M,99,Missing measurement
+2015,SpCondDeep_uS/cm,M,99,Missing measurement
+2015,SpCondDeep_uS/cm,C,5,Faulty or unrealistic measurement
+2015,SpCondDeepRaw_uS/cm,M,99,Missing measurement
+2015,SpCondDeepRaw_uS/cm,C,5,Faulty or unrealistic measurement
+2015,BGPCDeepRFU_RFU,M,99,Missing measurement
+2015,Temp00_C,M,13,Missing measurement
+2015,Temp01_C,M,13,Missing measurement
+2015,Temp02_C,M,13,Missing measurement
+2015,Temp03_C,M,13,Missing measurement
+2015,Temp04_C,M,13,Missing measurement
+2016,BarometricPress_kPa,M,139,Missing measurement
+2016,RelativeHum_%,M,139,Missing measurement
+2016,RelativeHum_%,C,48,Faulty or unrealistic measurement
+2016,WindDir_Degree,M,4908,Missing measurement
+2016,WindSp_km/h,M,4908,Missing measurement
+2016,WindSp_km/h,C,2,Faulty or unrealistic measurement
+2016,DailyRain_mm,M,139,Missing measurement
+2016,AirTemp_C,C,568,Faulty or unrealistic measurement
+2016,AirTemp_C,M,139,Missing measurement
+2016,PARAir_umol/s/m2,M,217,Missing measurement
+2016,PARAir_umol/s/m2,C,1,Faulty or unrealistic measurement
+2016,PARAir_umol/s/m2,A2,1,PAR below sensor operating range; adjusted to zero
+2016,PARW1_umol/s/m2,A2,3763,PAR below sensor operating range; adjusted to zero
+2016,PARW1_umol/s/m2,A3,1945,Inverted PAR readings; requires inspection
+2016,PARW1_umol/s/m2,"A2, A3",895,Unknown or compound flag
+2016,PARW2_umol/s/m2,A2,4416,PAR below sensor operating range; adjusted to zero
+2016,PARW2_umol/s/m2,A3,2840,Inverted PAR readings; requires inspection
+2016,PARW2_umol/s/m2,M,224,Missing measurement
+2016,PARW2_umol/s/m2,C,1,Faulty or unrealistic measurement
+2016,TempShallow_C,M,256,Missing measurement
+2016,TempShallow_C,C,2,Faulty or unrealistic measurement
+2016,pHShallow,M,256,Missing measurement
+2016,pHmVShallow_mV,M,256,Missing measurement
+2016,ODOSatShallow_%,M,256,Missing measurement
+2016,ODOSatShallow_%,C,11,Faulty or unrealistic measurement
+2016,ODOShallow_mg/L,M,256,Missing measurement
+2016,ODOShallow_mg/L,C,11,Faulty or unrealistic measurement
+2016,SpCondShallow_uS/cm,C,366,Faulty or unrealistic measurement
+2016,SpCondShallow_uS/cm,M,256,Missing measurement
+2016,SpCondShallowRaw_uS/cm,C,366,Faulty or unrealistic measurement
+2016,SpCondShallowRaw_uS/cm,M,256,Missing measurement
+2016,TurbShallow_NTU+,M,256,Missing measurement
+2016,TurbShallow_NTU+,C,11,Faulty or unrealistic measurement
+2016,ChlRFUShallow_RFU,M,256,Missing measurement
+2016,ChlRFUShallow_RFU,C,10,Faulty or unrealistic measurement
+2016,BGPCShallowRFU_RFU,M,256,Missing measurement
+2016,BGPCShallowRFU_RFU,C,13,Faulty or unrealistic measurement
+2016,TempDeep_C,C,3,Faulty or unrealistic measurement
+2016,TempDeep_C,M,2,Missing measurement
+2016,pHDeep,C,18,Faulty or unrealistic measurement
+2016,pHDeep,M,2,Missing measurement
+2016,pHmVDeep_mV,C,18,Faulty or unrealistic measurement
+2016,pHmVDeep_mV,M,2,Missing measurement
+2016,ODODeep_mg/L,C,230,Faulty or unrealistic measurement
+2016,ODODeep_mg/L,M,2,Missing measurement
+2016,ODOSatDeep_%,C,230,Faulty or unrealistic measurement
+2016,ODOSatDeep_%,M,2,Missing measurement
+2016,SpCondDeep_uS/cm,C,31,Faulty or unrealistic measurement
+2016,SpCondDeep_uS/cm,M,2,Missing measurement
+2016,SpCondDeepRaw_uS/cm,C,31,Faulty or unrealistic measurement
+2016,SpCondDeepRaw_uS/cm,M,2,Missing measurement
+2016,BGPCDeepRFU_RFU,C,7,Faulty or unrealistic measurement
+2016,BGPCDeepRFU_RFU,M,2,Missing measurement
+2016,Temp00_C,C,10,Faulty or unrealistic measurement
+2016,Temp01_C,C,10,Faulty or unrealistic measurement
+2016,Temp02_C,C,4,Faulty or unrealistic measurement
+2016,Temp03_C,C,1,Faulty or unrealistic measurement
+2016,Temp04_C,C,27,Faulty or unrealistic measurement
+2017,BarometricPress_kPa,M,5307,Missing measurement
+2017,RelativeHum_%,M,5307,Missing measurement
+2017,RelativeHum_%,C,27,Faulty or unrealistic measurement
+2017,WindDir_Degree,M,5307,Missing measurement
+2017,WindDir_Degree,C,2,Faulty or unrealistic measurement
+2017,WindSp_km/h,M,5309,Missing measurement
+2017,DailyRain_mm,M,5307,Missing measurement
+2017,AirTemp_C,M,5307,Missing measurement
+2017,AirTemp_C,C,62,Faulty or unrealistic measurement
+2017,PARAir_umol/s/m2,C,18,Faulty or unrealistic measurement
+2017,PARAir_umol/s/m2,A2,10,PAR below sensor operating range; adjusted to zero
+2017,PARAir_umol/s/m2,M,1,Missing measurement
+2017,PARW1_umol/s/m2,A2,4242,PAR below sensor operating range; adjusted to zero
+2017,PARW1_umol/s/m2,A3,3502,Inverted PAR readings; requires inspection
+2017,PARW1_umol/s/m2,"A2, A3",1253,Unknown or compound flag
+2017,PARW1_umol/s/m2,M,1,Missing measurement
+2017,PARW2_umol/s/m2,A3,4755,Inverted PAR readings; requires inspection
+2017,PARW2_umol/s/m2,A2,4368,PAR below sensor operating range; adjusted to zero
+2017,PARW2_umol/s/m2,M,1,Missing measurement
+2017,TempShallow_C,C,8,Faulty or unrealistic measurement
+2017,TempShallow_C,M,1,Missing measurement
+2017,pHShallow,C,2,Faulty or unrealistic measurement
+2017,pHShallow,M,1,Missing measurement
+2017,pHmVShallow_mV,C,2,Faulty or unrealistic measurement
+2017,pHmVShallow_mV,M,1,Missing measurement
+2017,ODOSatShallow_%,C,43,Faulty or unrealistic measurement
+2017,ODOSatShallow_%,M,1,Missing measurement
+2017,ODOShallow_mg/L,C,43,Faulty or unrealistic measurement
+2017,ODOShallow_mg/L,M,1,Missing measurement
+2017,SpCondShallow_uS/cm,A6,21975,Corrected specific conductivity measurement
+2017,SpCondShallow_uS/cm,M,48,Missing measurement
+2017,SpCondShallowRaw_uS/cm,B6,21975,Raw specific conductivity affected by calibration issues
+2017,SpCondShallowRaw_uS/cm,M,48,Missing measurement
+2017,TurbShallow_NTU+,C,878,Faulty or unrealistic measurement
+2017,TurbShallow_NTU+,M,1,Missing measurement
+2017,ChlRFUShallow_RFU,C,91,Faulty or unrealistic measurement
+2017,ChlRFUShallow_RFU,M,1,Missing measurement
+2017,BGPCShallowRFU_RFU,C,28,Faulty or unrealistic measurement
+2017,BGPCShallowRFU_RFU,M,1,Missing measurement
+2017,TempDeep_C,C,7,Faulty or unrealistic measurement
+2017,TempDeep_C,M,1,Missing measurement
+2017,pHDeep,C,9687,Faulty or unrealistic measurement
+2017,pHDeep,M,1,Missing measurement
+2017,pHmVDeep_mV,C,9687,Faulty or unrealistic measurement
+2017,pHmVDeep_mV,M,1,Missing measurement
+2017,ODODeep_mg/L,C,106,Faulty or unrealistic measurement
+2017,ODODeep_mg/L,M,1,Missing measurement
+2017,ODOSatDeep_%,C,106,Faulty or unrealistic measurement
+2017,ODOSatDeep_%,M,1,Missing measurement
+2017,SpCondDeep_uS/cm,A6,21976,Corrected specific conductivity measurement
+2017,SpCondDeep_uS/cm,M,46,Missing measurement
+2017,SpCondDeepRaw_uS/cm,B6,21976,Raw specific conductivity affected by calibration issues
+2017,SpCondDeepRaw_uS/cm,M,46,Missing measurement
+2017,BGPCDeepRFU_RFU,M,12285,Missing measurement
+2017,BGPCDeepRFU_RFU,C,9,Faulty or unrealistic measurement
+2017,Temp00_C,C,15,Faulty or unrealistic measurement
+2017,Temp00_C,M,1,Missing measurement
+2017,Temp01_C,C,22,Faulty or unrealistic measurement
+2017,Temp01_C,M,1,Missing measurement
+2017,Temp02_C,C,7,Faulty or unrealistic measurement
+2017,Temp02_C,M,1,Missing measurement
+2017,Temp03_C,M,1,Missing measurement
+2017,Temp04_C,C,6,Faulty or unrealistic measurement
+2017,Temp04_C,M,1,Missing measurement
+2018,BarometricPress_kPa,M,3109,Missing measurement
+2018,RelativeHum_%,M,3109,Missing measurement
+2018,WindDir_Degree,M,3109,Missing measurement
+2018,WindSp_km/h,M,3109,Missing measurement
+2018,DailyRain_mm,M,3109,Missing measurement
+2018,DailyRain_mm,A5,47,Unusual local rainfall event; potentially genuine
+2018,AirTemp_C,M,3109,Missing measurement
+2018,PARAir_umol/s/m2,M,3109,Missing measurement
+2018,PARAir_umol/s/m2,C,2002,Faulty or unrealistic measurement
+2018,PARAir_umol/s/m2,A2,27,PAR below sensor operating range; adjusted to zero
+2018,PARW1_umol/s/m2,A2,4266,PAR below sensor operating range; adjusted to zero
+2018,PARW1_umol/s/m2,M,3109,Missing measurement
+2018,PARW1_umol/s/m2,A3,2129,Inverted PAR readings; requires inspection
+2018,PARW1_umol/s/m2,"A2, A3",893,Unknown or compound flag
+2018,PARW2_umol/s/m2,A2,4390,PAR below sensor operating range; adjusted to zero
+2018,PARW2_umol/s/m2,M,3109,Missing measurement
+2018,PARW2_umol/s/m2,A3,3022,Inverted PAR readings; requires inspection
+2018,TempShallow_C,M,2438,Missing measurement
+2018,TempShallow_C,C,1,Faulty or unrealistic measurement
+2018,pHShallow,M,2438,Missing measurement
+2018,pHmVShallow_mV,M,2438,Missing measurement
+2018,ODOSatShallow_%,M,2438,Missing measurement
+2018,ODOShallow_mg/L,M,2438,Missing measurement
+2018,SpCondShallow_uS/cm,M,2438,Missing measurement
+2018,SpCondShallow_uS/cm,C,6,Faulty or unrealistic measurement
+2018,SpCondShallowRaw_uS/cm,M,2438,Missing measurement
+2018,SpCondShallowRaw_uS/cm,C,6,Faulty or unrealistic measurement
+2018,TurbShallow_NTU+,M,2438,Missing measurement
+2018,ChlRFUShallow_RFU,M,2438,Missing measurement
+2018,ChlRFUShallow_RFU,C,1,Faulty or unrealistic measurement
+2018,BGPCShallowRFU_RFU,M,2438,Missing measurement
+2018,BGPCShallowRFU_RFU,C,2,Faulty or unrealistic measurement
+2018,TempDeep_C,M,2438,Missing measurement
+2018,TempDeep_C,C,5,Faulty or unrealistic measurement
+2018,pHDeep,M,2438,Missing measurement
+2018,pHDeep,C,3,Faulty or unrealistic measurement
+2018,pHmVDeep_mV,M,2438,Missing measurement
+2018,pHmVDeep_mV,C,3,Faulty or unrealistic measurement
+2018,ODODeep_mg/L,M,2438,Missing measurement
+2018,ODODeep_mg/L,C,59,Faulty or unrealistic measurement
+2018,ODOSatDeep_%,M,2438,Missing measurement
+2018,ODOSatDeep_%,C,59,Faulty or unrealistic measurement
+2018,SpCondDeep_uS/cm,A6,2995,Corrected specific conductivity measurement
+2018,SpCondDeep_uS/cm,M,2438,Missing measurement
+2018,SpCondDeep_uS/cm,C,53,Faulty or unrealistic measurement
+2018,SpCondDeepRaw_uS/cm,B6,2995,Raw specific conductivity affected by calibration issues
+2018,SpCondDeepRaw_uS/cm,M,2438,Missing measurement
+2018,SpCondDeepRaw_uS/cm,C,53,Faulty or unrealistic measurement
+2018,BGPCDeepRFU_RFU,M,2438,Missing measurement
+2018,BGPCDeepRFU_RFU,C,3,Faulty or unrealistic measurement
+2018,Temp00_C,M,3109,Missing measurement
+2018,Temp00_C,C,11,Faulty or unrealistic measurement
+2018,Temp01_C,M,3109,Missing measurement
+2018,Temp01_C,C,8,Faulty or unrealistic measurement
+2018,Temp02_C,M,3109,Missing measurement
+2018,Temp02_C,C,6,Faulty or unrealistic measurement
+2018,Temp03_C,M,3109,Missing measurement
+2018,Temp03_C,C,5,Faulty or unrealistic measurement
+2018,Temp04_C,M,3109,Missing measurement
+2018,Temp04_C,C,4,Faulty or unrealistic measurement
+2019,BarometricPress_kPa,C,59,Faulty or unrealistic measurement
+2019,RelativeHum_%,C,59,Faulty or unrealistic measurement
+2019,WindDir_Degree,C,59,Faulty or unrealistic measurement
+2019,WindSp_km/h,C,59,Faulty or unrealistic measurement
+2019,DailyRain_mm,C,59,Faulty or unrealistic measurement
+2019,AirTemp_C,C,67,Faulty or unrealistic measurement
+2019,PARAir_umol/s/m2,A2,11,PAR below sensor operating range; adjusted to zero
+2019,PARW1_umol/s/m2,A2,6009,PAR below sensor operating range; adjusted to zero
+2019,PARW1_umol/s/m2,A3,812,Inverted PAR readings; requires inspection
+2019,PARW1_umol/s/m2,"A2, A3",623,Unknown or compound flag
+2019,PARW2_umol/s/m2,A2,6890,PAR below sensor operating range; adjusted to zero
+2019,PARW2_umol/s/m2,A3,1435,Inverted PAR readings; requires inspection
+2019,TempShallow_C,C,164,Faulty or unrealistic measurement
+2019,pHShallow,C,164,Faulty or unrealistic measurement
+2019,pHmVShallow_mV,C,164,Faulty or unrealistic measurement
+2019,ODOSatShallow_%,C,164,Faulty or unrealistic measurement
+2019,ODOShallow_mg/L,C,164,Faulty or unrealistic measurement
+2019,SpCondShallow_uS/cm,C,169,Faulty or unrealistic measurement
+2019,SpCondShallowRaw_uS/cm,C,169,Faulty or unrealistic measurement
+2019,TurbShallow_NTU+,C,172,Faulty or unrealistic measurement
+2019,ChlRFUShallow_RFU,C,164,Faulty or unrealistic measurement
+2019,BGPCShallowRFU_RFU,C,174,Faulty or unrealistic measurement
+2019,TempDeep_C,M,16862,Missing measurement
+2019,TempDeep_C,C,1,Faulty or unrealistic measurement
+2019,pHDeep,M,16862,Missing measurement
+2019,pHDeep,C,1,Faulty or unrealistic measurement
+2019,pHmVDeep_mV,M,16862,Missing measurement
+2019,pHmVDeep_mV,C,1,Faulty or unrealistic measurement
+2019,ODODeep_mg/L,M,16862,Missing measurement
+2019,ODODeep_mg/L,C,663,Faulty or unrealistic measurement
+2019,ODOSatDeep_%,M,16862,Missing measurement
+2019,ODOSatDeep_%,C,663,Faulty or unrealistic measurement
+2019,SpCondDeep_uS/cm,M,16862,Missing measurement
+2019,SpCondDeep_uS/cm,C,2,Faulty or unrealistic measurement
+2019,SpCondDeepRaw_uS/cm,M,16862,Missing measurement
+2019,SpCondDeepRaw_uS/cm,C,2,Faulty or unrealistic measurement
+2019,Temp03_C,C,1,Faulty or unrealistic measurement
+2020,WindSp_km/h,C,3,Faulty or unrealistic measurement
+2020,PARAir_umol/s/m2,A2,2,PAR below sensor operating range; adjusted to zero
+2020,PARW1_umol/s/m2,A2,6736,PAR below sensor operating range; adjusted to zero
+2020,PARW1_umol/s/m2,A3,396,Inverted PAR readings; requires inspection
+2020,PARW1_umol/s/m2,"A2, A3",7,Unknown or compound flag
+2020,PARW2_umol/s/m2,A2,7440,PAR below sensor operating range; adjusted to zero
+2020,PARW2_umol/s/m2,A3,403,Inverted PAR readings; requires inspection
+2020,TempShallow_C,M,849,Missing measurement
+2020,TempShallow_C,C,3,Faulty or unrealistic measurement
+2020,pHShallow,M,849,Missing measurement
+2020,pHmVShallow_mV,M,849,Missing measurement
+2020,ODOSatShallow_%,M,849,Missing measurement
+2020,ODOSatShallow_%,C,3,Faulty or unrealistic measurement
+2020,ODOShallow_mg/L,M,849,Missing measurement
+2020,ODOShallow_mg/L,C,3,Faulty or unrealistic measurement
+2020,SpCondShallow_uS/cm,M,849,Missing measurement
+2020,SpCondShallow_uS/cm,C,21,Faulty or unrealistic measurement
+2020,SpCondShallowRaw_uS/cm,M,849,Missing measurement
+2020,SpCondShallowRaw_uS/cm,C,21,Faulty or unrealistic measurement
+2020,TurbShallow_NTU+,M,849,Missing measurement
+2020,TurbShallow_NTU+,B7,803,Potential fouling-related pigment or turbidity spike
+2020,ChlRFUShallow_RFU,M,849,Missing measurement
+2020,ChlRFUShallow_RFU,B7,803,Potential fouling-related pigment or turbidity spike
+2020,ChlRFUShallow_RFU,C,1,Faulty or unrealistic measurement
+2020,BGPCShallowRFU_RFU,M,849,Missing measurement
+2020,BGPCShallowRFU_RFU,C,1,Faulty or unrealistic measurement
+2020,TempDeep_C,C,2,Faulty or unrealistic measurement
+2020,pHDeep,C,2,Faulty or unrealistic measurement
+2020,pHmVDeep_mV,C,2,Faulty or unrealistic measurement
+2020,ODODeep_mg/L,C,56,Faulty or unrealistic measurement
+2020,ODOSatDeep_%,C,56,Faulty or unrealistic measurement
+2020,SpCondDeep_uS/cm,C,11,Faulty or unrealistic measurement
+2020,SpCondDeepRaw_uS/cm,C,11,Faulty or unrealistic measurement
+2020,ChlorophyllRFUDeep_RFU,C,21,Faulty or unrealistic measurement
+2020,ChlorophyllRFUDeep_RFU,M,3,Missing measurement
+2020,BGPCDeepRFU_RFU,M,3,Missing measurement
+2020,BGPCDeepRFU_RFU,C,1,Faulty or unrealistic measurement
+2020,Temp00_C,C,12,Faulty or unrealistic measurement
+2020,Temp01_C,C,14,Faulty or unrealistic measurement
+2020,Temp02_C,C,3,Faulty or unrealistic measurement
+2020,Temp03_C,C,7,Faulty or unrealistic measurement
+2020,Temp04_C,C,6,Faulty or unrealistic measurement
+2021,RelativeHum_%,C,3,Faulty or unrealistic measurement
+2021,WindSp_km/h,C,3,Faulty or unrealistic measurement
+2021,AirTemp_C,C,6,Faulty or unrealistic measurement
+2021,PARAir_umol/s/m2,M,1065,Missing measurement
+2021,PARAir_umol/s/m2,A2,51,PAR below sensor operating range; adjusted to zero
+2021,PARW1_umol/s/m2,M,16909,Missing measurement
+2021,PARW1_umol/s/m2,A2,480,PAR below sensor operating range; adjusted to zero
+2021,PARW1_umol/s/m2,A3,44,Inverted PAR readings; requires inspection
+2021,PARW2_umol/s/m2,M,1027,Missing measurement
+2021,PARW2_umol/s/m2,A2,522,PAR below sensor operating range; adjusted to zero
+2021,PARW2_umol/s/m2,A3,44,Inverted PAR readings; requires inspection
+2021,TempShallow_C,C,23,Faulty or unrealistic measurement
+2021,TempShallow_C,M,2,Missing measurement
+2021,pHShallow,C,22,Faulty or unrealistic measurement
+2021,pHShallow,M,2,Missing measurement
+2021,pHmVShallow_mV,C,22,Faulty or unrealistic measurement
+2021,pHmVShallow_mV,M,2,Missing measurement
+2021,ODOSatShallow_%,M,379,Missing measurement
+2021,ODOSatShallow_%,C,22,Faulty or unrealistic measurement
+2021,ODOShallow_mg/L,M,379,Missing measurement
+2021,ODOShallow_mg/L,C,22,Faulty or unrealistic measurement
+2021,SpCondShallow_uS/cm,C,23,Faulty or unrealistic measurement
+2021,SpCondShallow_uS/cm,M,2,Missing measurement
+2021,SpCondShallowRaw_uS/cm,C,23,Faulty or unrealistic measurement
+2021,SpCondShallowRaw_uS/cm,M,2,Missing measurement
+2021,TurbShallow_NTU+,M,206,Missing measurement
+2021,TurbShallow_NTU+,C,198,Faulty or unrealistic measurement
+2021,ChlRFUShallow_RFU,C,220,Faulty or unrealistic measurement
+2021,ChlRFUShallow_RFU,M,206,Missing measurement
+2021,BGPCShallowRFU_RFU,M,379,Missing measurement
+2021,BGPCShallowRFU_RFU,C,69,Faulty or unrealistic measurement
+2021,ODODeep_mg/L,C,8,Faulty or unrealistic measurement
+2021,ODOSatDeep_%,C,8,Faulty or unrealistic measurement
+2021,SpCondDeep_uS/cm,C,3,Faulty or unrealistic measurement
+2021,SpCondDeepRaw_uS/cm,C,3,Faulty or unrealistic measurement
+2021,ChlorophyllRFUDeep_RFU,C,12116,Faulty or unrealistic measurement
+2021,BGPCDeepRFU_RFU,C,1,Faulty or unrealistic measurement
+2021,Temp00_C,M,382,Missing measurement
+2021,Temp00_C,C,296,Faulty or unrealistic measurement
+2021,Temp01_C,M,249,Missing measurement
+2021,Temp02_C,M,232,Missing measurement
+2021,Temp03_C,M,216,Missing measurement
+2021,Temp03_C,C,2,Faulty or unrealistic measurement
+2021,Temp04_C,M,444,Missing measurement
+2021,Temp04_C,C,2,Faulty or unrealistic measurement

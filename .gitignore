@@ -1,0 +1,21 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.log
+
+#exclude backup script
+src/src/02_measurement_availability/backup_script.py

@@ -1,0 +1,10 @@
+flag,definition
+M,Missing measurement
+C,Faulty or unrealistic measurement
+A2,PAR below sensor operating range; adjusted to zero
+A3,Inverted PAR readings; requires inspection
+A4,2015 underwater PAR sensor shading; use higher sensor value
+A5,Unusual local rainfall event; potentially genuine
+A6,Corrected specific conductivity measurement
+B6,Raw specific conductivity affected by calibration issues
+B7,Potential fouling-related pigment or turbidity spike

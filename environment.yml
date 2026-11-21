@@ -1,0 +1,18 @@
+name: ecosentinel
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - requests
+  - pyarrow
+  - statsmodels
+  - scikit-learn
+  - scipy
+  - python=3.12
+  - jupyterlab
+  - openpyxl
+  - numpy
+  - seaborn
+  - matplotlib
+  - ipykernel
+prefix: /Users/cedricbw/miniforge3/envs/ecosentinel
