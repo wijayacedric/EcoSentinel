@@ -1,0 +1,811 @@
+===2014 pages=54 chars=83446
+  FOUND microcystin at 64446
+anide <0.001 <0.001 0.2 0
+Mercury <0.00001 <0.00001 0.001 0
+WATER QUALITY STANDARDS – ORGANICS PLUS MICROCYSTIN
+The Plant is required to submit one (1) sample per year for analysis for various organics
+including Microcystin.  Those noted on the permit are indicated below; t he entire organic 
+analysis is noted in the Appendix.
+Parameter 
+(mg/l) 
+Feb. 26 MAC Number of Samples 
+Exceeding Limit
+Benzene <0.0001 0.005 0
+Benzo(a)pyrene <0.00001 0.00001 0
+Carbon Tetrachloride <0.0001 0.005 0
+Dichlorobenzene 1,2 <0.0001 0.2 0
+Dichlorobenzene 1,4 <0.0001 0.005 0
+Dichoroethane 1,2 <0.0001 0.005 0
+Dichloroethylene 1,1 <0.0003 0.014 0
+Dichloromethane <0.004 0.05 0
+Dichlorophenol 2,4 <0.0001 0.9 0
+Ethylbenzene <0.0001 0.0024 0
+Monochlorobenzene <0.0001 0.08 0
+Toluene <0.0001 0.024 0
+Tetrachlorophenol 2,3,4,6 <0.0001 0.1 0
+Trichloroethylene <0.0001 0.05 0
+Trichlorophenol 2,4,6 <0.0001 0.005 0
+Vinyl Ch
+  ---
+  FOUND phytoplankton at 11563
+rich in nutrients (phosphate, nitrogen and dissolved 
+organic carbon) which encourage the growth of phytoplankton 
+(typically diatoms in the winter and green algae or cyanobacteria 
+in the summer). Weed growth can also be extensive. Algae 
+and weeds pose many treatment challenges such as high 
+chemical demands and undesirable tastes or odours. The lake 
+and watershed appear to also be impacted by ground waters 
+infusing minerals.
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake passes through a series 
+of treatment stages designed to remove impurities such as 
+algae, bacteria, clay particles and dissolved organic materials. 
+The objective of this treatment is to produce water that is clear, 
+colourless, odour-free, aesthetically pleasing and safe to drink.
+The treatment process consists of six stages: chlorination, 
+cascade de-gasification, coagulation/flocculation, clarification, 
+filt
+  ---
+  FOUND cyanobacter at 11630
+n) which encourage the growth of phytoplankton 
+(typically diatoms in the winter and green algae or cyanobacteria 
+in the summer). Weed growth can also be extensive. Algae 
+and weeds pose many treatment challenges such as high 
+chemical demands and undesirable tastes or odours. The lake 
+and watershed appear to also be impacted by ground waters 
+infusing minerals.
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake passes through a series 
+of treatment stages designed to remove impurities such as 
+algae, bacteria, clay particles and dissolved organic materials. 
+The objective of this treatment is to produce water that is clear, 
+colourless, odour-free, aesthetically pleasing and safe to drink.
+The treatment process consists of six stages: chlorination, 
+cascade de-gasification, coagulation/flocculation, clarification, 
+filtration and carbon adsorption.
+Lake water enters a pumping station l
+  ---
+  microcystin_occurrences=3
+===2015 pages=60 chars=123533
+  FOUND microcystin at 76271
+TREATMENT PLANT   
+ANNUAL REPORT 2015 - WATER QUALITRY DATA
+WATER QUALITY STANDARDS – ORGANICS PLUS MICROCYSTIN
+The Buffalo Pound Water Treatment Plant is required to submit one (1) sample 
+per year for analysis for various organics including Microcystin LR. Microcystin 
+LR is always sampled during July or August. Organics and pesticides are 
+sampled during summer or winter in alternate years.  
+Parameter 
+(mg/l)
+July  
+13 MAC
+Number of Samples  
+Exceeding Limit
+Benzene <0.0002 0.005 0
+Benzo(a)pyrene <0.00001 0.00001 0
+Carbon Tetrachloride <0.002 0.005 0
+Dichlorobenzene 1,2 <0.0005 0.2 0
+Dichlorobenzene 1,4 <0.0005 0.005 0
+Dichoroethane 1,2 <0.0005 0.005 0
+Dichloroethylene 1,1 <0.0005 0.014 0
+Dichloromethane <0.005 0.05 0
+Dichlorophenol 2,4 <0.001 0.9 0
+Ethylbenzene <0.0002 0.0024 0
+Monochlorobenzene <0.0005 0.08 0
+Tetrachlorophenol 2,3,4,6 <0.001 0.1 0
+Toluene <0.0002 0.024 0
+Trichloroe
+  ---
+  FOUND phytoplankton at 15803
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours.The lake and watershed 
+appear to also be impacted by 
+ground waters and surface runoff  
+infusing minerals.
+
+11
+BUFFALO POUND WATER TREATMENT PLANT   
+ANNUAL REPORT 2015
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials.  
+The objective of this treatment 
+is to produce water that is clear, 
+colourless, odour-free, aesthetically 
+pleasing and safe to drink.
+The treatment process consists of  
+six st
+  ---
+  FOUND cyanobacter at 15871
+ which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours.The lake and watershed 
+appear to also be impacted by 
+ground waters and surface runoff  
+infusing minerals.
+
+11
+BUFFALO POUND WATER TREATMENT PLANT   
+ANNUAL REPORT 2015
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials.  
+The objective of this treatment 
+is to produce water that is clear, 
+colourless, odour-free, aesthetically 
+pleasing and safe to drink.
+The treatment process consists of  
+six stages: chlorination, cascade de-
+gasification, coagulation/flocculati
+  ---
+  microcystin_occurrences=4
+===2016 pages=64 chars=102864
+  FOUND microcystin at 67482
+hemical pollutants.
+In anticipation of additional 
+monitoring of raw water quality being 
+required, microcystin analyses were 
+carried out in July and September.  
+At the peak of cyanobacterial 
+blooms microcystin concentrations 
+reached 7 ug/l in the raw water 
+but were reduced to 0.1 ug/l or 
+less by conventional treatment and 
+to non-detectable levels after GAC 
+treatment. Microcystin is oxidized by 
+the chlorine used as a pre-oxidant 
+and any remaining is adsorbed by 
+granular activated carbon.
+WATERSHED MONITORING 
+Monitoring of the Upper Qu’Appelle 
+River watershed, including Buffalo 
+Pound Lake, is typically carried 
+out on an annual basis. This year 
+sampling was curtailed by road 
+construction and available resources.  
+The Marquis bridge crossing (the 
+last sampling point on the Upper 
+Qu’Appelle River), the west arm of  
+Buffalo Pound Lake and the raw 
+water intake located nea
+  ---
+  FOUND phytoplankton at 13734
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours. The lake and watershed 
+appear to also be impacted by 
+ground waters and surface runoff  
+infusing minerals.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2016
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:
+  ---
+  FOUND cyanobacter at 13802
+ which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours. The lake and watershed 
+appear to also be impacted by 
+ground waters and surface runoff  
+infusing minerals.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2016
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:\Geomatics\Projects\20130408_01_QuAppelle_
+BasinMaps\Mxd_files\LastM
+  ---
+  microcystin_occurrences=8
+===2017 pages=64 chars=126081
+  FOUND microcystin at 78542
+.46 1.0
+40
+BUFFALO POUND WATER   
+ANNUAL REPORT 2017 - WATER QUALITY DATA
+WATER QUALITY STANDARDS – MICROCYSTIN  
+The Buffalo Pound Water Treatment Plant is required to submit monthly 
+samples from May through October for Microcystin LR or Total Microcystin 
+toxins from both the raw and treated water.  Microcystins may be produced 
+by various cyanobacteria. The microcystin MAC for drinking water is 1.5 ug/L. 
+Microcystin was not detected in the treated water regardless of the treatment 
+processes in use.
+Microcystin (ug/L)
+Date Raw Water Treated Water
+May 2 <0.1 <0.1
+June 6 <0.1 <0.1
+July 4 <0.1 <0.1
+August 8 0.3 <0.1
+September 11 0.7 <0.1
+October 16 0.1 <0.1
+RAW WATER ANALYSIS GIARDIA AND CRYPTOSPORIDIUM
+Although not a regulated water quality parameter the Buffalo Pound Water 
+Treatment Plant is required to sample the raw water on a quarterly basis for 
+the presence of Giardia spp. and 
+  ---
+  FOUND phytoplankton at 15316
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2017
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:\
+  ---
+  FOUND cyanobacter at 15384
+ which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2017
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:\Geomatics\Projects\20130408_01_QuAppelle_
+BasinMaps\Mxd_files\LastMo
+  ---
+  microcystin_occurrences=7
+===2018 pages=65 chars=137122
+  FOUND microcystin at 86226
+0.22 1.0
+43
+BUFFALO POUND WATER  
+ANNUAL REPORT 2018 - WATER QUALITY DATA
+WATER QUALITY STANDARDS – MICROCYSTIN  
+The Buffalo Pound Water Treatment Plant is required to submit monthly 
+samples from May through October for Microcystin LR or Total Microcystin 
+toxins from both the raw and treated water.  Microcystins may be produced 
+by various cyanobacteria. The microcystin MAC for drinking water is 1.5 ug/L. 
+Microcystin was not detected in the treated water.
+Microcystin (ug/L)
+Date Raw Water Treated Water
+May 8 <0.1 <0.1
+June 18 0.4 <0.1
+July 16 0.3 <0.1
+August 20 <0.1 <0.1
+September 17 <0.1 <0.1
+October 16 0.1 <0.1
+RAW WATER ANALYSIS GIARDIA AND CRYPTOSPORIDIUM
+Although not a regulated water quality parameter the Buffalo Pound Water 
+Treatment Plant is required to sample the raw water on a quarterly basis for 
+the presence of Giardia spp. and Cryptosporidium spp. which are waterborne 
+
+  ---
+  FOUND phytoplankton at 16220
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours. The lake and watershed 
+can also be impacted by ground 
+waters and surface runoff.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2018
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:\Geomatics\Projects\201304
+  ---
+  FOUND cyanobacter at 16288
+ which encourage the growth 
+of phytoplankton (typically diatoms 
+in the winter and green algae or 
+cyanobacteria in the summer). Weed 
+growth can also be extensive. Algae 
+and weeds pose many treatment 
+challenges such as high chemical 
+demands and undesirable tastes 
+or odours. The lake and watershed 
+can also be impacted by ground 
+waters and surface runoff.
+BUFFALO  
+POUND LAKE
+
+11
+BUFFALO POUND WATER 
+ANNUAL REPORT 2018
+UPPER QU’APPELLE 
+RIVER WATERSHED
+N
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Municipalities
+Watershed
+Legend
+Highways
+Rivers
+Water Bodies
+Parks
+Indian Reserves
+Urban Municipalities
+Rural Muncipalities
+Watershed
+Projected Coordinate System: 
+NAD 1983 CSRS UTM Zone 13N
+Water Security Agency, 
+Geomatics
+© 2013, Government 
+of Saskatchewan
+H:\Geomatics\Projects\20130408_01_QuAppelle_
+BasinMaps\Mxd_files\LastMountainLake\Upper_
+QuAppel
+  ---
+  microcystin_occurrences=7
+===2019 pages=72 chars=99562
+  FOUND microcystin at 81578
+0.04 1.0
+47
+BUFFALO POUND WATER  
+ANNUAL REPORT 2019 - WATER QUALITY DATA
+WATER QUALITY STANDARDS – MICROCYSTIN  
+The Buffalo Pound Water Treatment Plant is required to submit monthly 
+samples from May through October for Microcystin LR or Total Microcystin 
+toxins from both the raw and treated water.  Microcystins may be 
+produced by various cyanobacteria. The microcystin MAC for drinking 
+water is 1.5 ug/L. Microcystin was not detected in the treated water.
+Microcystin (ug/L)
+Date Raw Water Treated Water
+May 6 <0.1 <0.1
+June 17 0.3 <0.1
+July 15 0.6 <0.1
+August 12 4.5 <0.1
+September 16 0.3 <0.1
+October 28 0.3 <0.1
+RAW WATER ANALYSIS GIARDIA AND CRYPTOSPORIDIUM
+Although not a regulated water quality parameter, the Buffalo Pound Water 
+Treatment Plant is required to sample the raw water on a quarterly basis for 
+the presence of Giardia spp. and Cryptosporidium spp. which are waterborne 
+p
+  ---
+  FOUND phytoplankton at 15180
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals.
+BUFFALO POUND LAKE
+FIGURE 1: UPSTREAM SOURCE WATER IN SASKATCHEWAN
+13
+BUFFALO POUND WATER  
+ANNUAL REPORT 2019
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials.  
+The objective of this treatment 
+is to produce water that is clear, 
+colorless, odor free, aesthetically 
+pleasing and safe to dr
+  ---
+  FOUND cyanobacter at 15248
+ which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals.
+BUFFALO POUND LAKE
+FIGURE 1: UPSTREAM SOURCE WATER IN SASKATCHEWAN
+13
+BUFFALO POUND WATER  
+ANNUAL REPORT 2019
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials.  
+The objective of this treatment 
+is to produce water that is clear, 
+colorless, odor free, aesthetically 
+pleasing and safe to drink.
+The treatment process consists of  
+seven stages: chlorination,
+  ---
+  microcystin_occurrences=7
+===2020 pages=84 chars=172168
+  FOUND microcystin at 115062
+0.04 1.0
+57
+BUFFALO POUND WATER  
+ANNUAL REPORT 2020 - WATER QUALITY DATA
+WATER QUALITY STANDARDS – MICROCYSTIN  
+The Buffalo Pound Water Treatment Plant is required to submit monthly 
+samples from May through October for Microcystin LR or Total Microcystin 
+toxins from both the raw and treated water.  Microcystins may be 
+produced by various cyanobacteria. The microcystin MAC for drinking 
+water is 1.5 ug/L. Microcystin was not detected in the treated water.
+Microcystin (ug/L)
+Date Raw Water Treated Water
+May 5 <0.1 <0.1
+June 15 1.1 <0.1
+July 13 0.9 <0.1
+August 10 0.3 <0.1
+September 14 <0.1 <0.1
+October 26 <0.1 <0.1
+RAW WATER ANALYSIS GIARDIA AND CRYPTOSPORIDIUM
+Although not a regulated water quality parameter the Buffalo Pound Water 
+Treatment Plant is required to sample the raw water on a quarterly basis for 
+the presence of Giardia spp. and Cryptosporidium spp. which are waterborne 
+
+  ---
+  FOUND phytoplankton at 20370
+ch in nutrients (phosphate, 
+nitrogen and dissolved organic 
+carbon) which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground water and 
+surface runoff infusing minerals.
+BUFFALO POUND LAKE
+FIGURE 1: UPSTREAM SOURCE WATER IN SASKATCHEWAN
+14
+BUFFALO POUND WATER  
+ANNUAL REPORT 2020
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials. 
+The objective of this treatment 
+is to produce water that is clear, 
+colourless, odour free, aesthetically 
+pleasing and safe to dr
+  ---
+  FOUND cyanobacter at 20438
+ which encourage the 
+growth of phytoplankton (typically 
+diatoms in the winter and green 
+algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground water and 
+surface runoff infusing minerals.
+BUFFALO POUND LAKE
+FIGURE 1: UPSTREAM SOURCE WATER IN SASKATCHEWAN
+14
+BUFFALO POUND WATER  
+ANNUAL REPORT 2020
+PLANT TREATMENT
+Raw water from Buffalo Pound Lake 
+passes through a series of treatment 
+stages designed to remove impurities 
+such as algae, bacteria, clay particles 
+and dissolved organic materials. 
+The objective of this treatment 
+is to produce water that is clear, 
+colourless, odour free, aesthetically 
+pleasing and safe to drink. 
+The treatment process consists of  
+six stages: cascade de-gas
+  ---
+  microcystin_occurrences=7
+===2021 pages=77 chars=187900
+  FOUND microcystin at 129739
+Water Quality and Compliance  •  Buffalo Pound Water 2021 Annual Report
+Water Quality Standards  
+– Microcystin 
+The Buffalo Pound Water 
+Treatment Plant is required to 
+submit monthly samples from May 
+through October for Microcystin 
+LR or Total Microcystin toxins from 
+both the raw and treated water. 
+Microcystins may be produced 
+by various cyanobacteria. The 
+microcystin MAC for drinking water 
+is 1.5 μg/L. Microcystin was not 
+detected in the treated water. 
+Microcystin (μg/L)
+Date Raw Water Treated Water
+May 3 <0.1 <0.1 
+June 14 0.38 0.04 
+July 12 0.2 <0.1 
+August 9 0.4 <0.1 
+September 13 <0.1 <0.1 
+October 25 <0.1 <0.1 
+Raw Water Analysis  
+Giardia and Cryptosporidium 
+Although not a regulated water 
+quality parameter the Buffalo 
+Pound Water Treatment Plant 
+is required to sample the raw 
+water on a quarterly basis for 
+the presence of Giardia spp. 
+and Cryptosporidium spp. whic
+  ---
+  FOUND phytoplankton at 22487
+ch in nutrients 
+(phosphate, nitrogen and dissolved 
+organic carbon) which encourage 
+the growth of phytoplankton 
+(typically diatoms in the winter and 
+green algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals. 
+PLANT TREATMENT 
+Raw water from Buffalo Pound 
+Lake passes through a series 
+of treatment stages designed 
+to remove impurities such as 
+algae, bacteria, clay particles 
+and dissolved organic materials. 
+The objective of this treatment 
+is to produce water that is clear, 
+colorless, odor free, aesthetically 
+pleasing and safe to drink. 
+The treatment process consists of 
+seven stages: chlorination, cascade 
+de-gasification, coagulation/
+f
+  ---
+  FOUND cyanobacter at 22555
+ which encourage 
+the growth of phytoplankton 
+(typically diatoms in the winter and 
+green algae or cyanobacteria in the 
+summer). Weed growth can also be 
+extensive. Algae and weeds pose 
+many treatment challenges such 
+as high chemical demands and 
+undesirable tastes or odours. The 
+lake and watershed appear to also 
+be impacted by ground waters and 
+surface runoff infusing minerals. 
+PLANT TREATMENT 
+Raw water from Buffalo Pound 
+Lake passes through a series 
+of treatment stages designed 
+to remove impurities such as 
+algae, bacteria, clay particles 
+and dissolved organic materials. 
+The objective of this treatment 
+is to produce water that is clear, 
+colorless, odor free, aesthetically 
+pleasing and safe to drink. 
+The treatment process consists of 
+seven stages: chlorination, cascade 
+de-gasification, coagulation/
+flocculation, clarification, filtration, 
+carbon adsorption and disin
+  ---
+  microcystin_occurrences=7

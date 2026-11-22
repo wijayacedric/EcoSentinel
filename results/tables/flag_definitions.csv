@@ -1,10 +1,10 @@
 flag,definition
-M,Missing measurement
-C,Faulty or unrealistic measurement
-A2,PAR below sensor operating range; adjusted to zero
-A3,Inverted PAR readings; requires inspection
-A4,2015 underwater PAR sensor shading; use higher sensor value
-A5,Unusual local rainfall event; potentially genuine
-A6,Corrected specific conductivity measurement
-B6,Raw specific conductivity affected by calibration issues
-B7,Potential fouling-related pigment or turbidity spike
+M,"Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+C,"Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+A2,PAR below factory range during low light; value adjusted to zero
+A3,"Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+A4,In 2015 underwater PAR sensors were intermittently shaded; use the higher sensor value and do not compare sensors to infer attenuation
+A5,Rainfall indicates a sudden localized event not detected by the nearby Moose Jaw station
+A6,"Corrected specific conductivity: shallow and deep in 2017, deep in 2018"
+B6,Raw specific conductivity shows step changes associated with calibration-solution issues
+B7,Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit
