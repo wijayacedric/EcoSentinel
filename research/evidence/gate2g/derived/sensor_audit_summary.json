@@ -1,0 +1,2874 @@
+{
+  "generated_at": "2026-11-22T13:20:07.293768Z",
+  "inputs": {
+    "year_summary.csv": {
+      "path": "results/tables/year_summary.csv",
+      "exists": true
+    },
+    "quality_flag_summary.csv": {
+      "path": "results/tables/quality_flag_summary.csv",
+      "exists": true
+    },
+    "missing_data_periods.csv": {
+      "path": "results/tables/missing_data_periods.csv",
+      "exists": true
+    },
+    "measurement_availability.csv": {
+      "path": "results/tables/measurement_availability.csv",
+      "exists": true
+    },
+    "sensor_reliability_by_year.csv": {
+      "path": "results/tables/sensor_reliability_by_year.csv",
+      "exists": true
+    },
+    "flag_definitions.csv": {
+      "path": "results/tables/flag_definitions.csv",
+      "exists": true
+    }
+  },
+  "year_summary": [
+    {
+      "year": "2014",
+      "rows": "8015",
+      "first_date": "2014-06-11 22:15:00",
+      "last_date": "2014-09-05 01:15:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "15.0",
+      "measurement_count": "30"
+    },
+    {
+      "year": "2015",
+      "rows": "20438",
+      "first_date": "2015-05-14 21:10:00",
+      "last_date": "2015-10-06 11:50:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "32"
+    },
+    {
+      "year": "2016",
+      "rows": "18975",
+      "first_date": "2016-05-18 16:50:00",
+      "last_date": "2016-09-28 15:50:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "32"
+    },
+    {
+      "year": "2017",
+      "rows": "22023",
+      "first_date": "2017-05-09 17:20:00",
+      "last_date": "2017-10-11 12:40:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "32"
+    },
+    {
+      "year": "2018",
+      "rows": "20162",
+      "first_date": "2018-05-15 16:00:00",
+      "last_date": "2018-10-04 11:30:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "32"
+    },
+    {
+      "year": "2019",
+      "rows": "18026",
+      "first_date": "2019-05-29 17:00:00",
+      "last_date": "2019-10-03 13:20:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "31"
+    },
+    {
+      "year": "2020",
+      "rows": "16836",
+      "first_date": "2020-06-05 16:30:00",
+      "last_date": "2020-10-01 13:20:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "33"
+    },
+    {
+      "year": "2021",
+      "rows": "18285",
+      "first_date": "2021-05-31 20:20:00",
+      "last_date": "2021-10-07 14:30:00",
+      "duplicate_timestamps": "0",
+      "invalid_timestamps": "0",
+      "median_interval_minutes": "10.0",
+      "measurement_count": "31"
+    }
+  ],
+  "quality_flag_summary": [
+    {
+      "year": "2014",
+      "measurement": "BarometricPress_kPa",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "BarometricPress_kPa",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "RelativeHum_%",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "WindDir_Degree",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "WindDir_Degree",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "WindSp_km/h",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "DailyRain_mm",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "DailyRain_mm",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "17",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "AirTemp_C",
+      "flag": "M",
+      "count": "5",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "1087",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "C",
+      "count": "1272",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "1206",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "C",
+      "count": "1400",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "1206",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2014",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "pHShallow",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "pHmVShallow_mV",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "B7",
+      "count": "604",
+      "definition": "Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit"
+    },
+    {
+      "year": "2014",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "B7",
+      "count": "604",
+      "definition": "Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit"
+    },
+    {
+      "year": "2014",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "B7",
+      "count": "604",
+      "definition": "Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit"
+    },
+    {
+      "year": "2014",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "Temp01_C",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "Temp02_C",
+      "flag": "C",
+      "count": "14",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2014",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "14",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "BarometricPress_kPa",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "BarometricPress_kPa",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "RelativeHum_%",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "WindDir_Degree",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "WindDir_Degree",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "WindSp_km/h",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "DailyRain_mm",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "DailyRain_mm",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "AirTemp_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "7",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A4",
+      "count": "4003",
+      "definition": "In 2015 underwater PAR sensors were intermittently shaded; use the higher sensor value and do not compare sensors to infer attenuation"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "1186",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "7839",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A4",
+      "count": "4003",
+      "definition": "In 2015 underwater PAR sensors were intermittently shaded; use the higher sensor value and do not compare sensors to infer attenuation"
+    },
+    {
+      "year": "2015",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "9416",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "9416",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "1202",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "3150",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "TempDeep_C",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "pHDeep",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "pHmVDeep_mV",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODODeep_mg/L",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "ODOSatDeep_%",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "5",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "5",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2015",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "M",
+      "count": "99",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "Temp00_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "Temp01_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "Temp02_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "Temp03_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2015",
+      "measurement": "Temp04_C",
+      "flag": "M",
+      "count": "13",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "BarometricPress_kPa",
+      "flag": "M",
+      "count": "139",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "RelativeHum_%",
+      "flag": "M",
+      "count": "139",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "48",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "WindDir_Degree",
+      "flag": "M",
+      "count": "4908",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "WindSp_km/h",
+      "flag": "M",
+      "count": "4908",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "DailyRain_mm",
+      "flag": "M",
+      "count": "139",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "568",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "AirTemp_C",
+      "flag": "M",
+      "count": "139",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "M",
+      "count": "217",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "1",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "3763",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "1945",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2, A3",
+      "count": "895",
+      "definition": "Unknown or compound flag"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "4416",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "2840",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "M",
+      "count": "224",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "366",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "366",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "10",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "256",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "13",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "TempDeep_C",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "18",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHDeep",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "18",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "pHmVDeep_mV",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "230",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODODeep_mg/L",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "230",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "ODOSatDeep_%",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "31",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "31",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "7",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2016",
+      "measurement": "Temp00_C",
+      "flag": "C",
+      "count": "10",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "Temp01_C",
+      "flag": "C",
+      "count": "10",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "Temp02_C",
+      "flag": "C",
+      "count": "4",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2016",
+      "measurement": "Temp04_C",
+      "flag": "C",
+      "count": "27",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "BarometricPress_kPa",
+      "flag": "M",
+      "count": "5307",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "RelativeHum_%",
+      "flag": "M",
+      "count": "5307",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "27",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "WindDir_Degree",
+      "flag": "M",
+      "count": "5307",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "WindDir_Degree",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "WindSp_km/h",
+      "flag": "M",
+      "count": "5309",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "DailyRain_mm",
+      "flag": "M",
+      "count": "5307",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "AirTemp_C",
+      "flag": "M",
+      "count": "5307",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "62",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "C",
+      "count": "18",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "10",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "4242",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "3502",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2, A3",
+      "count": "1253",
+      "definition": "Unknown or compound flag"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "4755",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "4368",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2017",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "8",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHShallow",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHmVShallow_mV",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "43",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "43",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "A6",
+      "count": "21975",
+      "definition": "Corrected specific conductivity: shallow and deep in 2017, deep in 2018"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "48",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "B6",
+      "count": "21975",
+      "definition": "Raw specific conductivity shows step changes associated with calibration-solution issues"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "48",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "878",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "91",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "28",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "7",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "TempDeep_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "9687",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHDeep",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "9687",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "pHmVDeep_mV",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "106",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODODeep_mg/L",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "106",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "ODOSatDeep_%",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "A6",
+      "count": "21976",
+      "definition": "Corrected specific conductivity: shallow and deep in 2017, deep in 2018"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "M",
+      "count": "46",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "B6",
+      "count": "21976",
+      "definition": "Raw specific conductivity shows step changes associated with calibration-solution issues"
+    },
+    {
+      "year": "2017",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "M",
+      "count": "46",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "M",
+      "count": "12285",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "9",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp00_C",
+      "flag": "C",
+      "count": "15",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp00_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp01_C",
+      "flag": "C",
+      "count": "22",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp01_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp02_C",
+      "flag": "C",
+      "count": "7",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp02_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp03_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp04_C",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2017",
+      "measurement": "Temp04_C",
+      "flag": "M",
+      "count": "1",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "BarometricPress_kPa",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "RelativeHum_%",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "WindDir_Degree",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "WindSp_km/h",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "DailyRain_mm",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "DailyRain_mm",
+      "flag": "A5",
+      "count": "47",
+      "definition": "Rainfall indicates a sudden localized event not detected by the nearby Moose Jaw station"
+    },
+    {
+      "year": "2018",
+      "measurement": "AirTemp_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "C",
+      "count": "2002",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "27",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "4266",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "2129",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2, A3",
+      "count": "893",
+      "definition": "Unknown or compound flag"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "4390",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "3022",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2018",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "TempDeep_C",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "5",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHDeep",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHmVDeep_mV",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODODeep_mg/L",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODOSatDeep_%",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "A6",
+      "count": "2995",
+      "definition": "Corrected specific conductivity: shallow and deep in 2017, deep in 2018"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "53",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "B6",
+      "count": "2995",
+      "definition": "Raw specific conductivity shows step changes associated with calibration-solution issues"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "53",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "M",
+      "count": "2438",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp00_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp00_C",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp01_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp01_C",
+      "flag": "C",
+      "count": "8",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp02_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp02_C",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp03_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "5",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp04_C",
+      "flag": "M",
+      "count": "3109",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2018",
+      "measurement": "Temp04_C",
+      "flag": "C",
+      "count": "4",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "BarometricPress_kPa",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "WindDir_Degree",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "DailyRain_mm",
+      "flag": "C",
+      "count": "59",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "67",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "11",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "6009",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "812",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2, A3",
+      "count": "623",
+      "definition": "Unknown or compound flag"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "6890",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2019",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "1435",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2019",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHShallow",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHmVShallow_mV",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "169",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "169",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "172",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "164",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "174",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "TempDeep_C",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHDeep",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHmVDeep_mV",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODODeep_mg/L",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "663",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODOSatDeep_%",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "663",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "M",
+      "count": "16862",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2019",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2019",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "2",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "6736",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "396",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2, A3",
+      "count": "7",
+      "definition": "Unknown or compound flag"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "7440",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2020",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "403",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2020",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "21",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "21",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "B7",
+      "count": "803",
+      "definition": "Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit"
+    },
+    {
+      "year": "2020",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "B7",
+      "count": "803",
+      "definition": "Chlorophyll and/or phycocyanin and/or turbidity spike followed by a noticeable decrease after site visit"
+    },
+    {
+      "year": "2020",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "849",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "TempDeep_C",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "pHDeep",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "pHmVDeep_mV",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "56",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "56",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "11",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "ChlorophyllRFUDeep_RFU",
+      "flag": "C",
+      "count": "21",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "ChlorophyllRFUDeep_RFU",
+      "flag": "M",
+      "count": "3",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "M",
+      "count": "3",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2020",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "Temp00_C",
+      "flag": "C",
+      "count": "12",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "Temp01_C",
+      "flag": "C",
+      "count": "14",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "Temp02_C",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "7",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2020",
+      "measurement": "Temp04_C",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "RelativeHum_%",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "WindSp_km/h",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "AirTemp_C",
+      "flag": "C",
+      "count": "6",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "M",
+      "count": "1065",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARAir_umol/s/m2",
+      "flag": "A2",
+      "count": "51",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "M",
+      "count": "16909",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A2",
+      "count": "480",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW1_umol/s/m2",
+      "flag": "A3",
+      "count": "44",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "M",
+      "count": "1027",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A2",
+      "count": "522",
+      "definition": "PAR below factory range during low light; value adjusted to zero"
+    },
+    {
+      "year": "2021",
+      "measurement": "PARW2_umol/s/m2",
+      "flag": "A3",
+      "count": "44",
+      "definition": "Inverted PAR readings may reflect environmental conditions, sensor effects, or measurement error"
+    },
+    {
+      "year": "2021",
+      "measurement": "TempShallow_C",
+      "flag": "C",
+      "count": "23",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "TempShallow_C",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "pHShallow",
+      "flag": "C",
+      "count": "22",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "pHShallow",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "pHmVShallow_mV",
+      "flag": "C",
+      "count": "22",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "pHmVShallow_mV",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODOSatShallow_%",
+      "flag": "M",
+      "count": "379",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODOSatShallow_%",
+      "flag": "C",
+      "count": "22",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "M",
+      "count": "379",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODOShallow_mg/L",
+      "flag": "C",
+      "count": "22",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "C",
+      "count": "23",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondShallow_uS/cm",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "C",
+      "count": "23",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondShallowRaw_uS/cm",
+      "flag": "M",
+      "count": "2",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "M",
+      "count": "206",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "TurbShallow_NTU+",
+      "flag": "C",
+      "count": "198",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "C",
+      "count": "220",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ChlRFUShallow_RFU",
+      "flag": "M",
+      "count": "206",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "M",
+      "count": "379",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "BGPCShallowRFU_RFU",
+      "flag": "C",
+      "count": "69",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODODeep_mg/L",
+      "flag": "C",
+      "count": "8",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ODOSatDeep_%",
+      "flag": "C",
+      "count": "8",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondDeep_uS/cm",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "SpCondDeepRaw_uS/cm",
+      "flag": "C",
+      "count": "3",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "ChlorophyllRFUDeep_RFU",
+      "flag": "C",
+      "count": "12116",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "BGPCDeepRFU_RFU",
+      "flag": "C",
+      "count": "1",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp00_C",
+      "flag": "M",
+      "count": "382",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp00_C",
+      "flag": "C",
+      "count": "296",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp01_C",
+      "flag": "M",
+      "count": "249",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp02_C",
+      "flag": "M",
+      "count": "232",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp03_C",
+      "flag": "M",
+      "count": "216",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp03_C",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp04_C",
+      "flag": "M",
+      "count": "444",
+      "definition": "Missing; sensor may have been removed due to damage/failure, or values may not have been recorded/logged due to internal errors"
+    },
+    {
+      "year": "2021",
+      "measurement": "Temp04_C",
+      "flag": "C",
+      "count": "2",
+      "definition": "Measurement deemed faulty or unrealistic (see Baulch et al., 2025)"
+    }
+  ],
+  "missing_data_periods_count": 3536,
+  "measurement_availability_count": 160,
+  "sensor_reliability_by_year_count": 253
+}

@@ -1,0 +1,6 @@
+condition,status,evidence,missing
+Independent biological ground truth,Conditionally supported (metadata-level),88.31 EML shows taxa_name/genus/division/cells_per_ml/biovolume_conc/biomass_conc; phytoplankton counts/biovolume are biological observations.,"File-level verification, methods/QC, Mendota-only subset, taxonomic consistency, units/detection limits, public data-byte access confirmation."
+Defensible bloom-event and non-bloom evidence,Unresolved,No event/non-event design; no labels created.,"Defensible event definition, independent evidence, defensible non-bloom exposure intervals, sampling-bias assessment."
+Adequate temporal resolution,Unresolved,88.31 1995-2020 but cadence unknown; 130.29 HF temp but 2015 HR gap on CN; 415.2 routine discrete.,"File-level cadence, seasonality, gaps, paired observation density."
+Spatial and temporal alignment,Unresolved,Matching lake naming only; depths/stations/frequencies not reconciled.,"Mendota subset extraction logic (metadata-documented), station/depth/time alignment audit."
+Fair false-alarm evaluation and leakage-resistant validation,Unresolved,Cannot assess without verified aligned biological/environmental data and exposure design.,"Verified dataset, event/non-event exposure, temporal split/leakage controls, matched-FAR feasibility."

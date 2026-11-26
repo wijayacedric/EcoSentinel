@@ -1,0 +1,22 @@
+item,actual,expected_or_note,result
+Package,knb-lter-ntl.129.42,—,—
+DOI,10.6073/pasta/9c4b1eecf7a019c7239297b6bf4513c4,—,—
+Entity ID,cba9ed12834b8f315d6b10675bb60c5a,—,—
+EML object name,ntl129_1_v16.csv,—,—
+Local path,/Users/cedricbw/Documents/EcoSentinel/research/evidence/sprint_4l7_mendota_daily_sensor_audit/acquisition/129.42/North_Temperate_Lakes_LTER_Daily_Meteorological_and_Metabolism_Data_-_Lake_Mendota__cba9ed12834b8f315d6b10675bb60c5a.dat,—,—
+Bytes,"490,187","490,187",PASS
+MD5,eb7b3a3848b27074bac4504236ccefc3,eb7b3a3848b27074bac4504236ccefc3,PASS
+SHA-1,bb1d8a281a3d580cad45549551abdbaed1ae03fe,bb1d8a281a3d580cad45549551abdbaed1ae03fe,PASS
+SHA-256,104ef1b33769bc0ad1d3e9e6dff28219b743b81ce89ee888460d2df255981343,104ef1b33769bc0ad1d3e9e6dff28219b743b81ce89ee888460d2df255981343,PASS
+Columns,38,38,PASS
+Data rows,"3,996","3,996",PASS
+Malformed rows,0,0,PASS
+Blank lines,0,0,PASS
+Date parse errors,0,0,PASS
+Duplicate dates,0,0,PASS
+Exact duplicate rows,0,0,PASS
+Year/date mismatches,0,0,PASS
+Date range,2006-07-09 to 2025-11-18,—,—
+Unique dates,"3,996","3,996",PASS
+Calendar-day span,"7,073",—,—
+Record fraction of span,56.5%,—,—

@@ -1,0 +1,20 @@
+id,topic,question,essential_or_supplementary,why_needed,affected_decisions,expected_format,priority
+C01,Biological rows,"Do duplicate date–species rows represent technical replicates, split samples, subsamples, or distinct records?",Essential,Determines date-level biomass totals and P3/P4 endpoint,"D-08, D-02, D-05, D-06",Written data-dictionary statement,Critical
+C02,Biological rows,"What do REP1/REP2 identify, and why do they occur on disjoint dates?",Essential,Defines replicate structure and aggregation,"D-08, D-02",Written explanation or sample key,Critical
+C03,Biomass field,How is Biomass_mg_m3 derived from Cell_Volume_um3 and Cell_Density_L?,Essential,Confirms endpoint provenance,"D-02, D-05",Formula and worked example,Critical
+C04,Biomass field,What density assumption and conversion factor were used?,Essential,Confirms whether 1 g/cm3 is correct,D-02,Written statement with units,Critical
+C05,Biomass field,"Is the local field exactly the published method, or a related calculation?",Essential,Prevents overstating verification,D-02,Method note or code,High
+C06,QC flags,"What do M, C and B7 mean in the 2018–2019 files?",Essential,Determines exclusion vs caution,D-05,Flag table with handling guidance,Critical
+C07,QC flags,Does B7 mean discard or caution? What interval does it mark?,Essential,B7 exclusion may remove real high-biomass values,"D-05, D-06",Written definition,Critical
+C08,QC flags,Are there undocumented flag values in the 2018–2019 files?,Essential,Prevents misclassifying values,D-05,Flag audit or data dictionary,High
+C09,Sensor range,Should values >100 RFU be treated as saturated/out-of-range?,Essential,Determines above-range handling,D-05,Manufacturer/processing note,Critical
+C10,Sensor range,How were >100 RFU values handled in the cleaned files?,Essential,Confirms whether flags/removal already applied,D-05,Processing description,High
+C11,Negative RFU,Are negative chlorophyll/phycocyanin RFU values valid baseline/zero-offset readings?,Essential,Determines whether negative values can be ranked,D-05,Written interpretation,Critical
+C12,Coverage,What is the expected 10-minute record count per deployment day?,Essential,Replaces unsupported 72/144 rule,"D-05, D-06",Date-specific cadence or deployment table,Critical
+C13,Coverage,How should partial days/maintenance days be handled?,Essential,Defines daily-mean eligibility,"D-05, D-06",Written rule,Critical
+C14,Timestamps,What time zone and timestamp convention does DateTime use?,Essential,Needed for day/night and same-date alignment,"D-05, D-06",Written statement,Critical
+C15,Calibration,Are deployment-level calibration/maintenance/fouling records available for 2018–2019?,Supplementary,Helps interpret drift and B7 intervals,"D-05, D-06",Logs or summary,High
+C16,Detection limits,Are detection limits/accuracy available for 2018–2019 Chl/PC?,Supplementary,Supports interpretation of low values,D-05,Specification or method note,Medium
+C17,Data dictionary,Is there a schema/data dictionary for 2018 and 2019 biological files?,Essential,Defines fields and sample identifiers,"D-02, D-05, D-08",Document,High
+C18,Anomaly,Is there field/lab provenance for the 2019-07-17 record?,Supplementary,Helps interpret anomaly; not required for handling plan,D-09,Note or explanation,Medium
+C19,Versioning,Are there corrections/version notes beyond the published dataset?,Supplementary,Ensures current version,D-05,Version history,Low

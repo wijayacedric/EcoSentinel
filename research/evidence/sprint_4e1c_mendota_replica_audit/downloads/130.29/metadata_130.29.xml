@@ -1,0 +1,3405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.130.29"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/8ceff296ad68fa8da6787076e0a5d992</alternateIdentifier>
+    <shortName>MEBUOY2</shortName>
+    <title>North Temperate Lakes LTER: High Frequency Water Temperature Data - Lake  Mendota Buoy 2006 - current</title>
+    <creator>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Lead PI</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Magnuson</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/john_magnuson.htm</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Stanley</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 263-2567</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/personnel/emstan/</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2010-09-20</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>The instrumented buoy on Lake Mendota is equipped with a thermistor chain that measures water temperature. In 2006, the thermistors were placed every 0.5m from the surface through 7m and every 1m from 7m to 15m. In 2007and 2008, the thermistors were placed every 0.5 m from the surface through 2m and every 1m from 2m to 20m. The sensor at the water surface is as close to the surface as feasible. The sensor housing itself is ~5cm long, so we have it at about 1 to 6cm deep.The Lake Mendota buoy is also equipped with a dissolved oxygen sensor and meteorological sensors that provide fundamental information on lake thermal structure, weather conditions, and lake metabolism. Data are collected every minute. After correcting for flux to or from the atmosphere and vertical mixing within the water column, high frequency measurements of dissolved gases such as carbon dioxide and oxygen can be used to estimate gross primary productivity, respiration, and net ecosystem productivity, the basic components of whole lake metabolism. Hourly and daily water temperature averages are computed from high resolution (1 minute) data. Hourly and daily values may not be current with high resolution data.
+Deployment dates: 2006: June 27-Oct 17; 2007: May 18-Oct 22; 2008: June 26-Nov 4; 2009: April 17-Nov 23; 2010: April 9-Nov 10; 2011: May 19-Nov 11; 2012: April 30-Nov 30; 2013: April 27-Oct 27; 2014: May 4-Oct 12; 2015: June 25-Sept 1; 2016: March 29-Dec 12; 2017: April 23 - Nov 13; 2018: April 11-Nov 15; 2019: April 16-Nov 11
+Sampling Frequency: one minute. Number of sites: 1</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>NTL Core Datasets</keyword>
+      <keyword>physical (all)</keyword>
+      <keyword>instrumented buoys</keyword>
+      <keyword>physical limnology</keyword>
+      <keywordThesaurus>NTL Themes</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>instrumented buoy</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Primary Production</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>metabolism</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>water temperature</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>This information is released to the public domain under the Creative Commons license CC-BY 4.0 (see: https://creativecommons.org/licenses/by/4.0/). It may be distributed, remixed, and built upon. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The consumer of these data ("Data User" herein) should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://lter.limnology.wisc.edu/dataset/north-temperate-lakes-lter-high-frequency-water-temperature-data-lake-mendota-buoy-2006-curr</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3961 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+NTL LTER sampling location is at 43.09885, -89.40545
+ 
+    /**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Surface Area (km2) : 39.6/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Mean Depth (m) : 12.8/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Maximum Depth (m) : 25.3/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Volume (m3) : 506,880,000/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Shoreline Length (km) : 33.8/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Landscape Position : Low/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Development on shoreline : High/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Duration of ice cover (days) : 119/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+pH : 8.4/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+ANC (µeq/L) : 3665/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Conductivity (µS/cm) : 412/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Total P (µg/l) : 109.5/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Total N (µg/l) : 860/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+SiO2 (µg/l) : 711/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Secchi Depth (m) :  3/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Chlorophyll (µg/l) : 4.8/**
+ * @file
+ *
+ * Site Details template.
+ * Template does not have a surrounding XML element.
+ */
+Number of fish species : 43</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.3673</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.146</northBoundingCoordinate>
+          <southBoundingCoordinate>43.0766</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>259</altitudeMinimum>
+            <altitudeMaximum>259</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-06-28</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>ongoing</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Lead PI</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+    </contact>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>The instrumented buoy on Lake Mendota is equipped with a thermistor chain that measures water temperature. In 2006, the thermistors were placed every 0.5m from the surface through 7m and every 1m from 7m to 15m. In 2007and 2008, the thermistors were placed every 0.5 m from the surface through 2m and every 1m from 2m to 20m. The Lake Mendota buoy is also equipped with a dissolved oxygen sensor and meteorological sensors that provide fundamental information on lake thermal structure, weather conditions, and lake metabolism. Data are collected every minute. After correcting for flux to or from the atmosphere and vertical mixing within the water column, high frequency measurements of dissolved gases such as carbon dioxide and oxygen can be used to estimate gross primary productivity, respiration, and net ecosystem productivity, the basic components of whole lake metabolism. Hourly and daily water temperature averages are computed from high resolution (1 minute) data. Hourly and daily values may not be current with high resolution data.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - Daily Water Temperature - Lake Mendota</entityName>
+      <entityDescription>North Temperate Lakes LTER: Daily Water Temperature - Lake Mendota</entityDescription>
+      <physical>
+        <objectName>ntl130_1_v7.csv</objectName>
+        <size>2154767</size>
+        <authentication method="MD5">43576fd5391ee45b170a547eb0fe594b</authentication>
+        <authentication method="SHA-1">6a7a2a2ad0314e58bfa4fe4be655a857100c2590</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/a5919fc36f07fcf99765f084d18f5174</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeLabel>month of the year</attributeLabel>
+          <attributeDefinition>month of the year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daynum</attributeName>
+          <attributeLabel>day of year</attributeLabel>
+          <attributeDefinition>day of year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>dataflag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A?</code>
+                    <definition>Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>An</code>
+                    <definition>Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>K</code>
+                    <definition>Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>56252</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - Hourly Water Temperature - Lake Mendota</entityName>
+      <entityDescription>North Temperate Lakes LTER: Hourly Water Temperature - Lake Mendota</entityDescription>
+      <physical>
+        <objectName>ntl130_2_v7.csv</objectName>
+        <size>52722668</size>
+        <authentication method="MD5">0b6cca6796a131bc3466a57a34b6a96f</authentication>
+        <authentication method="SHA-1">f9dcb6e61ce0a9f7333074b8fc20834fae2b5a8f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/63d0587cf326e83f57b054bf2ad0f7fe</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeLabel>month of the year</attributeLabel>
+          <attributeDefinition>month of the year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daynum</attributeName>
+          <attributeLabel>day of year</attributeLabel>
+          <attributeDefinition>day of year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour of the day</attributeLabel>
+          <attributeDefinition>hour of the day</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>dataflag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A?</code>
+                    <definition>Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>An</code>
+                    <definition>Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>K</code>
+                    <definition>Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1306483</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2006</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2006</entityDescription>
+      <physical>
+        <objectName>ntl130_2006_v1.csv</objectName>
+        <size>90546541</size>
+        <authentication method="MD5">fe65250c4428afc9dae7b0697b2be111</authentication>
+        <authentication method="SHA-1">fad362f98d338f5822477a7c557920a50d48ac65</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/71831f38a4e590e6ec34d49b64b38313</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-06-27</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2006-10-17</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2692747</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2007</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2007</entityDescription>
+      <physical>
+        <objectName>ntl130_2007_v1.csv</objectName>
+        <size>157113124</size>
+        <authentication method="MD5">5a29814ea05959f998d7c39e9bfcfe00</authentication>
+        <authentication method="SHA-1">bf30c379ca2b29f92e692ac4a60fceb9005919b9</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/91e2fc216c289b007503b31a0b46fb64</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2007-05-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2007-10-22</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4697152</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2008</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2008</entityDescription>
+      <physical>
+        <objectName>ntl130_2008_v1.csv</objectName>
+        <size>113848742</size>
+        <authentication method="MD5">6e8c38fc9bceda07742cf0d1393e5a5d</authentication>
+        <authentication method="SHA-1">c210683c77ed299bf77f00e9365ea593ba2a237a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/9739be632846ac2eaa7910278fa831b8</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2008-06-26</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2008-11-04</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3400021</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2009</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2009</entityDescription>
+      <physical>
+        <objectName>ntl130_2009_v1.csv</objectName>
+        <size>230339366</size>
+        <authentication method="MD5">77ce2529d27d40706423fb976230b7a3</authentication>
+        <authentication method="SHA-1">d228c9b789db3948a76a372a8834d750e10c707b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/28d5e476384c8808e1999460093d96dc</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-06-27</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2006-10-17</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6912397</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2010</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2010</entityDescription>
+      <physical>
+        <objectName>ntl130_2010_v2.csv</objectName>
+        <size>205875131</size>
+        <authentication method="MD5">c5d3130bc988ca9484fbb1a70fd11d0e</authentication>
+        <authentication method="SHA-1">882442debbdb930a242d1fc4b16cfc81767efe1f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/3dbc4013a2e0d147bf8f098e90159c0c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-04-09</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2010-11-10</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6183389</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2011</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2011</entityDescription>
+      <physical>
+        <objectName>ntl130_2011_v1.csv</objectName>
+        <size>194328859</size>
+        <authentication method="MD5">5e2c676bc31f82392c1d6fa33f1ffecf</authentication>
+        <authentication method="SHA-1">7ba15c1db34bb9f2bb138b39288bc9352750e96b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/09dc2d104f729077978cb2d042019e84</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2011-05-19</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2011-11-10</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5807362</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2012</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2012</entityDescription>
+      <physical>
+        <objectName>ntl130_2012_v1.csv</objectName>
+        <size>213441554</size>
+        <authentication method="MD5">9bd28110a74f8fed497c61372e581450</authentication>
+        <authentication method="SHA-1">b5259e69bcdac02860b32ad75c7d9e7d18a828e8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/fd68691b4dd9d51f42390e4e5855ca65</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-04-30</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2012-11-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6390228</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2013</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2013</entityDescription>
+      <physical>
+        <objectName>ntl130_2013_v1.csv</objectName>
+        <size>198976870</size>
+        <authentication method="MD5">68d22332f755076252fff99826e8d3ce</authentication>
+        <authentication method="SHA-1">9f5dadfd219a43c08188ea80b19db8d320b1017c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/90948288600352ffed0129a9733906bb</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-04-27</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-10-27</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5982714</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2014</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2014</entityDescription>
+      <physical>
+        <objectName>ntl130_2014_v1.csv</objectName>
+        <size>164599191</size>
+        <authentication method="MD5">e14650bf5ba21addb14588478ffc0dfc</authentication>
+        <authentication method="SHA-1">b4d16f0da218a8b92d931ce28722ed036203a7ac</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/5b9493e070b212bd30f7d85495ee7c22</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2014-05-04</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-10-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4951325</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2015</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2015</entityDescription>
+      <physical>
+        <objectName>ntl130_2015_v1.csv</objectName>
+        <size>74875167</size>
+        <authentication method="MD5">edb4bc616fd5a1b4a7b6434c3e451435</authentication>
+        <authentication method="SHA-1">3bcba0d2eb6ce71ce78f5457b92cc5f4e96f997c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/c7538c460f8d0cbd90ec2892b8ce3025</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2015-06-25</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2015-09-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2246668</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2016</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2016</entityDescription>
+      <physical>
+        <objectName>ntl130_2016_v1.csv</objectName>
+        <size>281678099</size>
+        <authentication method="MD5">8b1d1450c00a1625355a1ff31b54c47e</authentication>
+        <authentication method="SHA-1">1122701cadd1592171f535985855c17718938b79</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/c8d6f2eadf414c3e58f89f839c03df47</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2016-03-29</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-12-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>8377405</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2017</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2017</entityDescription>
+      <physical>
+        <objectName>ntl130_2017_v1.csv</objectName>
+        <size>205767241</size>
+        <authentication method="MD5">dfb4cbf87adb80e2ada9123913fbb146</authentication>
+        <authentication method="SHA-1">53922c71866a318fb469fce7cb1a7487cfd319d6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/f0e3980071c6e4c28b89b2ad85a5dd27</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2017-04-23</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-11-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6149510</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2018</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2018</entityDescription>
+      <physical>
+        <objectName>ntl130_2018_v1.csv</objectName>
+        <size>242520098</size>
+        <authentication method="MD5">cabdebf40bf0a189c20367c542fe61c3</authentication>
+        <authentication method="SHA-1">4de6eb9fdfd3cb9615c763d73fafe6246737884b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/e489b2c22108262efd8992c603a5a455</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2018-04-11</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2018-11-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>sampletime</attributeLabel>
+          <attributeDefinition>time of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>data flag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>A = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>A? = Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>An = Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>B = Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>C = Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>D = Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>E = Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>F = Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>G = Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>H = Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>I = Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>J = Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>K = Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>L = Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>M = Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>N = Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>O = Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>P = Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7179333</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>North Temperate Lakes LTER - High Resolution Water Temperature - Lake Mendota - 2019</entityName>
+      <entityDescription>North Temperate Lakes LTER: High Resolution Water Temperature - Lake Mendota - 2019</entityDescription>
+      <physical>
+        <objectName>ntl130_2019_v1.csv</objectName>
+        <size>230718799</size>
+        <authentication method="MD5">4d05ce6a0045b7e9b335a66e781a1b1f</authentication>
+        <authentication method="SHA-1">42a0527559f104010535a9413fea4d68bfefd1d0</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/130/29/8356ed90a889b5d21956a41a1562d64e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampletime</attributeName>
+          <attributeLabel>time of observation</attributeLabel>
+          <attributeDefinition>time of observation</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>HH:MM:SS</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>sample depth meter</attributeLabel>
+          <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_wtemp</attributeName>
+          <attributeLabel>dataflag for water temperature</attributeLabel>
+          <attributeDefinition>dataflag for water temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A?</code>
+                    <definition>Data logger off an indeterminate number of hours</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>An</code>
+                    <definition>Data logger off n hours; daily averages may be in error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Data logger off</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Sensor off; missing value reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sensor malfunction produced bad values; values set to missing;</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Sensor noisy; values of uncertain quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Sensor calibration error; correction factors have been applied</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Sensor error; estimate made based on hourly averages</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Data suspect; values outside of expected range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>Estimated from combining more than one record for the day</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>Estimated from another met station.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>K</code>
+                    <definition>Sensor malfunction produced bad values: data of limited use.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Non standard routine followed.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Accuracy of depth uncertain due to freeze-in of instrumented raft.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Value calculated from hi_res data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Sensor calibration; values set to missing.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Accuracy of depth uncertain due to tangled templine</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6942504</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="" id="nominalMonth"
+          name="nominalMonth" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

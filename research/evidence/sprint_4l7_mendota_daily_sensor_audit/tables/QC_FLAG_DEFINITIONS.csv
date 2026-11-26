@@ -1,0 +1,5 @@
+code,definition,where_documented
+C,Sensor off,all flag columns
+E,Sensor noisy or malfunctioning,"air temp, RH, YSI chlorophyll/phycocyanin, DO sat/raw, pCO2"
+H,Outside of standard range,"air temp, wind dir, Turner/YSI chlorophyll/phycocyanin, PAR, DO, spec cond"
+G,Sensor - suspected biofouling,"YSI chlorophyll/phycocyanin, PAR below"

@@ -1,0 +1,7 @@
+requirement,buffalo_pound,mendota,greifensee,western_lake_erie,evidence_that_would_change
+Independent biological ground truth,"Supported (2 seasons, species-level counts/biomass)","Metadata-supported, raw-blocked",Not independent (classifier),Not sufficient (pigments/toxins),Additional independent microscopy years; raw Mendota counts/biovolume; independent validation for Greifensee; cell counts for Erie
+Defensible bloom-event and non-bloom evidence,Unsupported (no non-bloom baseline),Unresolved (needs raw data + protocol),Unresolved,Unresolved,Non-bloom season sampling + protocol-approved event adjudication
+Adequate temporal resolution,Conditional (median 4-8 d biology; 10-min env),Metadata: biweekly biology 1995-2020; 1-min env 2006-2025,High env; biology classifier,Discrete biology,Higher-frequency/event-triggered independent biology with sample times
+Spatial and temporal alignment,"Verified (25/25, 17/17; 0.8 m)",Unresolved (station/depth/time),Partial (3 m vs CTD),Unresolved,Verified station coordinates/depths/timestamps and overlap
+Fair false-alarm evaluation and leakage-resistant validation,"Unsupported (42 dates, 2 seasons)",Potentially feasible if multi-year raw data,Unresolved,Unresolved,Multi-year independent biology enabling held-out temporal/spatial validation
+Licence/reuse compatibility,Buoy CC BY 4.0; Painter CC BY-NC-SA 4.0 (review needed),CC BY per NTL page (package-level unverified),Terms need review,NCEI licence unverified,Written licence confirmation and human review

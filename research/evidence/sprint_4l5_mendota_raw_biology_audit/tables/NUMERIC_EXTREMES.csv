@@ -1,0 +1,71 @@
+variable,value,lakeid,sampledate,depth_range,division,taxa_name,cells_per_ml,biovolume_conc,biomass_conc
+gald,3200.0,ME,2020-09-18,0-8m,Cyanophyta,Limnoraphis birgei,1227.0237,986830.9769,0.98683098
+gald,2888.0,ME,2017-09-25,0-8m,Cyanophyta,Lyngbya birgei,2576.7497,2072345.051,2.07234505
+gald,2400.0,ME,2005-06-06,0-8m,Chlorophyta,Spirogyra,1.7556,882447.7581,0.8824
+gald,1920.0,ME,2018-09-04,0-8m,Cyanophyta,Limnoraphis birgei,511.2599,411179.5737,0.41117957
+gald,1760.0,ME,2017-10-04,0-8m,Cyanophyta,Lyngbya birgei,681.6798,548239.4316,0.54823943
+gald,1300.0,MO,2015-05-27,0-2m,Cyanophyta,Sphaerospermopsis aphanizomenoides,282.3072,21285.5152,0.02128552
+gald,1120.0,MO,2017-07-25,0-2m,Cyanophyta,Lyngbya birgei,23.8588,19188.3801,0.01918838
+gald,1120.0,ME,2019-07-08,0-8m,Cyanophyta,Chrysosporum ovalisporum,89.4705,13830.0249,0.01383002
+gald,1080.0,ME,2017-08-07,0-8m,Cyanophyta,Lyngbya birgei,409.0079,328943.659,0.32894366
+gald,1030.0,ME,2018-07-23,0-8m,Cyanophyta,Limnoraphis birgei,9845.489,7918212.061,7.91821206
+cells_per_nu,48000.0,ME,2014-06-23,0-8m,Cyanophyta,Gloeotrichia echinulata,30675.5914,2312885.102,2.3128851
+cells_per_nu,4000.0,ME,2015-06-08,0-8m,Cyanophyta,Gloeotrichia echinulata,2045.0394,154192.3401,0.15419234
+cells_per_nu,3750.0,ME,2004-06-21,0-8m,Cyanophyta,Gloeotrichia echinulata ,4114.6266,413647.3866,0.4136
+cells_per_nu,2500.0,MO,2015-11-03,0-2m,Cyanophyta,Aphanothece clathrata,42346.1892,44344.826,0.04434483
+cells_per_nu,1560.0,ME,2006-06-12,0-8m,Cyanophyta,Gloeotrichia echinulata ,6846.7387,516231.9387,0.5162
+cells_per_nu,1250.0,MO,2017-11-03,0-2m,Cyanophyta,Aphanothece clathrata,1065.1247,123.3539,0.00012335
+cells_per_nu,1250.0,ME,2018-09-19,0-8m,Cyanophyta,Aphanocapsa incerta,26466.3682,216527.469,0.21652747
+cells_per_nu,1200.0,ME,2019-11-20,0-8m,Cyanophyta,Woronichinia naegeliana,306.7559,6980.02,0.00698002
+cells_per_nu,1050.0,ME,2016-07-05,0-8m,Cyanophyta,Aphanothece clathrata,133390.4959,139686.197,0.1396862
+cells_per_nu,933.3333,ME,2004-08-16,0-8m,Cyanophyta,Coelosphaerium naegelianum ,6144.5089,173731.9024,0.1737
+nu_per_ml,357259.5436,WI,2002-10-24,0-2m,Cyanophyta,Synechococcus sp1 ,357259.5436,143654.0625,0.1437
+nu_per_ml,299769.5021,WI,2002-07-31,0-2m,Cyanophyta,Synechococcus sp1 ,299769.5021,120537.3168,0.1205
+nu_per_ml,271714.9378,ME,2017-08-07,0-8m,Cyanophyta,Chroococcaceae,271714.9378,72846.7748,0.07284677
+nu_per_ml,254598.7552,WI,2002-08-15,0-2m,Cyanophyta,Synechococcus sp1 ,254598.7552,102374.1595,0.1024
+nu_per_ml,233445.2282,MO,2015-08-21,0-2m,Cyanophyta,Chroococcaceae,233445.2282,62586.6657,0.06258667
+nu_per_ml,217640.8714,WI,2002-11-20,0-2m,Cyanophyta,Synechococcus sp1 ,217640.8714,87513.3944,0.0875
+nu_per_ml,202829.4606,ME,2017-07-24,0-8m,Cyanophyta,Chroococcaceae,202829.4606,54378.5784,0.05437858
+nu_per_ml,179867.6349,MO,2017-08-23,0-2m,Cyanophyta,Chroococcaceae,179867.6349,48222.5129,0.04822251
+nu_per_ml,176040.6639,ME,2017-08-23,0-8m,Cyanophyta,Chroococcaceae,176040.6639,47196.502,0.0471965
+nu_per_ml,174765.0069,ME,2020-07-22,0-8m,Cyanophyta,Chroococcaceae,174765.0069,46854.4984,0.0468545
+cells_per_ml,10074657.1215,WI,2002-06-20,0-2m,Cyanophyta,Aphanocapsa delicatissima ,10074657.1215,5275073.4943,5.2751
+cells_per_ml,5260338.7967,WI,2002-08-15,0-2m,Cyanophyta,Aphanocapsa delicatissima ,5260338.7967,1410201.9728,1.4102
+cells_per_ml,4829163.4855,WI,2002-11-20,0-2m,Cyanophyta,Aphanothece nidulans ,4829163.4855,2589230.7398,2.5892
+cells_per_ml,2925969.3499,WI,2002-07-18,0-2m,Cyanophyta,Aphanothece nidulans ,2925969.3499,1275240.8153,1.2752
+cells_per_ml,2420056.9848,WI,2002-09-26,0-2m,Cyanophyta,Aphanocapsa delicatissima ,2420056.9848,648774.5707,0.6488
+cells_per_ml,2233898.7552,WI,2002-10-24,0-2m,Cyanophyta,Aphanocapsa delicatissima ,2233898.7552,598866.3707,0.5989
+cells_per_ml,2039722.6496,WI,2001-07-16,0-2m,Cyanophyta,Aphanocapsa delicatissima ,2039722.6496,546814.6818,0.5468
+cells_per_ml,1724698.781,WI,2002-08-28,0-2m,Cyanophyta,Aphanocapsa delicatissima ,1724698.781,462365.3013,0.4624
+cells_per_ml,1626146.888,WI,2002-08-15,0-2m,Cyanophyta,Aphanothece nidulans ,1626146.888,871880.8287,0.8719
+cells_per_ml,1575261.0744,WI,2002-07-31,0-2m,Cyanophyta,Aphanocapsa delicatissima ,1575261.0744,824803.7541,0.8248
+biovolume_conc,84070000.0,MO,2000-09-25,0-2m,Chlorophyta,Actinastrum hantzschii ,379.9439,84070000,84.07
+biovolume_conc,76000000.0,MO,1999-07-19,0-2m,Cyanophyta,Aphanizomenon flos-aquae,757684.3818,7.6e+07,76
+biovolume_conc,32260000.0,MO,1998-07-06,0-2m,Cyanophyta,Aphanizomenon flos-aquae,321584.175,32260000,32.26
+biovolume_conc,23370568.07,ME,2019-10-04,0-8m,Cyanophyta,Microcystis aeruginosa,697414.0665,23370568.07,23.37056807
+biovolume_conc,19503322.56,ME,2011-07-25,0-8m,Cyanophyta,Aphanizomenon flos-aquae,23903.5769,19503322.56,19.50332256
+biovolume_conc,19465813.7696,MO,2009-09-04,0-2m,Cyanophyta,Microcystis aeruginosa ,591928.9991,19465813.7696,19.4658
+biovolume_conc,19185990.76,MO,2018-06-12,0-2m,Cyanophyta,Aphanizomenon flos-aquae,254462.0618,19185990.76,19.18599076
+biovolume_conc,18850000.0,MO,1997-07-23,0-2m,Cyanophyta,Microcystis aeruginosa ,432920.3403,18850000,18.85
+biovolume_conc,15989050.1246,ME,2008-08-04,0-8m,Cyanophyta,Aphanizomenon flos-aquae,212061.0706,15989050.1246,15.9891
+biovolume_conc,15061195.83,ME,2019-07-22,0-8m,Cyanophyta,Aphanizomenon flos-aquae,199755.6341,15061195.83,15.06119583
+biomass_conc,84.6924,ME,2011-07-25,0-8m,Chlorophyta,Coelastrum reticulatum,0,7.688e-05,84.6924
+biomass_conc,84.07,MO,2000-09-25,0-2m,Chlorophyta,Actinastrum hantzschii ,379.9439,84070000,84.07
+biomass_conc,76.0,MO,1999-07-19,0-2m,Cyanophyta,Aphanizomenon flos-aquae,757684.3818,7.6e+07,76
+biomass_conc,32.26,MO,1998-07-06,0-2m,Cyanophyta,Aphanizomenon flos-aquae,321584.175,32260000,32.26
+biomass_conc,23.370568,ME,2019-10-04,0-8m,Cyanophyta,Microcystis aeruginosa,697414.0665,23370568.07,23.37056807
+biomass_conc,19.503323,ME,2011-07-25,0-8m,Cyanophyta,Aphanizomenon flos-aquae,23903.5769,19503322.56,19.50332256
+biomass_conc,19.4658,MO,2009-09-04,0-2m,Cyanophyta,Microcystis aeruginosa ,591928.9991,19465813.7696,19.4658
+biomass_conc,19.185991,MO,2018-06-12,0-2m,Cyanophyta,Aphanizomenon flos-aquae,254462.0618,19185990.76,19.18599076
+biomass_conc,18.85,MO,1997-07-23,0-2m,Cyanophyta,Microcystis aeruginosa ,432920.3403,18850000,18.85
+biomass_conc,15.9891,ME,2008-08-04,0-8m,Cyanophyta,Aphanizomenon flos-aquae,212061.0706,15989050.1246,15.9891
+relative_total_biovolume,283806.87,ME,2011-07-25,0-8m,Chlorophyta,Coelastrum reticulatum,0,7.688e-05,84.6924
+relative_total_biovolume,100.0,WI,1996-08-21,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,107234.9843,2021328.2272,2.0213
+relative_total_biovolume,100.0,MO,1997-05-01,0-2m,Miscellaneous,Miscellaneous,16091.87,72413.415,0.07241342
+relative_total_biovolume,100.0,ME,1997-05-02,0-8m,Miscellaneous,Miscellaneous,16091.87,72413.415,0.07241342
+relative_total_biovolume,100.0,WI,1997-08-19,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,89.0951,107.4816,1e-04
+relative_total_biovolume,100.0,WI,2000-08-01,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,2370.3776,44680.4937,0.0447
+relative_total_biovolume,100.0,WI,2001-08-01,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,143564.3586,3601852.0097,3.6019
+relative_total_biovolume,100.0,WI,2001-08-28,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,1457.8166,27479.2174,0.0275
+relative_total_biovolume,100.0,WI,2001-09-24,0-2m,Cyanophyta,Cylindrospermopsis raciborskii ,3568.9703,67273.4135,0.0673
+relative_total_biovolume,98.885,ME,2017-06-12,0-8m,Cyanophyta,Aphanizomenon flos-aquae,166586.6334,12560346.59,12.56034659

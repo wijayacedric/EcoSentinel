@@ -1,0 +1,10 @@
+set,members,n_members,complete_dates,first_complete,last_complete
+turner_3,avg_chlor_rfu_turner;avg_phyco_rfu_turner;avg_do_raw,3,1323,2006-07-11,2019-11-02
+turner_4,avg_chlor_rfu_turner;avg_phyco_rfu_turner;avg_do_raw;avg_do_wtemp,4,1075,2006-07-11,2019-10-24
+turner_core,avg_chlor_rfu_turner;avg_phyco_rfu_turner;avg_do_raw;avg_do_sat;avg_do_wtemp;avg_air_temp;avg_wind_speed,7,939,2008-07-12,2019-10-24
+turner_light,avg_chlor_rfu_turner;avg_phyco_rfu_turner;avg_do_raw;avg_do_sat;avg_do_wtemp;avg_air_temp;avg_wind_speed;avg_par;avg_par_below,9,308,2016-04-07,2019-07-31
+ysi_3,avg_chlor_rfu_ysi;avg_phyco_rfu_ysi;avg_do_raw,3,1096,2019-05-07,2025-11-18
+ysi_5,avg_chlor_rfu_ysi;avg_phyco_rfu_ysi;avg_do_raw;avg_do_wtemp;avg_ph,5,345,2019-06-25,2025-11-18
+ysi_6,avg_chlor_rfu_ysi;avg_phyco_rfu_ysi;avg_ph;avg_fdom;avg_turbidity;avg_spec_cond,6,1196,2019-04-16,2025-11-18
+ysi_core,avg_chlor_rfu_ysi;avg_phyco_rfu_ysi;avg_do_raw;avg_do_sat;avg_do_wtemp;avg_ph;avg_fdom;avg_turbidity;avg_spec_cond;avg_air_temp;avg_wind_speed,11,306,2019-06-25,2025-11-18
+ysi_light,avg_chlor_rfu_ysi;avg_phyco_rfu_ysi;avg_do_raw;avg_do_sat;avg_do_wtemp;avg_ph;avg_fdom;avg_turbidity;avg_spec_cond;avg_air_temp;avg_wind_speed;avg_par;avg_par_below,13,274,2019-07-20,2025-11-18

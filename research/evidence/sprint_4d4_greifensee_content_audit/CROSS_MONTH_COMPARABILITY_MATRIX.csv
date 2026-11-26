@@ -1,0 +1,8 @@
+field_or_metric,comparable_across_60_months,required_harmonization_or_condition
+feature_record_count,"Yes - countable in all 60, but effort-dependent",Normalize by observation effort/days/ROIs; not biological abundance alone
+classification_record_count,"Yes - countable in all 60, but schema/file-set differs",Depends on number of classifier files per ROI; not directly comparable as biological count across schema changes
+unique_days_from_features,Yes - derivable where features.csv present,"Coverage/effort metric, not biological metric"
+cyano_label_counts_heuristic,Partial - labels present but schema/classifier changes across periods,"Requires label harmonization, classifier-version mapping, and validation; raw counts not comparable as abundance"
+ROI/image-level classification,Yes at record level,Not calibrated biomass/cell density; repeated detections possible
+taxon-specific abundance/biovolume,No,No calibrated biovolume/cell density in 5p0x class_and_feat
+independent biological endpoint,No,Camera-derived classifications only; no independent microscopy/biomass in these packages

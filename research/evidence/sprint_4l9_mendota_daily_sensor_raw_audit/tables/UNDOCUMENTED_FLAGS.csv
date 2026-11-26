@@ -1,0 +1,9 @@
+variable,flag_column,documented,observed_extra
+avg_rel_hum,flag_avg_rel_hum,"['C', 'E']",['H']
+avg_wind_speed,flag_avg_wind_speed,['C'],['H']
+avg_par_below,flag_avg_par_below,"['C', 'G']",['H']
+avg_do_wtemp,flag_avg_do_wtemp,"['C', 'H']",['E']
+avg_ph,flag_avg_ph,['C'],['E']
+avg_fdom,flag_avg_fdom,['C'],['E']
+avg_turbidity,flag_avg_turbidity,['C'],['E']
+avg_spec_cond,flag_avg_spec_cond,"['C', 'H']","['E', 'O']"

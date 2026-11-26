@@ -1,0 +1,529 @@
+{
+  "generated_at": "2026-11-22T15:07:50.023760Z",
+  "synthetic_only": true,
+  "not_empirical_ecosentinel_finding": true,
+  "provisional_software_semantics": true,
+  "scenarios": [
+    {
+      "name": "genuine_synthetic_early_warning",
+      "description": "Relationship changes before synthetic event",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 1,
+      "episodes": 2,
+      "confirmed_false_alarm_episode_count": 1,
+      "ambiguous_episode_count": 1,
+      "alert_observations_in_verified_non_event": 1,
+      "verified_non_event_observation_count": 74,
+      "observation_level_false_alarm_fraction": 0.013513513513513514,
+      "missed_synthetic_events": 0,
+      "event_detections": [
+        {
+          "event_id": "E1",
+          "missed_as_confirmed_early_warning": false,
+          "has_confirmed_early_warning_candidate": true,
+          "has_onset_overlapping_ambiguous": false,
+          "has_post_onset_detection": true,
+          "detections": [
+            {
+              "event_id": "E1",
+              "episode_start": 78,
+              "episode_end": 80,
+              "episode_active_observation_count": 3,
+              "detection_type": "confirmed_early_warning_candidate",
+              "onset_earliest": 80,
+              "onset_latest": 83,
+              "signed_onset_minus_alert_start_min": 2,
+              "signed_onset_minus_alert_start_max": 5,
+              "lead_min_observations": 2,
+              "lead_max_observations": 5,
+              "active_at_or_after_onset_earliest": true,
+              "active_in_onset_interval": true,
+              "within_max_warning_horizon": true,
+              "max_warning_horizon_observations": 30,
+              "synthetic_only": true
+            },
+            {
+              "event_id": "E1",
+              "episode_start": 108,
+              "episode_end": 108,
+              "episode_active_observation_count": 1,
+              "detection_type": "post_onset_detection",
+              "onset_earliest": 80,
+              "onset_latest": 83,
+              "signed_onset_minus_alert_start_min": -28,
+              "signed_onset_minus_alert_start_max": -25,
+              "lead_min_observations": null,
+              "lead_max_observations": null,
+              "active_at_or_after_onset_earliest": true,
+              "active_in_onset_interval": false,
+              "within_max_warning_horizon": true,
+              "max_warning_horizon_observations": 30,
+              "synthetic_only": true
+            }
+          ],
+          "synthetic_only": true
+        }
+      ],
+      "episode_classifications": [
+        {
+          "episode_start": 78,
+          "episode_end": 80,
+          "active_observation_count": 3,
+          "classification": "ambiguous_episode",
+          "verified_non_event_observation_count": 0,
+          "unknown_observation_count": 2,
+          "event_observation_count": 1,
+          "overlaps_event_window": true,
+          "overlaps_event_exposure": true,
+          "overlaps_unknown_exposure": true,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 108,
+          "episode_end": 108,
+          "active_observation_count": 1,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 1,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        }
+      ],
+      "expected": {
+        "expect_confirmed_early_warning": true
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "no_warning",
+      "description": "Stable relationship, no early change",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 1,
+      "episodes": 0,
+      "confirmed_false_alarm_episode_count": 0,
+      "ambiguous_episode_count": 0,
+      "alert_observations_in_verified_non_event": 0,
+      "verified_non_event_observation_count": 82,
+      "observation_level_false_alarm_fraction": 0.0,
+      "missed_synthetic_events": 1,
+      "event_detections": [
+        {
+          "event_id": "E1",
+          "missed_as_confirmed_early_warning": true,
+          "has_confirmed_early_warning_candidate": false,
+          "has_onset_overlapping_ambiguous": false,
+          "has_post_onset_detection": false,
+          "detections": [],
+          "synthetic_only": true
+        }
+      ],
+      "episode_classifications": [],
+      "expected": {
+        "expect_confirmed_early_warning": false,
+        "expect_no_confirmed_false_alarm_episode": true
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "seasonal_false_positive",
+      "description": "Shared seasonality without event",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 0,
+      "episodes": 2,
+      "confirmed_false_alarm_episode_count": 2,
+      "ambiguous_episode_count": 0,
+      "alert_observations_in_verified_non_event": 2,
+      "verified_non_event_observation_count": 240,
+      "observation_level_false_alarm_fraction": 0.008333333333333333,
+      "missed_synthetic_events": 0,
+      "event_detections": [],
+      "episode_classifications": [
+        {
+          "episode_start": 95,
+          "episode_end": 95,
+          "active_observation_count": 1,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 1,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 155,
+          "episode_end": 155,
+          "active_observation_count": 1,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 1,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        }
+      ],
+      "expected": {
+        "expect_false_alarm_fraction_reported": true
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "sensor_artifact",
+      "description": "Sensor spike without biological event; recovery window marked unknown",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 0,
+      "episodes": 2,
+      "confirmed_false_alarm_episode_count": 0,
+      "ambiguous_episode_count": 2,
+      "alert_observations_in_verified_non_event": 21,
+      "verified_non_event_observation_count": 129,
+      "observation_level_false_alarm_fraction": 0.16279069767441862,
+      "missed_synthetic_events": 0,
+      "event_detections": [],
+      "episode_classifications": [
+        {
+          "episode_start": 71,
+          "episode_end": 71,
+          "active_observation_count": 1,
+          "classification": "ambiguous_episode",
+          "verified_non_event_observation_count": 0,
+          "unknown_observation_count": 1,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": true,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 77,
+          "episode_end": 111,
+          "active_observation_count": 35,
+          "classification": "ambiguous_episode",
+          "verified_non_event_observation_count": 21,
+          "unknown_observation_count": 14,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": true,
+          "synthetic_only": true
+        }
+      ],
+      "expected": {
+        "expect_no_confirmed_false_alarm_episode": true,
+        "artifact_window": [
+          70,
+          75
+        ],
+        "recovery_unknown": [
+          76,
+          90
+        ]
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "missing_data",
+      "description": "Missing block should not create fake alerts",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 1,
+      "episodes": 0,
+      "confirmed_false_alarm_episode_count": 0,
+      "ambiguous_episode_count": 0,
+      "alert_observations_in_verified_non_event": 0,
+      "verified_non_event_observation_count": 90,
+      "observation_level_false_alarm_fraction": 0.0,
+      "missed_synthetic_events": 1,
+      "event_detections": [
+        {
+          "event_id": "E1",
+          "missed_as_confirmed_early_warning": true,
+          "has_confirmed_early_warning_candidate": false,
+          "has_onset_overlapping_ambiguous": false,
+          "has_post_onset_detection": false,
+          "detections": [],
+          "synthetic_only": true
+        }
+      ],
+      "episode_classifications": [],
+      "expected": {
+        "expect_no_confirmed_false_alarm_episode": true
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "interval_censored",
+      "description": "Event bounds uncertain",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 1,
+      "episodes": 2,
+      "confirmed_false_alarm_episode_count": 1,
+      "ambiguous_episode_count": 1,
+      "alert_observations_in_verified_non_event": 20,
+      "verified_non_event_observation_count": 79,
+      "observation_level_false_alarm_fraction": 0.25316455696202533,
+      "missed_synthetic_events": 1,
+      "event_detections": [
+        {
+          "event_id": "E1",
+          "missed_as_confirmed_early_warning": true,
+          "has_confirmed_early_warning_candidate": false,
+          "has_onset_overlapping_ambiguous": false,
+          "has_post_onset_detection": true,
+          "detections": [
+            {
+              "event_id": "E1",
+              "episode_start": 71,
+              "episode_end": 99,
+              "episode_active_observation_count": 29,
+              "detection_type": "post_onset_detection",
+              "onset_earliest": 60,
+              "onset_latest": 65,
+              "signed_onset_minus_alert_start_min": -11,
+              "signed_onset_minus_alert_start_max": -6,
+              "lead_min_observations": null,
+              "lead_max_observations": null,
+              "active_at_or_after_onset_earliest": true,
+              "active_in_onset_interval": false,
+              "within_max_warning_horizon": true,
+              "max_warning_horizon_observations": 30,
+              "synthetic_only": true
+            }
+          ],
+          "synthetic_only": true
+        }
+      ],
+      "episode_classifications": [
+        {
+          "episode_start": 46,
+          "episode_end": 46,
+          "active_observation_count": 1,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 1,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 71,
+          "episode_end": 99,
+          "active_observation_count": 29,
+          "classification": "ambiguous_episode",
+          "verified_non_event_observation_count": 19,
+          "unknown_observation_count": 0,
+          "event_observation_count": 10,
+          "overlaps_event_window": true,
+          "overlaps_event_exposure": true,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        }
+      ],
+      "expected": {
+        "expect_lead_bounds_reported": true
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "sensor_replacement",
+      "description": "Abrupt sensor replacement causes structural change",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 0,
+      "episodes": 0,
+      "confirmed_false_alarm_episode_count": 0,
+      "ambiguous_episode_count": 0,
+      "alert_observations_in_verified_non_event": 0,
+      "verified_non_event_observation_count": 139,
+      "observation_level_false_alarm_fraction": 0.0,
+      "missed_synthetic_events": 0,
+      "event_detections": [],
+      "episode_classifications": [],
+      "expected": {
+        "expect_no_confirmed_false_alarm_episode": true,
+        "replacement_t": 80
+      },
+      "expectation_failures": []
+    },
+    {
+      "name": "autocorrelated_no_event",
+      "description": "Independent autocorrelated variables",
+      "synthetic": true,
+      "max_warning_horizon_observations": 30,
+      "events": 0,
+      "episodes": 11,
+      "confirmed_false_alarm_episode_count": 11,
+      "ambiguous_episode_count": 0,
+      "alert_observations_in_verified_non_event": 115,
+      "verified_non_event_observation_count": 200,
+      "observation_level_false_alarm_fraction": 0.575,
+      "missed_synthetic_events": 0,
+      "event_detections": [],
+      "episode_classifications": [
+        {
+          "episode_start": 18,
+          "episode_end": 23,
+          "active_observation_count": 6,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 6,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 30,
+          "episode_end": 52,
+          "active_observation_count": 21,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 21,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 58,
+          "episode_end": 70,
+          "active_observation_count": 13,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 13,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 74,
+          "episode_end": 83,
+          "active_observation_count": 6,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 6,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 88,
+          "episode_end": 97,
+          "active_observation_count": 8,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 8,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 102,
+          "episode_end": 116,
+          "active_observation_count": 13,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 13,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 120,
+          "episode_end": 148,
+          "active_observation_count": 25,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 25,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 159,
+          "episode_end": 159,
+          "active_observation_count": 1,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 1,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 165,
+          "episode_end": 182,
+          "active_observation_count": 16,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 16,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 190,
+          "episode_end": 191,
+          "active_observation_count": 2,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 2,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        },
+        {
+          "episode_start": 196,
+          "episode_end": 199,
+          "active_observation_count": 4,
+          "classification": "confirmed_false_alarm_episode",
+          "verified_non_event_observation_count": 4,
+          "unknown_observation_count": 0,
+          "event_observation_count": 0,
+          "overlaps_event_window": false,
+          "overlaps_event_exposure": false,
+          "overlaps_unknown_exposure": false,
+          "synthetic_only": true
+        }
+      ],
+      "expected": {
+        "expect_no_confirmed_events": true,
+        "expect_false_alarm_fraction_reported": true
+      },
+      "expectation_failures": []
+    }
+  ],
+  "all_expectations_passed": true,
+  "expectation_failures": []
+}

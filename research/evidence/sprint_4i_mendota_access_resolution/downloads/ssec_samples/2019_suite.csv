@@ -1,0 +1,6 @@
+# status: success
+# code: 200
+# message: 
+# num_results: 1
+# fields: %Y-%m-%dT%H:%M:%SZ,mendota.buoy.chlorophyll_ysi,mendota.buoy.phycocyanin_ysi,mendota.buoy.spcond,mendota.buoy.ph,mendota.buoy.turbidity,mendota.buoy.do_raw2
+2019-07-01T01:00:00Z,21.84,534.26,581.9,8.7,8.4,0.0

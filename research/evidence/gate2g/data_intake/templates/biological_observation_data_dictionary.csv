@@ -1,0 +1,23 @@
+field_name,required,recommended,data_type,units_or_format,description,example_synthetic_only,notes
+source_id,yes,yes,string,,Stable identifier for source dataset/publication/report,EXAMPLE_SOURCE_001,Do not infer; preserve original source citation separately
+sample_id,yes,yes,string,,Original sample identifier from source lab/report,SMP-0001,Preserve as provided
+replicate_id,no,yes,string,,Replicate or subsample identifier,REP1,Blank if not applicable
+sample_date,yes,yes,date,YYYY-MM-DD,Date sample collected,2019-07-17,Do not guess missing dates
+sample_time,no,yes,time,HH:MM:SS or HH:MM,Time sample collected (local if known),13:30,Record timezone if known
+timezone,no,yes,string,IANA/UTC offset,Timezone for sample_time,America/Regina,Required if times compared across sources
+location,yes,yes,string,,Sampling location name,Buffalo Pound Lake - 0.8 m buoy site,Use original name; add normalized field separately if needed
+latitude,no,yes,number,decimal degrees,Latitude,50.58611,Do not infer from map unless documented
+longitude,no,yes,number,decimal degrees,Longitude,-105.38472,Do not infer from map unless documented
+depth_m,yes,yes,number,meters,Sample depth in meters,0.8,Use numeric meters; preserve original if different
+taxon_name,no,yes,string,,Taxonomic name as reported,Dolichospermum crassa,Preserve original spelling/authority
+taxon_rank,no,yes,string,,Rank (species/genus/group etc.),species,
+cell_count,no,yes,number,cells/L,Cell count/density,12345,Preserve units; do not convert silently
+biovolume,no,yes,number,mm3/L or um3/mL as reported,1.23,Document unit exactly
+biomass,no,yes,number,mg/m3 or as reported,45.81,Document unit exactly
+chlorophyll_a,no,yes,number,ug/L,Lab chlorophyll-a concentration,12.3,Not buoy RFU
+microcystin,no,yes,number,ug/L,Microcystin/cyanotoxin concentration,0.7,Include qualifier if <LOD
+qualifier,no,yes,string,,Result qualifier (<LOD, ND, J, etc.),<0.1,Preserve original qualifier
+detection_limit,no,yes,number,same as measurement,Detection/reporting limit,0.1,
+method,no,yes,string,,Analytical/taxonomic method,Microscopy/Utermohl,Record lab SOP reference if available
+qa_flag,no,yes,string,,QA/QC flag from source,REP2,Preserve original flags
+notes,no,yes,string,,Free-text provenance/uncertainty notes,Anomaly under investigation,No inferred conclusions

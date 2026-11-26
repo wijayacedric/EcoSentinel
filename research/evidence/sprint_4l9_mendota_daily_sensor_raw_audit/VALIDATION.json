@@ -1,0 +1,219 @@
+{
+  "checks": [
+    {
+      "check": "raw bytes",
+      "expected": 490187,
+      "actual": 490187,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "raw MD5",
+      "expected": "eb7b3a3848b27074bac4504236ccefc3",
+      "actual": "eb7b3a3848b27074bac4504236ccefc3",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "raw SHA-1",
+      "expected": "bb1d8a281a3d580cad45549551abdbaed1ae03fe",
+      "actual": "bb1d8a281a3d580cad45549551abdbaed1ae03fe",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "raw SHA-256",
+      "expected": "104ef1b33769bc0ad1d3e9e6dff28219b743b81ce89ee888460d2df255981343",
+      "actual": "104ef1b33769bc0ad1d3e9e6dff28219b743b81ce89ee888460d2df255981343",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "data rows",
+      "expected": 3996,
+      "actual": 3996,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "columns",
+      "expected": 38,
+      "actual": 38,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "schema order",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "malformed rows",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "blank lines",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "date parse errors",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "duplicate dates",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "year mismatches",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "exact duplicate rows",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "nonnumeric nonempty values",
+      "expected": 0,
+      "actual": 0,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "coverage arithmetic",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "overlap arithmetic and window monotonicity",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "percentages in 0-100",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "undocumented flag codes",
+      "expected": "none",
+      "actual": 8,
+      "pass": false,
+      "note": "See UNDOCUMENTED_FLAGS.csv; daily EML code lists are incomplete for several columns."
+    }
+  ],
+  "passed": 17,
+  "failed": 1,
+  "documented_flag_exceptions": [
+    {
+      "variable": "avg_rel_hum",
+      "flag_column": "flag_avg_rel_hum",
+      "documented": [
+        "C",
+        "E"
+      ],
+      "observed_extra": [
+        "H"
+      ]
+    },
+    {
+      "variable": "avg_wind_speed",
+      "flag_column": "flag_avg_wind_speed",
+      "documented": [
+        "C"
+      ],
+      "observed_extra": [
+        "H"
+      ]
+    },
+    {
+      "variable": "avg_par_below",
+      "flag_column": "flag_avg_par_below",
+      "documented": [
+        "C",
+        "G"
+      ],
+      "observed_extra": [
+        "H"
+      ]
+    },
+    {
+      "variable": "avg_do_wtemp",
+      "flag_column": "flag_avg_do_wtemp",
+      "documented": [
+        "C",
+        "H"
+      ],
+      "observed_extra": [
+        "E"
+      ]
+    },
+    {
+      "variable": "avg_ph",
+      "flag_column": "flag_avg_ph",
+      "documented": [
+        "C"
+      ],
+      "observed_extra": [
+        "E"
+      ]
+    },
+    {
+      "variable": "avg_fdom",
+      "flag_column": "flag_avg_fdom",
+      "documented": [
+        "C"
+      ],
+      "observed_extra": [
+        "E"
+      ]
+    },
+    {
+      "variable": "avg_turbidity",
+      "flag_column": "flag_avg_turbidity",
+      "documented": [
+        "C"
+      ],
+      "observed_extra": [
+        "E"
+      ]
+    },
+    {
+      "variable": "avg_spec_cond",
+      "flag_column": "flag_avg_spec_cond",
+      "documented": [
+        "C",
+        "H"
+      ],
+      "observed_extra": [
+        "E",
+        "O"
+      ]
+    }
+  ]
+}

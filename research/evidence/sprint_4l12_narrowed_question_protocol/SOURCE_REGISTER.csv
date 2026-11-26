@@ -1,0 +1,58 @@
+id,source,year,type,doi_or_url,access,quality,relevance
+S01,`AGENTS.md`,2026,Governance,Local file,Full,Project rule,Mandatory research/evidence standards
+S02,`README.md`,2026,Project overview,Local file,Full,Project record,Original research question and standards
+S03,`documentation/SCIENTIFIC_PROTOCOL_DRAFT.md`,2026,Protocol draft,Local file,Full,Project record,Original question; unresolved definitions
+S04,`FINAL_STRATEGIC_RECOMMENDATION.md`,2026,Decision record,Local file,Full,Project decision,CONTINUE — NARROWED RESEARCH QUESTION
+S05,`SPRINT_4L11_EXECUTIVE_REPORT.md`,2026,Report,Local file,Full,Project evidence,Strategic context and options
+S06,`SPRINT_4L11_HANDOVER.md`,2026,Handover,Local file,Full,Project evidence,Next milestone and unresolved issues
+S07,`CURRENT_PROJECT_STATE.md`,2026,State record,Local file,Full,Project evidence,Candidate/dataset status
+S08,`FINAL_DATASET_DECISION.md` (4L.10),2026,Decision record,Local file,Full,Project decision,Mendota retain limited/reject validation
+S09,Sprint 4L.10 directory,2026,Evidence bundle,Local directory,Full,Project evidence,"Joint coverage, verdicts, critiques"
+S10,Sprint 4L.9 raw sensor audit,2026,Evidence bundle,Local directory,Full,Project evidence,"Daily sensor schema, QC, overlap"
+S11,Sprint 4L.5 raw biology audit,2026,Evidence bundle,Local directory,Full,Project evidence,"Biology endpoint, depth, taxonomy"
+S12,Sprint 4L.6 independent biology audit,2026,Evidence bundle,Local directory,Full,Project evidence,Independent endpoint/taxonomy critique
+S13,Sprint 4F Buffalo Pound stress test,2026,Evidence bundle,Local directory,Full,Project evidence,"42 dates, two seasons, no non-bloom"
+S14,Sprint 4H researcher response readiness,2026,Evidence bundle,Local directory,Full,Project evidence,Pending status; no assumed data
+S15,Gate 2 integrated assessment,2026,Report,Local file,Full,Project evidence,0 events; no non-bloom exposure
+S16,Gate 2F institutional inventory,2026,Report,Local file,Full,Project evidence,No new public biological dataset
+S17,Gate 2G Painter 2019 anomaly investigation,2026,Report,Local file,Full,Project evidence,2019-07-17 unresolved
+S18,Gate 2H methodological limitations,2026,Report,Local file,Full,Project evidence,Synthetic-only prototype
+S19,`COMPETITION_LEVEL_CRITICAL_ASSESSMENT.md`,2026,Report,Local file,Full,Project assessment,Competition risk
+S20,`INSTITUTIONAL_EVIDENCE_STATUS.md`,2026,Status record,Local file,Full,Project record,Requests reported sent; no repo response
+S21,EDI `knb-lter-ntl.129.42` EML,2026,Metadata,https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-ntl.129.42,Full,Primary metadata,"Mendota daily sensor schema, flags, depths"
+S22,EDI 129.42 daily CSV,2026,Dataset,Local file,Full,Primary data,Mendota daily sensor values
+S23,EDI `knb-lter-ntl.88.31` EML,2022,Metadata,https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-ntl.88.31,Full,Primary metadata,Mendota microscopy methods/depths
+S24,NTL 88.31 phytoplankton CSV,2022,Dataset,Local file,Full,Primary data,Mendota microscopy counts/biovolume
+S25,FRDR Buffalo Pound README + data_flags,2025,Metadata,https://doi.org/10.20383/103.01100,Full,Primary metadata,"Sensor specs, flags, deployment"
+S26,FRDR Buffalo Pound annual CSVs,2025,Dataset,Local file,Full,Primary data,Buoy 2014–2021
+S27,Painter et al. 2022 Borealis dataset,2022,Dataset,https://doi.org/10.5683/SP3/MP6NXF,Full (project download),Primary data,Buffalo Pound microscopy 2018–2019
+S28,"Baulch et al. 2025, *Data in Brief*",2025,Data paper,https://doi.org/10.1016/j.dib.2025.112290,Full (PMC),Peer-reviewed,"Sensor specs, maintenance, QC, RFU caveat"
+S29,USGS TM1-D10,2019,Technical guidance,https://pubs.usgs.gov/publication/tm1D10/full,Full,Authoritative,Algal pigment fluorescence principles/QA
+S30,USGS TM1-D11,n.d.,Technical guidance,https://pubs.usgs.gov/publication/tm1D11/full,Abstract/metadata,Authoritative,Fouling corrections for fluorescence sensors
+S31,"Hartmann et al. 2019, *Aquatic Sciences*",2019,Peer-reviewed,https://doi.org/10.1007/s00027-018-0608-x,Abstract,Primary study,FluoroProbe vs microscopy; cyanobacteria underestimated
+S32,"Bowling et al. 2016, *Water Research*",2016,Peer-reviewed,https://doi.org/10.1016/j.watres.2016.08.051,Abstract,Primary study,YSI EXO2 phycocyanin vs cyanobacterial biovolume; taxon-dependent
+S33,"Hodges et al. 2018, *ESPR*",2018,Peer-reviewed,https://doi.org/10.1007/s11356-017-0473-5,Abstract,Primary study,Five sensors; field PC–biovolume weak; morphology/temperature
+S34,"Thomson-Laing et al. 2020, *Harmful Algae*",2020,Peer-reviewed,https://doi.org/10.1016/j.hal.2020.101869,Abstract,Primary study,"CyanoFluor strong overall, lake-specific 0.06–0.90"
+S35,"Rogora et al. 2023, *Frontiers in Environmental Science*",2023,Peer-reviewed,https://doi.org/10.3389/fenvs.2022.1058515,Full HTML,Primary study,Cyclops7 vs 0–20 m microscopy; R²=0.72 total biovolume; composition effects
+S36,USGS SIR 2024-5010,2024,Peer-reviewed report,https://doi.org/10.3133/sir20245010,Full XML,Authoritative/primary,Finger Lakes; PC–cyanobacteria biovolume not significant
+S37,"Kovalenko et al. 2026, *L&O Methods*",2026,Peer-reviewed,https://doi.org/10.1002/lom3.70033,Abstract,Primary study,"Great Lakes; cyanobacteria weak, diatoms strong, seasonal"
+S38,"Cotterill et al. 2019, *NZ J Mar Freshw Res*",2019,Peer-reviewed,https://doi.org/10.1080/00288330.2019.1617322,Abstract,Primary study,Cyclops-7 vs biovolume; weak/variable <R²0.4
+S39,"Levi et al. 2025, *Open Research Europe*",2025,Peer-reviewed,https://doi.org/10.12688/openreseurope.17146.3,Full PMC (prior),Primary study,24 chl/12 PC sensors; calibration/fouling/composition
+S40,"Rousso et al. 2021, *Water Research*",2021,Peer-reviewed,https://doi.org/10.1016/j.watres.2021.117133,Abstract/metadata,Primary study,"Light quenching up to 79% chl, 59% PC"
+S41,"Painter et al. 2022, *ESPI*",2022,Peer-reviewed,https://doi.org/10.1039/D2EM00078D,Abstract/README,Primary study,Buffalo Pound bloom phases; *Planktothrix* missed by sensor/lab chl
+S42,"Carpenter et al. 2020, *L&O Letters*",2020,Peer-reviewed,https://doi.org/10.1002/lol2.10152,Abstract/metadata (prior),Primary study,Mendota HF phycocyanin; alternative states
+S43,"Carpenter et al. 2022, *PNAS*",2022,Peer-reviewed,https://doi.org/10.1073/pnas.2214343119,Full PMC (prior),Primary study,Mendota HF phycocyanin; lags/extremes
+S44,"Buelo et al. 2022, *Ecological Applications*",2022,Peer-reviewed,https://doi.org/10.1002/eap.2616,Abstract/excerpts + code (prior),Primary study,Algal-bloom EWS; TPR/FPR; SD vs AR1
+S45,"Gsell et al. 2016, *PNAS*",2016,Peer-reviewed,https://doi.org/10.1073/pnas.1608242113,Full PMC (prior),Primary study,44% EWI failure; low agreement
+S46,"O’Brien et al. 2023, *Nature Communications*",2023,Peer-reviewed,https://doi.org/10.1038/s41467-023-43744-8,Full HTML (prior),Primary study,Most EWS not better than chance; Mendota included
+S47,"Weinans et al. 2021, *Scientific Reports*",2021,Peer-reviewed,https://doi.org/10.1038/s41598-021-87839-y,Full HTML (prior),Primary study,Multivariate indicators scenario-dependent
+S48,Beal et al. 2021,2021,Peer-reviewed,https://www.sciencedirect.com/science/article/pii/S156898832100130X,Search-indexed (prior),Primary study,Mendota two-month forecast
+S49,"Beal et al. 2022, *Lake and Reservoir Management*",2022,Peer-reviewed,https://doi.org/10.1080/10402381.2022.2084799,Search-indexed (prior),Primary study,Mendota season-ahead forecast
+S50,"Recknagel et al. 2025, *Water Research*",2025,Peer-reviewed,https://doi.org/10.1016/j.watres.2025.124514,Abstract/metadata (prior),Primary study,HF + ML 5-day CyanoHAB hazard
+S51,"Fournier et al. 2024, *Water Research*",2024,Peer-reviewed,https://doi.org/10.1016/j.watres.2024.122553,Abstract/metadata (prior),Primary study,LSTM PC forecasting 4–28 days
+S52,"Zamyadi et al. 2016, *TrAC*",2016,Review,https://doi.org/10.1016/j.trac.2016.06.023,Abstract/metadata,Review,Real-time cyanobacteria monitoring technologies
+S53,"Ma et al. 2022, *Water*",2022,Peer-reviewed,https://doi.org/10.3390/w14223749,Abstract/metadata,Primary study,Factors affecting online phycocyanin interpretation
+S54,"Felip & Catalan 2000, *J Plankton Research*",2000,Peer-reviewed,https://doi.org/10.1093/plankt/22.1.91,Abstract/metadata,Primary study,Chlorophyll–biovolume decoupling in a deep lake
+S55,"Painter et al. 2023, *Ecosphere*",2023,Peer-reviewed,https://doi.org/10.1002/ecs2.4472,Metadata/abstract (prior),Primary study,Buffalo Pound blooms/flows; non-independent buoy classification
+S56,"Boyer et al. 2025, *Freshwater Biology*",2025,Peer-reviewed,https://doi.org/10.1111/fwb.70131,Full text (prior project),Primary study,Buffalo Pound 2017 bloom/N fixation context
+S57,NTL-LTER Mendota buoy dataset page,2026,Metadata,https://lter.limnology.wisc.edu/dataset/north-temperate-lakes-lter-high-frequency-data-meteorological-dissolved-oxygen-chlorophyll-p,Full HTML,Primary metadata,Sensor history; Turner/YSI transition; event notes

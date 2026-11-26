@@ -1,0 +1,10 @@
+id,blocker,affected_package,type,evidence,resolution,human_required
+I01,EDI PASTA requires authentication; no API key in environment,88.31/129.42/130.29/415.2,authorization,PASTA readMetadata/readDataEntity 403; portal login redirect,Free EDI IAM profile + API key (user-authorised); do not create account autonomously,yes
+I02,DataONE CN metadata available but data bytes not served,all four,replica,CN object 404 while sysmeta 200,EDI authorised access,yes
+I03,129.42 per-variable deployment periods not resolved,129.42,metadata gap,Package coverage 2006-2025; sensor list table rows inaccessible,Retrieve sensor-list entity via EDI,yes
+I04,88.31 Mendota subset and raw counts/biovolume unverified,88.31,scientific/data,EML only; data bytes blocked,Acquire CSV and audit lakeid/station/depth/taxa/units/QC,yes
+I05,Depth/station alignment between 0-8 m composite biology and buoy sensors unverified,Mendota,scientific,EML describes depths; raw data unavailable,File-level depth/station audit,yes
+I06,No event/non-bloom adjudication or labels,Mendota,governance,Gate 2 paused,Gate 2 protocol approval (not authorised),yes
+I07,130.29 2015 HR temperature missing on CN,130.29,missing replica,CN sysmeta/resolve 404; present in ORE/EML,Retrieve via EDI or assess materiality,yes
+I08,Package-level licence text not retrieved,all four,licence,NTL page says CC BY; package-level unverified,Confirm on EDI package pages after auth,yes
+I09,SSEC alternative not equivalent to EDI packages; no QC flags; 2006-2018 absent,129.42/130.29,alternative source,2019-2025 API samples; 2006/2018 zero results,"Use only as exploratory cross-check, not replacement",no

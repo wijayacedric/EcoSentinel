@@ -1,0 +1,6 @@
+requirement,status,evidence,needed
+1. Independent biological ground truth,Unresolved (access-blocked at file level),"88.31 metadata shows taxa/genus/division/cells_per_ml/biovolume_conc/biomass_conc. Data bytes not publicly accessible via CN/PASTA in this environment (CN 404, PASTA 403).","Authorised EDI/DataONE access; file-level verification of Mendota subset, methods, units, QC, cadence, taxonomic consistency."
+2. Defensible bloom-event and non-bloom evidence,Unsupported by verified evidence,No data inspected; no event/non-event design.,Verified biological observations and defensible exposure design.
+3. Adequate temporal resolution,Unresolved,Metadata ranges known; actual cadence/gaps unknown at file level.,File-level temporal audit.
+4. Spatial and temporal alignment,Unresolved,Madison Lakes Area vs Mendota-only unverified; station/depth/timestamp alignment unknown.,File-level subset/alignment audit.
+5. Fair false-alarm evaluation and leakage-resistant validation,Unresolved,Cannot assess without verified aligned data.,Verified data + exposure design + protocol-compliant evaluation feasibility.

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "data/clean_data/BP_PhytoTax_2018_KP.csv",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/BP_PhytoTax_2018_KP.csv",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_PhytoTax_2018_KP.csv",
+    "bytes": 133635,
+    "sha256": "9c7f5787d69fbdaec20fe2b3e661238bd52241a39564ba525ea54106f5d010ad",
+    "downloaded_utc": "2026-11-22T22:02:57.324401Z"
+  },
+  {
+    "file": "data/clean_data/BP_PhytoTax_2019_KP.csv",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/BP_PhytoTax_2019_KP.csv",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_PhytoTax_2019_KP.csv",
+    "bytes": 65439,
+    "sha256": "1bd7535c4b434f360863c4b73c2d0ed5dd0ce2b6a08f7fa9077f14639914ca34",
+    "downloaded_utc": "2026-11-22T22:02:57.603418Z"
+  },
+  {
+    "file": "data/clean_data/BP_2018_toxins_0.8m.csv",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/BP_2018_toxins_0.8m.csv",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_2018_toxins_0.8m.csv",
+    "bytes": 16302,
+    "sha256": "275e249b38f864cf2f3c083d98a5cdc6028aaaff6cf22dc4637f33a4ec9943f6",
+    "downloaded_utc": "2026-11-22T22:02:57.980478Z"
+  },
+  {
+    "file": "data/clean_data/BP_2019_toxins_0.8.csv",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/BP_2019_toxins_0.8.csv",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_2019_toxins_0.8.csv",
+    "bytes": 15845,
+    "sha256": "7218e9f34b1f4494978cdf681ebac510d4851a35b96a2dc72739e48e4da747b1",
+    "downloaded_utc": "2026-11-22T22:02:58.230201Z"
+  },
+  {
+    "file": "data/clean_data/Nutrients_Biomass_BP_clean.csv",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/Nutrients_Biomass_BP_clean.csv",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__Nutrients_Biomass_BP_clean.csv",
+    "bytes": 2352,
+    "sha256": "fc1ddff5d0b6b8c0e1969a75cba46796e54ffcb2910f03d280f9aa9b33f48c4d",
+    "downloaded_utc": "2026-11-22T22:02:58.474325Z"
+  },
+  {
+    "file": "README.md",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/README.md",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/README.md",
+    "bytes": 4022,
+    "sha256": "5f82a059216fa364133bf24d1ca13d31cb93d5c69084525909da95972f61100a",
+    "downloaded_utc": "2026-11-22T22:02:58.721471Z"
+  },
+  {
+    "file": "data/clean_data/clean_data.md",
+    "url": "https://raw.githubusercontent.com/biogeochem/buffalopound_blooms/master/data/clean_data/clean_data.md",
+    "dest": "research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__clean_data.md",
+    "bytes": 64,
+    "sha256": "a457931714383ae3dd0df75af48e0c978ee084598baf4cecdbaa6e09dd579e9c",
+    "downloaded_utc": "2026-11-22T22:02:58.989569Z"
+  }
+]

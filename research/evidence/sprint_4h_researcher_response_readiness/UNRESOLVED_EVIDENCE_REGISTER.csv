@@ -1,0 +1,11 @@
+id,candidate,issue,current_status,evidence_needed,potential_impact,decision_owner
+U01,Buffalo Pound,Only 2 biological seasons (2018-2019),Verified limitation,Additional independent microscopy years with methods/QC,High - could enable multi-year evaluation,Researcher response
+U02,Buffalo Pound,No non-bloom season sampling,Verified limitation,Spring/fall/winter or low-biomass season biological samples,High - needed for non-bloom exposure,Researcher response
+U03,Buffalo Pound,Biological cadence 4-8 d; no sample times,Verified limitation,Higher-frequency/event-triggered sampling with timestamps,Medium-High - onset/lead-time resolution,Researcher response
+U04,Buffalo Pound,Taxonomy/replicate schema differs 2018 vs 2019,Verified limitation,"Raw count sheets, replicate IDs, taxonomic harmonisation, QA",Medium - comparability,Researcher response
+U05,Buffalo Pound,Painter licence CC BY-NC-SA 4.0,Verified licence,Human licence review for competition/deployment,Medium - reuse constraints,Human review
+U06,Lake Mendota,Data bytes auth-blocked (PASTA 403; CN object 404),Verified access block,Authorised EDI API key/portal access,High - unlocks strongest potential candidate,User authorisation
+U07,Lake Mendota,130.29 2015 HR temperature missing on CN,Verified gap,Authorised EDI retrieval or assess materiality,"Low-Medium (one year, temp only)",User authorisation
+U08,Lake Mendota,No raw-file verification of 88.31/129.42/415.2,Metadata only,Raw data + QC/units/cadence/alignment audit,High - determines feasibility,User authorisation
+U09,Greifensee,Classifier-derived biology; no independent validation,Verified limitation,Independent microscopy/biomass validation,High for confirmatory; low for exploratory,Scientific review
+U10,Western Lake Erie,No cell counts/biovolume described; NCEI inaccessible,Literature + access block,Raw cell/biovolume data + HF buoy pairing,High - otherwise unsuitable,Retry access / NOAA

@@ -1,0 +1,8 @@
+package,entity,temporal_coverage_eml,cadence,missingness,access,notes
+knb-lter-ntl.88.31,Phytoplankton Madison Lakes Area,1995-01-24 to 2020-12-31,unknown_file_level,unknown_file_level,blocked,Metadata only; data bytes not accessible.
+knb-lter-ntl.130.29,Daily Water Temp,2006-2019 (per package),daily (metadata),unknown_file_level,blocked,
+knb-lter-ntl.130.29,Hourly Water Temp,2006-2019 (per package),hourly (metadata),unknown_file_level,blocked,
+knb-lter-ntl.130.29,HR Water Temp 2015,2015-06-25 to 2015-09-01,high-resolution (metadata),entire entity missing on CN,missing_on_cn,Bounded gap; other years present in ORE/EML.
+knb-lter-ntl.415.2,YSI-Poseidon 2014-2019,2006-06-15 to 2019-10-24 (package),routine/discrete (metadata),unknown_file_level,blocked,
+knb-lter-ntl.415.2,non-Poseidon water temps,2006-06-15 to 2019-10-24 (package),routine/discrete (metadata),unknown_file_level,blocked,
+knb-lter-ntl.415.2,non-Poseidon dissolved oxygen,2006-06-15 to 2019-10-24 (package),routine/discrete (metadata),unknown_file_level,blocked,

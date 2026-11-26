@@ -1,0 +1,35 @@
+# Source Register
+
+**Sprint:** 4L.9  
+**Gate 2:** PAUSED / NOT APPROVED — Option C (Exploratory Only)
+
+| ID | Source | Path / URL | Type | Inspected | Use |
+|---|---|---|---|---|---|
+| S01 | AGENTS.md | /Users/cedricbw/Documents/EcoSentinel/AGENTS.md | Governance | Full | Project rules and evidence standards |
+| S02 | 129.42 EML | research/evidence/sprint_4l7_mendota_daily_sensor_audit/acquisition/129.42/metadata_129.42.xml | Primary metadata | Full | Schema, flags, depths, events, size/MD5, temporal coverage |
+| S03 | 129.42 entity inventory | research/evidence/sprint_4l7_mendota_daily_sensor_audit/acquisition/129.42/entity_inventory_129.42.csv | Project table | Full | Entity IDs/sizes |
+| S04 | Sensor inventory | research/evidence/sprint_4k_mendota_authorised_access/acquisition/129.42/List_of_sensors_used_on_the_Lake_Mendota_buoy_since_2006__edddc490dfd553c4c4b9e5d4b86eb2eb.dat | Primary data | Full | 20 sensor records; eras; mismatches |
+| S05 | Daily sensor raw file | research/evidence/sprint_4l7_mendota_daily_sensor_audit/acquisition/129.42/North_Temperate_Lakes_LTER_Daily_Meteorological_and_Metabolism_Data_-_Lake_Mendota__cba9ed12834b8f315d6b10675bb60c5a.dat | Primary data | Full | 3,996 daily records; 38 columns; hashes |
+| S06 | Sprint 4L.8A integrity report | research/evidence/sprint_4l8a_post_acquisition_verification/ | Project evidence | Full | Baseline size/MD5/SHA-1/SHA-256; .dat/.csv explanation |
+| S07 | Sprint 4L.5 biology audit | research/evidence/sprint_4l5_mendota_raw_biology_audit/ | Project evidence | Full | 402 Mendota dates; 0–8 m; biological anomalies |
+| S08 | Sprint 4L.6 independent biology audit | research/evidence/sprint_4l6_codex_independent_raw_biology_audit/ | Independent review | Full | Count corrections; biological cautions |
+| S09 | Sprint 4L.7 sensor metadata audit | research/evidence/sprint_4l7_mendota_daily_sensor_audit/ | Project evidence | Full | Metadata-level schema/era/depth/overlap |
+| S10 | NTL high-frequency page | https://lter.limnology.wisc.edu/high-frequency-data/ | Official documentation | Full | Buoy 129/130; Apr–Nov deployment; live viewer |
+| S11 | NTL research protocols | https://lter.limnology.wisc.edu/protocols/ | Official documentation | Full | Sampling frequency; integrated chlorophyll; phytoplankton biovolume; site coordinate |
+| S12 | YSI EXO2 product page | https://www.ysi.com/exo2 | Manufacturer documentation | Full page/spec table | Sonde/sensor specs; RFU ranges; wiper; calibration context |
+| S13 | Turner Cyclops-7F product page | https://www.turnerdesigns.com/cyclops-7f-submersible-fluorometer | Manufacturer documentation | Full page | Discontinued 2025; RFU; dye calibration; manual links |
+| S14 | USGS TM1-D10 | https://pubs.usgs.gov/publication/tm1D10/full | Authoritative guidance | Full HTML; relevant sections | Proxy nature; RFU sensor-specificity; quenching; biofouling; calibration/QA |
+| S15 | DataONE CN sysmeta | cn.dataone.org/cn/v2/meta/cba9ed12834b8f315d6b10675bb60c5a | Repository metadata | Full | Size 490,187; SHA-1; LTER replica |
+| S16 | EDI package page | https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-ntl&identifier=129 | Repository metadata | Identified | Package summary/login context |
+| S17 | Thomson-Laing et al. 2020 | https://pubmed.ncbi.nlm.nih.gov/32732055/ | Peer-reviewed literature | Not inspected (page returned HHS notice) | Phycocyanin proxy context; not used as primary evidence |
+| S18 | Ma et al. 2022 | https://www.mdpi.com/2073-4441/14/22/3749 | Peer-reviewed literature | Not inspected (HTTP 403) | Online phycocyanin fluorescence limitations; not used as primary evidence |
+| S19 | YSI EXO manual PDF | https://www.xylem.com/siteassets/brand/ysi/resources/manual/exo-user-manual-web.pdf | Manufacturer manual | Identified; PDF not text-extracted | Would document calibration/wiper detail; not claimed as inspected |
+| S20 | Turner Cyclops manual PDF | https://docs.turnerdesigns.com/t2/doc/manuals/998-2100.pdf | Manufacturer manual | Identified; PDF not text-extracted | Would document calibration/RFU detail; not claimed as inspected |
+
+## Notes
+
+- “Full” means the local file or complete HTML page was read; it does not mean every linked PDF was parsed.
+- Manufacturer manual PDFs were identified but could not be text-extracted by the fetch tool. Product pages and specification tables were inspected instead.
+- “Identified” means the source was found but not used as primary evidence.
+- No source establishes that the daily observations are calibrated, unbiased or directly comparable across sensor eras.
+- No source establishes a bloom/non-bloom label, event interval or confirmatory design.

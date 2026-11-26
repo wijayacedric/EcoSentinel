@@ -1,0 +1,35 @@
+id,source,path_or_url,type,inspected,use
+S01,`AGENTS.md`,`/Users/cedricbw/Documents/EcoSentinel/AGENTS.md`,Governance,Full,Project rules and evidence standards
+S02,Sprint 4L.5 biology audit,`research/evidence/sprint_4l5_mendota_raw_biology_audit/`,Project evidence,Full,402 dates; endpoint; depth; anomalies
+S03,Sprint 4L.6 independent biology audit,`research/evidence/sprint_4l6_codex_independent_raw_biology_audit/`,Independent project evidence,Full,468/176 counts; duplicates; taxonomy; prior-art constraints
+S04,Sprint 4L.7 metadata feasibility audit,`research/evidence/sprint_4l7_mendota_daily_sensor_audit/`,Project evidence,Full,"Schema, era, depth, overlap metadata"
+S05,Sprint 4L.8 acquisition record,`research/evidence/sprint_4l7_mendota_daily_sensor_audit/SPRINT_4L8_*.md`,Project evidence,Full,Authentication/acquisition history
+S06,Sprint 4L.8A integrity verification,`research/evidence/sprint_4l8a_post_acquisition_verification/`,Project evidence,Full,Baseline hashes and `.dat`/`.csv` explanation
+S07,Sprint 4L.9 raw sensor audit,`research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/`,Project evidence,Full,"Tables, scripts, reports, register"
+S08,Daily sensor raw file,`.../129.42/...cba9ed...dat`,Primary data,Full,"3,996 rows × 38 columns; hashes"
+S09,88.31 biology raw file,`.../88.31/...f2de15b2...dat`,Primary data,Full,"18,654 rows; 402 Mendota dates"
+S10,129.42 EML,`.../129.42/metadata_129.42.xml`,Primary metadata,Full,"Schema, depths, flags, events"
+S11,Sensor inventory,`.../List_of_sensors...edddc490...dat`,Primary data,Full,20 sensor records; era mismatches
+S12,Carpenter et al. 2020,https://hero.epa.gov/reference/6326336/,Peer-reviewed literature,Abstract/full metadata; article 403,Mendota 1-min phycocyanin; alternative states; 1–15 d correlations
+S13,Carpenter et al. 2022,https://pmc.ncbi.nlm.nih.gov/articles/PMC9860325/,Peer-reviewed literature,Full HTML,Mendota daily phycocyanin; nighttime means; sensor changes; 13–28 d / 1–60 d lags
+S14,Carpenter & Brock 2024,https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4903,Peer-reviewed literature,Abstract/search-index; full 403,Mendota phycocyanin resilience/P-load context; identified only
+S15,Beal et al. 2021,https://www.sciencedirect.com/science/article/pii/S156898832100130X,Peer-reviewed literature,Search-indexed/4L.6; article 403,Two-month Mendota cyanobacteria forecast; not daily onset
+S16,Beal et al. 2022,https://doi.org/10.1080/10402381.2022.2084799,Peer-reviewed literature,Search-indexed/4L.6; publisher 403,Season-ahead Mendota forecast
+S17,O'Brien et al. 2023,https://www.nature.com/articles/s41467-023-43744-8,Peer-reviewed literature,Full HTML,Empirical EWS; Mendota included; most indicators poor
+S18,Pace et al. 2016,https://pmc.ncbi.nlm.nih.gov/articles/PMC5240694/,Peer-reviewed literature,Full HTML,Whole-lake EWS; 17-day warning; controlled enrichment
+S19,Wilkinson et al. 2018,https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecm.1286,Peer-reviewed literature,Abstract/search-index; article 403,EWS 1–57/61 days before blooms; multiple whole-lake experiments
+S20,Cotterill et al. 2019,https://www.tandfonline.com/doi/full/10.1080/00288330.2019.1617322,Peer-reviewed literature,Abstract via Our Lakes; full 403,"Phycocyanin–biovolume weak (<R² 0.4), variable; detection limits"
+S21,Levi et al. 2025,https://pmc.ncbi.nlm.nih.gov/articles/PMC11195624/,Peer-reviewed literature,Full HTML,"24 Chla / 12 phycocyanin Cyclops sensors; biofouling, composition, nighttime, calibration"
+S22,USGS TM1-D10,https://pubs.usgs.gov/publication/tm1D10/full,Authoritative guidance,Full HTML; relevant sections,Fluorescence proxy; RFU sensor-specific; quenching; QA
+S23,YSI EXO2 product page,https://www.ysi.com/exo2,Manufacturer documentation,Full page/spec table,"Ranges, wiper, RFU, calibration context"
+S24,YSI algae-sensor guidance,https://www.ysi.com/ysi-blog/water-blogged-blog/2019/07/how-algae-sensors-work-answers-to-four-challenging-questions,Manufacturer documentation,Full page,6-series vs EXO differences; RFU trends; interferences
+S25,Turner Cyclops-7F page,https://www.turnerdesigns.com/cyclops-7f-submersible-fluorometer,Manufacturer documentation,Full page,Discontinued; RFU; dye calibration; manual links
+S26,Hodges et al. 2018,https://pubmed.ncbi.nlm.nih.gov/29079975/,Peer-reviewed literature,Abstract/metadata-level; publisher 403,Manufacturer/temperature/morphology effects
+S27,Rousso et al. 2021,https://pubmed.ncbi.nlm.nih.gov/33895586/,Peer-reviewed literature,Abstract/metadata-level,Light-induced quenching errors
+S28,Watras et al. 2017,https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10188,Peer-reviewed literature,Abstract/metadata-level,Temperature compensation for Chla/phycocyanin
+S29,Hansen & Carey 2015,https://doi.org/10.1371/journal.pone.0115414,Peer-reviewed literature,Full via 4L.6,Mendota phytoplankton sampling/community turnover
+S30,Recknagel 2025,https://pubmed.ncbi.nlm.nih.gov/40925059/,Peer-reviewed literature,Abstract/search-index; full 403,HF in situ + ML early warning at Lake Müggelsee; identified only
+S31,EDI package page 129.42,https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-ntl&identifier=129,Repository metadata,Identified/full metadata,Package/entity context
+S32,NTL high-frequency page,https://lter.limnology.wisc.edu/high-frequency-data/,Official documentation,Full,Buoy 129/130; Apr–Nov deployment
+S33,NTL research protocols,https://lter.limnology.wisc.edu/protocols/,Official documentation,Full,Biweekly summer/monthly non-summer; 0–8 m Mendota; site coordinate
+S34,4L.5/4L.6 source trails,"`research/evidence/sprint_4l5_*`, `sprint_4l6_*`",Project evidence,Full,Prior taxonomy/forecast source trail

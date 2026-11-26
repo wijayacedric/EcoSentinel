@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.415.2"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/7e533c197ed8ebd27777a89a2c8d7dfe</alternateIdentifier><title>Lake Mendota Microbial Observatory Temperature, Dissolved Oxygen, pH, and conductivity
+      data, 2006-present.</title>
+    <creator>
+      <individualName>
+        <givenName>Robin</givenName>
+        <givenName>R</givenName>
+        <surName>Rohwer</surName>
+      </individualName>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <electronicMailAddress>robin.rohwer@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-2664-6489</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Katherine</givenName>
+        <givenName>D</givenName>
+        <surName>McMahon</surName>
+      </individualName>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-7038-026X</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Georgia</givenName>
+        <surName>Wolfe</surName>
+      </individualName>
+      <role>Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Lucas</givenName>
+        <surName>Beversdorf</surName>
+      </individualName>
+      <role>Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Todd</givenName>
+        <givenName>R</givenName>
+        <surName>Miller</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">0000-0002-2113-1662</userId>
+      <role>Postdoc</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Kara</surName>
+      </individualName>
+      <userId
+      directory="https://orcid.org">0000-0002-9617-9433</userId>
+      <role>Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Riley</givenName>
+        <givenName>J</givenName>
+        <surName>Hale</surName>
+      </individualName>
+      <role>Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Muetschler</surName>
+      </individualName>
+      <role>Graduate Student</role>
+    </associatedParty>
+    <pubDate>2022-06-20</pubDate>
+    <abstract>The Lake Mendota Microbial Observatory collects routine water physical and chemical
+      measurements alongside their microbial samples. This dataset includes measurements of water
+      temperature, dissolved oxygen, pH, and conductivity collected at the central Deep Hole,
+      collocated with a weather buoy (43°05'58.2"N 89°24'16.2"W). All measurements were collected
+      with handheld probes. Data from 2006-2014 was compiled from multiple sources and includes only
+      water temperature and dissolved oxygen. Data from 2014-2019 is from the same probe, a YSI Pro
+      Plus instrument, and also includes pH and specific conductance. Routine microbial observatory
+      sampling continues into the present.</abstract>
+    <keywordSet>
+      <keyword>water temperature</keyword>
+      <keyword>dissolved oxygen</keyword>
+      <keyword>ph</keyword>
+      <keyword>conductivity</keyword>
+      <keyword>microbes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>NTL LTER</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>This information is released under the Creative Commons license -
+      Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data
+      ("Data User" herein) is required to cite it appropriately in any publication that results from
+      its use. The Data User should realize that these data may be actively used by others for
+      ongoing research and that coordination may be necessary to prevent duplicate publication. The
+      Data User is urged to contact the authors of these data if any questions about methodology or
+      results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+      co-authorship with the authors. The Data User should realize that misinterpretation of data
+      may occur if used out of context of the original study. While substantial efforts are made to
+      ensure the accuracy of data and associated documentation, complete accuracy of data sets
+      cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+      however, that data are updated periodically and it is the responsibility of the Data User to
+      check for new versions of the data. The data authors and the repository where these data were
+      obtained shall not be liable for damages resulting from any use or misinterpretation of the
+      data. Thank you.</intellectualRights>
+    <distribution
+      id="10.6073/pasta/f6f2a7474f1957f7b058a7c15463b1a3" scope="system"
+          system="https://pasta.edirepository.org">
+      <online>
+        <url
+      function="information">https://doi.org/10.6073/pasta/f6f2a7474f1957f7b058a7c15463b1a3</url>
+      </online>
+    </distribution>
+    <distribution
+      id="10.6073/pasta/7e533c197ed8ebd27777a89a2c8d7dfe" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/7e533c197ed8ebd27777a89a2c8d7dfe</url></online></distribution><coverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Mendota Deep Hole</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4045</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4045</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.0995</northBoundingCoordinate>
+          <southBoundingCoordinate>43.0995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-06-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-10-24</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>This data was collected as part of a routine microbial sampling observatory, and
+        collection continues into the present.</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Katherine</givenName>
+        <givenName>D</givenName>
+        <surName>McMahon</surName>
+      </individualName>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>1550 Linden Drive</deliveryPoint>
+        <deliveryPoint>Microbial Sciences Building Room 5525</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>Wisconsin</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <phone
+        phonetype="voice">6088902836</phone>
+      <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-7038-026X</userId>
+    </contact>
+    
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@edirepository.org</electronicMailAddress><onlineUrl>https://edirepository.org</onlineUrl><userId
+          directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>Water measurements were taken with handheld meters at the central deep hole of
+          Lake Mendota.</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Lake Mendota Microbial Observatory</title>
+      <personnel>
+        <individualName>
+          <givenName>Robin</givenName>
+          <givenName>R</givenName>
+          <surName>Rohwer</surName>
+        </individualName>
+        <electronicMailAddress>robin.rohwer@gmail.com</electronicMailAddress>
+        <userId
+          directory="https://orcid.org">0000-0002-2664-6489</userId>
+        <role>Postdoctoral Fellow</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Katherine</givenName>
+          <givenName>D</givenName>
+          <surName>McMahon</surName>
+        </individualName>
+        <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+        <userId
+            directory="https://orcid.org">0000-0002-7038-026X</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation DEB 0702395</funding>
+      <relatedProject>
+        <title>U.S. National Science Foundation INSPIRE award</title>
+        <personnel>
+          <individualName>
+            <givenName>Katherine</givenName>
+            <givenName>D</givenName>
+            <surName>McMahon</surName>
+          </individualName>
+          <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">0000-0002-7038-026X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>U.S. National Science Foundation INSPIRE award	NSF	DEB	1344254</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>National Institute of Food and Agriculture, U.S. Department of Agriculture, Hatch Projects	USDA	222656	WIS01516</title>
+        <personnel>
+          <individualName>
+            <givenName>Katherine</givenName>
+            <givenName>D</givenName>
+            <surName>McMahon</surName>
+          </individualName>
+          <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">0000-0002-7038-026X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Institute of Food and Agriculture, U.S. Department of Agriculture, Hatch Projects	USDA	222656	WIS01516</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>National Institute of Food and Agriculture, U.S. Department of Agriculture, Hatch Projects	USDA	1002996	WIS01789</title>
+        <personnel>
+          <individualName>
+            <givenName>Katherine</givenName>
+            <givenName>D</givenName>
+            <surName>McMahon</surName>
+          </individualName>
+          <electronicMailAddress>trina.mcmahon@wisc.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">0000-0002-7038-026X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Institute of Food and Agriculture, U.S. Department of Agriculture, Hatch Projects	USDA	1002996	WIS01789</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>E. Michael and Winona Foster WARF Wisconsin Idea Fellowship, 2018</title>
+        <personnel>
+          <individualName>
+            <givenName>Robin</givenName>
+            <givenName>R</givenName>
+            <surName>Rohwer</surName>
+          </individualName>
+          <organizationName>North Temperate Lakes LTER</organizationName>
+          <electronicMailAddress>robin.rohwer@gmail.com</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">0000-0002-2664-6489</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>E. Michael and Winona Foster WARF Wisconsin Idea Fellowship, 2018</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>U.S. National Science Foundation Postdoctoral Research Fellowship in Biology	NSF	DBI	2011002</title>
+        <personnel>
+          <individualName>
+            <givenName>Robin</givenName>
+            <givenName>R</givenName>
+            <surName>Rohwer</surName>
+          </individualName>
+          <organizationName>North Temperate Lakes LTER</organizationName>
+          <electronicMailAddress>robin.rohwer@gmail.com</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">0000-0002-2664-6489</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>U.S. National Science Foundation Postdoctoral Research Fellowship in Biology	NSF	DBI	2011002</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Comparative Study of a Suite of Lakes in Wisconsin</title>
+        <personnel>
+          <individualName>
+            <givenName>Stephen</givenName>
+            <surName>Carpenter</surName>
+          </individualName>
+          <userId
+            directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>National Science Foundation LTER 9632853</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Comparative Study of a Suite of Lakes in Wisconsin</title>
+        <personnel>
+          <individualName>
+            <givenName>Stephen</givenName>
+            <surName>Carpenter</surName>
+          </individualName>
+          <userId
+            directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>National Science Foundation LTER 0217533</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Comparative Study of a Suite of Lakes in Wisconsin</title>
+        <personnel>
+          <individualName>
+            <givenName>Emily</givenName>
+            <surName>Stanley</surName>
+          </individualName>
+          <userId
+            directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>National Science Foundation LTER 0822700</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Comparative Study of a Suite of Lakes in Wisconsin</title>
+        <personnel>
+          <individualName>
+            <givenName>Emily</givenName>
+            <surName>Stanley</surName>
+          </individualName>
+          <userId
+            directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>National Science Foundation LTER 1440297</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Comparative Study of a Suite of Lakes in Wisconsin</title>
+        <personnel>
+          <individualName>
+            <givenName>Emily</givenName>
+            <surName>Stanley</surName>
+          </individualName>
+          <userId
+      directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          <role>PI</role>
+        </personnel>
+        <funding>National Science Foundation LTER 2025982</funding>
+      </relatedProject>
+    </project>
+    <dataTable
+      id="d748c9a0f9ca5c25fd631f24073fba5c" scope="document"
+          system="https://pasta.edirepository.org">
+      <entityName>robin_MEMO_YSI-Poseidon_2014-2019</entityName>
+      <entityDescription>Physical and chemical data taken by routine Microbial Observatory sampling on Lake Mendota with a YSI Pro Plus instrument during years 2014-2019</entityDescription>
+      <physical>
+        <objectName>robin_MEMO_YSI-Poseidon_2014-2019.csv</objectName>
+        <size
+          unit="byte">307931</size>
+        <authentication
+              method="MD5">4f8340fa99701c32d5783601f9a1ca73</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/415/2/d748c9a0f9ca5c25fd631f24073fba5c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Day</attributeName>
+          <attributeLabel>Day</attributeLabel>
+          <attributeDefinition>Day of Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Day of Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of Day</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Hours</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Minute</attributeName>
+          <attributeLabel>Minute</attributeLabel>
+          <attributeDefinition>Minutes of Hour</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Minutes</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Second</attributeName>
+          <attributeLabel>Second</attributeLabel>
+          <attributeDefinition>Seconds of Minutes</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Seconds</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth.m</attributeName>
+          <attributeLabel>Depth.m</attributeLabel>
+          <attributeDefinition>Water Depth</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature.C</attributeName>
+          <attributeLabel>Temperature.C</attributeLabel>
+          <attributeDefinition>Water Temperature</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dissolved.Oxygen.mg.L</attributeName>
+          <attributeLabel>Dissolved.Oxygen.mg.L</attributeLabel>
+          <attributeDefinition>Dissolved Oxygen</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Instrument broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeLabel>pH</attributeLabel>
+          <attributeDefinition>water pH</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pH</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Instrument broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Specific.Conductance.uS.cm</attributeName>
+          <attributeLabel>Specific.Conductance.uS.cm</attributeLabel>
+          <attributeDefinition>Specific Conductance</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemens per centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Barometer.kPA</attributeName>
+          <attributeLabel>Barometer.kPA</attributeLabel>
+          <attributeDefinition>Barometric Pressure</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Unit.ID</attributeName>
+          <attributeLabel>Unit.ID</attributeLabel>
+          <attributeDefinition>Instrument name</attributeDefinition>
+          <storageType
+      typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Poseidon YSI Pro-Plus</code>
+                    <definition>Yellow Spring Instruments Pro-Plus handheld meter. Instrument used my Mendota Microbial observatory and internally named Poseidon.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Instrument used for collection not recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>4589</numberOfRecords>
+    </dataTable>
+    <dataTable
+      id="22da50a9bf813999c3e2987af86ca8e7" scope="document"
+          system="https://pasta.edirepository.org">
+      <entityName>robin_MEMO_non-Poseidon_water_temps</entityName>
+      <entityDescription>Lake Mendota Microbial Observatory water temperatures collected from a variety of sources</entityDescription>
+      <physical>
+        <objectName>robin_MEMO_non-Poseidon_water_temps.csv</objectName>
+        <size
+          unit="byte">212715</size>
+        <authentication
+              method="MD5">5dd2436cdbfadaf72824d1532cb1d6c8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/415/2/22da50a9bf813999c3e2987af86ca8e7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Day</attributeName>
+          <attributeLabel>Day</attributeLabel>
+          <attributeDefinition>Day of Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Day of Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of Day</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Hours</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Minute</attributeName>
+          <attributeLabel>Minute</attributeLabel>
+          <attributeDefinition>Minute of Hour</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Minutes</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth.m</attributeName>
+          <attributeLabel>Depth.m</attributeLabel>
+          <attributeDefinition>Water Depth</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Water.Temp.C</attributeName>
+          <attributeLabel>Water.Temp.C</attributeLabel>
+          <attributeDefinition>Water Temperature</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>People</attributeName>
+          <attributeLabel>People</attributeLabel>
+          <attributeDefinition>Sampling personel</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling personel</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Instrument</attributeName>
+          <attributeLabel>Instrument</attributeLabel>
+          <attributeDefinition>Instrument name</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+      enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Instrument not recorded</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EXO 2 Multiparameter Sonde</code>
+                    <definition>Yellow Springs Instruments multiparameter sonde EXO2 model</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HYDROLAB</code>
+                    <definition>Hydrolab sonde</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YSI MPS 556</code>
+                    <definition>Yellow Springs Instruments multiparameter sonde model 556</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YSI Pro Plus (Poseidon)</code>
+                    <definition>Yellow Spring Instruments Pro-Plus handheld meter. Instrument used by Mendota Microbial observatory and internally named Poseidon.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>nan</code>
+            <codeExplanation>Instrument used for collection not recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>4521</numberOfRecords>
+    </dataTable>
+    <dataTable
+      id="4c0fa94c12d7000aa8f7224882bd095e" scope="document"
+          system="https://pasta.edirepository.org">
+      <entityName>robin_MEMO_non-Poseidon_dissolved_oxygen</entityName>
+      <entityDescription>Lake Mendota Microbial Observatory dissolved oxygen measurements collected from a variety of sources</entityDescription>
+      <physical>
+        <objectName>robin_MEMO_non-Poseidon_dissolved_oxygen.csv</objectName>
+        <size
+          unit="byte">246756</size>
+        <authentication
+              method="MD5">c2c6c3bf02dfd8223a87041ba925d881</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/415/2/4c0fa94c12d7000aa8f7224882bd095e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Day</attributeName>
+          <attributeLabel>Day</attributeLabel>
+          <attributeDefinition>Day of Month</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Day of Month</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of Day</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Hours</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Minute</attributeName>
+          <attributeLabel>Minute</attributeLabel>
+          <attributeDefinition>Minute of Hour</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Minutes</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth.m</attributeName>
+          <attributeLabel>Depth.m</attributeLabel>
+          <attributeDefinition>Water Depth</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dissolved.Oxygen.mg.L</attributeName>
+          <attributeLabel>Dissolved.Oxygen.mg.L</attributeLabel>
+          <attributeDefinition>Dissolved Oxygen</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>People</attributeName>
+          <attributeLabel>People</attributeLabel>
+          <attributeDefinition>Sampling personel</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling personel</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Instrument</attributeName>
+          <attributeLabel>Instrument</attributeLabel>
+          <attributeDefinition>Instrument name</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Instrument not recorded</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HYDROLAB</code>
+                    <definition>Hydrolab sonde</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YSI MPS 556</code>
+                    <definition>Yellow Springs Instruments multiparameter sonde model 556</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YSI Pro Plus (Poseidon)</code>
+                    <definition>Yellow Spring Instruments Pro-Plus handheld meter. Instrument used by Mendota Microbial observatory and internally named Poseidon.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>nan</code>
+            <codeExplanation>Instrument used for collection not recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes.Dissolved.Oxygen</attributeName>
+          <attributeLabel>Notes.Dissolved.Oxygen</attributeLabel>
+          <attributeDefinition>Field Notes pertaining to Dissolved Oxygen Measurement</attributeDefinition>
+          <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Field Notes pertaining to Dissolved Oxygen Measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no notes recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>3989</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit
+          id="microsiemens per centimeter"
+          name="microsiemens per centimeter">
+          <description/>
+        </unit>
+        <unit
+          id="Year"
+          name="Year">
+          <description/>
+        </unit>
+        <unit
+          id="Month"
+          name="Month">
+          <description/>
+        </unit>
+        <unit
+          id="Day of Month"
+          name="Day of Month">
+          <description/>
+        </unit>
+        <unit
+          id="Hours"
+          name="Hours">
+          <description/>
+        </unit>
+        <unit
+          id="Minutes"
+          name="Minutes">
+          <description/>
+        </unit>
+        <unit
+          id="Seconds"
+          name="Seconds">
+          <description/>
+        </unit>
+        <unit
+          id="pH"
+        name="pH">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor
+        app="ezEML" release="2022.05.24"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,19 @@
+variable,definition,sensor_depth,flag_column,documented_codes
+avg_air_temp,average air temperature (2m above sfc),2 m above water,flag_avg_air_temp,"C,E,H"
+avg_rel_hum,average relative humidity (2m above sfc),2 m above water,flag_avg_rel_hum,"C,E"
+avg_wind_speed,daily average wind speed (3m above sfc),3 m above water,flag_avg_wind_speed,C
+avg_wind_dir,average of wind direction (3m above sfc),3 m above water,flag_avg_wind_dir,"C,H"
+avg_chlor_rfu_turner,"average of chlorophyll a (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019",0.5 m,flag_avg_chlor_rfu_turner,"C,H"
+avg_chlor_rfu_ysi,"average of chlorophyll a (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present",0.5 m,flag_avg_chlor_rfu_ysi,"C,H,E,G"
+avg_phyco_rfu_turner,"average of phycocyanin (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019",0.5 m,flag_avg_phyco_rfu_turner,"C,H"
+avg_phyco_rfu_ysi,"average of phycocyanin (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present",0.5 m,flag_avg_phyco_rfu_ysi,"C,H,E,G"
+avg_par,average photosynthetically active radiation (2m above water surface),2 m above water,flag_avg_par,"C,H"
+avg_par_below,average of photosynthetically active radiation (1m depth),1 m,flag_avg_par_below,"C,G"
+avg_do_wtemp,average of YSI water temp (0.5m depth),0.5 m,flag_avg_do_wtemp,"C,H"
+avg_do_sat,average of dissolved oxygen (% saturation) (0.5m depth),0.5 m,flag_avg_do_sat,"C,E,H"
+avg_do_raw,average of dissolved oxygen (mg/L) (0.5m depth),0.5 m,flag_avg_do_raw,"C,E,H"
+avg_pco2_ppm,average of CO2 (1m depth),1 m,flag_avg_pco2_ppm,"C,E"
+avg_ph,average of pH (0.5m depth),0.5 m,flag_avg_ph,C
+avg_fdom,average for fluorescent dissolved organic matter (fDOM) (0.5m depth),0.5 m,flag_avg_fdom,C
+avg_turbidity,average of turbidity (0.5m depth),0.5 m,flag_avg_turbidity,C
+avg_spec_cond,average of specific conductance (0.5m depth),0.5 m,flag_avg_spec_cond,"C,H"

@@ -1,0 +1,21 @@
+candidate,condition,status,candidate_verdict
+Buffalo Pound,Independent biological ground truth,"Supported for 2018-2019 (verified microscopy counts/biomass, 0.8 m)",CONDITIONAL
+Buffalo Pound,Defensible bloom-event and non-bloom evidence,Unresolved (2 seasons only; no defensible multi-event/non-bloom design established),CONDITIONAL
+Buffalo Pound,Adequate temporal resolution,Conditionally supported (10-min environmental; 25/17 bio dates),CONDITIONAL
+Buffalo Pound,Spatial and temporal alignment,Supported (all bio dates matched buoy days; 0.8 m match),CONDITIONAL
+Buffalo Pound,Fair false-alarm evaluation and leakage-resistant validation,Unresolved (too few seasons/events for matched-FAR held-out evaluation),CONDITIONAL
+Lake Mendota,Independent biological ground truth,Conditionally supported (metadata only; data bytes auth-blocked),CONDITIONAL (auth-blocked)
+Lake Mendota,Defensible bloom-event and non-bloom evidence,Unresolved,CONDITIONAL (auth-blocked)
+Lake Mendota,Adequate temporal resolution,Unresolved (metadata only),CONDITIONAL (auth-blocked)
+Lake Mendota,Spatial and temporal alignment,Unresolved,CONDITIONAL (auth-blocked)
+Lake Mendota,Fair false-alarm evaluation and leakage-resistant validation,Unresolved,CONDITIONAL (auth-blocked)
+Western Lake Erie,Independent biological ground truth,Unsupported as independent cell ground truth (pigments/toxins proxies; no cell counts described),CONDITIONAL (low)
+Western Lake Erie,Defensible bloom-event and non-bloom evidence,Unresolved,CONDITIONAL (low)
+Western Lake Erie,Adequate temporal resolution,Unresolved (discrete biological sampling),CONDITIONAL (low)
+Western Lake Erie,Spatial and temporal alignment,Unresolved,CONDITIONAL (low)
+Western Lake Erie,Fair false-alarm evaluation and leakage-resistant validation,Unresolved,CONDITIONAL (low)
+Greifensee,Independent biological ground truth,Unsupported as independent ground truth (classifier-derived),CONDITIONAL (exploratory only)
+Greifensee,Defensible bloom-event and non-bloom evidence,Unresolved,CONDITIONAL (exploratory only)
+Greifensee,Adequate temporal resolution,Supported (high-frequency),CONDITIONAL (exploratory only)
+Greifensee,Spatial and temporal alignment,Conditionally supported (3 m vs CTD),CONDITIONAL (exploratory only)
+Greifensee,Fair false-alarm evaluation and leakage-resistant validation,Unresolved,CONDITIONAL (exploratory only)

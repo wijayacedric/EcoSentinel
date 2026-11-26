@@ -1,0 +1,27 @@
+year,biology_dates,within_129_42_package_coverage,daily_sensor_records_verified,same_day_valid_verified,status,note
+1995,19,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+1996,16,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+1997,15,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+1998,13,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+1999,17,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2000,17,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2001,17,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2002,14,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2003,14,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2004,15,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2005,15,no,0,0,outside_metadata_coverage,Potential overlap only; no daily observations acquired.
+2006,16,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2007,17,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2008,14,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2009,15,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2010,15,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2011,14,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2012,17,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2013,14,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2014,13,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2015,15,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2016,15,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2017,16,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2018,18,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2019,16,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.
+2020,15,yes,0,0,BLOCKED_NO_DAILY_DATA,Potential overlap only; no daily observations acquired.

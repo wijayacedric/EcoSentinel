@@ -1,0 +1,37 @@
+id,domain,item,class,acquisition_route,importance,likelihood,effect_on_original_design,evidence_status
+B01,biological,WSA Buffalo Pound species-level cell counts and/or biovolume over 10+ years,3,Heather Sauer / Saskatchewan Water Security Agency,Critical,Unknown,"Could provide multi-year biology; if species-level and co-located, could support a limited EWS test",Lead only; no reply
+B02,biological,"WSA sample dates, times, depths, site coordinates, and method",3,WSA,Critical,Unknown,"Without time/depth/site, counts cannot be aligned to the buoy",Lead only
+B03,biological,"WSA laboratory QA/QC, detection limits, units, data dictionary",3,WSA,High,Unknown,Determines whether counts are usable and comparable across years,Lead only
+B04,biological,"WSA non-bloom, winter, and spring observations",3,WSA,Critical,Unknown,"Without non-events, false-alarm rates cannot be estimated",Lead only
+B05,biological,U Regina chlorophyll and HPLC pigment series,3,Peter Leavitt,Medium,Medium,Contextual/functional-group data; cannot substitute for microscopy biovolume,Lead only
+B06,biological,"City of Regina water-treatment plant phytoplankton composition, 1970s",3,Helen Baulch / City of Regina,Low-Medium,Unknown,Too old and too coarse for 2014-2021 sensor pairing; historical context only,Lead only
+B07,biological,U Saskatchewan paired high-frequency sensor and microscopy/biovolume data,3,Helen Baulch,High,Unknown,"If paired and multi-year, could be a new candidate system",Lead only
+B08,biological,Boyer 2017 raw biological data,3,Boyer/Higgins/Baulch; paper says available on reasonable request,High,Medium,"15 samples, one season; useful context, not sufficient alone",Paper data-availability statement
+B09,biological,"Müggelsee phytoplankton biovolume, 1979-ongoing",3,IGB Leibniz Institute; Sabine Hilt / Tom Shatwell,Critical,Medium,Strongest potential multi-decade independent biology for original EWS,Metadata inspected; data restricted
+B10,biological,"Müggelsee phytoplankton sampling cadence, depth, taxonomy, method",3,IGB,Critical,Medium,Determines whether onset can be bounded below the claimed lead time,Metadata incomplete
+B11,biological,"Lake Erken phytoplankton biomass, 1989-2011",2,Swedish research data repository,Medium,High,"Weekly species-level biology, but no verified overlap with high-frequency multivariate sensors",Open dataset identified
+B12,biological,"Lake Kasumigaura phytoplankton biovolume, 1978-2015",2,Japanese long-term programme,Medium,Unknown,Long biology; co-located high-frequency sensor pairing not verified,Data paper identified
+B13,biological,"Pre-specified, biologically justified bloom-event definition",4,Expert/scientific reviewer,Critical,Requires decision,"Without it, no event, lead time, or FAR can be defined",Not started
+B14,biological,Pre-specified non-bloom definition and exposure denominator,4,Expert/scientific reviewer,Critical,Requires decision,"Without it, false alarms cannot be counted",Not started
+E01,environmental,"Mendota per-record calibration, maintenance, and fouling history",3,NTL-LTER documentation/contacts,High,Low-Medium,Needed to interpret Turner/YSI values and QC flags,Not available in EML
+E02,environmental,Turner-YSI cross-calibration,3,NTL-LTER / instrument documentation,High,Low,"Without it, eras cannot be concatenated; 2019 transition remains a break",No crosswalk found
+E03,environmental,Buffalo Pound B7/fouling event log and overlap with high biomass,3,Painter/Baulch data custodians,High,Medium,Could bias pigment-biomass associations; sensitivity analysis required,Flag exists; overlap unquantified
+E04,environmental,Buffalo Pound sensor calibration and maintenance records,3,U Saskatchewan / WSA,High,Unknown,Needed to distinguish sensor artefacts from ecological change,Not documented locally
+E05,environmental,"Müggelsee high-frequency variable list, QC, and calibration",3,IGB,Critical,Medium,Required before any sensor-biology alignment,Not verified
+E06,environmental,WSA site co-location with the Buffalo Pound buoy,3,WSA,Critical,Unknown,"If samples are not near the buoy, pairing is not defensible",Lead only
+E07,environmental,Depth profiles at biological sampling sites,4,New field sampling,High,Low,Needed to resolve surface-vs-composite mismatch,Not available
+E08,environmental,Mendota raw hourly/1-minute sensor entities and within-day coverage,3,NTL-LTER EDI 129.42 entities,Medium-High,Medium,"Daily provider means lack within-day counts; raw data could quantify diel bias and representativeness, but would not fix 14-day biology",Not acquired
+D01,documentation,Buffalo Pound biomass conversion formula and density assumption,3,Painter paper/data custodian,High,Medium-High,Blocks P3/P4 as primary until verified,Partially verified
+D02,documentation,Buffalo Pound duplicate-row and REP semantics,3,Painter data deposit/custodian,High,Medium,Mean-before-sum may be wrong; changes endpoint,Unresolved
+D03,documentation,Explanation of 2019-07-17 low-biomass anomaly,3,Field/lab notes or authors,Medium,Low,Affects leverage and outlier handling,Unresolved
+D04,documentation,Mendota taxonomic crosswalk across 2008-2020 name changes,2/4,NTL-LTER taxonomy tables plus project crosswalk,Medium,High,Blocks species-level longitudinal claims; division-level total remains usable,Known issue
+D05,documentation,Mendota station and depth metadata for blank-station dates,3,NTL-LTER,Medium,Low-Medium,Affects spatial representativeness,371/402 blank
+D06,documentation,Consistent QC flag definitions and missingness semantics,2,Provider documentation,Medium,Medium,Affects Stage 1 n and bias,Partially documented
+D07,documentation,Licence and permitted-use review for competition/publication,1,Project owner/legal review,High,High,CC BY-NC-SA and other terms must be respected,Not completed
+D08,documentation,Actual usable n after QC and eligibility rules,2,Count-only audit,High,High after approval,Determines whether Stage 1 is interpretable,Not calculated
+D09,documentation,Event labels for any future EWS evaluation,4,Expert adjudication,Critical,Requires new work,"Without labels, no EWS metric is estimable",Not started
+X01,external,Reply from Heather Sauer on WSA cell counts,6,Existing email thread,Critical,Unknown,Could unlock or close the Buffalo Pound multi-year path,No reply yet
+X02,external,Replies from Peter Leavitt / Helen Baulch on metadata,6,Existing thread,High,Medium,"Clarifies U Regina, City, and USask assets",Leavitt replied; others pending
+X03,external,Müggelsee data-access decision,3,IGB data request,Critical,Medium,"If granted, could make Stage 2 feasible",Not requested
+X04,external,"SciFest 2027 date, rules, and eligibility",2,Official competition documentation,High,High,Determines whether a field season is possible,Not verified in repo
+X05,external,"Field site, equipment, microscope/lab supervision, permits",4,School/university partner,High,Unknown,Required for any field-study pivot,Not documented

@@ -1,0 +1,21 @@
+field,eml_definition,unit_or_type,role,expected_flag_codes,raw_header_verified
+year4,Four-digit year,nominalYear,date,No,NO_RAW_DAILY_FILE
+sampledate,Sample Date,date,date,No,NO_RAW_DAILY_FILE
+avg_air_temp,average air temperature (2m above sfc),celsius,meteorology,C;E;H,NO_RAW_DAILY_FILE
+avg_rel_hum,average relative humidity (2m above sfc),percent,meteorology,C;E,NO_RAW_DAILY_FILE
+avg_wind_speed,daily average wind speed (3m above sfc),meterPerSecond,meteorology,C,NO_RAW_DAILY_FILE
+avg_wind_dir,average wind direction (3m above sfc),degree,meteorology,C;H,NO_RAW_DAILY_FILE
+avg_chlor_rfu_turner,"chlorophyll a RFU, 0.5m, Turner Cyclops 7, 2006-2019",RFU,biological proxy,C;H,NO_RAW_DAILY_FILE
+avg_chlor_rfu_ysi,"chlorophyll a RFU, 0.5m, YSI EXO2, 2019-present",RFU,biological proxy,C;H;E;G,NO_RAW_DAILY_FILE
+avg_phyco_rfu_turner,"phycocyanin RFU, 0.5m, Turner Cyclops 7, 2006-2019",RFU,biological proxy,C;H,NO_RAW_DAILY_FILE
+avg_phyco_rfu_ysi,"phycocyanin RFU, 0.5m, YSI EXO2, 2019-present",RFU,biological proxy,C;H;E;G,NO_RAW_DAILY_FILE
+avg_par,PAR above water (2m),micromolePerMeterSquaredPerSecond,light,C;H,NO_RAW_DAILY_FILE
+avg_par_below,PAR below water (1m),micromolePerMeterSquaredPerSecond,light,C;G,NO_RAW_DAILY_FILE
+avg_do_wtemp,"water temperature, YSI DO sensor (0.5m)",celsius,water temperature,C;H,NO_RAW_DAILY_FILE
+avg_do_sat,DO % saturation (0.5m),percent,DO,C;E;H,NO_RAW_DAILY_FILE
+avg_do_raw,DO mg/L (0.5m),milligramPerLiter,DO,C;E;H,NO_RAW_DAILY_FILE
+avg_pco2_ppm,CO2 (1m),ppm (not explicit in EML),carbon,C;E,NO_RAW_DAILY_FILE
+avg_ph,pH (0.5m),dimensionless,pH,C,NO_RAW_DAILY_FILE
+avg_fdom,fDOM (0.5m),RFU/ppb QSU (not explicit in EML),optical proxy,C,NO_RAW_DAILY_FILE
+avg_turbidity,turbidity (0.5m),FNU (not explicit in EML),optical,C,NO_RAW_DAILY_FILE
+avg_spec_cond,specific conductance (0.5m),uS/cm (not explicit in EML),conductivity,C;H,NO_RAW_DAILY_FILE

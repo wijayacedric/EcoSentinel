@@ -1,0 +1,37 @@
+Column number,Variable,Unit ,Explanation
+1,date_round,,"Date and time of sampling, rounded to the beginning of the nearest month. Where two measurements were rounded to the same date, all parameters were averaged between the two"
+2,dens_phytos,log(cells per mL),Log(Phytoplankton cell density) in cleaned Cytobuoy data
+3,dens_cyanos,log(cells per mL),Log(Cyanobacteria cell density) in cleaned Cytobuoy data
+4,dens_euks,log(cells per mL),Log(Eukaryote cell density) in cleaned Cytobuoy data
+5,cyano_percent,,Cyanobacterial proportion of the phytoplankton community (by cell number)
+6,dens_zoo,individuals per L,Density of all zooplankton
+7,dens_zoo_small,individuals per L,Density of small zooplankton
+8,dens_zoo_medium,individuals per L,Density of medium-sized zooplankton
+9,dens_zoo_large,individuals per L,Density of large-sized zooplankton
+10,dens_zoo_carnivores,individuals per L,"Density of the largest zooplankton, all carnivorous"
+11,irradiance,uE.m-2.s-1,"Mean surface irradiance for the whole month, estimated from a publically available dataset (Schulz et al. 2008, Müller et al. 2015)"
+12,temperature_max,degrees C,Maximum temperature in the water column
+13,O2_max,mg.L-1,Maximum oxygen concentration in the water column
+14,conductivity_max,uS.cm-1,Maximum conductivity in the water column
+15,pH_max,,Maximum pH in the water column
+16,NH4_N_max,mg N.L-1,Maximum ammonia concentration in the water column
+17,NO2_N_max,mg N.L-1,Maximum nitrite concentration in the water column
+18,NO3_N_max,mg N.L-1,Maximum nitrate concentration in the water column
+19,PO4_P_max,mg P.L-1,Maximum phosphate concentration in the water column
+20,POC_max,mg C.L-1,Maximum particulate organic cabron concentration in the water column
+21,Cl_max,mg.L-1,Maximum chloride concentration in the water column
+22,Mg_max,mg.L-1,Maximum magnesium concentration in the water column
+23,npratio_max,,Maximum nitrogen to phosphorus ratio in the water column
+24,temperature_min,degrees C,Minimum temperature in the water column
+25,O2_min,mg.L-1,Minimum oxygen concentration in the water column
+26,conductivity_min,uS.cm-1,Minimum conductivity in the water column
+27,pH_min,,Minimum pH in the water column
+28,NH4_N_min,mg N.L-1,Minimum ammonia concentration in the water column
+29,NO2_N_min,mg N.L-1,Minimum nitrite concentration in the water column
+30,NO3_N_min,mg N.L-1,Minimum nitrate concentration in the water column
+31,PO4_P_min,mg P.L-1,Minimum phosphate concentration in the water column
+32,POC_min,mg C.L-1,Minimum particulate organic cabron concentration in the water column
+33,Cl_min,mg.L-1,Minimum chloride concentration in the water column
+34,Mg_min,mg.L-1,Minimum magnesium concentration in the water column
+35,npratio_min,,Minimum nitrogen to phosphorus ratio in the water column
+36,thermocline_depth,metres,"Depth of the thermocline, estimated from the temperature profile of the water column"

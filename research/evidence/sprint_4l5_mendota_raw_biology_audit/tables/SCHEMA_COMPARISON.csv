@@ -1,0 +1,16 @@
+expected_column,actual_column,match
+lakeid,lakeid,True
+year4,year4,True
+sampledate,sampledate,True
+sta,sta,True
+depth_range,depth_range,True
+division,division,True
+taxa_name,taxa_name,True
+gald,gald,True
+cells_per_nu,cells_per_nu,True
+nu_per_ml,nu_per_ml,True
+cells_per_ml,cells_per_ml,True
+biovolume_conc,biovolume_conc,True
+biomass_conc,biomass_conc,True
+relative_total_biovolume,relative_total_biovolume,True
+genus,genus,True

@@ -1,0 +1,2 @@
+source_id,sample_id,replicate_id,sample_date,sample_time,location,latitude,longitude,depth_m,taxon_name,biomass,biomass_unit,qualifier,detection_limit,method,qa_flag,notes
+EXAMPLE_SOURCE,SYNTH-001,REP1,2000-01-01,12:00,EXAMPLE LOCATION,0.0,0.0,0.5,Example taxon,1.23,mg/m3,,,"synthetic test fixture","OK","SYNTHETIC FIXTURE - NOT RESEARCH EVIDENCE"

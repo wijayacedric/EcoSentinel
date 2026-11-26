@@ -1,0 +1,44 @@
+id,source,path_or_url,type,inspected,use
+S01,`AGENTS.md`,`/Users/cedricbw/Documents/EcoSentinel/AGENTS.md`,Governance,Full,Project-wide research/evidence rules
+S02,`README.md`,`/Users/cedricbw/Documents/EcoSentinel/README.md`,Project overview,Full,Research question; primary dataset; standards
+S03,`SCIENTIFIC_PROTOCOL_DRAFT.md`,`documentation/SCIENTIFIC_PROTOCOL_DRAFT.md`,Protocol draft,Full,Proposed definitions; unresolved decisions
+S04,Sprint 4L.10 final decision,`research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/FINAL_DATASET_DECISION.md`,Project decision,Full,Mendota retain limited/reject validation
+S05,Sprint 4L.10 executive/verdicts,`research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/`,Project evidence,Full,"Joint coverage, limitations, verdicts A–D"
+S06,Sprint 4L.9 raw sensor audit,`research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/`,Project evidence,Full,"Sensor coverage, QC, biology overlap"
+S07,Sprint 4L.5/4L.6 biology audits,"`research/evidence/sprint_4l5_mendota_raw_biology_audit/`, `.../sprint_4l6_codex_independent_raw_biology_audit/`",Project evidence,Full,"Endpoint, taxonomy, depth, anomalies"
+S08,Sprint 4F Buffalo Pound stress test,`research/evidence/sprint_4f_buffalo_pound_stress_test/`,Project evidence,Full,"42 dates, 2 seasons, no non-bloom, data-quality failure"
+S09,Sprint 4H researcher response readiness,`research/evidence/sprint_4h_researcher_response_readiness/`,Project evidence,Full,Pending status; response framework; no confirmed data
+S10,Gate 2 integrated assessment,`research/reports/GATE2_2017_2019_INTEGRATED_EVIDENCE_ASSESSMENT.md`,Project evidence,Full,0 events; no exposure; exploratory-only
+S11,Gate 2F institutional inventory,`research/reports/GATE2F_COMPREHENSIVE_INSTITUTIONAL_EVIDENCE_INVENTORY.md`,Project evidence,Full,No new public biological dataset
+S12,Gate 2G methods/decisions,`research/reports/GATE2G_METHODS_AND_DECISIONS_REGISTER.md`,Project evidence,Full,Unresolved event/exposure/FAR decisions
+S13,Gate 2H methodological limitations,`research/reports/GATE2H_METHODOLOGICAL_LIMITATIONS.md`,Project evidence,Full,Synthetic only; no real labels
+S14,Competition-level critical assessment,`research/reports/COMPETITION_LEVEL_CRITICAL_ASSESSMENT.md`,Project evidence,Full,Competition risks; no confirmatory claim
+S15,Scientific weakness/opportunity register,`research/reports/SCIENTIFIC_WEAKNESS_AND_OPPORTUNITY_REGISTER.md`,Project evidence,Full,P0–P3 weaknesses; no labels/exposure
+S16,Independent devil’s advocate review,`research/reports/INDEPENDENT_DEVILS_ADVOCATE_REVIEW.md`,Project evidence,Full,"Confounding, leakage, circularity"
+S17,Literature investigation: executive assessment,`research/exports/claude_scientific_review/EXECUTIVE_SCIENTIFIC_ASSESSMENT.md`,Project literature audit,Full,Plausible but unproven/not original
+S18,Originality/gap assessment,`research/exports/claude_scientific_review/ORIGINALITY_AND_RESEARCH_GAP_ASSESSMENT.md`,Project literature audit,Full,Candidate gaps; originality unproven
+S19,Comparator audit,`research/exports/claude_scientific_review/COMPARATOR_AUDIT_EXECUTIVE_REPORT.md`,Project literature audit,Full,Recknagel/Fournier/Rousso close comparators
+S20,Recknagel 2025 audit,`research/exports/claude_scientific_review/RECKNAGEL_2025_FULL_TEXT_AUDIT.md`,Literature audit,Abstract/metadata; full 403,5-day-ahead CyanoHAB ML early warning
+S21,Fournier 2024 audit,`research/exports/claude_scientific_review/FOURNIER_2024_FULL_TEXT_AUDIT.md`,Literature audit,Abstract/metadata; full 403,LSTM PC-alarm forecasting 4–28 days
+S22,Rousso 2020 audit,`research/exports/claude_scientific_review/ROUSSO_2020_FULL_TEXT_AUDIT.md`,Literature audit,Abstract/metadata; full 403,Systematic review of CyanoHAB forecasting
+S23,Buelo et al. 2022,https://doi.org/10.1002/eap.2616,Peer-reviewed primary,Abstract/excerpts + analysis code; publisher 403,EWS for algal blooms; TPR/FPR; SD vs AR1
+S24,Gsell et al. 2016,https://pmc.ncbi.nlm.nih.gov/articles/PMC5167183/,Peer-reviewed primary,Full PMC,44% EWI failure; low agreement; need mechanism knowledge
+S25,O’Brien et al. 2023,https://www.nature.com/articles/s41467-023-43744-8,Peer-reviewed primary,Full HTML,Empirical EWS often poor; Mendota included
+S26,Weinans et al. 2021,https://www.nature.com/articles/s41598-021-87839-y,Peer-reviewed methods,Full HTML,No single multivariate indicator best; subset/noise/resolution limits
+S27,Pace et al. 2016,https://pmc.ncbi.nlm.nih.gov/articles/PMC5240694/,Peer-reviewed primary,Full PMC,Whole-lake EWS; 17-day warning; controlled enrichment
+S28,Wilkinson et al. 2018,https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecm.1286,Peer-reviewed primary,Abstract/search-index; full 403,EWS 1–57/61 days before blooms; multiple whole-lake experiments
+S29,Carpenter et al. 2020,https://hero.epa.gov/reference/6326336/,Peer-reviewed primary,Abstract/metadata; full 403,Mendota 1-min phycocyanin; alternative states; 1–15-day correlations
+S30,Carpenter et al. 2022,https://pmc.ncbi.nlm.nih.gov/articles/PMC9860325/,Peer-reviewed primary,Full PMC,Mendota daily phycocyanin; nighttime means; sensor changes; lags
+S31,Cotterill et al. 2019,https://www.tandfonline.com/doi/full/10.1080/00288330.2019.1617322,Peer-reviewed primary,Abstract; full 403,Phycocyanin–biovolume weak/variable; detection limits
+S32,Levi et al. 2025,https://pmc.ncbi.nlm.nih.gov/articles/PMC11195624/,Peer-reviewed primary,Full PMC,Sensor calibration/biofouling/composition; nighttime; HF events
+S33,USGS TM1-D10,https://pubs.usgs.gov/publication/tm1D10/full,Authoritative guidance,Full HTML,RFU proxy; sensor-specific; quenching; QA
+S34,Beal et al. 2021,https://www.sciencedirect.com/science/article/pii/S156898832100130X,Peer-reviewed primary,Search-indexed/4L.6; full 403,Mendota two-month cyanobacteria forecast
+S35,Beal et al. 2022,https://doi.org/10.1080/10402381.2022.2084799,Peer-reviewed primary,Search-indexed/4L.6; full 403,Mendota season-ahead forecast
+S36,Painter et al. 2022,https://doi.org/10.1039/D2EM00078D; Borealis 10.5683/SP3/MP6NXF,Peer-reviewed primary + data,Full project audit,Buffalo Pound 2018/2019 microscopy; 42 dates
+S37,Painter et al. 2023,https://doi.org/10.1002/ecs2.4472,Peer-reviewed primary,Metadata/abstract; project evidence,Non-independent buoy phycocyanin classification
+S38,Boyer et al. 2025,https://doi.org/10.1111/fwb.70131,Peer-reviewed primary,Full text via prior project evidence; SI unavailable,2017 Buffalo Pound biology; phase boundaries mixed
+S39,Baulch et al. 2025,https://doi.org/10.1016/j.dib.2025.112290,Data paper,Metadata/context,Buffalo Pound buoy dataset limitations
+S40,Institutional response tracker,`research/evidence/gate2g/data_intake/templates/institutional_response_tracking_template.csv`,Project record,Full,No response recorded; pending/unknown
+S41,Buffalo Pound comparison matrix,`research/evidence/sprint_4h_researcher_response_readiness/UPDATED_DATASET_COMPARISON_MATRIX.csv`,Project record,Full,Additional data not assumed; 2 seasons
+S42,Gate 2 requirement tracker,`research/evidence/sprint_4h_researcher_response_readiness/GATE2_REQUIREMENT_TRACKER.csv`,Project record,Full,Requirements not met
+S43,Schedule Recovery Sprint 2 institutional evidence status,`research/reports/schedule_recovery_sprint_2/INSTITUTIONAL_EVIDENCE_STATUS.md`,Project record,Full,Requests reported sent by user; repo lacks send/confirmation/response

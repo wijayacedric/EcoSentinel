@@ -1,0 +1,5 @@
+entity_name,entity_id,url,size_bytes,checksum,checksum_algorithm,format
+North Temperate Lakes LTER: Daily Meteorological and Metabolism Data - Lake Mendota,cba9ed12834b8f315d6b10675bb60c5a,https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/cba9ed12834b8f315d6b10675bb60c5a,490187,,,
+North Temperate Lakes LTER: Hourly Meteorological and Metabolism Data - Lake Mendota,72494d432fe1e977f5326100a733cece,https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/72494d432fe1e977f5326100a733cece,11380329,,,
+North Temperate Lakes LTER: High Resolution Meteorological and Metabolism Data - Lake Mendota,af29c64a7de5ad797b5709b5f7718cb9,https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/af29c64a7de5ad797b5709b5f7718cb9,682487953,,,
+List of sensors used on the Lake Mendota buoy since 2006,edddc490dfd553c4c4b9e5d4b86eb2eb,https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/edddc490dfd553c4c4b9e5d4b86eb2eb,1039,,,

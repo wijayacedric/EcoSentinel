@@ -1,0 +1,6 @@
+dataset,licence,source,reuse_compatible,notes
+Buffalo Pound buoy (FRDR 10.20383/103.01100),CC BY 4.0,LICENSE.txt + README.txt (verified local),yes with attribution,Verified.
+Painter et al. 2022 Borealis 10.5683/SP3/MP6NXF,CC BY-NC-SA 4.0,Borealis metadata/prior sprint record,conditional - non-commercial + share-alike,Human licence review required for project use; no redistribution.
+NTL-LTER Mendota 88.31/129/130/415,CC BY (per NTL all-data page),https://lter.limnology.wisc.edu/all-data/ (corroborated; package-level not file-verified),likely yes with attribution,Package-level licence text not retrieved due auth block.
+Western Lake Erie GLERL/CIGLR,NCEI open access (unverified); ESSD paper CC BY 4.0,NCEI (blocked); ESSD article page,unresolved,No raw files/licence retrieved.
+Greifensee ERIC 000C2G/000C8P,CC-BY (000C8P CKAN) vs prior CC0 note; 000C2G unresolved,ERIC metadata prior sprints,conditional - human review,Discrepancy documented in prior sprints.

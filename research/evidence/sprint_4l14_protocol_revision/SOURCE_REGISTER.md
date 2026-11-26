@@ -1,0 +1,102 @@
+# Sprint 4L.14 Source Register
+
+**Status:** PROPOSED — NOT APPROVED  
+**Gate 2:** PAUSED / NOT APPROVED — Option C (Exploratory Only)  
+**Date:** 2026-11-24
+
+| ID | Source | Year | Type | DOI / URL | Access | Quality | Relevance |
+|---|---|---|---|---|---|---|---|
+| S01 | `AGENTS.md` | 2026 | Governance | Local file | Full | Project rule | Mandatory research/evidence standards |
+| S02 | Sprint 4L.12 protocol package | 2026 | Protocol | Local directory | Full | Project protocol | Original proposed protocol |
+| S03 | Sprint 4L.13 review package | 2026 | Review | Local directory | Full | Project review | Independent challenge |
+| S04 | 4L.13 `FINAL_REVIEW_RECOMMENDATION.md` | 2026 | Review | Local file | Full | Project review | READY AFTER SPECIFIC REVISIONS |
+| S05 | 4L.13 `REQUIRED_PROTOCOL_REVISIONS.md` | 2026 | Review | Local file | Full | Project review | R-01–R-12 |
+| S06 | 4L.13 `HUMAN_DECISION_REGISTER.md` | 2026 | Review | Local file | Full | Project review | Decision evidence |
+| S07 | 4L.11 `FINAL_STRATEGIC_RECOMMENDATION.md` | 2026 | Decision | Local file | Full | Project decision | CONTINUE — NARROWED |
+| S08 | 4L.10 `FINAL_DATASET_DECISION.md` | 2026 | Decision | Local file | Full | Project decision | Mendota retain/reject |
+| S09 | 4L.9 raw sensor audit | 2026 | Evidence | Local directory | Full | Project evidence | Sensor QC/coverage |
+| S10 | 4L.5/4L.6 biology audits | 2026 | Evidence | Local directory | Full | Project evidence | Endpoint/taxonomy/depth |
+| S11 | 4F Buffalo Pound stress test | 2026 | Evidence | Local directory | Full | Project evidence | 42 dates; QC |
+| S12 | Gate 2F/G/H reports | 2026 | Evidence | Local files | Full | Project evidence | Dataset status; anomaly |
+| S13 | 4H researcher response readiness | 2026 | Evidence | Local directory | Full | Project evidence | Pending status |
+| S14 | EDI `knb-lter-ntl.129.42` EML | 2026 | Metadata | https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-ntl.129.42 | Full | Primary metadata | Mendota sensor schema/flags |
+| S15 | EDI 129.42 daily CSV | 2026 | Dataset | Local file | Full | Primary data | Mendota daily sensor |
+| S16 | EDI `knb-lter-ntl.88.31` EML | 2022 | Metadata | https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-ntl.88.31 | Full | Primary metadata | Mendota microscopy methods |
+| S17 | NTL 88.31 CSV | 2022 | Dataset | Local file | Full | Primary data | Mendota counts/biovolume |
+| S18 | FRDR BP README/data_flags | 2025 | Metadata | https://doi.org/10.20383/103.01100 | Full | Primary metadata | Sensor specs/flags |
+| S19 | FRDR BP annual CSVs | 2025 | Dataset | Local files | Full | Primary data | Buoy 2014–2021 |
+| S20 | Painter et al. 2022 Borealis dataset | 2022 | Dataset | https://doi.org/10.5683/SP3/MP6NXF | Full (project download) | Primary data | BP microscopy 2018–2019 |
+| S21 | Baulch et al. 2025, *Data in Brief* 63:112290 | 2025 | Data paper | https://doi.org/10.1016/j.dib.2025.112290 | Full (PMC) | Peer-reviewed | BP sensor specs/QC |
+| S22 | Painter et al. 2022, *ESPI* 24(8):1212–1227 | 2022 | Peer-reviewed | https://doi.org/10.1039/D2EM00078D | Abstract/README; RSC 403 | Primary study | BP bloom phases; biomass context |
+| S23 | RSC supplementary info for Painter 2022 | 2022 | Supplement metadata | https://pubs.rsc.org/em/article-supplement/767513/pdf/d2em00078d1_suppl/ | Metadata/search snippet | Primary supplement | Biomass units/context |
+| S24 | `biogeochem/buffalopound_blooms` GitHub repo | 2022 | Code/README | https://github.com/biogeochem/buffalopound_blooms | Full code/README | Primary project repo | Data structure; biomass columns; code |
+| S25 | Local BP taxonomy files | 2022 | Dataset | Local files | Full | Primary data | `Biomass_mg_m3`, `Cell_Volume_um3`, `Cell_Density_L`; formula check |
+| S26 | NTL-LTER Mendota buoy page | 2026 | Metadata | https://lter.limnology.wisc.edu/dataset/north-temperate-lakes-lter-high-frequency-data-meteorological-dissolved-oxygen-chlorophyll-p | Full HTML | Primary metadata | Sensor history/era |
+| S27 | Hartmann et al. 2019, *Aquatic Sciences* 81:19 | 2019 | Peer-reviewed | https://doi.org/10.1007/s00027-018-0608-x | Abstract | Primary study | FluoroProbe vs microscopy; group bias |
+| S28 | Bowling et al. 2016, *Water Research* 105:22–33 | 2016 | Peer-reviewed | https://doi.org/10.1016/j.watres.2016.08.051 | Abstract | Primary study | YSI EXO2 PC vs biovolume; taxon dependence |
+| S29 | Hodges et al. 2018, *ESPR* 25(2):1079–1088 | 2018 | Peer-reviewed | https://doi.org/10.1007/s11356-017-0473-5 | Abstract | Primary study | Five sensors; weak field PC–biovolume |
+| S30 | Thomson-Laing et al. 2020, *Harmful Algae* 97:101869 | 2020 | Peer-reviewed | https://doi.org/10.1016/j.hal.2020.101869 | Abstract | Primary study | Strong overall; lake-specific 0.06–0.90 |
+| S31 | Rogora et al. 2023, *Frontiers in Environmental Science* 10:1058515 | 2023 | Peer-reviewed | https://doi.org/10.3389/fenvs.2022.1058515 | Full HTML | Primary study | Cyclops7 vs 0–20 m; R²=0.72; composition |
+| S32 | USGS SIR 2024-5010 | 2024 | Peer-reviewed report | https://doi.org/10.3133/sir20245010 | Full XML | Authoritative/primary | PC–cyanobacteria biovolume not significant |
+| S33 | Kovalenko et al. 2026, *L&O Methods* 24:e70033 | 2026 | Peer-reviewed | https://doi.org/10.1002/lom3.70033 | Abstract | Primary study | Group-specific weak; seasonal |
+| S34 | Cotterill et al. 2019, *NZ J Mar Freshw Res* 53(4):555–570 | 2019 | Peer-reviewed | https://doi.org/10.1080/00288330.2019.1617322 | Abstract | Primary study | PC–biovolume weak/variable <R²0.4 |
+| S35 | Levi et al. 2025, *Open Research Europe* | 2025 | Peer-reviewed | https://doi.org/10.12688/openreseurope.17146.3 | Full PMC (prior) | Primary study | Calibration/fouling/composition |
+| S36 | Rousso et al. 2021, *Water Research* 198:117133 | 2021 | Peer-reviewed | https://doi.org/10.1016/j.watres.2021.117133 | Abstract/metadata | Primary study | Quenching 79% chl, 59% PC |
+| S37 | Bertone et al. 2018, *Water Research* 141:152–162 | 2018 | Review | https://doi.org/10.1016/j.watres.2018.05.001 | Abstract/metadata | Review | Calibration/turbidity/composition |
+| S38 | Bertone et al. 2019, *Harmful Algae* 87:101625 | 2019 | Peer-reviewed | https://doi.org/10.1016/j.hal.2019.101625 | Abstract/metadata | Primary study | Species-specific accuracy |
+| S39 | Ma et al. 2023, *Environ Monit Assess* 195:1042 | 2023 | Peer-reviewed | https://doi.org/10.1007/s10661-023-11657-0 | Full PMC | Primary study | 93-fold daily variation; R=0.73 high-risk; no correlation low-risk |
+| S40 | Rozina et al. 2018, *Acta Biologica Slovenica* 61(2):29–37 | 2018 | Peer-reviewed | https://doi.org/10.14720/abs.61.2.15891 | Abstract | Primary study | High CHL/PC–biovolume correlation; false positives |
+| S41 | Haggard et al. 2023, *J Contemp Water Res Educ* 177:63–71 | 2023 | Peer-reviewed | https://doi.org/10.1111/j.1936-704X.2022.3381.x | Abstract | Primary study | RFU thresholds vs microcystin |
+| S42 | USGS SIR 2022-5103 | 2022 | Technical report | https://doi.org/10.3133/sir20225103 | Full XML | Authoritative | PhytoFind overestimated chlorophyll |
+| S43 | Carpenter et al. 2020, *L&O Letters* 5(5):331–336 | 2020 | Peer-reviewed | https://doi.org/10.1002/lol2.10152 | Abstract/metadata | Primary study | Mendota HF PC; alternative states |
+| S44 | Carpenter et al. 2022, *PNAS* 119(48):e2214343119 | 2022 | Peer-reviewed | https://doi.org/10.1073/pnas.2214343119 | Full PMC (prior) | Primary study | Mendota HF PC; lags/extremes |
+| S45 | Beal et al. 2022/2023, *Lake and Reservoir Management* 39(1):37–52 | 2023 | Peer-reviewed | https://doi.org/10.1080/10402381.2022.2084799 | Search-indexed (prior) | Primary study | Mendota season-ahead forecast |
+| S46 | Gsell et al. 2016, *PNAS* 113(50) | 2016 | Peer-reviewed | https://doi.org/10.1073/pnas.1608242113 | Full PMC (prior) | Primary study | 44% EWI failure |
+| S47 | O'Brien et al. 2023, *Nature Communications* 14 | 2023 | Peer-reviewed | https://doi.org/10.1038/s41467-023-43744-8 | Full HTML (prior) | Primary study | Most EWS not better than chance |
+| S48 | Weinans et al. 2021, *Scientific Reports* 11 | 2021 | Peer-reviewed | https://doi.org/10.1038/s41598-021-87839-y | Full HTML (prior) | Primary study | Multivariate indicators scenario-dependent |
+| S49 | Buelo et al. 2022, *Ecological Applications* 32(5):e2616 | 2022 | Peer-reviewed | https://doi.org/10.1002/eap.2616 | Abstract/excerpts + code (prior) | Primary study | Algal-bloom EWS TPR/FPR |
+| S50 | Recknagel et al. 2025, *Water Research* 287:124514 | 2025 | Peer-reviewed | https://doi.org/10.1016/j.watres.2025.124514 | Abstract/metadata (prior) | Primary study | HF + ML 5-day hazard |
+| S51 | Fournier et al. 2024, *Water Research* 267:122553 | 2024 | Peer-reviewed | https://doi.org/10.1016/j.watres.2024.122553 | Abstract/metadata (prior) | Primary study | LSTM PC forecasting |
+| S52 | Zamyadi et al. 2016, *TrAC* 85:83–96 | 2016 | Review | https://doi.org/10.1016/j.trac.2016.06.023 | Abstract/metadata | Review | Real-time monitoring technologies |
+| S53 | Ma et al. 2022, *Water* 14(22):3749 | 2022 | Peer-reviewed | https://doi.org/10.3390/w14223749 | Abstract/metadata | Primary study | Online PC interpretation factors |
+| S54 | Felip & Catalan 2000, *J Plankton Research* 22(1):91–106 | 2000 | Peer-reviewed | https://doi.org/10.1093/plankt/22.1.91 | Abstract/metadata | Primary study | Chlorophyll–biovolume decoupling |
+| S55 | Painter et al. 2023, *Ecosphere* 14(3):e4472 | 2023 | Peer-reviewed | https://doi.org/10.1002/ecs2.4472 | Metadata/abstract (prior) | Primary study | BP blooms/flows |
+| S56 | Boyer et al. 2025, *Freshwater Biology* 70(11) | 2025 | Peer-reviewed | https://doi.org/10.1111/fwb.70131 | Full text (prior project) | Primary study | BP 2017 bloom/N fixation |
+| S57 | Cameron, Gelbach & Miller 2008, *REStat* 90(3):414–427 | 2008 | Methods | https://doi.org/10.1162/rest.90.3.414 | Abstract/metadata | Peer-reviewed methods | Few-cluster bootstrap |
+| S58 | Field & Welsh 2007, *JRSS B* 69(3):369–390 | 2007 | Methods | https://doi.org/10.1111/j.1467-9868.2007.00593.x | Abstract/metadata | Peer-reviewed methods | Clustered bootstrap |
+| S59 | MacKinnon, Nielsen & Webb 2023, *J Econometrics* 232:272–299 | 2023 | Methods | https://doi.org/10.1016/j.jeconom.2022.04.001 | Abstract/metadata | Peer-reviewed methods | Cluster-robust inference |
+| S60 | Politis & Romano 1994, *JASA* 89(428):1303–1313 | 1994 | Methods | https://doi.org/10.1080/01621459.1994.10476870 | Abstract/metadata | Peer-reviewed methods | Stationary bootstrap |
+| S61 | Künsch 1989, *Annals of Statistics* 17(3):1217–1241 | 1989 | Methods | https://doi.org/10.1214/aos/1176347265 | Abstract/metadata | Peer-reviewed methods | Block bootstrap |
+| S62 | Ólafsdóttir & Mudelsee 2014, *Mathematical Geosciences* 46(4):411–427 | 2014 | Methods | https://doi.org/10.1007/s11004-014-9523-4 | Abstract/metadata | Peer-reviewed methods | Correlation bootstrap for time series |
+| S63 | Pyper & Peterman 1998, *CJ FAS* 55(9):2127–2140 | 1998 | Methods | https://doi.org/10.1139/f98-104 | Abstract/metadata | Peer-reviewed methods | Autocorrelation in correlation |
+| S64 | Efron & Tibshirani 1993, *An Introduction to the Bootstrap* | 1993 | Book | Chapman & Hall/CRC | Metadata | Methods text | Bootstrap foundations |
+| S65 | Davison & Hinkley 1997, *Bootstrap Methods and Their Application* | 1997 | Book | https://doi.org/10.1017/CBO9780511802843 | Metadata | Methods text | Bootstrap methods |
+| S66 | USGS TM1-D10 | 2022 | Technical guidance | https://pubs.usgs.gov/publication/tm1D10/full | Full | Authoritative | Algal fluorescence principles/QA |
+| S67 | USGS TM1-D11 | n.d. | Technical guidance | https://pubs.usgs.gov/publication/tm1D11/full | Abstract/metadata | Authoritative | Fouling corrections |
+
+## Source-quality notes
+
+- **Full text or full data/metadata:** S14–S21, S24–S26, S31, S32, S35, S39, S42, S44, S46–S48, S56, S66.
+- **Abstract/metadata only:** S22–S23 (paper/supplement), S27–S30, S33–S34, S36–S38, S40–S41, S43, S45, S49–S55, S57–S65, S67.
+- **Publisher 403/blocked:** RSC, Taylor & Francis, Wiley, MDPI, ScienceDirect in some attempts. Abstract-only sources are not claimed as full-text inspections.
+- **Crossref verification:** bibliographic details checked against Crossref on 2026-11-24 where available.
+- **No systematic-review claim.** Absence of an exact two-case study is not evidence of novelty.
+- **No source establishes** that the proposed study is novel, that RFU is a validated biomass measure, or that the data support early warning.
+
+## Key source-to-finding map
+
+| Finding | Sources |
+|---|---|
+| Sensor–microscopy relationships mixed/variable | S27–S41 |
+| Chlorophyll tracks total biomass better than cyanobacteria | S27, S31, S32, S33 |
+| PC–cyanobacteria taxon/morphology-dependent | S28–S30, S34, S35, S39 |
+| Depth/sample integration matters | S31, S32, S54 |
+| Quenching matters | S36 |
+| Negative/low signals ambiguous | S39, S66, S67 |
+| Mendota prior HF PC | S43–S45 |
+| Buffalo Pound prior bloom phases | S22, S55, S56 |
+| RFU is a proxy | S21, S66 |
+| Turner/YSI non-comparable | S14, S15, S09 |
+| Biomass derivation | S22–S25 |
+| Bootstrap/dependence | S57–S65 |
+| Originality low–moderate | S27–S56 |

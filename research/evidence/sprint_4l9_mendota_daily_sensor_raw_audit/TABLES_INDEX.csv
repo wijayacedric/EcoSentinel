@@ -1,0 +1,23 @@
+table,data_rows,description,canonical_path
+SCHEMA_AUDIT.csv,38,"38-field schema, definitions, documented codes, parse/missing counts",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SCHEMA_AUDIT.csv
+VARIABLE_COVERAGE_SUMMARY.csv,18,"Variable-level first/last, missingness, unflagged counts, flags, ranges, intervals",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/VARIABLE_COVERAGE_SUMMARY.csv
+ANNUAL_VARIABLE_COVERAGE.csv,360,"Variable x year records, missingness, unflagged/flagged counts, flag counts",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/ANNUAL_VARIABLE_COVERAGE.csv
+SEASONAL_VARIABLE_COVERAGE.csv,72,"Variable x season records, missingness, unflagged counts, flag counts",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SEASONAL_VARIABLE_COVERAGE.csv
+SAMPLING_INTERVALS_AND_GAPS.csv,472,All >7-day gaps between unflagged observations,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SAMPLING_INTERVALS_AND_GAPS.csv
+INTERVAL_DISTRIBUTION.csv,18,"Interval bucket counts, median and maximum per variable",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/INTERVAL_DISTRIBUTION.csv
+QC_FLAG_DISTRIBUTIONS.csv,360,Variable x year flag counts and percentages,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/QC_FLAG_DISTRIBUTIONS.csv
+QC_FLAG_TOP_YEARS.csv,47,Top three years per variable/flag,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/QC_FLAG_TOP_YEARS.csv
+FLAGGED_VALUE_DISTRIBUTIONS.csv,108,Numeric value distributions by flag code,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/FLAGGED_VALUE_DISTRIBUTIONS.csv
+BIOLOGICAL_OVERLAP.csv,18,"Same-day and window overlap with 402 biology dates, split by absent/missing/flagged/unflagged",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/BIOLOGICAL_OVERLAP.csv
+BIOLOGICAL_OVERLAP_WINDOWS.csv,18,Compact same-day and ±1/±3/±7/±14-day coverage,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/BIOLOGICAL_OVERLAP_WINDOWS.csv
+BIOLOGICAL_OVERLAP_BY_YEAR.csv,468,Biology-sensor same-day overlap by year,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/BIOLOGICAL_OVERLAP_BY_YEAR.csv
+BIOLOGICAL_OVERLAP_BY_SEASON.csv,72,Biology-sensor same-day overlap by season,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/BIOLOGICAL_OVERLAP_BY_SEASON.csv
+SENSOR_ERA_SUMMARY.csv,36,"Pre-2019 vs 2019+ coverage, distributions and flags",research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SENSOR_ERA_SUMMARY.csv
+TURNER_YSI_OVERLAP.csv,2,Paired 2019 Turner/YSI chlorophyll and phycocyanin comparison,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/TURNER_YSI_OVERLAP.csv
+SENSOR_TRANSITIONS.csv,20,Sensor inventory mapped to daily columns with observed coverage,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SENSOR_TRANSITIONS.csv
+DEPTH_COMPATIBILITY.csv,18,Sensor depth vs 0-8 m biology classification,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/DEPTH_COMPATIBILITY.csv
+FEASIBILITY_MATRIX.csv,4,A-D scientific-use feasibility verdicts,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/FEASIBILITY_MATRIX.csv
+ANOMALY_AUDIT.csv,18,Physical-bound screening and examples of anomalous/negative values,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/ANOMALY_AUDIT.csv
+UNDOCUMENTED_FLAGS.csv,8,Flag columns with values outside their daily-EML code list,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/UNDOCUMENTED_FLAGS.csv
+RAW_FILE_INTEGRITY.csv,21,Actual vs expected size/hashes/structure,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/RAW_FILE_INTEGRITY.csv
+SOURCE_REGISTER.csv,20,Machine-readable source register,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/SOURCE_REGISTER.csv

@@ -1,0 +1,1 @@
+Public DataONE CN metadata object for knb-lter-ntl.129.42. SHA256 c853f0df32f67c49ac47084d4c6f656100b9d014f90da869f0f47ef0db7ebb97. Retrieved 2026-11-23. Metadata only; data entities not accessible (CN 404, PASTA 403).

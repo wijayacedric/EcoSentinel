@@ -1,0 +1,7 @@
+table,data_rows,description,canonical_path
+PROJECT_STATE_MATRIX.csv,10,Current project/candidate state and decision implications,research/evidence/sprint_4l11_research_viability_decision/tables/PROJECT_STATE_MATRIX.csv
+VIABILITY_REQUIREMENTS_MATRIX.csv,5,Five-requirement assessment of the original question,research/evidence/sprint_4l11_research_viability_decision/tables/VIABILITY_REQUIREMENTS_MATRIX.csv
+PRIOR_ART_MATRIX.csv,11,"Key prior-art studies, designs, findings and relevance",research/evidence/sprint_4l11_research_viability_decision/tables/PRIOR_ART_MATRIX.csv
+STRATEGIC_OPTIONS_MATRIX.csv,4,A-D strategic options comparison,research/evidence/sprint_4l11_research_viability_decision/tables/STRATEGIC_OPTIONS_MATRIX.csv
+COMPETITION_ASSESSMENT.csv,4,"Competition fit, readiness and risks",research/evidence/sprint_4l11_research_viability_decision/tables/COMPETITION_ASSESSMENT.csv
+EVIDENCE_REQUIREMENTS.csv,7,Minimum evidence for the original question and Gate 2 conditions,research/evidence/sprint_4l11_research_viability_decision/tables/EVIDENCE_REQUIREMENTS.csv

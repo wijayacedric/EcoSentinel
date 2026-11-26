@@ -1,0 +1,8 @@
+requirement,minimum_evidence,current,obtainable,gate2_need
+Independent bloom events,Multi-year independent biological events with approved biological-only definition,0 reconstructed,Low; Buffalo Pound pending; Mendota rejected,Required
+Non-bloom exposure,Verified non-event periods with coverage and censoring,0 defensible,Low; requires new sampling,Required
+Temporal resolution,Time-stamped/sub-weekly/event-triggered biology,"14-day/1–16-day, date-only",Low–medium; new sampling,Required
+Depth alignment,Depth-resolved or justified comparator,0.5 m vs 0–8 m; 0.8 m vs 0.8 m,Medium (Buffalo Pound); low (Mendota),Required
+Sensor comparability,Calibration/crosswalk/QC/maintenance,No Turner/YSI crosswalk; QC gaps,Low–medium,Required
+Matched-FAR design,"Approved exposure, operating points, baselines, splits",Synthetic only,After labels/exposure,Required
+Adequate events/power,Enough events/non-events for uncertainty,0 events; 42 dates/2 seasons,Low,Required

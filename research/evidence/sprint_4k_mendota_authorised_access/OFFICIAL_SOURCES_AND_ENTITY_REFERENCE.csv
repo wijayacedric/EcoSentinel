@@ -1,0 +1,10 @@
+type,name,identifier_or_url,purpose,verified
+official_doc,EDI IAM guide,https://edirepository.org/user-guides/iam,"Profiles, access keys, token/cookie behavior",yes (fetched)
+official_doc,EDI access-key steps,https://edirepository.org/user-guides/working-with-access-keys,New Key creation steps,yes (fetched)
+official_doc,EDI auth news,https://edirepository.org/news/news-grid,Authentication required from 2026-07-30,yes (fetched)
+official_doc,IAM token API,https://auth.edirepository.org/auth/ui/api-docs/token,POST /auth/v1/key token exchange,yes (fetched)
+official_doc,EDIutils login,https://docs.ropensci.org/EDIutils/reference/login.html,key parameter / config guidance,yes (fetched)
+package,knb-lter-ntl.88.31,https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/88/31,biological EML/data,metadata via CN; data auth-required
+package,knb-lter-ntl.129.42,https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/129/42,HF environmental EML/data,metadata via CN; data auth-required
+package,knb-lter-ntl.130.29,https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/130/29,temperature EML/data,metadata via CN; data auth-required
+package,knb-lter-ntl.415.2,https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/415/2,Microbial Observatory EML/data,metadata via CN; data auth-required

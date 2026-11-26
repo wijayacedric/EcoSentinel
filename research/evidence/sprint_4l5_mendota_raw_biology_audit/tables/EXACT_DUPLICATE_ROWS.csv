@@ -1,0 +1,30 @@
+lakeid,year4,sampledate,sta,depth_range,division,taxa_name,gald,cells_per_nu,nu_per_ml,cells_per_ml,biovolume_conc,biomass_conc,relative_total_biovolume,genus,duplicate_count
+MO,1999,1999-11-22,,0-2m,Bacillariophyta,Cyclotella sp1 ,4.4,1,43.406,43.406,1015.88,0.00101588,0.026,Cyclotella,2
+MO,1999,1999-11-22,,0-2m,Chrysophyta,Uroglena  ,4.4,1,43.406,43.406,1937.475,0.00193748,0.049,Uroglena,2
+MO,1999,1999-11-22,,0-2m,Chrysophyta,Erkenia subaequiciliata ,4.4,1,195.326,195.326,8701.999,0.008702,0.221,Erkenia,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Chlamydomonas globosa ,8.8,1,21.703,21.703,7735.11,0.00773511,0.197,Chlamydomonas,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Chlamydomonas incerta ,13.2,1,21.703,21.703,26105.996,0.026106,0.663,Chlamydomonas,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Chlamydomonas platystigma ,6.6,1,21.703,21.703,1450.333,0.00145033,0.037,Chlamydomonas,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Closterium moniliferum ,110,1,21.703,21.703,6811.435,0.00681144,0.173,Closterium,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Dictyosphaerium pulchellum ,22,16,10.96,175.36,3295.774,0.00329577,0.084,Dictyosphaerium,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Oocystis parva ,11,4,21.703,86.812,3263.25,0.00326325,0.083,Oocystis,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Schroederia judayi ,13.2,1,10.96,10.96,193.629,0.00019363,0.005,Schroederia,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Sphaerocystis schroeteri ,22,8,43.406,347.248,15470.22,0.01547022,0.393,Sphaerocystis,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Monomastix astigmata,3.3,1,21.703,21.703,75.842,7.584e-05,0.002,Monomastix,2
+MO,1999,1999-11-22,,0-2m,Cryptophyta,Cryptomonas ovata ,22,1,21.703,21.703,19560.7,0.0195607,0.497,Cryptomonas,2
+MO,1999,1999-11-22,,0-2m,Cryptophyta,Cryptomonas lucens ,8.8,1,151.92,151.92,10067.388,0.01006739,0.256,Cryptomonas,2
+MO,1999,1999-11-22,,0-2m,Cryptophyta,Rhodomonas minuta ,13.2,1,21.703,21.703,1695.291,0.00169529,0.043,Rhodomonas,2
+MO,1999,1999-11-22,,0-2m,Cryptophyta,Cryptomonas rostratiformis ,26.4,1,21.703,21.703,33800.89,0.03380089,0.859,Cryptomonas,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Anabaena flos-aquae ,51.15,17,43.406,737.902,49311.326,0.04931133,1.253,Anabaena,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Aphanocapsa koordersi,33,60,21.703,1302.18,18230.395,0.0182304,0.463,Aphanocapsa,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Coelosphaerium naegelianum ,33,12,21.703,260.436,1224.041,0.00122404,0.031,Woronichinia,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Coelosphaerium naegelianum ,6.6,1,21.703,21.703,102.003,0.000102,0.003,Woronichinia,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Lyngbya limnetica ,99,10,21.703,217.03,1020.415,0.00102042,0.026,Lyngbya,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Microcystis aeruginosa ,22,9,86.811,781.299,14684.623,0.01468462,0.373,Microcystis,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Microcystis aeruginosa ,3.3,1,108.514,108.514,2039.531,0.00203953,0.052,Microcystis,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Synechocystis  ,2.2,1,65.109,65.109,362.583,0.00036258,0.009,Synechocystis,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Synechococcus sp1 ,1.8,1,15287.276,15287.276,11657.068,0.01165707,0.296,Synechococcus,2
+MO,1999,1999-11-22,,0-2m,Cyanophyta,Lyngbya circumcreta,123.2,250,10.96,2740,22901.904,0.0229019,0.582,Lyngbya,2
+MO,1999,1999-11-22,,0-2m,Miscellaneous,Miscellaneous,2.2,1,2734.559,2734.559,15228.498,0.0152285,0.387,,2
+MO,1999,1999-11-22,,0-2m,Chlorophyta,Monoraphidium capricornutum,3.3,1,21.703,21.703,204.148,0.00020415,0.005,Monoraphidium,2
+MO,1999,1999-11-22,,0-2m,Bacillariophyta,Nitzschia palea ,22,1,43.406,43.406,2394.575,0.00239458,0.061,Nitzschia,2

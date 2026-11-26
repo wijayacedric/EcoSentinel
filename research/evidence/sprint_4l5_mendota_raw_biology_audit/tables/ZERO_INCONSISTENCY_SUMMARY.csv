@@ -1,0 +1,6 @@
+check,records,lakes,min_value,max_value
+biomass_zero_biovolume_positive,61,"ME,MO",1.4275,49.0049
+biovolume_zero_biomass_positive,0,,,
+cells_zero_biovolume_positive,1,ME,7.688e-05,7.688e-05
+gald_zero,3,WI,0.0,0.0
+relative_zero_biovolume_positive,15,"ME,MO",6.9285,272.197

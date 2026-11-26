@@ -1,0 +1,2 @@
+variable,interval_or_gap,value,status,note
+ALL,N/A,NOT AVAILABLE,BLOCKED_NO_DAILY_DATA,No raw daily entity acquired; cannot compute intervals/gaps.

@@ -1,0 +1,1010 @@
+lakeid,sampledate,sta,depth_range,taxa_name_clean,n_rows,n_distinct_cells_per_ml,n_distinct_biovolume_conc,cells_min,cells_max,biovolume_min,biovolume_max,genus_values,division_values
+MO,1995-01-24,,0-2m,Miscellaneous,2,2,2,104.174,989.65,580.133,5511.266,,Miscellaneous
+ME,1995-01-24,,0-8m,Miscellaneous,2,2,2,677.129,2031.387,11312.598,30166.929,,Miscellaneous
+ME,1995-03-08,,0-8m,Miscellaneous,2,2,2,1041.737,1145.911,32505.591,112600.0,,Miscellaneous
+FI,1995-03-28,,0-2m,Dinobryon cylindricum,2,2,2,13.151,26.302,2709.208,5418.416,Dinobryon,Chrysophyta
+FI,1995-03-28,,0-2m,Miscellaneous,2,2,2,1770.953,2916.863,16243.731,80747.296,,Miscellaneous
+MO,1995-03-28,,0-2m,Miscellaneous,2,2,2,694.491,2864.776,15953.664,24172.219,,Miscellaneous
+ME,1995-03-28,,0-8m,Miscellaneous,2,2,2,1041.737,4791.989,11602.665,135900.0,,Miscellaneous
+MO,1995-04-11,,0-2m,Miscellaneous,2,2,2,520.868,1875.126,10442.398,11149.436,,Miscellaneous
+ME,1995-04-11,,0-8m,Miscellaneous,2,2,2,729.216,2916.863,32487.462,44670.26,,Miscellaneous
+ME,1995-04-24,,0-8m,Miscellaneous,2,2,2,1145.911,4062.774,57433.191,89086.712,,Miscellaneous
+MO,1995-05-23,,0-2m,Miscellaneous,2,2,2,52.087,338.564,1885.433,2320.533,,Miscellaneous
+ME,1995-05-23,,0-8m,Microcystis aeruginosa,2,2,2,2205.01,20231.8844,55641.426,749200.0,Microcystis,Cyanophyta
+ME,1995-06-06,,0-8m,Microcystis aeruginosa,2,2,2,364.608,1056.1031,16243.731,47050.32,Microcystis,Cyanophyta
+ME,1995-06-06,,0-8m,Miscellaneous,2,2,2,104.174,546.912,1359.687,3045.7,,Miscellaneous
+MO,1995-06-20,,0-2m,Microcystis aeruginosa,2,2,2,1770.953,1874.0745,78898.122,83492.931,Microcystis,Cyanophyta
+MO,1995-07-06,,0-2m,Aphanizomenon flos-aquae,2,2,2,6750.975,77195.5194,253900.0,2904000.0,Aphanizomenon,Cyanophyta
+MO,1995-07-06,,0-2m,Microcystis aeruginosa,2,2,2,6042.074,14992.71,191400.0,521200.0,Microcystis,Cyanophyta
+MO,1995-07-06,,0-2m,Miscellaneous,2,2,2,208.347,1041.737,2320.533,5801.332,,Miscellaneous
+MO,1995-07-18,,0-2m,Coelosphaerium naegelianum,2,2,2,312.5205,1358.9323,1468.849,6387.243,Woronichinia,Cyanophyta
+MO,1995-07-18,,0-2m,Microcystis aeruginosa,2,2,2,5417.032,13947.1405,136700.0,565300.0,Microcystis,Cyanophyta
+MO,1995-07-18,,0-2m,Miscellaneous,2,2,2,416.695,1666.779,4641.066,9282.132,,Miscellaneous
+ME,1995-07-18,,0-8m,Microcystis aeruginosa,2,2,2,2151.014,2708.516,40428.156,85787.204,Microcystis,Cyanophyta
+ME,1995-07-18,,0-8m,Miscellaneous,2,2,2,520.868,1770.953,5801.332,9862.265,,Miscellaneous
+MO,1995-08-02,,0-2m,Coelosphaerium naegelianum,2,2,2,52.087,394.56,244.808,1854.361,Woronichinia,Cyanophyta
+MO,1995-08-02,,0-2m,Microcystis aeruginosa,2,2,2,3750.253,24291.9023,118800.0,1905000.0,Microcystis,Cyanophyta
+MO,1995-08-02,,0-2m,Miscellaneous,2,2,2,260.434,1041.737,2900.666,5801.332,,Miscellaneous
+ME,1995-08-02,,0-8m,Coelosphaerium naegelianum,2,2,2,52.087,2317.9225,244.808,10894.37,Woronichinia,Cyanophyta
+ME,1995-08-02,,0-8m,Microcystis aeruginosa,2,2,2,4271.121,13719.6285,162800.0,604700.0,Microcystis,Cyanophyta
+ME,1995-08-02,,0-8m,Miscellaneous,2,2,2,104.174,156.261,870.2,1160.266,,Miscellaneous
+ME,1995-08-14,,0-8m,Microcystis aeruginosa,2,2,2,6875.463,208608.677,262000.0,9294000.0,Microcystis,Cyanophyta
+ME,1995-08-14,,0-8m,Miscellaneous,2,2,2,208.347,833.389,2320.533,4641.066,,Miscellaneous
+MO,1995-08-14,,0-2m,Coelosphaerium naegelianum,2,2,2,130.217,173.624,612.02,816.027,Woronichinia,Cyanophyta
+MO,1995-08-14,,0-2m,Microcystis aeruginosa,2,2,2,6207.015,9343.08,276500.0,404500.0,Microcystis,Cyanophyta
+MO,1995-08-30,,0-2m,Microcystis aeruginosa,2,2,2,1497.4955,1562.605,51622.794,69615.99,Microcystis,Cyanophyta
+MO,1995-08-30,,0-2m,Miscellaneous,2,2,2,455.76,651.086,2538.083,11783.957,,Miscellaneous
+ME,1995-08-30,,0-8m,Microcystis aeruginosa,2,2,2,5729.553,56275.6868,181500.0,1095000.0,Microcystis,Cyanophyta
+ME,1995-08-30,,0-8m,Miscellaneous,2,2,2,446.459,1339.376,11188.284,16316.248,,Miscellaneous
+MO,1995-09-05,,0-2m,Miscellaneous,2,2,2,104.174,295.159,1643.711,2610.6,,Miscellaneous
+ME,1995-09-05,,0-8m,Stephanodiscus hantzschii,2,2,2,364.608,868.114,129500.0,3376000.0,Stephanodiscus,Bacillariophyta
+ME,1995-09-05,,0-8m,Miscellaneous,2,2,2,1041.737,4687.816,18854.331,57106.866,,Miscellaneous
+ME,1995-09-11,,0-8m,Microcystis aeruginosa,2,2,2,3229.384,9781.4063,143900.0,443700.0,Microcystis,Cyanophyta
+MO,1995-09-11,,0-2m,Microcystis aeruginosa,2,2,2,3125.214,4166.947,58738.491,105100.0,Microcystis,Cyanophyta
+MO,1995-09-11,,0-2m,Miscellaneous,2,2,2,173.623,5208.684,1933.777,29006.662,,Miscellaneous
+ME,1995-09-25,,0-8m,Microcystis aeruginosa,2,2,2,4427.382,9948.5218,197200.0,443200.0,Microcystis,Cyanophyta
+ME,1995-10-11,,0-8m,Microcystis aeruginosa,2,2,2,1562.605,10021.443,69615.99,446500.0,Microcystis,Cyanophyta
+MO,1995-10-11,,0-2m,Miscellaneous,2,2,2,34.725,2083.474,386.755,11602.665,,Miscellaneous
+ME,1995-11-07,,0-8m,Microcystis aeruginosa,2,2,2,587.3986,2187.647,26170.884,97462.385,Microcystis,Cyanophyta
+ME,1995-12-06,,0-8m,Miscellaneous,2,2,2,52.087,2083.474,1305.3,11602.665,,Miscellaneous
+ME,1996-02-06,,0-8m,Microcystis aeruginosa,2,2,2,168.0495,572.955,4852.111,25525.863,Microcystis,Cyanophyta
+ME,1996-02-06,,0-8m,Miscellaneous,2,2,2,208.347,2604.342,14503.331,15083.464,,Miscellaneous
+MO,1996-04-03,,0-2m,Miscellaneous,2,2,2,303.84,1302.171,7251.666,13536.442,,Miscellaneous
+ME,1996-04-09,,0-8m,Miscellaneous,2,2,2,416.695,6250.421,10442.398,34807.995,,Miscellaneous
+ME,1996-04-16,,0-8m,Miscellaneous,2,2,2,434.057,4687.816,26105.996,29006.662,,Miscellaneous
+MO,1996-04-16,,0-2m,Miscellaneous,2,2,2,173.623,1302.171,1933.777,7251.666,,Miscellaneous
+ME,1996-05-01,,0-8m,Miscellaneous,2,2,2,347.246,2083.474,10454.485,11602.665,,Miscellaneous
+ME,1996-05-14,,0-8m,Miscellaneous,2,2,2,34.725,1215.36,386.755,6768.221,,Miscellaneous
+ME,1996-05-28,,0-8m,Miscellaneous,2,2,2,26.043,2343.908,290.067,13052.998,,Miscellaneous
+ME,1996-06-10,,0-8m,Miscellaneous,2,2,2,117.195,1302.171,2284.275,7251.666,,Miscellaneous
+ME,1996-06-26,,0-8m,Coelosphaerium naegelianum,2,2,2,65.8,86.8113,309.06,408.014,Woronichinia,Cyanophyta
+ME,1996-06-26,,0-8m,Microcystis aeruginosa,2,2,2,112.203,225.71,4458.735,10055.643,Microcystis,Cyanophyta
+ME,1996-06-26,,0-8m,Miscellaneous,2,2,2,69.449,1562.605,773.511,8701.999,,Miscellaneous
+ME,1996-07-08,,0-8m,Coelosphaerium naegelianum,2,2,2,52.087,219.2,244.808,1030.2,Woronichinia,Cyanophyta
+ME,1996-07-08,,0-8m,Microcystis aeruginosa,2,2,2,3541.905,8983.8392,157800.0,400200.0,Microcystis,Cyanophyta
+ME,1996-07-08,,0-8m,Miscellaneous,2,2,2,52.087,3125.211,580.133,17403.997,,Miscellaneous
+MO,1996-07-09,,0-2m,Microcystis aeruginosa,2,2,2,1171.954,18490.8424,29573.199,218600.0,Microcystis,Cyanophyta
+ME,1996-07-22,,0-8m,Coelosphaerium naegelianum,2,2,2,1579.9683,10868.7685,7425.847,51083.302,Woronichinia,Cyanophyta
+ME,1996-07-22,,0-8m,Microcystis aeruginosa,2,2,2,15695.502,18543.121,699300.0,785900.0,Microcystis,Cyanophyta
+MO,1996-07-22,,0-2m,Coelosphaerium naegelianum,2,2,2,2604.8625,13499.1883,12240.408,63446.114,Woronichinia,Cyanophyta
+MO,1996-07-22,,0-2m,Microcystis aeruginosa,2,2,2,9332.226,33695.0414,295600.0,1265000.0,Microcystis,Cyanophyta
+ME,1996-08-05,,0-8m,Coelosphaerium naegelianum,2,2,2,3828.3825,7266.1875,17993.4,34151.145,Woronichinia,Cyanophyta
+ME,1996-08-05,,0-8m,Microcystis aeruginosa,2,2,2,6198.334,9636.5108,276100.0,413300.0,Microcystis,Cyanophyta
+MO,1996-08-05,,0-2m,Coelosphaerium naegelianum,2,2,2,4968.2921,6425.3281,23351.21,30193.006,Woronichinia,Cyanophyta
+MO,1996-08-05,,0-2m,Microcystis aeruginosa,2,2,2,9792.326,11625.9786,436300.0,517900.0,Microcystis,Cyanophyta
+ME,1996-08-19,,0-8m,Aphanizomenon flos-aquae,2,2,2,5786.88,7982.3709,217700.0,300200.0,Aphanizomenon,Cyanophyta
+ME,1996-08-19,,0-8m,Coelosphaerium naegelianum,2,2,2,468.7815,12055.45,2203.273,56661.024,Woronichinia,Cyanophyta
+ME,1996-08-19,,0-8m,Microcystis aeruginosa,2,2,2,6597.667,11173.5303,293900.0,497800.0,Microcystis,Cyanophyta
+ME,1996-08-19,,0-8m,Miscellaneous,2,2,2,34.725,1041.737,386.755,5801.332,,Miscellaneous
+MO,1996-08-19,,0-2m,Coelosphaerium naegelianum,2,2,2,1302.171,5622.195,6120.204,26424.641,Woronichinia,Cyanophyta
+MO,1996-08-19,,0-2m,Microcystis aeruginosa,2,2,2,3503.3585,6094.161,91534.008,193000.0,Microcystis,Cyanophyta
+MO,1996-08-19,,0-2m,Miscellaneous,2,2,2,104.174,1041.737,1160.266,2447.437,,Miscellaneous
+ME,1996-09-05,,0-8m,Microcystis aeruginosa,2,2,2,7344.245,14635.345,327200.0,604300.0,Microcystis,Cyanophyta
+ME,1996-09-05,,0-8m,Miscellaneous,2,2,2,52.087,1041.737,580.133,5801.332,,Miscellaneous
+MO,1996-09-05,,0-2m,Coelosphaerium naegelianum,2,2,2,416.695,2092.5042,1958.465,9834.98,Woronichinia,Cyanophyta
+MO,1996-09-05,,0-2m,Microcystis aeruginosa,2,2,2,2187.647,4285.19,97462.385,316200.0,Microcystis,Cyanophyta
+ME,1996-09-17,,0-8m,Microcystis aeruginosa,2,2,2,7500.505,8840.8515,334200.0,393900.0,Microcystis,Cyanophyta
+ME,1996-09-17,,0-8m,Miscellaneous,2,2,2,138.898,1562.605,1547.022,8701.999,,Miscellaneous
+MO,1996-09-19,,0-2m,Microcystis aeruginosa,2,2,2,4818.033,5331.8315,214600.0,225200.0,Microcystis,Cyanophyta
+MO,1996-10-06,,0-2m,Microcystis aeruginosa,2,2,2,2604.342,12271.6874,48948.743,245000.0,Microcystis,Cyanophyta
+ME,1996-10-16,,0-8m,Microcystis aeruginosa,2,2,2,2708.516,3950.9313,50906.692,74257.899,Microcystis,Cyanophyta
+MO,1996-11-25,,0-2m,Synedra,2,1,2,4.384,4.384,1088.298,7400.43,Synedra,Bacillariophyta
+MO,1996-11-25,,0-2m,Cyclostephanos invisitatus,2,2,2,52.087,69.449,3174.626,4114.315,Cyclostephanos,Bacillariophyta
+MO,1996-11-25,,0-2m,Coelastrum microporum,2,2,2,105.216,198.7242,10839.433,17138.023,Coelastrum,Chlorophyta
+MO,1996-11-25,,0-2m,Dictyosphaerium pulchellum,2,2,2,17.536,26.304,781.22,9374.645,Dictyosphaerium,Chlorophyta
+MO,1996-11-25,,0-2m,Oocystis parva,2,2,2,17.536,26.304,2343.661,5273.238,Oocystis,Chlorophyta
+MO,1996-11-25,,0-2m,Schroederia judayi,2,2,2,34.725,104.174,2300.622,2875.778,Schroederia,Chlorophyta
+MO,1996-11-25,,0-2m,Chlorococcaceae,2,2,2,52.087,69.449,1740.4,2320.533,,Chlorophyta
+MO,1996-11-25,,0-2m,Cryptomonas erosa,2,2,2,56.99,87.677,28764.237,38831.72,Cryptomonas,Cryptophyta
+MO,1996-11-25,,0-2m,Cryptomonas ovata,2,2,2,4.384,13.151,6827.555,67416.18,Cryptomonas,Cryptophyta
+MO,1996-11-25,,0-2m,Rhodomonas minuta var. nannoplanctica,2,1,2,312.521,312.521,8827.62,12396.812,Rhodomonas,Cryptophyta
+MO,1996-11-25,,0-2m,Anabaena flos-aquae,2,2,2,1841.2013,2386.9973,123000.0,159500.0,Anabaena,Cyanophyta
+MO,1996-11-25,,0-2m,Aphanizomenon flos-aquae,3,3,3,241.12,24146.154,13603.731,908200.0,Aphanizomenon,Cyanophyta
+MO,1996-11-25,,0-2m,Aphanothece,2,1,1,3218.374,3218.374,2454.12,2454.12,Aphanothece,Cyanophyta
+MO,1996-11-25,,0-2m,Microcystis aeruginosa,3,3,3,78.912,486.144,3515.492,9137.099,Microcystis,Cyanophyta
+MO,1996-11-25,,0-2m,Chroococcaceae,2,2,2,2574.699,8689.61,981.648,3313.061,,Cyanophyta
+MO,1996-11-25,,0-2m,Miscellaneous,4,4,4,104.174,1562.605,1885.433,9789.749,,Miscellaneous
+ME,1996-11-25,,0-8m,Coelosphaerium naegelianum,2,2,2,131.5,138.8639,618.12,652.822,Woronichinia,Cyanophyta
+ME,1996-11-25,,0-8m,Miscellaneous,2,2,2,173.623,2604.342,5166.812,10310.962,,Miscellaneous
+ME,1997-02-17,,0-8m,Miscellaneous,2,2,2,533.27,744.098,13363.784,13985.355,,Miscellaneous
+ME,1997-04-09,,0-8m,Miscellaneous,2,2,2,28.937,4340.57,322.296,52876.728,,Miscellaneous
+ME,1997-05-13,,0-8m,Miscellaneous,2,2,2,52.087,1041.737,1305.3,5801.332,,Miscellaneous
+ME,1997-05-28,,0-8m,Miscellaneous,2,2,2,52.087,1041.737,580.133,5801.332,,Miscellaneous
+MO,1997-05-28,,0-2m,Miscellaneous,2,2,2,74.41,2976.391,828.762,14179.596,,Miscellaneous
+ME,1997-06-11,,0-8m,Schroederia judayi,2,2,2,140.634,416.695,2070.56,19171.851,Schroederia,Chlorophyta
+ME,1997-06-11,,0-8m,Chlorococcaceae,2,2,2,41.669,104.174,580.133,1856.426,,Chlorophyta
+ME,1997-06-11,,0-8m,Cryptomonas erosa,2,2,2,109.382,127.131,41708.144,42142.404,Cryptomonas,Cryptophyta
+ME,1997-06-11,,0-8m,Cryptomonas ovata,2,2,2,13.151,36.461,34517.084,77292.737,Cryptomonas,Cryptophyta
+ME,1997-06-11,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,963.607,1927.213,24194.219,71658.571,Rhodomonas,Cryptophyta
+ME,1997-06-11,,0-8m,Anabaena flos-aquae,2,2,2,87.68,989.615,5859.153,148800.0,Anabaena,Cyanophyta
+ME,1997-06-11,,0-8m,Aphanizomenon flos-aquae,2,2,2,5115.6494,5192.5916,195300.0,513100.0,Aphanizomenon,Cyanophyta
+ME,1997-06-11,,0-8m,Aphanothece,2,2,2,643.675,965.512,490.824,37087.882,Aphanothece,Cyanophyta
+ME,1997-06-11,,0-8m,Oscillatoria limnetica,2,2,2,544.9714,1257.9045,5914.328,9110.377,Pseudanabaena,Cyanophyta
+ME,1997-06-11,,0-8m,Microcystis aeruginosa,2,2,2,20.836,43.84,391.59,1953.051,Microcystis,Cyanophyta
+ME,1997-06-11,,0-8m,Chroococcaceae,2,2,2,2574.699,3218.374,517.666,981.648,,Cyanophyta
+ME,1997-06-11,,0-8m,Miscellaneous,2,2,2,2395.995,3646.079,13343.065,20304.664,,Miscellaneous
+MO,1997-06-11,,0-2m,Microcystis aeruginosa,2,2,2,78.912,156.261,3515.492,6961.599,Microcystis,Cyanophyta
+ME,1997-06-25,,0-8m,Schroederia judayi,2,2,2,49.607,97.663,410.825,1054.452,Schroederia,Chlorophyta
+ME,1997-06-25,,0-8m,Chlorococcaceae,2,2,2,39.065,99.213,1740.4,8632.935,,Chlorophyta
+ME,1997-06-25,,0-8m,Cryptomonas erosa,2,2,2,6.511,9.394,3004.524,4334.956,Cryptomonas,Cryptophyta
+ME,1997-06-25,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,471.262,514.358,13183.533,1789000.0,Rhodomonas,Cryptophyta
+ME,1997-06-25,,0-8m,Anabaena flos-aquae,2,2,2,32.555,488.488,4894.874,32643.853,Anabaena,Cyanophyta
+ME,1997-06-25,,0-8m,Aphanizomenon flos-aquae,2,2,2,4658.3131,7263.2336,273200.0,467200.0,Aphanizomenon,Cyanophyta
+ME,1997-06-25,,0-8m,Aphanothece,2,2,2,643.675,2298.839,490.824,1314.707,Aphanothece,Cyanophyta
+ME,1997-06-25,,0-8m,Aphanothece nidulans,2,2,2,2758.608,17266.782,4855.147,30389.547,Aphanothece,Cyanophyta
+ME,1997-06-25,,0-8m,Coelosphaerium naegelianum,3,3,3,49.607,416.695,233.151,1958.465,Woronichinia,Cyanophyta
+ME,1997-06-25,,0-8m,Oscillatoria limnetica,2,2,2,1391.6925,1397.3426,6543.414,88728.519,Pseudanabaena,Cyanophyta
+ME,1997-06-25,,0-8m,Microcystis aeruginosa,4,4,4,272.836,25807.1835,12155.173,485100.0,Microcystis,Cyanophyta
+ME,1997-06-25,,0-8m,Chroococcaceae,2,2,2,1379.303,2896.537,221.857,1104.354,,Cyanophyta
+ME,1997-06-25,,0-8m,Miscellaneous,2,2,2,1302.171,1488.195,7251.666,8287.618,,Miscellaneous
+ME,1997-06-25,,0-8m,Monoraphidium capricornutum,2,2,2,12.402,19.533,155.541,214.355,Monoraphidium,Chlorophyta
+ME,1997-06-25,,0-8m,Schizochlamys compacta,2,2,2,263.032,303.8437,9288.175,11718.306,Schizochlamys,Chlorophyta
+MO,1997-06-25,,0-2m,Schroederia judayi,2,2,2,69.449,208.347,1022.499,1380.373,Schroederia,Chlorophyta
+MO,1997-06-25,,0-2m,Chlorococcaceae,2,2,2,34.725,312.521,1547.022,37092.269,,Chlorophyta
+MO,1997-06-25,,0-2m,Cryptomonas erosa,2,2,2,8.768,34.725,1706.889,22815.601,Cryptomonas,Cryptophyta
+MO,1997-06-25,,0-2m,Cryptomonas ovata,2,2,2,17.535,34.725,29586.072,41656.467,Cryptomonas,Cryptophyta
+MO,1997-06-25,,0-2m,Rhodomonas minuta var. nannoplanctica,2,2,2,277.796,520.868,9816.54,29062.124,Rhodomonas,Cryptophyta
+MO,1997-06-25,,0-2m,Anabaena flos-aquae,2,2,2,12336.107,35488.512,824400.0,5336000.0,Anabaena,Cyanophyta
+MO,1997-06-25,,0-2m,Aphanizomenon flos-aquae,2,2,2,11966.3977,13288.4844,499800.0,1200000.0,Aphanizomenon,Cyanophyta
+MO,1997-06-25,,0-2m,Aphanothece,2,2,2,643.675,2574.699,490.824,1963.296,Aphanothece,Cyanophyta
+MO,1997-06-25,,0-2m,Oscillatoria limnetica,2,2,2,13952.6062,19914.5285,93633.319,233200.0,Pseudanabaena,Cyanophyta
+MO,1997-06-25,,0-2m,Microcystis aeruginosa,4,4,4,5576.232,14589.1191,248400.0,580500.0,Microcystis,Cyanophyta
+MO,1997-06-25,,0-2m,Chroococcaceae,2,2,2,2574.699,3862.049,981.648,1472.472,,Cyanophyta
+MO,1997-06-25,,0-2m,Miscellaneous,2,2,2,416.695,1041.737,2320.533,5801.332,,Miscellaneous
+ME,1997-07-09,,0-8m,Schroederia judayi,2,2,2,236.727,312.521,4831.306,6970.656,Schroederia,Chlorophyta
+ME,1997-07-09,,0-8m,Chlorococcaceae,2,2,2,13.022,87.677,580.133,31248.816,,Chlorophyta
+ME,1997-07-09,,0-8m,Cryptomonas erosa,2,2,2,8.768,13.022,4025.592,4045.959,Cryptomonas,Cryptophyta
+ME,1997-07-09,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,1008.281,1158.932,52202.084,55334.603,Rhodomonas,Cryptophyta
+ME,1997-07-09,,0-8m,Aphanothece,2,2,2,7938.656,14804.52,6810.182,11288.95,Aphanothece,Cyanophyta
+ME,1997-07-09,,0-8m,Aphanothece nidulans,2,2,2,70347.3101,93096.955,123800.0,163800.0,Aphanothece,Cyanophyta
+ME,1997-07-09,,0-8m,Chroococcaceae,2,2,2,1931.024,11586.146,736.236,4417.415,,Cyanophyta
+ME,1997-07-09,,0-8m,Miscellaneous,3,3,3,520.868,3125.211,4931.133,38071.244,,Miscellaneous
+ME,1997-07-09,,0-8m,Monoraphidium capricornutum,2,2,2,13.022,34.725,163.318,435.516,Monoraphidium,Chlorophyta
+ME,1997-07-09,,0-8m,Schizochlamys compacta,2,2,2,1560.6328,2968.94,163700.0,181000.0,Schizochlamys,Chlorophyta
+MO,1997-07-09,,0-2m,Nitzschia,2,2,2,8.768,34.725,870.639,2586.141,Nitzschia,Bacillariophyta
+MO,1997-07-09,,0-2m,Cryptomonas erosa,2,2,2,8.768,34.725,1706.889,22815.601,Cryptomonas,Cryptophyta
+MO,1997-07-09,,0-2m,Rhodomonas minuta var. nannoplanctica,2,2,2,277.796,416.695,9816.54,20924.73,Rhodomonas,Cryptophyta
+MO,1997-07-09,,0-2m,Anabaena flos-aquae,2,2,2,26668.448,62592.332,2321000.0,4183000.0,Anabaena,Cyanophyta
+MO,1997-07-09,,0-2m,Aphanizomenon flos-aquae,2,2,2,5493.6091,6620.7121,206600.0,664100.0,Aphanizomenon,Cyanophyta
+MO,1997-07-09,,0-2m,Aphanothece,2,2,2,4505.724,5149.398,3435.767,3926.591,Aphanothece,Cyanophyta
+MO,1997-07-09,,0-2m,Oscillatoria limnetica,2,2,2,3819.7005,11415.7671,17959.311,190800.0,Pseudanabaena,Cyanophyta
+MO,1997-07-09,,0-2m,Microcystis aeruginosa,4,4,4,9063.111,38731.758,341700.0,1189000.0,Microcystis,Cyanophyta
+MO,1997-07-09,,0-2m,Chroococcaceae,2,2,2,1931.024,7080.423,736.236,2699.532,,Cyanophyta
+MO,1997-07-09,,0-2m,Miscellaneous,3,3,3,104.174,1562.605,3263.25,8701.999,,Miscellaneous
+ME,1997-07-09,,0-8m,Microcystis aeruginosa,2,2,2,572.955,1367.289,18147.293,56889.317,Microcystis,Cyanophyta
+ME,1997-07-23,,0-8m,Microcystis aeruginosa,2,2,2,4444.744,10694.881,97462.385,344500.0,Microcystis,Cyanophyta
+MO,1997-07-23,,0-2m,Microcystis aeruginosa,2,2,2,23022.384,432920.3403,729200.0,18850000.0,Microcystis,Cyanophyta
+ME,1997-08-06,,0-8m,Coelosphaerium naegelianum,2,2,2,39.065,5208.8,183.606,24480.816,Woronichinia,Cyanophyta
+ME,1997-08-06,,0-8m,Microcystis aeruginosa,2,2,2,4570.62,16786.4491,174200.0,661900.0,Microcystis,Cyanophyta
+MO,1997-08-07,,0-2m,Microcystis aeruginosa,2,2,2,8333.895,60795.7276,264000.0,2270000.0,Microcystis,Cyanophyta
+ME,1997-08-18,,0-8m,Microcystis aeruginosa,2,2,2,2435.06,31265.136,77125.996,1209000.0,Microcystis,Cyanophyta
+MO,1997-08-18,,0-2m,Microcystis aeruginosa,2,2,2,6250.421,115806.3743,238200.0,5053000.0,Microcystis,Cyanophyta
+ME,1997-09-02,,0-8m,Coelosphaerium naegelianum,2,2,2,69.45,486.144,326.411,2284.876,Woronichinia,Cyanophyta
+ME,1997-09-02,,0-8m,Microcystis aeruginosa,2,2,2,405.12,5401.554,12831.419,225700.0,Microcystis,Cyanophyta
+MO,1997-09-08,,0-2m,Nitzschia,2,2,2,381.97,659.767,31608.388,101900.0,Nitzschia,Bacillariophyta
+MO,1997-09-08,,0-2m,Erkenia subaequiciliata,2,2,2,868.114,972.288,38675.55,43316.616,Erkenia,Chrysophyta
+MO,1997-09-08,,0-2m,Schroederia judayi,2,1,1,34.725,34.725,511.249,511.249,Schroederia,Chlorophyta
+MO,1997-09-08,,0-2m,Cryptomonas erosa,2,2,2,208.347,277.796,64409.473,107000.0,Cryptomonas,Cryptophyta
+MO,1997-09-08,,0-2m,Rhodomonas minuta var. nannoplanctica,2,2,2,2639.067,2986.312,118600.0,134200.0,Rhodomonas,Cryptophyta
+MO,1997-09-08,,0-2m,Anabaena circinalis,2,2,2,1183.626,1666.784,52732.378,74257.056,Anabaena,Cyanophyta
+MO,1997-09-08,,0-2m,Anabaena flos-aquae,2,2,2,280.56,468.783,42185.902,70486.189,Anabaena,Cyanophyta
+MO,1997-09-08,,0-2m,Aphanizomenon flos-aquae,2,2,2,13174.5024,15382.9757,1321000.0,1543000.0,Aphanizomenon,Cyanophyta
+MO,1997-09-08,,0-2m,Aphanocapsa delicatissima,2,2,2,19858.9717,44968.315,4388.834,9937.996,Aphanocapsa,Cyanophyta
+MO,1997-09-08,,0-2m,Aphanothece,2,2,2,7080.423,11586.146,5399.063,35339.322,Aphanothece,Cyanophyta
+MO,1997-09-08,,0-2m,Aphanothece nidulans,2,2,2,694.5,5208.75,1222.305,9167.284,Aphanothece,Cyanophyta
+MO,1997-09-08,,0-2m,Coelosphaerium naegelianum,3,3,3,138.898,5208.75,652.822,24480.816,Woronichinia,Cyanophyta
+MO,1997-09-08,,0-2m,Merismopedia minima,2,2,2,33543.93,36669.116,7413.208,8103.879,Merismopedia,Cyanophyta
+MO,1997-09-08,,0-2m,Oscillatoria limnetica,2,2,2,6250.42,6597.67,29387.964,31020.629,Pseudanabaena,Cyanophyta
+MO,1997-09-08,,0-2m,Phormidium mucicola,2,2,2,243.0715,4687.815,1142.865,22040.973,Pseudanabaena,Cyanophyta
+MO,1997-09-08,,0-2m,Microcystis aeruginosa,4,4,4,5208.684,43996.032,198500.0,1921000.0,Microcystis,Cyanophyta
+MO,1997-09-08,,0-2m,Chroococcaceae,2,2,2,9655.122,10298.797,3681.179,3926.591,,Cyanophyta
+MO,1997-09-08,,0-2m,Miscellaneous,2,2,2,1458.432,2291.821,12762.931,14974.689,,Miscellaneous
+MO,1997-09-08,,0-2m,Monoraphidium capricornutum,2,2,2,34.725,138.898,435.516,677.469,Monoraphidium,Chlorophyta
+ME,1997-09-30,,0-8m,Coelosphaerium naegelianum,2,2,2,312.516,612.02,1468.849,2876.496,Woronichinia,Cyanophyta
+ME,1997-09-30,,0-8m,Microcystis aeruginosa,2,2,2,1263.106,76368.8816,40006.533,1599000.0,Microcystis,Cyanophyta
+MO,1997-09-30,,0-2m,Coelosphaerium naegelianum,2,2,2,104.174,868.1,489.616,4080.136,Woronichinia,Cyanophyta
+MO,1997-09-30,,0-2m,Microcystis aeruginosa,2,2,2,2239.734,3505.0131,98186.041,99782.918,Microcystis,Cyanophyta
+ME,1997-10-30,,0-8m,Coelosphaerium naegelianum,2,2,2,291.686,1349.9517,1370.926,6344.611,Woronichinia,Cyanophyta
+ME,1997-10-30,,0-8m,Microcystis aeruginosa,2,2,2,781.303,17715.9232,21392.413,333000.0,Microcystis,Cyanophyta
+MO,1997-10-30,,0-2m,Microcystis aeruginosa,2,2,2,130.2271,299.499,2447.437,5629.105,Microcystis,Cyanophyta
+ME,1997-11-30,,0-8m,Microcystis aeruginosa,2,2,2,28.648,52.08,978.975,1276.293,Microcystis,Cyanophyta
+MO,1998-04-13,,0-2m,Miscellaneous,2,2,2,833.389,4166.947,9282.132,23205.33,,Miscellaneous
+MO,1998-04-27,,0-2m,Miscellaneous,2,2,2,52.087,625.042,326.325,3480.799,,Miscellaneous
+ME,1998-07-06,,0-8m,Coelosphaerium naegelianum,2,2,2,312.521,10292.3665,1468.849,48374.092,Woronichinia,Cyanophyta
+ME,1998-07-06,,0-8m,Microcystis aeruginosa,2,2,2,2354.325,112785.0335,74568.877,4653000.0,Microcystis,Cyanophyta
+MO,1998-07-06,,0-2m,Coelosphaerium naegelianum,2,2,2,173.623,8681.25,816.027,40801.36,Woronichinia,Cyanophyta
+MO,1998-07-06,,0-2m,Microcystis aeruginosa,2,2,2,2604.342,93258.462,82487.696,1918000.0,Microcystis,Cyanophyta
+MO,1998-07-06,,0-2m,Miscellaneous,2,2,2,173.623,1562.605,4350.999,34264.12,,Miscellaneous
+ME,1998-07-23,,0-8m,Aphanizomenon flos-aquae,2,2,2,1041.72,4548.4268,104500.0,456200.0,Aphanizomenon,Cyanophyta
+ME,1998-07-23,,0-8m,Coelosphaerium naegelianum,2,2,2,625.042,8108.227,2937.698,38108.47,Woronichinia,Cyanophyta
+ME,1998-07-23,,0-8m,Microcystis aeruginosa,2,2,2,3732.89,27309.5643,89388.864,1147000.0,Microcystis,Cyanophyta
+MO,1998-07-23,,0-2m,Coelosphaerium naegelianum,2,2,2,361.714,482.28,1700.057,2266.742,Woronichinia,Cyanophyta
+MO,1998-07-23,,0-2m,Microcystis aeruginosa,2,2,2,3954.742,8952.4238,125300.0,363000.0,Microcystis,Cyanophyta
+ME,1998-08-02,,0-8m,Coelosphaerium naegelianum,2,2,2,182.304,3281.481,856.829,15422.914,Woronichinia,Cyanophyta
+ME,1998-08-02,,0-8m,Microcystis aeruginosa,2,2,2,4101.839,25576.3189,119400.0,1026000.0,Microcystis,Cyanophyta
+ME,1998-08-02,,0-8m,Miscellaneous,2,2,2,104.174,1041.737,4641.066,9245.874,,Miscellaneous
+MO,1998-08-02,,0-2m,Coelosphaerium naegelianum,2,2,2,282.137,2170.3,1326.044,10200.34,Woronichinia,Cyanophyta
+MO,1998-08-02,,0-2m,Microcystis aeruginosa,2,2,2,4535.896,18444.7064,172900.0,727300.0,Microcystis,Cyanophyta
+ME,1998-08-18,,0-8m,Coelosphaerium naegelianum,2,2,2,1666.779,1823.01,7833.861,8568.286,Woronichinia,Cyanophyta
+ME,1998-08-18,,0-8m,Microcystis aeruginosa,2,2,2,4414.36,20362.7147,128400.0,730700.0,Microcystis,Cyanophyta
+ME,1998-08-18,,0-8m,Miscellaneous,2,2,2,104.174,1562.605,4641.066,8701.999,,Miscellaneous
+MO,1998-08-18,,0-2m,Coelosphaerium naegelianum,2,2,2,238.731,434.06,1122.037,2040.068,Woronichinia,Cyanophyta
+MO,1998-08-18,,0-2m,Microcystis aeruginosa,2,2,2,3407.348,12338.1574,85981.337,539600.0,Microcystis,Cyanophyta
+ME,1998-09-02,,0-8m,Coelosphaerium naegelianum,2,2,2,72.343,868.14,340.011,4080.136,Woronichinia,Cyanophyta
+MO,1998-09-02,,0-2m,Microcystis aeruginosa,2,2,2,2100.835,2187.647,55203.304,59161.505,Microcystis,Cyanophyta
+MO,1998-09-02,,0-2m,Miscellaneous,2,2,2,173.623,694.491,1933.777,10756.637,,Miscellaneous
+ME,1998-09-28,,0-8m,Coelosphaerium naegelianum,2,2,2,512.187,4340.5,2407.28,20400.68,Woronichinia,Cyanophyta
+ME,1998-09-28,,0-8m,Microcystis aeruginosa,2,2,2,1085.143,6615.049,28780.048,176000.0,Microcystis,Cyanophyta
+MO,1998-09-28,,0-2m,Microcystis aeruginosa,2,2,2,21095.171,734085.5083,668200.0,9676000.0,Microcystis,Cyanophyta
+MO,1998-09-28,,0-2m,Miscellaneous,2,2,2,130.217,2474.125,1450.333,46501.306,,Miscellaneous
+ME,1998-10-27,,0-8m,Microcystis aeruginosa,2,2,2,1843.874,11081.4719,48903.057,272700.0,Microcystis,Cyanophyta
+MO,1998-10-27,,0-2m,Microcystis aeruginosa,2,2,2,1192.21,13855.086,37761.034,260400.0,Microcystis,Cyanophyta
+ME,1998-11-23,,0-8m,Microcystis aeruginosa,2,2,2,312.521,1375.088,7483.719,26971.845,Microcystis,Cyanophyta
+MO,1998-11-23,,0-2m,Coelosphaerium naegelianum,2,2,2,41.669,1302.25,195.847,6120.204,Woronichinia,Cyanophyta
+MO,1998-11-23,,0-2m,Microcystis aeruginosa,2,2,2,187.513,664.3923,3524.309,13948.176,Microcystis,Cyanophyta
+MO,1998-11-23,,0-2m,Miscellaneous,2,2,2,104.174,937.563,1160.266,5221.199,,Miscellaneous
+ME,1999-01-25,,0-8m,Miscellaneous,2,2,2,114.591,625.042,957.22,3480.799,,Miscellaneous
+MO,1999-03-29,,0-2m,Miscellaneous,2,2,2,729.216,1666.779,9282.132,13198.031,,Miscellaneous
+MO,1999-06-08,,0-2m,Coelosphaerium naegelianum,2,2,2,5.787,2257.125,27.201,10608.354,Woronichinia,Cyanophyta
+MO,1999-06-08,,0-2m,Microcystis aeruginosa,2,2,2,98.386,810.2384,1849.175,15228.498,Microcystis,Cyanophyta
+ME,1999-06-21,,0-8m,Coelosphaerium naegelianum,2,2,2,705.342,7234.2,3315.11,34001.133,Woronichinia,Cyanophyta
+ME,1999-06-21,,0-8m,Microcystis aeruginosa,2,2,2,831.9768,2097.942,15636.404,39430.932,Microcystis,Cyanophyta
+MO,1999-06-21,,0-2m,Coelosphaerium naegelianum,2,2,2,1111.186,10417.5,5222.574,48961.632,Woronichinia,Cyanophyta
+MO,1999-06-21,,0-2m,Microcystis aeruginosa,2,2,2,4687.821,5729.553,107700.0,177500.0,Microcystis,Cyanophyta
+ME,1999-07-06,,0-8m,Microcystis aeruginosa,2,2,2,6875.463,87870.528,129200.0,1652000.0,Microcystis,Cyanophyta
+MO,1999-07-07,,0-2m,Microcystis aeruginosa,2,2,2,7563.4443,9115.197,142200.0,171300.0,Microcystis,Cyanophyta
+ME,1999-07-19,,0-8m,Coelosphaerium naegelianum,2,2,2,243.072,263.04,1142.438,1236.241,Woronichinia,Cyanophyta
+ME,1999-07-19,,0-8m,Microcystis aeruginosa,2,2,2,1145.9085,3958.6,21537.447,74402.089,Microcystis,Cyanophyta
+ME,1999-07-19,,0-8m,Miscellaneous,2,2,2,104.174,312.521,580.133,5873.849,,Miscellaneous
+MO,1999-07-19,,0-2m,Microcystis aeruginosa,2,2,2,11459.105,51161.0685,215400.0,2154000.0,Microcystis,Cyanophyta
+ME,1999-08-02,,0-8m,Coelosphaerium naegelianum,2,2,2,651.09,781.303,3060.102,3672.122,Woronichinia,Cyanophyta
+ME,1999-08-02,,0-8m,Microcystis aeruginosa,2,2,2,4731.221,10645.2398,88923.549,376000.0,Microcystis,Cyanophyta
+MO,1999-08-02,,0-2m,Coelosphaerium naegelianum,2,2,2,520.868,7562.2294,2448.082,35542.518,Woronichinia,Cyanophyta
+MO,1999-08-02,,0-2m,Microcystis aeruginosa,2,2,2,14143.0225,15452.43,290400.0,351500.0,Microcystis,Cyanophyta
+ME,1999-08-16,,0-8m,Microcystis aeruginosa,2,2,2,2656.602,31168.752,399400.0,999000.0,Microcystis,Cyanophyta
+MO,1999-08-17,,0-2m,Coelosphaerium naegelianum,2,2,2,260.434,1644.0,1224.041,7726.503,Woronichinia,Cyanophyta
+MO,1999-08-17,,0-2m,Microcystis aeruginosa,2,2,2,14020.042,63360.0704,444100.0,1291000.0,Microcystis,Cyanophyta
+ME,1999-08-30,,0-8m,Coelosphaerium naegelianum,2,2,2,737.897,9983.3467,3468.116,46921.564,Woronichinia,Cyanophyta
+ME,1999-08-30,,0-8m,Microcystis aeruginosa,2,2,2,8724.546,9549.26,164000.0,179500.0,Microcystis,Cyanophyta
+MO,1999-08-30,,0-2m,Coelosphaerium naegelianum,2,2,2,43.406,4931.85,204.007,23179.51,Woronichinia,Cyanophyta
+MO,1999-08-30,,0-2m,Microcystis aeruginosa,2,2,2,9549.254,94932.9626,179500.0,1784000.0,Microcystis,Cyanophyta
+MO,1999-09-27,,0-2m,Coelosphaerium naegelianum,2,2,2,217.029,10417.32,1020.034,48961.632,Woronichinia,Cyanophyta
+MO,1999-09-27,,0-2m,Microcystis aeruginosa,2,2,2,16928.224,39195.36,318200.0,749500.0,Microcystis,Cyanophyta
+ME,1999-09-27,,0-8m,Microcystis aeruginosa,2,2,2,4687.812,8984.98,168900.0,175300.0,Microcystis,Cyanophyta
+MO,1999-10-25,,0-2m,Coelosphaerium naegelianum,2,2,2,737.897,10851.5,3468.116,51001.7,Woronichinia,Cyanophyta
+MO,1999-10-25,,0-2m,Microcystis aeruginosa,2,2,2,1041.737,3971.6185,19579.497,74646.833,Microcystis,Cyanophyta
+ME,1999-10-26,,0-8m,Microcystis aeruginosa,2,2,2,130.217,1331.0731,2447.437,25018.246,Microcystis,Cyanophyta
+MO,1999-11-22,,0-2m,Cyclotella sp1,2,1,1,43.406,43.406,1015.88,1015.88,Cyclotella,Bacillariophyta
+MO,1999-11-22,,0-2m,Stephanodiscus niagarae,2,1,1,108.514,108.514,1615000.0,1615000.0,Stephanodiscus,Bacillariophyta
+MO,1999-11-22,,0-2m,Uroglena,2,1,1,43.406,43.406,1937.475,1937.475,Uroglena,Chrysophyta
+MO,1999-11-22,,0-2m,Erkenia subaequiciliata,2,1,1,195.326,195.326,8701.999,8701.999,Erkenia,Chrysophyta
+MO,1999-11-22,,0-2m,Chlamydomonas globosa,2,1,1,21.703,21.703,7735.11,7735.11,Chlamydomonas,Chlorophyta
+MO,1999-11-22,,0-2m,Chlamydomonas incerta,2,1,1,21.703,21.703,26105.996,26105.996,Chlamydomonas,Chlorophyta
+MO,1999-11-22,,0-2m,Chlamydomonas platystigma,2,1,1,21.703,21.703,1450.333,1450.333,Chlamydomonas,Chlorophyta
+MO,1999-11-22,,0-2m,Closterium moniliferum,2,1,1,21.703,21.703,6811.435,6811.435,Closterium,Chlorophyta
+MO,1999-11-22,,0-2m,Dictyosphaerium pulchellum,2,1,1,175.36,175.36,3295.774,3295.774,Dictyosphaerium,Chlorophyta
+MO,1999-11-22,,0-2m,Oocystis parva,2,1,1,86.812,86.812,3263.25,3263.25,Oocystis,Chlorophyta
+MO,1999-11-22,,0-2m,Schroederia judayi,2,1,1,10.96,10.96,193.629,193.629,Schroederia,Chlorophyta
+MO,1999-11-22,,0-2m,Sphaerocystis schroeteri,2,1,1,347.248,347.248,15470.22,15470.22,Sphaerocystis,Chlorophyta
+MO,1999-11-22,,0-2m,Monomastix astigmata,2,1,1,21.703,21.703,75.842,75.842,Monomastix,Chlorophyta
+MO,1999-11-22,,0-2m,Cryptomonas erosa,2,1,1,520.868,520.868,240400.0,240400.0,Cryptomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Cryptomonas ovata,2,1,1,21.703,21.703,19560.7,19560.7,Cryptomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Cryptomonas lucens,2,1,1,151.92,151.92,10067.388,10067.388,Cryptomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Rhodomonas minuta,2,1,1,21.703,21.703,1695.291,1695.291,Rhodomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Rhodomonas minuta var. nannoplanctica,2,1,1,1020.034,1020.034,34770.486,34770.486,Rhodomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Cryptomonas rostratiformis,2,1,1,21.703,21.703,33800.89,33800.89,Cryptomonas,Cryptophyta
+MO,1999-11-22,,0-2m,Anabaena flos-aquae,2,1,1,737.902,737.902,49311.326,49311.326,Anabaena,Cyanophyta
+MO,1999-11-22,,0-2m,Aphanizomenon flos-aquae,2,1,1,17537.6359,17537.6359,1759000.0,1759000.0,Aphanizomenon,Cyanophyta
+MO,1999-11-22,,0-2m,Aphanocapsa koordersi,2,1,1,1302.18,1302.18,18230.395,18230.395,Aphanocapsa,Cyanophyta
+MO,1999-11-22,,0-2m,Coelosphaerium naegelianum,4,2,2,21.703,260.436,102.003,1224.041,Woronichinia,Cyanophyta
+MO,1999-11-22,,0-2m,Lyngbya limnetica,2,1,1,217.03,217.03,1020.415,1020.415,Lyngbya,Cyanophyta
+MO,1999-11-22,,0-2m,Microcystis aeruginosa,4,2,2,108.514,781.299,2039.531,14684.623,Microcystis,Cyanophyta
+MO,1999-11-22,,0-2m,Chroococcaceae,2,1,1,13678.089,13678.089,5215.004,5215.004,,Cyanophyta
+MO,1999-11-22,,0-2m,Synechocystis,2,1,1,65.109,65.109,362.583,362.583,Synechocystis,Cyanophyta
+MO,1999-11-22,,0-2m,Synechococcus sp1,2,1,1,15287.276,15287.276,11657.068,11657.068,Synechococcus,Cyanophyta
+MO,1999-11-22,,0-2m,Lyngbya circumcreta,2,1,1,2740.0,2740.0,22901.904,22901.904,Lyngbya,Cyanophyta
+MO,1999-11-22,,0-2m,Miscellaneous,2,1,1,2734.559,2734.559,15228.498,15228.498,,Miscellaneous
+MO,1999-11-22,,0-2m,Monoraphidium capricornutum,2,1,1,21.703,21.703,204.148,204.148,Monoraphidium,Chlorophyta
+MO,1999-11-22,,0-2m,Nitzschia palea,2,1,1,43.406,43.406,2394.575,2394.575,Nitzschia,Bacillariophyta
+MO,2000-03-29,,0-2m,Miscellaneous,2,2,2,416.695,4791.989,13052.998,26686.129,,Miscellaneous
+MO,2000-04-10,,0-2m,Miscellaneous,2,2,2,390.651,1823.039,10152.332,12237.186,,Miscellaneous
+MO,2000-04-25,,0-2m,Aphanizomenon flos-aquae,2,2,2,371.504,2606.9453,37268.292,261500.0,Aphanizomenon,Cyanophyta
+MO,2000-05-09,,0-2m,Microcystis aeruginosa,2,2,2,70.317,429.7072,1321.616,8076.543,Microcystis,Cyanophyta
+MO,2000-06-06,,0-2m,Microcystis aeruginosa,2,2,2,60.768,1250.064,1142.137,23495.396,Microcystis,Cyanophyta
+MO,2000-06-19,,0-2m,Microcystis aeruginosa,2,2,2,3694.6868,3958.6,69441.95,74402.089,Microcystis,Cyanophyta
+ME,2000-06-19,,0-8m,Microcystis aeruginosa,2,2,2,494.825,7870.8635,9300.261,147900.0,Microcystis,Cyanophyta
+MO,2000-07-03,,0-2m,Microcystis aeruginosa,2,2,2,3559.268,70121.5237,66896.615,1333000.0,Microcystis,Cyanophyta
+ME,2000-07-03,,0-8m,Coelosphaerium naegelianum,2,2,2,34.725,1736.2,163.205,8160.272,Woronichinia,Cyanophyta
+ME,2000-07-03,,0-8m,Microcystis aeruginosa,2,2,2,486.144,5195.7453,9137.099,97652.742,Microcystis,Cyanophyta
+MO,2000-07-17,,0-2m,Microcystis aeruginosa,2,2,2,3081.805,10279.92,57922.679,193200.0,Microcystis,Cyanophyta
+ME,2000-07-17,,0-8m,Aphanizomenon flos-aquae,2,2,2,13021.8,138847.2454,163300.0,13930000.0,Aphanizomenon,Cyanophyta
+ME,2000-07-17,,0-8m,Microcystis aeruginosa,2,2,2,1562.605,2604.36,6118.593,29369.246,Microcystis,Cyanophyta
+MO,2000-08-11,,0-2m,Coelosphaerium naegelianum,2,2,2,86.811,7233.27,408.014,33996.615,Woronichinia,Cyanophyta
+MO,2000-08-11,,0-2m,Microcystis aeruginosa,2,2,2,16667.789,80571.8375,313300.0,1514000.0,Microcystis,Cyanophyta
+MO,2000-08-16,,0-2m,Microcystis aeruginosa,2,2,2,18519.297,18635.515,348100.0,350300.0,Microcystis,Cyanophyta
+ME,2000-08-16,,0-8m,Microcystis aeruginosa,2,2,2,10026.717,16060.109,188500.0,301900.0,Microcystis,Cyanophyta
+ME,2000-08-16,,0-8m,Miscellaneous,2,2,2,130.217,325.543,725.167,2719.375,,Miscellaneous
+MO,2000-08-28,,0-2m,Microcystis aeruginosa,2,2,2,6380.638,29091.5335,119900.0,623200.0,Microcystis,Cyanophyta
+ME,2000-08-28,,0-8m,Microcystis aeruginosa,2,2,2,9462.443,55765.0872,177800.0,1048000.0,Microcystis,Cyanophyta
+ME,2000-08-28,,0-8m,Miscellaneous,2,1,2,260.434,260.434,1450.333,2175.5,,Miscellaneous
+ME,2000-09-25,,0-8m,Microcystis aeruginosa,3,3,3,17.362,3373.3722,12086.109,63400.276,Microcystis,Cyanophyta
+MO,2000-09-25,,0-2m,Microcystis aeruginosa,2,2,2,3298.833,24591.173,62001.741,462200.0,Microcystis,Cyanophyta
+ME,2000-10-24,,0-8m,Microcystis aeruginosa,2,2,2,1510.518,4912.1813,28390.271,92322.767,Microcystis,Cyanophyta
+MO,2000-10-24,,0-2m,Aphanizomenon flos-aquae,2,2,2,808.2144,1575.4104,45600.324,88886.346,Aphanizomenon,Cyanophyta
+MO,2000-10-24,,0-2m,Microcystis aeruginosa,2,2,2,442.738,4279.801,8321.286,80439.1,Microcystis,Cyanophyta
+MO,2001-01-15,,0-2m,Synechocystis,2,2,2,106.778,1287.35,490.824,594.637,Synechocystis,Cyanophyta
+MO,2001-04-09,,0-2m,Synechocystis,2,2,2,260.434,6436.748,1450.333,2454.12,Synechocystis,Cyanophyta
+MO,2001-04-25,,0-2m,Synechocystis,2,2,2,231.497,9655.122,1289.185,3681.179,Synechocystis,Cyanophyta
+MO,2001-05-09,,0-2m,Synechocystis,2,2,2,341.169,1931.024,736.236,1899.936,Synechocystis,Cyanophyta
+MO,2001-05-21,,0-2m,Microcystis aeruginosa,2,2,2,252.5519,1207.468,4746.545,22694.417,Microcystis,Cyanophyta
+MO,2001-06-04,,0-2m,Microcystis aeruginosa,2,2,2,1197.997,2100.7968,22516.422,39485.319,Microcystis,Cyanophyta
+WI,2001-06-18,,0-2m,Microcystis aeruginosa,2,2,2,876.3135,47028.8223,29365.5269,4269242.823,Microcystis,Cyanophyta
+MO,2001-06-18,,0-2m,Synechocystis,2,2,2,108.514,1316.608,501.979,2039.531,Synechocystis,Cyanophyta
+ME,2001-06-18,,0-8m,Synechocystis,2,2,2,125.008,804.593,306.765,2349.54,Synechocystis,Cyanophyta
+ME,2001-07-02,,0-8m,Microcystis aeruginosa,2,2,2,2790.36,6231.819,52445.081,117100.0,Microcystis,Cyanophyta
+MO,2001-07-02,,0-2m,Coelosphaerium naegelianum,2,2,2,173.623,1096.0,816.027,5151.002,Woronichinia,Cyanophyta
+MO,2001-07-02,,0-2m,Microcystis aeruginosa,2,2,2,4232.056,42782.1261,134000.0,1597000.0,Microcystis,Cyanophyta
+WI,2001-07-16,,0-2m,Microcystis aeruginosa,2,2,2,886.0503,17380.2169,12526.27,1045399.8403,Microcystis,Cyanophyta
+ME,2001-07-16,,0-8m,Microcystis aeruginosa,2,2,2,2448.082,3264.103,46011.818,61349.091,Microcystis,Cyanophyta
+MO,2001-07-17,,0-2m,Microcystis aeruginosa,2,2,2,5573.2921,8594.3289,104870.4082,363179.8819,Microcystis,Cyanophyta
+ME,2001-07-30,,0-8m,Coelosphaerium naegelianum,2,2,2,260.4342,1232.9527,9800.9467,46399.8783,Woronichinia,Cyanophyta
+ME,2001-07-30,,0-8m,Microcystis aeruginosa,2,2,2,3515.8618,46380.9369,66156.5659,880056.6278,Microcystis,Cyanophyta
+MO,2001-07-30,,0-2m,Microcystis aeruginosa,2,2,2,22397.3421,36750.1319,710206.2798,920335.3481,Microcystis,Cyanophyta
+WI,2001-08-01,,0-2m,Cylindrospermopsis raciborskii,2,2,2,143564.3586,191682.4595,3601852.0097,3613124.431,Cylindrospermopsis,Cyanophyta
+WI,2001-08-01,,0-2m,Microcystis aeruginosa,2,2,2,1476.7505,11927.5999,49486.3509,1303775.8607,Microcystis,Cyanophyta
+ME,2001-08-13,,0-8m,Coelosphaerium naegelianum,2,2,2,72.3428,2922.5544,2722.4852,109984.8963,Woronichinia,Cyanophyta
+ME,2001-08-13,,0-8m,Microcystis aeruginosa,2,2,2,5968.3057,8030.0548,112302.6172,151098.3296,Microcystis,Cyanophyta
+MO,2001-08-13,,0-2m,Microcystis aeruginosa,2,2,2,10996.1111,38197.0175,490450.747,1614132.8662,Microcystis,Cyanophyta
+WI,2001-08-15,,0-2m,Microcystis aeruginosa,2,2,2,204.4731,2112.8823,23125.3601,54958.4338,Microcystis,Cyanophyta
+ME,2001-08-27,,0-8m,Microcystis aeruginosa,2,2,2,13238.739,68754.6316,249108.0569,1293726.2708,Microcystis,Cyanophyta
+MO,2001-08-27,,0-2m,Microcystis aeruginosa,2,2,2,14540.9101,22299.6793,348599.4162,839320.342,Microcystis,Cyanophyta
+ME,2001-09-26,,0-8m,Microcystis aeruginosa,2,2,2,4080.136,9838.6257,76774.2864,185129.184,Microcystis,Cyanophyta
+MO,2001-09-26,,0-2m,Microcystis aeruginosa,2,2,2,15137.7385,17362.2536,284840.77,676462.6427,Microcystis,Cyanophyta
+MO,2001-10-22,,0-2m,Microcystis aeruginosa,2,2,2,607.6798,7826.1746,27103.8571,147261.8552,Microcystis,Cyanophyta
+ME,2001-10-22,,0-8m,Microcystis aeruginosa,2,2,2,325.5428,1835.7711,6125.608,34542.9275,Microcystis,Cyanophyta
+MO,2001-11-26,,0-2m,Coelosphaerium naegelianum,2,2,2,130.2171,839.1769,4900.4733,31580.8606,Woronichinia,Cyanophyta
+MO,2001-11-26,,0-2m,Microcystis aeruginosa,2,2,2,69.4491,86.8114,1306.7946,1633.4955,Microcystis,Cyanophyta
+ME,2001-11-26,,0-8m,Microcystis aeruginosa,2,2,2,95.4925,135.4258,1796.845,2548.2487,Microcystis,Cyanophyta
+MO,2001-11-27,,0-2m,Microcystis aeruginosa,2,2,2,119.8,3000.168,2251.642,83220.114,Microcystis,Cyanophyta
+ME,2001-11-28,,0-8m,Microcystis aeruginosa,2,2,2,341.6409,401.069,6421.185,7538.106,Microcystis,Cyanophyta
+MO,2002-04-10,,0-2m,Dinobryon sertularia,2,2,2,23.1497,57.8743,2065.0581,7622.9672,Dinobryon,Chrysophyta
+WI,2002-04-22,,0-2m,Microcystis aeruginosa,2,2,2,477.104,17857.3209,15987.898,598404.5635,Microcystis,Cyanophyta
+MO,2002-05-21,,0-2m,Microcystis aeruginosa,2,2,2,11.5749,196.7725,217.7994,3702.5839,Microcystis,Cyanophyta
+WI,2002-05-23,,0-2m,Microcystis aeruginosa,2,2,2,90.877,1908.416,1284.7456,37543.0316,Microcystis,Cyanophyta
+MO,2002-06-05,,0-2m,Microcystis aeruginosa,2,2,2,125.0084,182.3039,3430.3352,3963.942,Microcystis,Cyanophyta
+MO,2002-06-19,,0-2m,Microcystis aeruginosa,2,2,2,1163.2728,6668.852,21888.8391,125484.9132,Microcystis,Cyanophyta
+WI,2002-06-20,,0-2m,Microcystis aeruginosa,2,2,2,545.2617,21128.8912,18271.8834,708035.9457,Microcystis,Cyanophyta
+MO,2002-07-01,,0-2m,Microcystis aeruginosa,2,2,2,3177.2974,5903.1754,100750.1932,111077.5173,Microcystis,Cyanophyta
+ME,2002-07-01,,0-8m,Microcystis aeruginosa,2,2,2,1041.7368,1339.3759,23987.5236,42470.8074,Microcystis,Cyanophyta
+WI,2002-07-03,,0-2m,Microcystis aeruginosa,2,2,2,636.1387,3226.1318,71945.5648,180506.3439,Microcystis,Cyanophyta
+ME,2002-07-15,,0-8m,Microcystis aeruginosa,2,2,2,1111.186,5000.3368,20908.7071,119876.5754,Microcystis,Cyanophyta
+MO,2002-07-16,,0-8m,Coelosphaerium naegelianum,2,2,2,43.4057,876.7663,1633.4911,32995.4685,Woronichinia,Cyanophyta
+MO,2002-07-16,,0-8m,Microcystis aeruginosa,2,2,2,7031.7237,15235.4013,222971.739,588874.1415,Microcystis,Cyanophyta
+WI,2002-07-18,,0-2m,Microcystis aeruginosa,2,2,2,1294.9966,9087.6951,18307.6253,454894.0493,Microcystis,Cyanophyta
+MO,2002-07-26,,0-2m,Microcystis aeruginosa,2,2,2,14931.5614,25828.4413,473470.8532,847146.0601,Microcystis,Cyanophyta
+ME,2002-07-26,,0-8m,Microcystis aeruginosa,2,2,2,8659.4375,14974.9671,162940.9134,281777.966,Microcystis,Cyanophyta
+WI,2002-07-31,,0-2m,Microcystis aeruginosa,2,2,2,7724.5409,40894.6281,258851.6817,3950583.6078,Microcystis,Cyanophyta
+ME,2002-08-12,,0-8m,Microcystis aeruginosa,2,2,2,1953.2566,5989.9868,36753.6043,112711.1864,Microcystis,Cyanophyta
+MO,2002-08-13,,0-2m,Microcystis aeruginosa,2,2,2,3588.2047,11111.8596,127210.7685,352350.4024,Microcystis,Cyanophyta
+WI,2002-08-15,,0-2m,Microcystis aeruginosa,2,2,2,4725.6015,6361.3911,66806.7731,421347.9995,Microcystis,Cyanophyta
+MO,2002-08-26,,0-2m,Anabaena flos-aquae,2,2,2,675.1998,38968.713,45173.1626,2052150.9723,Anabaena,Cyanophyta
+MO,2002-08-26,,0-2m,Microcystis aeruginosa,2,2,2,5063.9985,14179.1959,219647.6378,449613.7947,Microcystis,Cyanophyta
+ME,2002-08-26,,0-8m,Microcystis aeruginosa,2,2,2,6173.2554,12442.9678,116159.5225,287609.2472,Microcystis,Cyanophyta
+WI,2002-08-28,,0-2m,Microcystis aeruginosa,2,2,2,2215.1257,21658.9992,250524.7346,792892.4035,Microcystis,Cyanophyta
+ME,2002-09-23,,0-2m,Microcystis aeruginosa,2,2,2,2862.624,5793.4056,82062.8413,282643.3811,Microcystis,Cyanophyta
+MO,2002-09-23,,0-8m,Microcystis aeruginosa,2,2,2,2257.7243,2342.9214,78512.0459,135552.1841,Microcystis,Cyanophyta
+WI,2002-09-26,,0-2m,Cylindrospermopsis raciborskii,2,2,2,252.4335,69599.446,4758.3096,1311917.8448,Cylindrospermopsis,Cyanophyta
+WI,2002-09-26,,0-2m,Microcystis aeruginosa,2,2,2,1514.6159,2726.3085,38542.3691,50755.262,Microcystis,Cyanophyta
+ME,2002-10-21,,0-2m,Microcystis aeruginosa,2,2,2,2290.0992,3877.4069,76741.9103,115535.8959,Microcystis,Cyanophyta
+MO,2002-10-22,,0-8m,Microcystis aeruginosa,2,2,2,1419.9524,2347.6565,33828.5191,72802.0804,Microcystis,Cyanophyta
+MO,2002-11-19,,0-8m,Microcystis aeruginosa,2,2,2,32.4561,486.8408,458.8377,14742.2522,Microcystis,Cyanophyta
+ME,2003-04-14,,0-8m,Chlorococcaceae,2,2,2,18.1754,36.3508,256.9491,25333.2225,,Chlorophyta
+ME,2003-06-09,,0-8m,Chlorococcaceae,2,2,2,54.5262,72.7016,6166.7627,10049.5441,,Chlorophyta
+ME,2003-06-09,,0-8m,Sphaerocystis schroeteri,2,2,2,737.9208,1235.9265,98805.2729,244861.3659,Sphaerocystis,Chlorophyta
+ME,2003-06-09,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,36.3508,72.7016,513.8983,2131.7188,Rhodomonas,Cryptophyta
+ME,2003-06-09,,0-8m,Chroococcaceae,2,2,2,5338.361,18068.2988,1431.2146,4844.1109,,Cyanophyta
+ME,2003-06-09,,0-8m,Anabaena flos-aquae,2,2,2,245.3678,636.1387,12333.529,31975.8169,Anabaena,Cyanophyta
+ME,2003-06-09,,0-8m,Aphanizomenon flos-aquae,2,2,2,14516.0881,20536.6488,615648.6258,1457497.709,Aphanizomenon,Cyanophyta
+ME,2003-06-09,,0-8m,Aphanocapsa delicatissima,2,2,2,12050.2483,24491.2884,6309.4931,12823.6148,Aphanocapsa,Cyanophyta
+ME,2003-06-09,,0-8m,Aphanothece nidulans,2,2,2,28244.5565,91174.5733,29577.6232,95477.746,Aphanothece,Cyanophyta
+ME,2003-06-09,,0-8m,Microcystis aeruginosa,4,4,4,109.0523,272.6309,1541.6948,8025.6707,Microcystis,Cyanophyta
+ME,2003-06-09,,0-8m,Oscillatoria limnetica,2,2,2,787.6042,3489.6695,5567.2193,12333.5254,Pseudanabaena,Cyanophyta
+ME,2003-06-09,,0-8m,Synechococcus sp1,2,2,2,4106.4315,8212.8631,1651.1961,3302.3922,Synechococcus,Cyanophyta
+MO,2003-06-10,,0-2m,Chlorococcaceae,2,2,2,227.1924,249.9116,4282.4855,28264.329,,Chlorophyta
+MO,2003-06-10,,0-2m,Microcystis aeruginosa,2,2,2,85.1971,302.9241,1204.449,4282.4741,Microcystis,Cyanophyta
+MO,2003-06-23,,0-2m,Microcystis aeruginosa,2,2,2,1035.9972,5477.1539,19663.7457,128822.5633,Microcystis,Cyanophyta
+MO,2003-07-08,,0-2m,Coelosphaerium naegelianum,2,2,2,113.5962,4388.9351,2676.542,95138.8993,Woronichinia,Cyanophyta
+MO,2003-07-08,,0-2m,Microcystis aeruginosa,2,2,2,7429.1908,27177.8883,224967.0403,807856.2932,Microcystis,Cyanophyta
+ME,2003-07-21,,0-8m,Sphaerocystis schroeteri,2,2,2,75.2389,259.6484,8509.3178,71999.9676,Sphaerocystis,Chlorophyta
+ME,2003-07-21,,0-8m,Cryptomonas erosa,2,1,2,25.9648,25.9648,10876.1276,15661.6247,Cryptomonas,Cryptophyta
+ME,2003-07-21,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,25.9648,90.877,870.0897,5353.0977,Rhodomonas,Cryptophyta
+ME,2003-07-21,,0-8m,Chroococcaceae,2,2,2,9386.1292,10559.3954,2516.4212,2830.9739,,Cyanophyta
+ME,2003-07-21,,0-8m,Aphanizomenon flos-aquae,2,2,2,2207.0117,2856.1276,119297.5287,181087.5357,Aphanizomenon,Cyanophyta
+ME,2003-07-21,,0-8m,Aphanothece nidulans,2,2,2,12727.9662,93862.9083,13328.6966,98293.0818,Aphanothece,Cyanophyta
+ME,2003-07-21,,0-8m,Coelosphaerium naegelianum,4,4,4,2414.7304,3427.3593,56895.6367,80755.2531,Woronichinia,Cyanophyta
+ME,2003-07-21,,0-8m,Gloeotrichia echinulata,2,2,2,156.7477,470.243,35455.4904,106366.471,Gloeotrichia,Cyanophyta
+ME,2003-07-21,,0-8m,Microcystis aeruginosa,4,4,4,1635.7851,28377.9509,38970.4541,820577.5423,Microcystis,Cyanophyta
+ME,2003-07-21,,0-8m,Synechococcus sp1,2,2,2,4693.0646,8799.4961,1887.0813,3538.2774,Synechococcus,Cyanophyta
+MO,2003-07-21,,0-2m,Coelosphaerium naegelianum,2,2,2,545.2617,1817.539,12847.4018,29739.4119,Woronichinia,Cyanophyta
+MO,2003-07-21,,0-2m,Microcystis aeruginosa,2,2,2,5725.2479,25379.4516,128473.9911,1268326.4704,Microcystis,Cyanophyta
+ME,2003-08-04,,0-8m,Coelosphaerium naegelianum,2,2,2,2194.4675,3407.8857,51705.9235,80296.2615,Woronichinia,Cyanophyta
+ME,2003-08-04,,0-8m,Microcystis aeruginosa,2,2,2,3748.6742,28853.4207,96569.972,896464.8479,Microcystis,Cyanophyta
+MO,2003-08-05,,0-2m,Coelosphaerium naegelianum,2,2,2,1211.6927,4754.6804,28549.7819,112029.5014,Woronichinia,Cyanophyta
+MO,2003-08-05,,0-2m,Microcystis aeruginosa,2,2,2,13404.3503,19447.6676,405903.8343,544730.8957,Microcystis,Cyanophyta
+ME,2003-08-18,,0-8m,Microcystis aeruginosa,2,2,2,2817.1855,7169.1736,94404.731,407300.4267,Microcystis,Cyanophyta
+MO,2003-08-18,,0-2m,Microcystis aeruginosa,2,2,2,5957.489,8481.8488,289318.3058,495181.0559,Microcystis,Cyanophyta
+ME,2003-09-02,,0-8m,Coelosphaerium naegelianum,2,2,2,30.2923,263.3361,713.7445,6204.7108,Woronichinia,Cyanophyta
+ME,2003-09-02,,0-8m,Microcystis aeruginosa,2,2,2,1666.0774,12132.073,23553.67,625848.0896,Microcystis,Cyanophyta
+MO,2003-09-03,,0-8m,Microcystis aeruginosa,2,2,2,3559.3473,3730.5948,363703.2953,402552.5649,Microcystis,Cyanophyta
+ME,2003-09-29,,0-8m,Coelosphaerium naegelianum,2,2,2,30.2923,1211.6927,713.7445,28549.8364,Woronichinia,Cyanophyta
+ME,2003-09-29,,0-8m,Microcystis aeruginosa,2,2,2,620.9925,651.2848,8779.0952,19770.7594,Microcystis,Cyanophyta
+MO,2003-09-30,,0-8m,Microcystis aeruginosa,2,2,2,1363.1543,3630.2313,99924.388,263516.2581,Microcystis,Cyanophyta
+ME,2003-10-27,,0-8m,Microcystis aeruginosa,2,2,2,72.7016,115.1108,1627.3445,1966.7663,Microcystis,Cyanophyta
+MO,2003-10-29,,0-2m,Coelosphaerium naegelianum,2,2,2,54.5262,2181.0468,1284.7402,51389.7055,Woronichinia,Cyanophyta
+MO,2003-10-29,,0-2m,Microcystis aeruginosa,2,2,2,1199.5758,7497.3485,40198.1435,587769.7655,Microcystis,Cyanophyta
+ME,2003-11-25,,0-8m,Microcystis aeruginosa,2,2,2,54.5262,436.2094,770.8474,6166.7627,Microcystis,Cyanophyta
+MO,2003-12-02,,0-8m,Microcystis aeruginosa,2,2,2,48.4677,72.7016,1027.7947,5481.5668,Microcystis,Cyanophyta
+MO,2004-05-13,,0-2m,Coelosphaerium naegelianum,2,2,2,27.2631,95.0936,770.8447,2688.708,Woronichinia,Cyanophyta
+MO,2004-05-13,,0-2m,Microcystis aeruginosa,2,2,2,381.6832,627.6177,16853.9085,68916.4123,Microcystis,Cyanophyta
+MO,2004-05-27,,0-2m,Microcystis aeruginosa,2,2,2,1526.7328,4190.5552,60868.2406,257856.7523,Microcystis,Cyanophyta
+MO,2004-06-08,,0-2m,Microcystis aeruginosa,2,2,2,1213.2256,2181.0468,40655.6285,90725.0051,Microcystis,Cyanophyta
+MO,2004-06-21,,0-2m,Coelosphaerium naegelianum,2,2,2,436.2094,1462.9784,12333.5145,41364.7388,Woronichinia,Cyanophyta
+MO,2004-06-21,,0-2m,Microcystis aeruginosa,2,2,2,4198.5152,22312.1091,232803.8865,684750.7108,Microcystis,Cyanophyta
+ME,2004-07-07,,0-8m,Coelosphaerium naegelianum,2,2,2,436.2094,3922.6107,12333.5145,110909.2043,Woronichinia,Cyanophyta
+ME,2004-07-07,,0-8m,Microcystis aeruginosa,2,2,2,1799.3636,3413.9567,60297.2153,114403.0446,Microcystis,Cyanophyta
+MO,2004-07-07,,0-2m,Coelosphaerium naegelianum,2,2,2,218.1047,526.6722,6166.7572,14891.3061,Woronichinia,Cyanophyta
+MO,2004-07-07,,0-2m,Microcystis aeruginosa,2,2,2,7797.2424,25351.9431,295990.3399,1398989.093,Microcystis,Cyanophyta
+ME,2004-07-19,,0-8m,Coelosphaerium naegelianum,2,2,2,1817.539,1828.723,51389.6437,51705.9228,Woronichinia,Cyanophyta
+ME,2004-07-19,,0-8m,Microcystis aeruginosa,2,2,2,12450.1423,15770.947,492175.2916,963951.6549,Microcystis,Cyanophyta
+MO,2004-07-20,,0-2m,Coelosphaerium naegelianum,2,2,2,817.8926,1865.2974,23125.3397,52740.0422,Woronichinia,Cyanophyta
+MO,2004-07-20,,0-2m,Microcystis aeruginosa,2,2,2,8042.6102,22999.1171,418430.4677,2013153.3442,Microcystis,Cyanophyta
+ME,2004-08-03,,0-8m,Coelosphaerium naegelianum,2,2,2,90.877,619.9368,2569.4822,17528.3079,Woronichinia,Cyanophyta
+ME,2004-08-03,,0-8m,Microcystis aeruginosa,2,2,2,6634.0174,31436.7762,389039.3486,2752268.9494,Microcystis,Cyanophyta
+MO,2004-08-03,,0-2m,Coelosphaerium naegelianum,2,2,2,60.5846,363.5078,1712.9881,10277.9409,Woronichinia,Cyanophyta
+MO,2004-08-03,,0-2m,Microcystis aeruginosa,2,2,2,6088.7557,23113.0168,187184.7911,1408767.8655,Microcystis,Cyanophyta
+ME,2004-08-16,,0-8m,Coelosphaerium naegelianum,2,2,2,1999.2929,6144.5089,56528.6081,173731.9024,Woronichinia,Cyanophyta
+ME,2004-08-16,,0-8m,Microcystis aeruginosa,2,2,2,5543.494,25953.554,300705.725,1501958.3574,Microcystis,Cyanophyta
+MO,2004-08-16,,0-2m,Coelosphaerium naegelianum,2,2,2,45.4385,548.6169,1284.7411,15511.7768,Woronichinia,Cyanophyta
+MO,2004-08-16,,0-2m,Microcystis aeruginosa,2,2,2,13631.5427,17593.7778,634585.1178,962243.6925,Microcystis,Cyanophyta
+ME,2004-09-07,,0-8m,Coelosphaerium naegelianum,2,2,2,272.6309,438.8935,7708.4466,12409.4217,Woronichinia,Cyanophyta
+ME,2004-09-07,,0-8m,Microcystis aeruginosa,2,2,2,872.4187,7052.0496,29235.0135,742600.2735,Microcystis,Cyanophyta
+ME,2004-10-05,,0-8m,Coelosphaerium naegelianum,2,2,2,246.8776,272.6309,6980.2997,7708.4466,Woronichinia,Cyanophyta
+ME,2004-10-05,,0-8m,Microcystis aeruginosa,2,2,2,2271.9238,14200.6463,115983.7539,1089260.7615,Microcystis,Cyanophyta
+MO,2004-10-06,,0-8m,Microcystis aeruginosa,2,2,2,4203.059,10460.3158,140845.768,419833.7525,Microcystis,Cyanophyta
+ME,2004-11-03,,0-8m,Microcystis aeruginosa,2,2,2,1035.9972,1829.656,40231.5026,85421.1063,Microcystis,Cyanophyta
+MO,2004-11-04,,0-2m,Microcystis aeruginosa,2,2,2,1964.0781,1976.5737,62406.3612,102555.7699,Microcystis,Cyanophyta
+ME,2005-01-31,,0-8m,Microcystis aeruginosa,2,2,2,1.8175,2.7263,60.9063,91.3595,Microcystis,Cyanophyta
+MO,2005-04-18,,0-2m,Dinobryon sociale,2,2,2,81.7893,199.9293,8564.9546,23553.6146,Dinobryon,Chrysophyta
+ME,2005-06-06,,0-8m,Coelosphaerium naegelianum,2,2,2,18.1754,102.4085,513.8964,2895.5317,Woronichinia,Cyanophyta
+ME,2005-06-20,,0-8m,Microcystis aeruginosa,2,2,2,817.8926,1853.8898,15083.8309,62124.4036,Microcystis,Cyanophyta
+MO,2005-06-21,,0-2m,Microcystis aeruginosa,2,2,2,752.5748,1448.3514,25219.0214,48534.6903,Microcystis,Cyanophyta
+ME,2005-07-05,,0-8m,Microcystis aeruginosa,2,2,2,2817.1855,9314.8875,92057.3672,312144.675,Microcystis,Cyanophyta
+MO,2005-07-05,,0-2m,Microcystis aeruginosa,2,2,2,6213.2996,6815.7713,186169.5986,228398.5427,Microcystis,Cyanophyta
+ME,2005-07-18,,0-8m,Coelosphaerium naegelianum,2,2,2,113.5962,2743.085,2141.2427,51705.9241,Woronichinia,Cyanophyta
+ME,2005-07-18,,0-8m,Microcystis aeruginosa,2,2,2,5708.2085,5878.6028,191283.7795,207878.4958,Microcystis,Cyanophyta
+MO,2005-07-19,,0-2m,Coelosphaerium naegelianum,2,2,2,340.7886,603.4786,6423.7282,11375.3034,Woronichinia,Cyanophyta
+MO,2005-07-19,,0-2m,Microcystis aeruginosa,2,2,2,21428.4065,24195.9883,534678.6137,810814.8265,Microcystis,Cyanophyta
+ME,2005-08-01,,0-8m,Coelosphaerium naegelianum,2,2,2,363.5078,658.3403,6851.9767,12409.4217,Woronichinia,Cyanophyta
+ME,2005-08-01,,0-8m,Microcystis aeruginosa,2,2,2,4634.7245,18932.6952,132863.6478,634440.8052,Microcystis,Cyanophyta
+MO,2005-08-03,,0-2m,Microcystis aeruginosa,2,2,2,6474.9828,20827.8613,216978.6155,683313.5663,Microcystis,Cyanophyta
+ME,2005-08-29,,0-8m,Microcystis aeruginosa,2,2,2,4061.0638,11927.5999,136087.553,428148.3536,Microcystis,Cyanophyta
+MO,2005-08-30,,0-2m,Cylindrospermopsis raciborskii,2,2,2,252.4335,12478.92,2676.5458,373217.7804,Cylindrospermopsis,Cyanophyta
+MO,2005-08-30,,0-2m,Microcystis aeruginosa,2,2,2,5225.4247,18326.8519,175105.5494,430745.6548,Microcystis,Cyanophyta
+ME,2005-09-26,,0-8m,Coelosphaerium naegelianum,2,2,2,56.7981,548.6169,1070.6214,10341.1847,Woronichinia,Cyanophyta
+ME,2005-09-26,,0-8m,Microcystis aeruginosa,2,2,2,4401.8523,7582.5456,254093.3787,265424.255,Microcystis,Cyanophyta
+MO,2005-09-27,,0-2m,Microcystis aeruginosa,2,2,2,4884.6361,9996.4646,163685.6222,311510.422,Microcystis,Cyanophyta
+ME,2005-11-02,,0-8m,Microcystis aeruginosa,2,2,2,666.431,2544.5546,22332.3171,85268.7893,Microcystis,Cyanophyta
+MO,2005-11-03,,0-2m,Microcystis aeruginosa,2,2,2,318.0693,1400.4671,4496.6097,46930.1766,Microcystis,Cyanophyta
+ME,2005-11-30,,0-8m,Microcystis aeruginosa,2,2,2,8.7779,599.7879,294.1493,20099.0718,Microcystis,Cyanophyta
+MO,2006-05-16,,0-2m,Chlorococcaceae,2,2,2,4.5438,27.2631,713.7458,4539.4237,,Chlorophyta
+MO,2006-05-31,,0-2m,Microcystis aeruginosa,2,2,2,149.2978,266.1403,5003.0157,8918.4251,Microcystis,Cyanophyta
+ME,2006-06-12,,0-8m,Gloeotrichia echinulata,2,2,2,204.8171,6846.7387,15442.8359,516231.9387,Gloeotrichia,Cyanophyta
+MO,2006-06-13,,0-2m,Coelosphaerium naegelianum,2,2,2,1448.3514,6815.7713,27300.8448,128474.2626,Woronichinia,Cyanophyta
+MO,2006-06-13,,0-2m,Microcystis aeruginosa,2,2,2,3919.0685,4472.8499,68047.494,112347.9374,Microcystis,Cyanophyta
+ME,2006-06-26,,0-8m,Microcystis aeruginosa,2,2,2,1226.8388,7017.7227,80296.3569,235166.0584,Microcystis,Cyanophyta
+MO,2006-06-27,,0-2m,Coelosphaerium naegelianum,2,2,2,1703.9428,5471.5536,32118.6409,103136.2861,Woronichinia,Cyanophyta
+MO,2006-06-27,,0-2m,Microcystis aeruginosa,2,2,2,9087.6951,15634.9705,352907.9177,523932.7512,Microcystis,Cyanophyta
+ME,2006-07-10,,0-8m,Coelosphaerium naegelianum,2,2,2,1893.2698,5679.8095,35687.3788,107061.8865,Woronichinia,Cyanophyta
+ME,2006-07-10,,0-8m,Microcystis aeruginosa,2,2,2,1533.5486,7838.1371,56832.0144,262658.3241,Microcystis,Cyanophyta
+MO,2006-07-12,,0-2m,Coelosphaerium naegelianum,2,2,2,3950.0416,5111.8285,74456.5292,96355.9227,Woronichinia,Cyanophyta
+MO,2006-07-12,,0-2m,Microcystis aeruginosa,2,2,2,1334.7552,2641.1114,25471.8098,88504.4353,Microcystis,Cyanophyta
+ME,2006-07-24,,0-8m,Coelosphaerium naegelianum,2,2,2,18334.4249,18675.2135,346880.5039,352020.3044,Woronichinia,Cyanophyta
+MO,2006-07-25,,0-2m,Coelosphaerium naegelianum,2,2,2,5664.4693,6020.598,106772.7317,113485.8645,Woronichinia,Cyanophyta
+MO,2006-07-25,,0-2m,Microcystis aeruginosa,2,2,2,4907.3554,6815.7713,164447.0461,228398.5427,Microcystis,Cyanophyta
+ME,2006-08-07,,0-8m,Coelosphaerium naegelianum,2,2,2,1404.4592,1799.3636,26473.4323,33917.2848,Woronichinia,Cyanophyta
+ME,2006-08-07,,0-8m,Microcystis aeruginosa,2,2,2,1363.1543,3526.0275,45679.7085,118158.2557,Microcystis,Cyanophyta
+MO,2006-08-08,,0-2m,Coelosphaerium naegelianum,2,2,2,425.9857,548.6169,8029.6602,10341.1847,Woronichinia,Cyanophyta
+MO,2006-08-08,,0-2m,Microcystis aeruginosa,2,2,2,4141.5211,4941.4342,131723.3039,165588.9434,Microcystis,Cyanophyta
+ME,2006-08-21,,0-8m,Coelosphaerium naegelianum,2,2,2,1567.6274,2051.8272,29549.1496,38676.0311,Woronichinia,Cyanophyta
+ME,2006-08-21,,0-8m,Microcystis aeruginosa,2,2,2,1097.2338,1294.9966,36768.6564,43395.7231,Microcystis,Cyanophyta
+MO,2006-08-21,,0-2m,Microcystis aeruginosa,2,2,2,10564.4456,18175.3903,354017.7411,609063.1667,Microcystis,Cyanophyta
+ME,2006-09-06,,0-8m,Coelosphaerium naegelianum,2,2,2,2726.3085,7068.2086,51389.8255,133232.5703,Woronichinia,Cyanophyta
+ME,2006-09-06,,0-8m,Microcystis aeruginosa,2,2,2,4543.8476,7800.2641,200641.7682,217375.2821,Microcystis,Cyanophyta
+MO,2006-09-07,,0-2m,Microcystis aeruginosa,2,2,2,3938.0012,10926.8679,131963.6024,366162.9774,Microcystis,Cyanophyta
+ME,2006-10-02,,0-8m,Microcystis aeruginosa,2,2,2,4331.8013,7951.7332,110462.1006,266464.9664,Microcystis,Cyanophyta
+MO,2006-10-04,,0-2m,Microcystis aeruginosa,2,2,2,2896.7028,10585.7449,120199.263,570688.1816,Microcystis,Cyanophyta
+ME,2006-10-30,,0-8m,Coelosphaerium naegelianum,2,2,2,545.2617,1389.098,15416.8931,39275.8197,Woronichinia,Cyanophyta
+ME,2006-10-30,,0-8m,Microcystis aeruginosa,2,2,2,299.8939,2576.3616,10049.5359,86334.6996,Microcystis,Cyanophyta
+MO,2006-10-30,,0-2m,Microcystis aeruginosa,2,2,2,1749.3813,2181.0468,37825.5521,73087.5337,Microcystis,Cyanophyta
+ME,2006-11-27,,0-8m,Coelosphaerium naegelianum,2,2,2,57.5554,939.0618,602.7202,24981.107,Woronichinia,Cyanophyta
+ME,2006-11-27,,0-8m,Microcystis aeruginosa,2,2,2,18.1754,102.9936,609.0628,3451.3576,Microcystis,Cyanophyta
+MO,2006-12-11,,0-2m,Microcystis aeruginosa,2,2,2,6.0585,548.6169,203.0209,18384.3283,Microcystis,Cyanophyta
+MO,2007-01-05,,0-2m,Microcystis aeruginosa,2,2,2,3.0292,109.0523,101.5105,3654.3791,Microcystis,Cyanophyta
+ME,2007-05-29,,0-8m,Microcystis aeruginosa,2,2,2,30.2923,60.3479,1498.8669,2022.2762,Microcystis,Cyanophyta
+MO,2007-05-29,,0-2m,Microcystis aeruginosa,2,2,2,190.8416,561.9204,6395.1592,18830.2005,Microcystis,Cyanophyta
+ME,2007-06-11,,0-8m,Coelosphaerium naegelianum,2,2,2,15.1462,90.877,428.247,4567.9739,Woronichinia,Cyanophyta
+ME,2007-06-11,,0-8m,Microcystis aeruginosa,2,2,2,249.9116,499.8232,8374.6132,16749.2371,Microcystis,Cyanophyta
+MO,2007-06-11,,0-2m,Microcystis aeruginosa,2,2,2,545.2617,790.6295,18271.8834,26494.25,Microcystis,Cyanophyta
+ME,2007-06-25,,0-8m,Coelosphaerium naegelianum,2,2,2,1499.4697,1999.2907,24535.0729,47107.2309,Woronichinia,Cyanophyta
+ME,2007-06-25,,0-8m,Microcystis aeruginosa,2,2,2,3672.951,6066.0365,104008.6367,270927.3883,Microcystis,Cyanophyta
+MO,2007-06-25,,0-2m,Coelosphaerium naegelianum,2,2,2,2044.7314,2908.0624,48177.7569,49153.3001,Woronichinia,Cyanophyta
+MO,2007-06-25,,0-2m,Microcystis aeruginosa,2,2,2,4498.4091,16734.0818,171268.3792,540799.5424,Microcystis,Cyanophyta
+ME,2007-07-09,,0-8m,Microcystis aeruginosa,2,2,2,2658.1508,4771.0399,85274.7871,235957.9828,Microcystis,Cyanophyta
+MO,2007-07-09,,0-2m,Coelosphaerium naegelianum,2,2,2,702.2296,2877.7701,11307.0979,57446.6228,Woronichinia,Cyanophyta
+MO,2007-07-09,,0-2m,Microcystis aeruginosa,2,2,2,5862.1187,14085.9275,160034.7657,674108.8217,Microcystis,Cyanophyta
+ME,2007-07-23,,0-8m,Coelosphaerium naegelianum,2,2,2,1580.0166,1635.7851,26765.5341,27962.5638,Woronichinia,Cyanophyta
+ME,2007-07-23,,0-8m,Microcystis aeruginosa,2,2,2,9360.326,47551.3648,367088.5844,1586296.2808,Microcystis,Cyanophyta
+MO,2007-07-23,,0-2m,Coelosphaerium naegelianum,2,2,2,908.7695,1810.4357,14869.7412,29151.111,Woronichinia,Cyanophyta
+MO,2007-07-23,,0-2m,Microcystis aeruginosa,2,2,2,7497.3485,15025.6519,358799.8567,923570.9832,Microcystis,Cyanophyta
+ME,2007-08-06,,0-8m,Coelosphaerium naegelianum,2,2,2,454.3848,1645.8507,7434.8706,29127.6702,Woronichinia,Cyanophyta
+ME,2007-08-06,,0-8m,Microcystis aeruginosa,2,2,2,6815.7713,11745.846,271937.0085,393607.0884,Microcystis,Cyanophyta
+MO,2007-08-07,,0-2m,Microcystis aeruginosa,2,2,2,6310.8742,9314.8875,211480.2836,312144.675,Microcystis,Cyanophyta
+ME,2007-08-20,,0-8m,Microcystis aeruginosa,2,2,2,5878.6028,9371.6856,300107.9631,572356.245,Microcystis,Cyanophyta
+MO,2007-08-20,,0-2m,Microcystis aeruginosa,2,2,2,3483.6165,10450.8494,116737.1086,500145.2548,Microcystis,Cyanophyta
+ME,2007-09-04,,0-8m,Microcystis aeruginosa,2,2,2,9314.8875,10445.056,368603.9727,417227.784,Microcystis,Cyanophyta
+MO,2007-09-04,,0-2m,Microcystis aeruginosa,2,2,2,7270.1561,7320.6484,247590.538,382948.2028,Microcystis,Cyanophyta
+ME,2007-10-01,,0-8m,Microcystis aeruginosa,2,2,2,6361.3866,17721.0055,224459.9003,947200.1492,Microcystis,Cyanophyta
+MO,2007-10-04,,0-2m,Microcystis aeruginosa,2,2,2,33601.7528,34533.2415,1028733.8821,1377814.1763,Microcystis,Cyanophyta
+ME,2007-10-29,,0-8m,Microcystis aeruginosa,2,2,2,2589.9931,7382.0256,86791.4462,244123.0452,Microcystis,Cyanophyta
+MO,2007-10-29,,0-2m,Microcystis aeruginosa,2,2,2,1557.8906,4829.4608,52205.3812,144683.7649,Microcystis,Cyanophyta
+ME,2007-11-26,,0-8m,Microcystis aeruginosa,2,2,2,136.3154,305.3466,4567.9709,15979.3442,Microcystis,Cyanophyta
+MO,2007-11-26,,0-2m,Coelosphaerium naegelianum,2,2,2,205.555,2812.858,3363.3938,46025.2822,Woronichinia,Cyanophyta
+ME,2008-02-13,,0-8m,Stephanodiscus parvus,2,2,2,11.3596,15.1462,963.557,3045.3154,Stephanodiscus,Bacillariophyta
+ME,2008-02-13,,0-8m,Schroederia judayi,2,2,2,2.1945,15.1462,58.8299,253.7769,Schroederia,Chlorophyta
+ME,2008-02-13,,0-8m,Erkenia subaequiciliata,2,2,2,40.3898,136.3154,1221.5114,4122.6011,Erkenia,Chrysophyta
+ME,2008-02-13,,0-8m,Cryptomonas erosa,2,2,2,24.1391,35.341,15706.3434,25684.2786,Cryptomonas,Cryptophyta
+ME,2008-02-13,,0-8m,Rhodomonas minuta var. nannoplanctica,2,2,2,136.3154,237.2898,5721.8673,7951.653,Rhodomonas,Cryptophyta
+ME,2008-02-13,,0-8m,Chroococcaceae,2,2,2,9034.1494,9581.6736,2422.0554,2568.8467,,Cyanophyta
+ME,2008-02-13,,0-8m,Synechococcus elongatus,2,2,2,55.5359,3714.5954,101.7751,5186.6895,Synechococcus,Cyanophyta
+ME,2008-02-13,,0-8m,Synechococcus sp1,2,2,2,7528.4578,11498.0083,3027.1929,4623.3491,Synechococcus,Cyanophyta
+ME,2008-02-13,,0-8m,Synechocystis,2,2,2,511.1829,636.1387,903.3112,1124.1206,Synechocystis,Cyanophyta
+MO,2008-03-03,,0-2m,Stephanodiscus parvus,2,2,2,272.6309,519.2969,23125.3669,44048.318,Stephanodiscus,Bacillariophyta
+MO,2008-03-03,,0-2m,Chlorococcaceae,2,2,2,22.7192,32.4561,761.3285,1087.6121,,Chlorophyta
+MO,2008-03-03,,0-2m,Monomastix astigmata,2,2,2,9133.1336,10223.657,69590.3886,86077.9576,Monomastix,Chlorophyta
+MO,2008-03-03,,0-2m,Schroederia judayi,2,2,2,13.1668,97.3682,308.8564,1305.1326,Schroederia,Chlorophyta
+MO,2008-03-03,,0-2m,Cryptomonas erosa,2,2,2,32.4561,39.5004,19577.0309,35672.9519,Cryptomonas,Cryptophyta
+MO,2008-03-03,,0-2m,Rhodomonas minuta var. nannoplanctica,2,2,2,522.5425,714.0332,17510.5549,20936.5242,Rhodomonas,Cryptophyta
+MO,2008-03-03,,0-2m,Chroococcaceae,2,2,2,5866.3308,27102.4481,1572.7633,908211.1677,,Cyanophyta
+MO,2008-03-03,,0-2m,Synechococcus sp1,2,2,2,4927.7178,18772.2584,7548.3251,247694.2012,Synechococcus,Cyanophyta
+MO,2008-03-03,,0-2m,Synechocystis,2,2,2,136.3154,681.5771,240.883,1204.415,Synechocystis,Cyanophyta
+MO,2008-03-03,,0-2m,Miscellaneous,2,2,2,22.7192,97.3682,2401.0418,7647.276,,Miscellaneous
+MO,2008-05-28,,0-2m,Microcystis aeruginosa,2,2,2,96.9354,315.0401,2544.1075,10557.0882,Microcystis,Cyanophyta
+ME,2008-06-09,,0-8m,Synechocystis,2,2,2,9.0877,872.4187,304.5314,1541.6511,Synechocystis,Cyanophyta
+MO,2008-06-09,,0-2m,Microcystis aeruginosa,2,2,2,66.6431,448.3263,2233.2302,21989.7189,Microcystis,Cyanophyta
+ME,2008-06-23,,0-8m,Microcystis aeruginosa,2,2,2,517.9986,2828.5451,29744.1543,75771.2682,Microcystis,Cyanophyta
+MO,2008-06-24,,0-2m,Coelosphaerium naegelianum,2,2,2,870.9041,3155.4497,36480.3446,74348.5316,Woronichinia,Cyanophyta
+MO,2008-06-24,,0-2m,Microcystis aeruginosa,2,2,2,2271.9238,8093.7285,76132.8476,296017.1968,Microcystis,Cyanophyta
+ME,2008-07-07,,0-8m,Coelosphaerium naegelianum,2,2,2,340.7886,1316.6805,8029.6261,31023.5541,Woronichinia,Cyanophyta
+ME,2008-07-07,,0-8m,Microcystis aeruginosa,2,2,2,2862.624,8922.4445,133898.6635,201683.0,Microcystis,Cyanophyta
+MO,2008-07-08,,0-2m,Microcystis aeruginosa,2,2,2,11075.6284,22110.7172,248934.8309,328234.0019,Microcystis,Cyanophyta
+ME,2008-07-21,,0-8m,Microcystis aeruginosa,2,2,2,7497.3485,37448.8422,370969.5528,1227928.5076,Microcystis,Cyanophyta
+MO,2008-07-21,,0-2m,Coelosphaerium naegelianum,2,2,2,170.3943,1536.1273,4014.8131,36194.1465,Woronichinia,Cyanophyta
+MO,2008-07-21,,0-2m,Microcystis aeruginosa,2,2,2,9201.2913,15924.2801,308338.0326,650565.506,Microcystis,Cyanophyta
+ME,2008-08-04,,0-8m,Microcystis aeruginosa,2,2,2,5907.0018,16471.4474,292279.0416,577470.9381,Microcystis,Cyanophyta
+MO,2008-08-05,,0-2m,Coelosphaerium naegelianum,2,2,2,227.1924,1097.2338,5353.0841,25852.9618,Woronichinia,Cyanophyta
+MO,2008-08-05,,0-2m,Microcystis aeruginosa,2,2,2,18175.3903,63464.1518,725165.3559,1966483.4872,Microcystis,Cyanophyta
+ME,2008-08-18,,0-8m,Microcystis aeruginosa,2,2,2,14540.3122,88352.5916,1027793.601,3434809.7691,Microcystis,Cyanophyta
+MO,2008-08-18,,0-2m,Coelosphaerium naegelianum,2,2,2,353.4104,1389.8294,8327.0197,32747.0853,Woronichinia,Cyanophyta
+MO,2008-08-18,,0-2m,Microcystis aeruginosa,2,2,2,20295.8525,62420.591,788161.0162,2582981.6128,Microcystis,Cyanophyta
+ME,2008-09-05,,0-8m,Microcystis aeruginosa,2,2,2,9769.2723,31322.2559,498730.1416,1049618.8747,Microcystis,Cyanophyta
+MO,2008-09-05,,0-2m,Microcystis aeruginosa,2,2,2,6512.8482,10970.1556,259850.9192,358530.7928,Microcystis,Cyanophyta
+ME,2008-09-29,,0-8m,Coelosphaerium naegelianum,2,2,2,511.1829,7383.7523,12044.4392,173975.5626,Woronichinia,Cyanophyta
+ME,2008-09-29,,0-8m,Microcystis aeruginosa,2,2,2,11757.2056,65601.7992,487559.5581,2133783.1154,Microcystis,Cyanophyta
+MO,2008-09-29,,0-2m,Microcystis aeruginosa,2,2,2,6304.5885,8917.3008,218971.3085,221171.8996,Microcystis,Cyanophyta
+ME,2008-10-29,,0-8m,Coelosphaerium naegelianum,2,2,2,22.7192,877.787,535.3084,36768.6565,Woronichinia,Cyanophyta
+ME,2008-10-29,,0-8m,Microcystis aeruginosa,2,2,2,1090.5234,5056.0664,36543.7668,164308.6178,Microcystis,Cyanophyta
+MO,2008-10-31,,0-2m,Microcystis aeruginosa,2,2,2,136.3154,2059.8806,4567.9709,29120.8375,Microcystis,Cyanophyta
+MO,2009-05-28,,0-2m,Microcystis aeruginosa,2,2,2,11.756,116.8418,257.2985,3915.4036,Microcystis,Cyanophyta
+ME,2009-06-09,,0-8m,Synechocystis,2,2,2,1.3632,109.0523,45.6797,192.7064,Synechocystis,Cyanophyta
+ME,2009-06-23,,0-8m,Synechocystis,2,2,2,25.9648,2090.1699,870.0897,3693.5392,Synechocystis,Cyanophyta
+MO,2009-06-23,,0-2m,Microcystis aeruginosa,2,2,2,511.1829,1022.3657,17129.8907,29613.8449,Microcystis,Cyanophyta
+ME,2009-07-06,,0-8m,Microcystis aeruginosa,2,2,2,6474.9828,14881.1008,216978.6155,244487.7389,Microcystis,Cyanophyta
+MO,2009-07-09,,0-2m,Microcystis aeruginosa,2,2,2,4856.2371,10223.657,173159.3314,246761.4575,Microcystis,Cyanophyta
+ME,2009-07-20,,0-8m,Coelosphaerium naegelianum,2,2,2,283.9905,1097.2338,6691.3551,45960.8207,Woronichinia,Cyanophyta
+ME,2009-07-20,,0-8m,Microcystis aeruginosa,2,2,2,28626.2397,61432.8191,774414.2113,1932752.5415,Microcystis,Cyanophyta
+MO,2009-07-20,,0-2m,Microcystis aeruginosa,2,2,2,31352.5482,262217.87,1050633.2963,8407992.7139,Microcystis,Cyanophyta
+MO,2009-08-04,,0-2m,Cyclotella stelligera,2,1,1,75.7308,75.7308,51389.7043,51389.7043,Cyclotella,Bacillariophyta
+MO,2009-08-04,,0-2m,Nitzschia palea,2,2,2,75.7308,227.1924,5353.0917,28549.8349,Nitzschia,Bacillariophyta
+MO,2009-08-04,,0-2m,Actinastrum hantzschii,2,2,2,75.7308,1438.8775,856.4925,24679.749,Actinastrum,Chlorophyta
+MO,2009-08-04,,0-2m,Chlamydomonas,2,2,2,75.7308,378.654,5947.8813,48891.6105,Chlamydomonas,Chlorophyta
+MO,2009-08-04,,0-2m,Dictyosphaerium pulchellum,2,2,2,1211.6927,1363.1543,16902.2648,41225.9655,Dictyosphaerium,Chlorophyta
+MO,2009-08-04,,0-2m,Monoraphidium capricornutum,2,2,2,227.1924,302.9232,1774.5542,2366.0723,Monoraphidium,Chlorophyta
+MO,2009-08-04,,0-2m,Oocystis parva,2,2,2,151.4616,189.327,4441.0885,10151.0539,Oocystis,Chlorophyta
+MO,2009-08-04,,0-2m,Pyramichlamys dissecta,2,2,2,14.6298,151.4616,6128.1091,63444.0775,Pyramichlamys,Chlorophyta
+MO,2009-08-04,,0-2m,Rhodomonas minuta var. nannoplanctica,2,2,2,151.4616,605.8463,4441.0809,20302.0927,Rhodomonas,Cryptophyta
+MO,2009-08-04,,0-2m,Chroococcaceae,2,2,2,78022.1992,87603.8728,20917.7516,23486.5983,,Cyanophyta
+MO,2009-08-04,,0-2m,Aphanizomenon flos-aquae,2,2,2,12864.102,95766.4872,958275.2475,7220634.431,Aphanizomenon,Cyanophyta
+MO,2009-08-04,,0-2m,Aphanocapsa delicatissima,2,2,2,89339.6162,325702.9936,46778.0095,170537.5058,Aphanocapsa,Cyanophyta
+MO,2009-08-04,,0-2m,Aphanothece nidulans,2,2,2,47003.5434,49225.0153,49222.0769,51548.3376,Aphanothece,Cyanophyta
+MO,2009-08-04,,0-2m,Coelosphaerium naegelianum,3,3,3,227.1924,8709.0412,5353.0841,205201.9434,Woronichinia,Cyanophyta
+MO,2009-08-04,,0-2m,Lyngbya limnetica,2,2,2,454.3848,21961.9148,713.7476,51746.5629,Lyngbya,Cyanophyta
+MO,2009-08-04,,0-2m,Merismopedia tenuissima,2,2,2,27263.0854,118140.0822,28549.8349,123715.9284,Merismopedia,Cyanophyta
+MO,2009-08-04,,0-2m,Merismopedia warmingiana,2,2,2,77548.3318,131680.7025,10151.1069,17236.9343,Merismopedia,Cyanophyta
+MO,2009-08-04,,0-2m,Microcystis aeruginosa,4,4,4,32655.1178,177802.0048,1357973.0418,5938466.7541,Microcystis,Cyanophyta
+MO,2009-08-04,,0-2m,Oscillatoria limnetica,2,2,2,1615.5953,16357.8512,8564.9558,86720.1638,Pseudanabaena,Cyanophyta
+MO,2009-08-04,,0-2m,Phormidium mucicola,2,2,2,3029.2014,6361.3866,7137.4758,14988.6991,Pseudanabaena,Cyanophyta
+MO,2009-08-04,,0-2m,Synechococcus elongatus,2,2,2,151.4616,1590.3466,158.6106,1665.411,Synechococcus,Cyanophyta
+MO,2009-08-04,,0-2m,Synechococcus sp1,2,2,2,16425.7261,39695.5048,6604.7845,15961.5625,Synechococcus,Cyanophyta
+MO,2009-08-04,,0-2m,Synechocystis,2,2,2,227.1924,3180.6933,401.4717,5620.6031,Synechocystis,Cyanophyta
+ME,2009-08-05,,0-8m,Microcystis aeruginosa,2,2,2,18478.3134,30262.0248,619213.8268,942786.9372,Microcystis,Cyanophyta
+ME,2009-08-19,,0-8m,Microcystis aeruginosa,2,2,2,6512.833,17039.4284,181569.0135,570996.3567,Microcystis,Cyanophyta
+ME,2009-09-02,,0-8m,Microcystis aeruginosa,2,2,2,11208.1573,16908.1617,367066.3195,375588.7146,Microcystis,Cyanophyta
+MO,2009-09-04,,0-2m,Microcystis aeruginosa,2,2,2,36464.3767,591928.9991,798073.9347,19465813.7696,Microcystis,Cyanophyta
+ME,2009-09-30,,0-8m,Microcystis aeruginosa,2,2,2,1817.539,1853.8898,25694.8546,60547.1142,Microcystis,Cyanophyta
+MO,2009-09-30,,0-2m,Microcystis aeruginosa,2,2,2,10034.2922,27717.4702,288571.4664,928820.7402,Microcystis,Cyanophyta
+ME,2009-10-28,,0-8m,Microcystis aeruginosa,2,2,2,188.0972,214.21,3028.329,6303.1983,Microcystis,Cyanophyta
+ME,2009-12-03,,0-8m,Microcystis aeruginosa,2,2,2,103.8594,233.6836,3480.3587,6195.9938,Microcystis,Cyanophyta
+MO,2009-12-04,,0-2m,Microcystis aeruginosa,2,2,2,4.5438,556.1669,152.2657,15538.7246,Microcystis,Cyanophyta
+MO,2010-05-25,,0-2m,Synechocystis,2,2,2,27.2631,817.8926,913.5942,1445.2979,Synechocystis,Cyanophyta
+MO,2010-06-09,,0-2m,Synechocystis,2,2,2,545.2617,708.8402,1252.5916,14046.5414,Synechocystis,Cyanophyta
+ME,2010-06-21,,0-8m,Synechocystis,2,2,2,94.6635,653.1781,167.2799,7934.4808,Synechocystis,Cyanophyta
+MO,2010-06-21,,0-2m,Coelosphaerium naegelianum,2,2,2,274.3084,643.7117,6463.2402,15167.0716,Woronichinia,Cyanophyta
+MO,2010-06-21,,0-2m,Microcystis aeruginosa,2,2,2,8894.1727,9996.4646,166818.2984,334984.5292,Microcystis,Cyanophyta
+ME,2010-07-05,,0-8m,Microcystis aeruginosa,2,2,2,934.0106,6815.7713,16627.6346,315475.4743,Microcystis,Cyanophyta
+MO,2010-07-06,,0-2m,Microcystis aeruginosa,2,2,2,14142.7256,17583.0316,350593.6339,473926.976,Microcystis,Cyanophyta
+ME,2010-07-19,,0-8m,Coelosphaerium naegelianum,2,2,2,100.9744,665.6552,2379.1485,15684.1302,Woronichinia,Cyanophyta
+ME,2010-07-19,,0-8m,Microcystis aeruginosa,2,2,2,6058.4634,9116.5334,229984.7241,256314.0791,Microcystis,Cyanophyta
+MO,2010-07-20,,0-2m,Microcystis aeruginosa,2,2,2,4947.7653,16585.0436,134501.4625,597452.9773,Microcystis,Cyanophyta
+ME,2010-08-03,,0-8m,Microcystis aeruginosa,2,2,2,4157.6205,4816.4784,100221.8282,135280.2408,Microcystis,Cyanophyta
+MO,2010-08-04,,0-2m,Microcystis aeruginosa,2,2,2,4089.4628,8860.5028,125262.4269,137039.1256,Microcystis,Cyanophyta
+ME,2010-08-16,,0-8m,Microcystis aeruginosa,2,2,2,6588.5676,18970.5636,510467.1082,713186.9558,Microcystis,Cyanophyta
+MO,2010-08-16,,0-2m,Microcystis aeruginosa,2,2,2,7421.6177,8654.9391,129063.3857,343517.7387,Microcystis,Cyanophyta
+ME,2010-08-30,,0-8m,Microcystis aeruginosa,2,2,2,2524.3648,4392.386,49380.6421,160989.2917,Microcystis,Cyanophyta
+MO,2010-08-30,,0-2m,Microcystis aeruginosa,2,2,2,6714.7919,12949.9656,225015.012,486846.1854,Microcystis,Cyanophyta
+ME,2010-10-05,,0-8m,Microcystis aeruginosa,2,2,2,3476.0434,20819.0803,125219.5966,691052.0454,Microcystis,Cyanophyta
+MO,2010-10-08,,0-2m,Microcystis aeruginosa,2,2,2,8315.241,65189.018,342212.9138,1468286.398,Microcystis,Cyanophyta
+MO,2010-11-02,,0-2m,Microcystis aeruginosa,2,2,2,395.3147,3292.0176,9417.8597,64365.6092,Microcystis,Cyanophyta
+ME,2010-11-09,,0-8m,Microcystis aeruginosa,2,2,2,1835.7144,2181.0468,58346.347,73087.5337,Microcystis,Cyanophyta
+ME,2011-01-19,1,0-8m,Rhodomonas minuta,2,2,2,65.8718,362.2952,6208.2769,12140.62,Rhodomonas,Cryptophyta
+ME,2011-04-18,1,0-8m,Rhodomonas minuta,2,2,2,211.7309,705.7698,19955.1758,23650.5584,Rhodomonas,Cryptophyta
+ME,2011-05-02,1,0-8m,Rhodomonas minuta,2,2,2,582.2601,1296.852,43457.901,54876.7335,Rhodomonas,Cryptophyta
+ME,2011-05-17,1,0-8m,Rhodomonas minuta,2,2,2,33.877,711.416,3192.8281,23839.7628,Rhodomonas,Cryptophyta
+ME,2011-06-13,1,0-8m,Microcystis aeruginosa,2,2,2,14.1154,79.0462,473.0114,3490.4281,Microcystis,Cyanophyta
+ME,2011-06-13,1,0-8m,Woronichinia naegeliana,2,2,2,22.5846,409.0249,532.1369,9637.422,Woronichinia,Cyanophyta
+ME,2011-06-27,1,0-8m,Microcystis aeruginosa,2,2,2,447.1758,711.416,14985.0019,29520.3483,Microcystis,Cyanophyta
+ME,2011-07-11,1,0-8m,Microcystis aeruginosa,2,2,2,1509.0657,4488.6961,50569.2263,179090.8928,Microcystis,Cyanophyta
+ME,2011-07-11,1,0-8m,Woronichinia naegeliana,2,2,2,711.416,2566.1791,16762.3121,60464.1705,Woronichinia,Cyanophyta
+ME,2011-07-25,1,0-8m,Rhodomonas minuta,2,2,2,8.4692,143.977,798.207,4824.7139,Rhodomonas,Cryptophyta
+ME,2011-07-25,1,0-8m,Microcystis aeruginosa,2,2,2,2794.8485,4763.9387,111509.4238,155949.6642,Microcystis,Cyanophyta
+ME,2011-07-25,1,0-8m,Woronichinia naegeliana,2,2,2,1321.2011,6351.9284,31130.0082,149663.7857,Woronichinia,Cyanophyta
+ME,2011-08-04,1,0-8m,Microcystis aeruginosa,2,2,2,3303.0028,4280.8271,110684.6132,131518.6927,Microcystis,Cyanophyta
+ME,2011-08-22,1,0-8m,Microcystis aeruginosa,2,2,2,9051.4979,13656.646,303318.4112,314072.2418,Microcystis,Cyanophyta
+ME,2011-08-22,1,0-8m,Woronichinia naegeliana,2,2,2,444.0073,582.2601,10461.6754,13719.1543,Woronichinia,Cyanophyta
+ME,2011-09-12,1,0-8m,Microcystis aeruginosa,2,2,2,1535.0388,8998.5652,35545.1609,301544.6193,Microcystis,Cyanophyta
+ME,2011-09-12,1,0-8m,Woronichinia naegeliana,2,2,2,238.1973,613.5373,5612.3813,14456.133,Woronichinia,Cyanophyta
+ME,2011-10-03,1,0-8m,Microcystis aeruginosa,2,2,2,3874.6763,5310.2121,129841.5655,299673.4619,Microcystis,Cyanophyta
+ME,2011-10-31,1,0-8m,Rhodomonas minuta,2,2,2,33.877,67.7539,2270.4536,3192.8281,Rhodomonas,Cryptophyta
+ME,2011-10-31,1,0-8m,Microcystis aeruginosa,2,2,2,1829.3554,3816.7941,61302.2473,128008.7221,Microcystis,Cyanophyta
+ME,2011-10-31,1,0-8m,Woronichinia naegeliana,2,2,2,1829.3554,5081.5427,43103.0883,83146.5476,Woronichinia,Cyanophyta
+MO,2011-01-26,1,0-2m,Rhodomonas minuta,2,2,2,2.1173,313.3618,199.5518,10500.8479,Rhodomonas,Cryptophyta
+MO,2011-04-19,1,0-2m,Rhodomonas minuta,2,2,2,762.2314,1270.3857,42571.0051,71838.633,Rhodomonas,Cryptophyta
+MO,2011-05-03,1,0-2m,Rhodomonas minuta,2,2,2,423.4619,1376.2511,39910.3517,46118.5888,Rhodomonas,Cryptophyta
+MO,2011-05-03,1,0-2m,Microcystis aeruginosa,2,2,2,148.2117,1143.3471,4966.6173,38313.93,Microcystis,Cyanophyta
+MO,2011-05-17,1,0-2m,Rhodomonas minuta,2,2,2,25.4077,63.5193,2128.5503,2394.6211,Rhodomonas,Cryptophyta
+MO,2011-05-17,1,0-2m,Microcystis aeruginosa,2,2,2,33.3476,73.0472,1117.4894,2447.8328,Microcystis,Cyanophyta
+MO,2011-06-01,1,0-2m,Rhodomonas minuta,2,2,2,2.8231,14.1154,266.069,473.0112,Rhodomonas,Cryptophyta
+MO,2011-06-14,1,0-2m,Microcystis aeruginosa,2,2,2,1127.4673,3917.0225,23630.247,131260.599,Microcystis,Cyanophyta
+MO,2011-06-28,1,0-2m,Rhodomonas minuta,2,2,2,21.1731,550.5005,1995.5176,18447.4355,Rhodomonas,Cryptophyta
+MO,2011-06-28,1,0-2m,Microcystis aeruginosa,2,2,2,3387.6951,7516.4528,117779.9967,418071.9332,Microcystis,Cyanophyta
+MO,2011-07-12,1,0-2m,Microcystis aeruginosa,2,2,2,2286.6984,7241.1983,65552.7435,242654.729,Microcystis,Cyanophyta
+MO,2011-07-12,1,0-2m,Woronichinia naegeliana,2,2,2,423.4619,8045.7781,9977.5667,189574.1281,Woronichinia,Cyanophyta
+MO,2011-07-26,1,0-2m,Microcystis aeruginosa,2,2,2,12280.3949,19309.8623,411519.7158,858439.7998,Microcystis,Cyanophyta
+MO,2011-07-26,1,0-2m,Woronichinia naegeliana,2,2,2,1058.6547,6606.0055,24943.9169,155650.3376,Woronichinia,Cyanophyta
+MO,2011-08-09,1,0-2m,Microcystis aeruginosa,2,2,2,10304.2394,20839.4631,345298.1523,435600.5679,Microcystis,Cyanophyta
+MO,2011-08-09,1,0-2m,Woronichinia naegeliana,2,2,2,272.6833,988.0777,6424.948,23280.9891,Woronichinia,Cyanophyta
+MO,2011-08-24,1,0-2m,Microcystis aeruginosa,2,2,2,2258.4634,3274.7663,75681.7868,176403.7222,Microcystis,Cyanophyta
+MO,2011-08-24,1,0-2m,Woronichinia naegeliana,2,2,2,705.7698,1022.5622,16629.2779,24093.5546,Woronichinia,Cyanophyta
+MO,2011-09-13,1,0-2m,Microcystis aeruginosa,2,2,2,14761.3075,17361.9376,367289.4176,692710.0571,Microcystis,Cyanophyta
+MO,2011-10-04,1,0-2m,Rhodomonas minuta,2,2,2,70.577,7904.622,6651.7253,264886.2538,Rhodomonas,Cryptophyta
+MO,2011-10-04,1,0-2m,Microcystis aeruginosa,2,2,2,61401.9743,323542.6071,1940908.383,2057598.579,Microcystis,Cyanophyta
+MO,2011-11-01,1,0-2m,Microcystis aeruginosa,2,2,2,8723.315,9708.5696,165308.6198,292320.9016,Microcystis,Cyanophyta
+MO,2011-11-01,1,0-2m,Woronichinia naegeliana,2,2,2,367.0003,2726.8326,8647.2245,64249.4798,Woronichinia,Cyanophyta
+ME,2012-02-22,1,0-8m,Rhodomonas minuta,2,2,2,444.635,825.7507,14899.8518,77825.1858,Rhodomonas,Cryptophyta
+ME,2012-03-21,1,0-8m,Rhodomonas minuta,2,2,2,811.6353,1446.8281,27198.1421,136360.3682,Rhodomonas,Cryptophyta
+ME,2012-04-04,1,0-8m,Rhodomonas minuta,2,1,2,741.0583,741.0583,24833.0863,69843.1154,Rhodomonas,Cryptophyta
+ME,2012-04-17,1,0-8m,Rhodomonas minuta,2,2,2,1.2704,5.0815,119.7311,170.284,Rhodomonas,Cryptophyta
+ME,2012-05-01,1,0-8m,Rhodomonas minuta,2,2,2,1.2704,2.5408,85.142,119.7311,Rhodomonas,Cryptophyta
+ME,2012-05-14,1,0-8m,Synechocystis,2,2,2,6.0495,1633.353,202.7191,2886.2981,Synechocystis,Cyanophyta
+ME,2012-05-29,1,0-8m,Rhodomonas minuta,2,2,2,6.0495,332.7201,570.1479,11149.549,Rhodomonas,Cryptophyta
+ME,2012-05-29,1,0-8m,Synechocystis,2,2,2,326.6706,2782.7496,4917.3968,10946.8299,Synechocystis,Cyanophyta
+ME,2012-06-11,1,0-8m,Synechocystis,2,2,2,1101.0009,2646.6368,4676.8719,36894.8711,Synechocystis,Cyanophyta
+ME,2012-06-25,1,0-8m,Microcystis aeruginosa,2,2,2,31.7596,1851.1361,1064.2751,60449.924,Microcystis,Cyanophyta
+ME,2012-06-25,1,0-8m,Synechocystis,2,2,2,635.1928,2302.574,1122.4493,150703.0101,Synechocystis,Cyanophyta
+ME,2012-06-25,1,0-8m,Woronichinia naegeliana,2,2,2,635.1928,984.5489,14966.3787,23197.8427,Woronichinia,Cyanophyta
+ME,2012-07-10,1,0-8m,Synechocystis,2,2,2,2117.3095,4763.9463,3741.4975,159641.2691,Synechocystis,Cyanophyta
+ME,2012-07-23,1,0-8m,Synechocystis,2,2,2,42.3462,3387.6951,74.83,113522.6802,Synechocystis,Cyanophyta
+ME,2012-08-20,1,0-8m,Synechocystis,2,2,2,1016.3085,1482.1166,1795.9188,49666.1726,Synechocystis,Cyanophyta
+ME,2012-10-01,1,0-8m,Synechocystis,2,2,2,730.4718,2302.574,4068.8786,24478.3279,Synechocystis,Cyanophyta
+ME,2012-10-29,1,0-8m,Rhodomonas minuta,2,2,2,21.1731,211.7309,1995.5176,7095.1675,Rhodomonas,Cryptophyta
+ME,2012-10-29,1,0-8m,Synechocystis,2,2,2,84.6924,6669.5248,2838.067,11785.7173,Synechocystis,Cyanophyta
+ME,2012-11-29,1,0-8m,Synechocystis,2,2,2,11.2923,1185.6933,378.4089,2095.2386,Synechocystis,Cyanophyta
+ME,2013-04-29,,0-8m,Rhodomonas minuta,2,2,2,186.3232,609.7851,17560.5547,20434.0824,Rhodomonas,Cryptophyta
+ME,2013-05-14,,0-8m,Rhodomonas minuta,2,2,2,50.8154,1727.7245,4789.2422,57896.5669,Rhodomonas,Cryptophyta
+ME,2013-05-28,,0-8m,Rhodomonas minuta,2,2,2,3.3877,57.5908,319.2828,1929.8856,Rhodomonas,Cryptophyta
+ME,2013-06-10,,0-8m,Rhodomonas minuta,2,2,2,2.1173,44.4635,199.5518,1489.9852,Rhodomonas,Cryptophyta
+ME,2013-06-24,,0-8m,Synechocystis,2,2,2,28.2308,141.154,249.4332,946.0223,Synechocystis,Cyanophyta
+ME,2013-07-08,,0-8m,Microcystis aeruginosa,2,2,2,1889.6987,2921.8871,53274.7709,113467.393,Microcystis,Cyanophyta
+ME,2013-07-08,,0-8m,Woronichinia naegeliana,2,2,2,127.0386,325.9282,2993.27,7416.2711,Woronichinia,Cyanophyta
+ME,2013-07-22,,0-8m,Microcystis aeruginosa,2,2,2,5822.601,5928.4665,190461.0267,195117.1066,Microcystis,Cyanophyta
+ME,2013-08-05,,0-8m,Microcystis aeruginosa,2,2,2,17361.9376,17408.1203,550387.8098,601638.0136,Microcystis,Cyanophyta
+ME,2013-08-05,,0-8m,Woronichinia naegeliana,2,2,2,127.0386,391.9661,5321.3788,8918.9144,Woronichinia,Cyanophyta
+ME,2013-08-21,,0-8m,Microcystis aeruginosa,2,2,2,6754.2172,7431.7562,200340.7017,288601.8475,Microcystis,Cyanophyta
+ME,2013-08-21,,0-8m,Woronichinia naegeliana,2,2,2,296.4233,639.0748,6984.2967,14541.7084,Woronichinia,Cyanophyta
+ME,2013-09-04,,0-8m,Microcystis aeruginosa,2,2,2,7622.314,15644.5808,206203.4131,524254.3899,Microcystis,Cyanophyta
+ME,2013-09-04,,0-8m,Woronichinia naegeliana,2,2,2,70.577,4234.6189,1662.9278,99775.858,Woronichinia,Cyanophyta
+ME,2013-09-30,,0-8m,Microcystis aeruginosa,2,2,2,4446.3499,4658.0808,95932.7084,148998.6166,Microcystis,Cyanophyta
+ME,2013-12-02,,0-8m,Rhodomonas minuta,2,2,2,67.7539,389.5849,6385.6563,13055.1082,Rhodomonas,Cryptophyta
+MO,2013-02-05,,0-2m,Rhodomonas minuta,2,2,2,105.8655,688.1256,9977.5879,23059.2944,Rhodomonas,Cryptophyta
+MO,2013-02-05,,0-2m,Synechocystis,2,2,2,17.6442,1111.5875,249.4402,1964.2862,Synechocystis,Cyanophyta
+MO,2013-05-08,,0-2m,Rhodomonas minuta,2,2,2,20.1649,262.1431,1900.4929,8784.4931,Rhodomonas,Cryptophyta
+MO,2013-05-15,,0-2m,Rhodomonas minuta,2,2,2,7.2593,92.5567,684.1775,3101.6018,Rhodomonas,Cryptophyta
+MO,2013-05-15,,0-2m,Synechocystis,2,2,2,16.3335,254.0771,251.6801,448.9797,Synechocystis,Cyanophyta
+MO,2013-05-29,,0-2m,Microcystis aeruginosa,2,2,2,163.3353,181.4837,6081.5758,6516.7845,Microcystis,Cyanophyta
+MO,2013-05-29,,0-2m,Synechocystis,2,2,2,12.0989,145.1869,171.0447,256.5598,Synechocystis,Cyanophyta
+MO,2013-06-11,,0-2m,Microcystis aeruginosa,2,2,2,423.4619,1249.2126,14190.335,40220.7577,Microcystis,Cyanophyta
+MO,2013-06-11,,0-2m,Synechocystis,2,1,2,14.1154,14.1154,24.9433,199.5522,Synechocystis,Cyanophyta
+MO,2013-06-25,,0-2m,Rhodomonas minuta,2,2,2,28.2308,423.4619,2660.6901,14190.335,Rhodomonas,Cryptophyta
+MO,2013-06-25,,0-2m,Microcystis aeruginosa,2,2,2,2794.8485,12161.8255,143248.5617,407546.6862,Microcystis,Cyanophyta
+MO,2013-06-25,,0-2m,Synechocystis,2,2,2,112.9232,592.8466,473.0126,1047.6193,Synechocystis,Cyanophyta
+MO,2013-06-25,,0-2m,Woronichinia naegeliana,2,2,2,127.815,254.0771,2908.3417,5986.54,Woronichinia,Cyanophyta
+MO,2013-07-08,,0-2m,Microcystis aeruginosa,2,2,2,4446.3499,10015.5266,177401.3561,335623.135,Microcystis,Cyanophyta
+MO,2013-07-22,,0-2m,Microcystis aeruginosa,2,2,2,12174.5294,30983.3092,407972.132,792146.3833,Microcystis,Cyanophyta
+MO,2013-08-06,,0-2m,Microcystis aeruginosa,2,2,2,3458.2651,12068.6639,132184.5399,474509.6934,Microcystis,Cyanophyta
+MO,2013-08-21,,0-2m,Microcystis aeruginosa,2,2,2,4658.0755,11592.2693,228819.2952,412739.2702,Microcystis,Cyanophyta
+MO,2013-09-10,,0-2m,Microcystis aeruginosa,2,2,2,4552.2153,6204.8989,140132.7326,173316.9497,Microcystis,Cyanophyta
+MO,2013-10-01,,0-2m,Microcystis aeruginosa,2,2,2,5945.405,33893.8898,252931.7959,1763234.518,Microcystis,Cyanophyta
+MO,2013-10-30,,0-2m,Rhodomonas minuta,2,2,2,47.0513,470.5132,4434.4835,15767.0389,Rhodomonas,Cryptophyta
+MO,2013-10-30,,0-2m,Microcystis aeruginosa,2,2,2,1270.3857,16750.2704,42571.0051,559939.6482,Microcystis,Cyanophyta
+ME,2014-02-03,,0-8m,Rhodomonas minuta,2,2,2,479.9235,705.7698,16082.3797,66517.2528,Rhodomonas,Cryptophyta
+ME,2014-04-29,,0-8m,Rhodomonas minuta,2,2,2,42.3462,296.4233,3991.0352,9933.2345,Rhodomonas,Cryptophyta
+ME,2014-05-14,,0-8m,Rhodomonas minuta,2,2,2,35.2885,4940.3887,3325.8626,165553.9087,Rhodomonas,Cryptophyta
+ME,2014-05-14,,0-8m,Synechocystis,2,2,2,35.2885,564.6159,498.8805,997.7327,Synechocystis,Cyanophyta
+ME,2014-05-28,,0-8m,Rhodomonas minuta,2,2,2,35.2885,13127.3186,3325.8626,439900.3859,Rhodomonas,Cryptophyta
+ME,2014-06-09,,0-8m,Microcystis aeruginosa,2,2,2,65.444,217.7804,7297.8866,7401.5402,Microcystis,Cyanophyta
+ME,2014-06-23,,0-8m,Microcystis aeruginosa,2,2,2,1206.8664,3097.3188,40442.4548,103792.2289,Microcystis,Cyanophyta
+ME,2014-07-07,,0-8m,Microcystis aeruginosa,2,2,2,8733.9015,13656.646,292675.6599,474545.0736,Microcystis,Cyanophyta
+ME,2014-07-07,,0-8m,Woronichinia naegeliana,2,2,2,52.9327,89.4705,1247.1958,3717.7486,Woronichinia,Cyanophyta
+ME,2014-07-21,,0-8m,Microcystis aeruginosa,2,2,2,9774.912,13833.0885,330378.1925,463550.9442,Microcystis,Cyanophyta
+ME,2014-07-21,,0-8m,Woronichinia naegeliana,2,2,2,170.42,352.8849,3877.7888,8314.639,Woronichinia,Cyanophyta
+ME,2014-08-04,,0-8m,Microcystis aeruginosa,2,2,2,3599.4261,17700.7071,120617.8477,135606.4719,Microcystis,Cyanophyta
+ME,2014-09-02,,0-8m,Microcystis aeruginosa,2,2,2,6669.5248,30753.9093,223497.7767,1192460.091,Microcystis,Cyanophyta
+ME,2014-09-28,,0-8m,Microcystis aeruginosa,2,2,2,381.1157,749.879,12771.3015,25128.6855,Microcystis,Cyanophyta
+ME,2014-10-30,,0-8m,Chlorococcaceae,2,2,2,26.4664,105.8655,886.8959,4434.4823,,Chlorophyta
+ME,2014-10-30,,0-8m,Dinobryon sociale,2,2,2,26.4664,52.9327,3464.4397,6928.8793,Dinobryon,Chrysophyta
+ME,2014-10-30,,0-8m,Microcystis aeruginosa,2,2,2,52.9327,159.7687,1773.7919,5353.9007,Microcystis,Cyanophyta
+ME,2014-10-30,,0-8m,Synechocystis,2,2,2,26.4664,5399.1391,374.1603,9540.8187,Synechocystis,Cyanophyta
+MO,2014-03-13,,0-2m,Rhodomonas minuta,2,2,2,98.8078,112.9232,3784.0893,9312.4154,Rhodomonas,Cryptophyta
+MO,2014-04-30,,0-2m,Fragilaria capucina,2,2,2,10.2256,26.4664,3741.5955,9637.422,Fragilaria,Bacillariophyta
+MO,2014-04-30,,0-2m,Rhodomonas minuta,2,2,2,52.9327,396.9955,4988.794,13303.4391,Rhodomonas,Cryptophyta
+MO,2014-05-15,,0-2m,Fragilaria capucina,2,2,2,22.5841,159.9777,14474.151,89868.733,Fragilaria,Bacillariophyta
+MO,2014-05-15,,0-2m,Rhodomonas minuta,2,2,2,39.5231,282.3079,3724.9662,9460.2234,Rhodomonas,Cryptophyta
+MO,2014-05-15,,0-2m,Synechocystis,2,2,2,5.6462,677.539,23.6506,1197.2792,Synechocystis,Cyanophyta
+MO,2014-06-10,,0-2m,Microcystis aeruginosa,2,2,2,35.7897,423.4619,1199.3239,14190.335,Microcystis,Cyanophyta
+MO,2014-06-23,,0-2m,Microcystis aeruginosa,2,2,2,2831.9014,6140.1974,94897.9264,181969.0489,Microcystis,Cyanophyta
+MO,2014-06-23,,0-2m,Woronichinia naegeliana,2,2,2,35.2885,745.5873,831.4639,16965.3263,Woronichinia,Cyanophyta
+MO,2014-07-09,,0-2m,Microcystis aeruginosa,2,2,2,6881.2557,30145.1934,255013.8327,1002996.804,Microcystis,Cyanophyta
+MO,2014-07-21,,0-2m,Microcystis aeruginosa,2,2,2,2625.4637,17234.899,70909.8371,526683.5141,Microcystis,Cyanophyta
+MO,2014-08-05,,0-2m,Microcystis aeruginosa,2,2,2,3260.6566,6702.8004,102948.7097,205392.5598,Microcystis,Cyanophyta
+MO,2014-08-20,,0-2m,Microcystis aeruginosa,2,2,2,6404.8611,13997.7798,202220.6799,462802.9129,Microcystis,Cyanophyta
+MO,2014-09-08,,0-2m,Microcystis aeruginosa,2,2,2,9951.3545,11856.933,292454.1311,397329.3808,Microcystis,Cyanophyta
+MO,2014-10-01,,0-2m,Microcystis aeruginosa,2,2,2,6775.3903,6930.6596,227045.3604,232248.6343,Microcystis,Cyanophyta
+MO,2014-11-05,,0-2m,Rhodomonas minuta,2,2,2,141.154,564.6159,13303.4506,18920.4467,Rhodomonas,Cryptophyta
+MO,2014-11-05,,0-2m,Microcystis aeruginosa,2,2,2,423.4619,1163.4488,14190.335,38987.5361,Microcystis,Cyanophyta
+ME,2014-08-20,,0-8m,Microcystis aeruginosa,2,2,2,9316.1616,20158.5505,312187.3706,671246.7005,Microcystis,Cyanophyta
+ME,2015-02-11,,0-8m,Rhodomonas minuta,2,2,2,558.9697,2083.4325,52681.6642,69816.4483,Rhodomonas,Cryptophyta
+ME,2015-04-10,,0-8m,Rhodomonas minuta,2,2,2,571.6736,635.1928,19156.9523,59865.5275,Rhodomonas,Cryptophyta
+ME,2015-04-24,,0-8m,Rhodomonas minuta,2,2,2,444.635,3811.157,41905.8693,127713.0152,Rhodomonas,Cryptophyta
+ME,2015-05-01,,0-8m,Rhodomonas minuta,2,2,2,84.6924,2625.4637,7982.0703,87980.0772,Rhodomonas,Cryptophyta
+ME,2015-05-13,,0-8m,Rhodomonas minuta,2,2,2,127.0386,3493.5606,11973.1055,117070.264,Rhodomonas,Cryptophyta
+ME,2015-05-27,,0-8m,Synechocystis,2,2,2,28.2308,465.8081,230.5919,823.1295,Synechocystis,Cyanophyta
+ME,2015-06-08,,0-8m,Microcystis aeruginosa,2,2,2,118.5693,254.0771,3973.2963,11219.2332,Microcystis,Cyanophyta
+ME,2015-06-23,,0-8m,Rhodomonas minuta,2,1,2,21.1731,21.1731,709.5168,1995.5176,Rhodomonas,Cryptophyta
+ME,2015-06-23,,0-8m,Microcystis aeruginosa,2,2,2,1609.1552,7882.1714,56812.0285,261337.1668,Microcystis,Cyanophyta
+ME,2015-06-23,,0-8m,Synechocystis,2,2,2,211.7309,1693.8476,886.8986,2993.198,Synechocystis,Cyanophyta
+ME,2015-07-08,,0-8m,Microcystis aeruginosa,2,2,2,3858.7965,6034.332,129309.5089,234334.8334,Microcystis,Cyanophyta
+ME,2015-07-08,,0-8m,Woronichinia naegeliana,2,2,2,127.0386,894.7046,2993.27,20358.3915,Woronichinia,Cyanophyta
+ME,2015-07-20,,0-8m,Microcystis aeruginosa,2,2,2,6987.1212,7622.314,234140.528,498879.2858,Microcystis,Cyanophyta
+ME,2015-07-20,,0-8m,Woronichinia naegeliana,2,2,2,254.0771,14609.4353,5986.54,344226.7133,Woronichinia,Cyanophyta
+ME,2015-08-03,,0-8m,Cylindrospermopsis raciborskii,2,2,2,127.0386,317.5964,1346.9772,5986.5528,Cylindrospermopsis,Cyanophyta
+ME,2015-08-03,,0-8m,Microcystis aeruginosa,2,2,2,6987.1212,8813.3006,234140.528,417063.0882,Microcystis,Cyanophyta
+ME,2015-08-03,,0-8m,Synechocystis,2,2,2,127.0386,952.7893,785.7335,1683.6739,Synechocystis,Cyanophyta
+ME,2015-08-18,,0-8m,Microcystis aeruginosa,2,2,2,383.4449,1079.8278,18674.1316,36185.3543,Microcystis,Cyanophyta
+ME,2015-08-31,,0-8m,Microcystis aeruginosa,2,2,2,2985.4063,5589.697,100041.8619,187312.5431,Microcystis,Cyanophyta
+ME,2015-10-07,,0-8m,Microcystis aeruginosa,2,2,2,158.7982,730.4718,2244.9557,24478.3279,Microcystis,Cyanophyta
+ME,2015-11-02,,0-8m,Microcystis aeruginosa,2,2,2,101.6309,145.7091,3405.6804,4882.7575,Microcystis,Cyanophyta
+MO,2015-03-06,,0-2m,Rhodomonas minuta,2,2,2,42.3462,105.8655,3547.5838,3991.0352,Rhodomonas,Cryptophyta
+MO,2015-04-02,,0-2m,Rhodomonas minuta,2,2,2,1715.0207,3112.4449,104298.9625,161636.9243,Rhodomonas,Cryptophyta
+MO,2015-04-14,,0-2m,Rhodomonas minuta,2,2,2,444.635,2223.1749,41905.8693,74499.2589,Rhodomonas,Cryptophyta
+MO,2015-05-01,,0-2m,Rhodomonas minuta,2,2,2,211.7309,4816.879,19955.1758,161415.0609,Rhodomonas,Cryptophyta
+MO,2015-05-13,,0-2m,Chlorococcaceae,2,1,2,4.2346,4.2346,79.8209,9081.8203,,Chlorophyta
+MO,2015-05-13,,0-2m,Microcystis aeruginosa,2,2,2,4.2346,12.7039,137.4689,141.9034,Microcystis,Cyanophyta
+MO,2015-06-09,,0-2m,Microcystis aeruginosa,2,2,2,3917.0225,6998.8899,141105.2516,220861.8605,Microcystis,Cyanophyta
+MO,2015-06-23,,0-2m,Microcystis aeruginosa,2,2,2,4022.888,6373.1015,156223.2223,207822.0369,Microcystis,Cyanophyta
+MO,2015-07-09,,0-2m,Microcystis aeruginosa,2,2,2,6745.7479,7145.9194,112347.6116,254428.3172,Microcystis,Cyanophyta
+MO,2015-07-09,,0-2m,Woronichinia naegeliana,2,2,2,381.1157,383.4449,8725.025,8979.8101,Woronichinia,Cyanophyta
+MO,2015-07-22,,0-2m,Microcystis aeruginosa,2,2,2,3430.0413,8680.9645,114941.7137,290902.0586,Microcystis,Cyanophyta
+MO,2015-07-22,,0-2m,Woronichinia naegeliana,2,2,2,127.0386,333.4303,2993.27,7586.978,Woronichinia,Cyanophyta
+MO,2015-08-04,,0-2m,Microcystis aeruginosa,2,2,2,5081.5427,6960.6548,170284.0203,233253.7776,Microcystis,Cyanophyta
+MO,2015-08-21,,0-2m,Microcystis aeruginosa,2,2,2,2964.2332,20114.4399,41905.9582,641226.1531,Microcystis,Cyanophyta
+MO,2015-09-04,,0-2m,Microcystis aeruginosa,2,2,2,3881.734,5222.6967,115037.9045,175014.2449,Microcystis,Cyanophyta
+MO,2015-10-07,,0-2m,Microcystis aeruginosa,2,2,2,11179.3939,31907.8535,394694.0927,1103794.479,Microcystis,Cyanophyta
+MO,2015-11-03,,0-2m,Rhodomonas minuta,2,2,2,33.877,626.7236,3192.8281,21001.6958,Rhodomonas,Cryptophyta
+MO,2015-11-03,,0-2m,Microcystis aeruginosa,2,2,2,84.6924,4992.6157,1197.3131,136293.82,Microcystis,Cyanophyta
+ME,2016-01-27,,0-8m,Rhodomonas minuta,2,2,2,186.3232,762.2314,17560.5547,25542.603,Rhodomonas,Cryptophyta
+ME,2016-03-28,,0-8m,Rhodomonas minuta,2,2,2,158.7982,3758.2243,14966.3819,125939.2234,Rhodomonas,Cryptophyta
+ME,2016-04-12,,0-8m,Rhodomonas minuta,2,2,2,127.0386,1575.2782,11973.1055,52788.0463,Rhodomonas,Cryptophyta
+ME,2016-05-11,,0-8m,Synechocystis,2,2,2,4.033,798.5281,57.0149,1411.0791,Synechocystis,Cyanophyta
+ME,2016-05-23,,0-8m,Rhodomonas minuta,2,2,2,5.6462,158.0924,532.138,5297.7251,Rhodomonas,Cryptophyta
+ME,2016-05-23,,0-8m,Synechocystis,2,2,2,5.6462,584.3774,189.2045,1032.6533,Synechocystis,Cyanophyta
+ME,2016-06-07,,0-8m,Synechocystis,2,2,2,11.2923,135.5078,159.6417,239.4558,Synechocystis,Cyanophyta
+ME,2016-06-20,,0-8m,Microcystis aeruginosa,2,2,2,148.2117,211.7309,2095.2937,8785.8179,Microcystis,Cyanophyta
+ME,2016-07-05,,0-8m,Microcystis aeruginosa,2,2,2,190.5579,952.7893,6385.655,31928.2538,Microcystis,Cyanophyta
+ME,2016-07-18,,0-8m,Rhodomonas minuta,2,2,2,35.2885,317.5964,3325.8626,10642.7513,Rhodomonas,Cryptophyta
+ME,2016-07-18,,0-8m,Microcystis aeruginosa,2,2,2,952.7893,4611.0271,31928.2538,301791.1765,Microcystis,Cyanophyta
+ME,2016-07-18,,0-8m,Synechocystis,2,2,2,105.8655,529.3274,443.4493,935.3744,Synechocystis,Cyanophyta
+ME,2016-08-15,,0-8m,Cylindrospermopsis raciborskii,2,2,2,132.3318,12027.9057,9977.5879,325285.9309,Cylindrospermopsis,Cyanophyta
+ME,2016-08-15,,0-8m,Microcystis aeruginosa,2,2,2,2487.8386,5716.7355,142963.6459,205094.8216,Microcystis,Cyanophyta
+ME,2016-08-30,,0-8m,Microcystis aeruginosa,2,2,2,127.815,5462.6584,4283.1206,183055.3219,Microcystis,Cyanophyta
+ME,2016-10-04,,0-8m,Rhodomonas minuta,2,2,2,42.3462,508.1543,3991.0352,17028.402,Rhodomonas,Cryptophyta
+ME,2016-10-04,,0-8m,Microcystis aeruginosa,2,2,2,681.6798,889.27,29799.7036,35787.2428,Microcystis,Cyanophyta
+ME,2016-10-04,,0-8m,Synechocystis,2,2,2,42.3462,3726.4646,598.6565,6585.0357,Synechocystis,Cyanophyta
+ME,2016-11-09,,0-8m,Microcystis aeruginosa,2,2,2,127.0386,660.6006,4257.1005,18199.1183,Microcystis,Cyanophyta
+MO,2016-02-04,,0-2m,Rhodomonas minuta,2,2,2,406.5234,1117.9394,37462.4845,38313.9376,Rhodomonas,Cryptophyta
+MO,2016-03-29,,0-2m,Rhodomonas minuta,2,2,2,1270.3857,4192.2727,119731.055,140484.3168,Rhodomonas,Cryptophyta
+MO,2016-04-13,,0-2m,Rhodomonas minuta,2,2,2,42.3462,2498.4252,3991.0352,83722.9767,Rhodomonas,Cryptophyta
+MO,2016-04-26,,0-2m,Rhodomonas minuta,2,2,2,63.5193,6097.8512,5986.5528,204340.8244,Rhodomonas,Cryptophyta
+MO,2016-05-11,,0-2m,Rhodomonas minuta,2,2,2,20.1649,1603.1057,1900.4929,53720.554,Rhodomonas,Cryptophyta
+MO,2016-05-11,,0-2m,Microcystis aeruginosa,2,2,2,241.9782,1754.3421,8108.7629,54100.6867,Microcystis,Cyanophyta
+MO,2016-05-11,,0-2m,Synechocystis,2,2,2,30.2473,423.4619,427.6118,748.2995,Synechocystis,Cyanophyta
+MO,2016-05-23,,0-2m,Microcystis aeruginosa,2,2,2,111.1587,381.9622,3724.9629,10994.8557,Microcystis,Cyanophyta
+MO,2016-05-23,,0-2m,Synechocystis,2,2,2,1.2704,203.2617,5.3214,359.1838,Synechocystis,Cyanophyta
+MO,2016-06-08,,0-2m,Rhodomonas minuta,2,2,2,4.2346,88.927,399.1035,2979.9704,Rhodomonas,Cryptophyta
+MO,2016-06-08,,0-2m,Microcystis aeruginosa,2,2,2,275.8566,787.6391,6431.2682,26394.0232,Microcystis,Cyanophyta
+MO,2016-06-20,,0-2m,Rhodomonas minuta,2,2,2,56.4616,1411.5396,5321.3802,47301.1168,Rhodomonas,Cryptophyta
+MO,2016-06-20,,0-2m,Microcystis aeruginosa,2,2,2,84.6924,959.847,2838.0698,32164.7594,Microcystis,Cyanophyta
+MO,2016-06-20,,0-2m,Synechocystis,2,1,2,56.4616,56.4616,99.7733,236.5063,Synechocystis,Cyanophyta
+MO,2016-07-19,,0-2m,Microcystis aeruginosa,2,2,2,1058.6547,3505.3258,35475.8376,117464.5176,Microcystis,Cyanophyta
+MO,2016-08-02,,0-2m,Microcystis aeruginosa,2,2,2,447.3524,582.2601,14990.922,28810.288,Microcystis,Cyanophyta
+MO,2016-08-16,,0-2m,Microcystis aeruginosa,2,2,2,345.1004,2752.5023,17971.6721,92237.1777,Microcystis,Cyanophyta
+MO,2016-08-31,,0-2m,Microcystis aeruginosa,2,2,2,2235.8788,3616.3662,74924.9689,121185.5399,Microcystis,Cyanophyta
+MO,2016-10-03,,0-2m,Microcystis aeruginosa,2,2,2,8723.315,14530.0362,264155.0622,456141.9597,Microcystis,Cyanophyta
+MO,2016-11-10,,0-2m,Microcystis aeruginosa,2,2,2,1482.1166,6182.5436,15343.3117,49666.1726,Microcystis,Cyanophyta
+MO,2016-11-10,,0-2m,Woronichinia naegeliana,2,2,2,21.1731,178.9409,498.8783,4071.6783,Woronichinia,Cyanophyta
+ME,2017-02-06,,0-8m,Rhodomonas minuta,2,2,2,33.877,228.6694,3192.8281,7662.7809,Rhodomonas,Cryptophyta
+ME,2017-04-17,,0-8m,Rhodomonas minuta,2,2,2,762.2314,8384.5455,71838.633,280968.6335,Rhodomonas,Cryptophyta
+ME,2017-05-03,,0-8m,Rhodomonas minuta,2,2,2,158.7982,4922.7445,14966.3819,164962.6447,Rhodomonas,Cryptophyta
+ME,2017-05-30,,0-8m,Rhodomonas minuta,2,2,2,2.5408,33.03,239.4621,1106.8461,Rhodomonas,Cryptophyta
+ME,2017-06-12,,0-8m,Microcystis aeruginosa,2,2,2,164.6796,258.7823,5518.4683,16937.2476,Microcystis,Cyanophyta
+ME,2017-06-26,,0-8m,Microcystis aeruginosa,2,2,2,12386.2603,25026.6105,470193.5898,833727.0719,Microcystis,Cyanophyta
+ME,2017-06-26,,0-8m,Woronichinia naegeliana,2,2,2,169.3848,9739.6235,3991.0267,229484.4713,Woronichinia,Cyanophyta
+ME,2017-07-10,,0-8m,Microcystis aeruginosa,2,2,2,10798.2782,15816.3207,476817.4125,759261.0273,Microcystis,Cyanophyta
+ME,2017-07-10,,0-8m,Synechocystis,2,2,2,190.5579,952.7893,1683.6739,2693.9545,Synechocystis,Cyanophyta
+ME,2017-07-10,,0-8m,Woronichinia naegeliana,2,2,2,5240.3409,13169.6691,123472.3885,310302.9186,Woronichinia,Cyanophyta
+ME,2017-07-24,,0-8m,Microcystis aeruginosa,2,2,2,14291.8388,21173.0988,542531.0651,1047646.503,Microcystis,Cyanophyta
+ME,2017-08-07,,0-8m,Microcystis aeruginosa,2,2,2,2540.7713,12957.9339,141046.111,516998.2377,Microcystis,Cyanophyta
+ME,2017-08-23,,0-8m,Microcystis aeruginosa,2,2,2,5081.5427,8130.4683,202744.4069,260148.9179,Microcystis,Cyanophyta
+ME,2017-09-06,,0-8m,Aphanizomenon gracile,2,2,2,63.5193,9166.1375,76627.86,385875.99,Aphanizomenon,Cyanophyta
+ME,2017-09-06,,0-8m,Microcystis aeruginosa,2,2,2,255.6299,4446.3499,8566.2412,166988.4493,Microcystis,Cyanophyta
+ME,2017-09-25,,0-8m,Rhodomonas minuta,2,2,2,84.6924,254.0771,7982.0703,8514.201,Rhodomonas,Cryptophyta
+ME,2017-09-25,,0-8m,Microcystis aeruginosa,2,2,2,127.0386,2117.3095,4257.1047,104764.6837,Microcystis,Cyanophyta
+ME,2017-10-04,,0-8m,Microcystis aeruginosa,2,2,2,677.539,1587.9821,22704.553,53213.7564,Microcystis,Cyanophyta
+ME,2017-11-02,,0-8m,Rhodomonas minuta,2,2,2,21.1731,254.0771,1995.5176,8514.201,Rhodomonas,Cryptophyta
+ME,2017-12-19,,0-8m,Rhodomonas minuta,2,2,2,12.0989,290.3739,1140.2958,9730.5154,Rhodomonas,Cryptophyta
+MO,2017-02-13,,0-2m,Chrysophyceae,2,2,2,10.5865,21.1731,687.3559,2715.2334,,Chrysophyta
+MO,2017-02-13,,0-2m,Rhodomonas minuta,2,2,2,317.5964,508.1543,17028.402,29932.7638,Rhodomonas,Cryptophyta
+MO,2017-04-19,,0-2m,Rhodomonas minuta,2,2,2,160.9155,271.0156,9081.8144,15165.9336,Rhodomonas,Cryptophyta
+MO,2017-05-04,,0-2m,Rhodomonas minuta,2,2,2,10.1631,11.4335,383.139,957.8484,Rhodomonas,Cryptophyta
+MO,2017-05-04,,0-2m,Microcystis aeruginosa,2,2,2,31.7596,38.1116,1064.2751,1520.5842,Microcystis,Cyanophyta
+MO,2017-05-16,,0-2m,Rhodomonas minuta,2,2,2,25.4077,317.5964,2394.6211,10642.7513,Rhodomonas,Cryptophyta
+MO,2017-05-31,,0-2m,Microcystis aeruginosa,2,2,2,3353.8182,4454.8208,123099.5487,155774.5034,Microcystis,Cyanophyta
+MO,2017-06-13,,0-2m,Microcystis aeruginosa,2,2,2,444.635,2003.2161,14899.8518,71035.4782,Microcystis,Cyanophyta
+MO,2017-06-13,,0-2m,Woronichinia naegeliana,2,2,2,84.6924,447.3524,1995.5133,10179.1958,Woronichinia,Cyanophyta
+MO,2017-06-27,,0-2m,Microcystis aeruginosa,2,2,2,11179.3939,209207.1129,374624.8447,13024790.73,Microcystis,Cyanophyta
+MO,2017-06-27,,0-2m,Woronichinia naegeliana,2,2,2,931.6162,10163.0854,21950.6468,239462.0592,Woronichinia,Cyanophyta
+MO,2017-07-11,,0-2m,Microcystis aeruginosa,2,2,2,7198.8522,19027.5317,264228.8293,868744.7068,Microcystis,Cyanophyta
+MO,2017-07-11,,0-2m,Woronichinia naegeliana,2,2,2,1164.5202,2117.3095,27438.3085,49887.9269,Woronichinia,Cyanophyta
+MO,2017-07-25,,0-2m,Microcystis aeruginosa,2,2,2,5792.9587,11856.933,194123.9085,548811.185,Microcystis,Cyanophyta
+MO,2017-07-25,,0-2m,Woronichinia naegeliana,2,2,2,635.1928,5081.5427,14966.3501,119731.0296,Woronichinia,Cyanophyta
+MO,2017-08-08,,0-2m,Microcystis aeruginosa,2,2,2,10798.2782,17213.7259,430831.8648,582923.8352,Microcystis,Cyanophyta
+MO,2017-08-08,,0-2m,Woronichinia naegeliana,2,2,2,190.5579,6987.1212,4489.905,164630.1625,Woronichinia,Cyanophyta
+MO,2017-08-23,,0-2m,Microcystis aeruginosa,2,2,2,11433.4711,20294.4112,383139.0457,692244.918,Microcystis,Cyanophyta
+MO,2017-09-12,,0-2m,Rhodomonas minuta,2,2,2,254.0771,1524.4628,23946.211,51085.2061,Rhodomonas,Cryptophyta
+MO,2017-09-12,,0-2m,Microcystis aeruginosa,2,2,2,48494.0258,64789.6694,897898.0127,2791929.393,Microcystis,Cyanophyta
+MO,2017-10-05,,0-2m,Microcystis aeruginosa,2,2,2,14397.7043,43531.8825,482471.3909,1583997.148,Microcystis,Cyanophyta
+MO,2017-11-03,,0-2m,Rhodomonas minuta,2,2,2,58.8142,458.7504,5543.1044,15372.8629,Rhodomonas,Cryptophyta
+MO,2017-11-03,,0-2m,Microcystis aeruginosa,2,2,2,599.9043,2597.627,20102.9746,87047.2499,Microcystis,Cyanophyta
+MO,2017-11-03,,0-2m,Synechocystis,2,2,2,23.5257,3811.157,98.5443,6734.6956,Synechocystis,Cyanophyta
+MO,2017-11-03,,0-2m,Woronichinia naegeliana,2,2,2,35.2885,255.6299,831.4639,5816.6833,Woronichinia,Cyanophyta
+MO,2018-01-24,,0-2m,Rhodomonas minuta,2,2,2,2202.0018,3218.3104,73789.7421,303318.6727,Rhodomonas,Cryptophyta
+MO,2018-04-24,,0-2m,Rhodomonas minuta,2,2,2,317.5964,825.7507,27671.1533,29932.7638,Rhodomonas,Cryptophyta
+MO,2018-05-15,,0-2m,Chlorococcaceae,2,2,2,0.2921,2.8231,11.8253,3563.5563,,Chlorophyta
+MO,2018-05-31,,0-2m,Rhodomonas minuta,2,2,2,11.2923,333.1234,1064.276,11163.0636,Rhodomonas,Cryptophyta
+MO,2018-06-12,,0-2m,Microcystis aeruginosa,2,2,2,5081.5427,9210.2961,170284.0203,299752.5392,Microcystis,Cyanophyta
+MO,2018-06-26,,0-2m,Microcystis aeruginosa,2,2,2,4605.1481,18297.079,154319.8934,610748.3516,Microcystis,Cyanophyta
+MO,2018-07-10,,0-2m,Microcystis aeruginosa,2,2,2,806.5941,4947.1157,23903.9802,155361.7476,Microcystis,Cyanophyta
+MO,2018-07-10,,0-2m,Woronichinia naegeliana,2,2,2,40.3297,213.0249,950.2445,4847.2361,Woronichinia,Cyanophyta
+MO,2018-07-24,,0-2m,Microcystis aeruginosa,2,2,2,11115.8747,28689.5432,372496.2945,1738372.594,Microcystis,Cyanophyta
+MO,2018-07-24,,0-2m,Synechocystis,2,1,2,35.2885,35.2885,62.3583,147.8164,Synechocystis,Cyanophyta
+MO,2018-08-07,,0-2m,Microcystis aeruginosa,2,2,2,11645.202,34366.2954,404868.7386,671338.7696,Microcystis,Cyanophyta
+MO,2018-08-21,,0-2m,Microcystis aeruginosa,2,2,2,4340.4844,4488.7045,138932.3501,145450.934,Microcystis,Cyanophyta
+MO,2018-09-06,,0-2m,Microcystis aeruginosa,2,2,2,4605.1481,28145.3946,181062.9093,943161.2445,Microcystis,Cyanophyta
+MO,2018-10-04,,0-2m,Microcystis aeruginosa,2,2,2,10586.5473,111666.9008,348753.6861,4053072.715,Microcystis,Cyanophyta
+MO,2018-10-31,,0-2m,Rhodomonas minuta,2,2,2,35.2885,423.4619,3325.8626,14190.335,Rhodomonas,Cryptophyta
+MO,2018-10-31,,0-2m,Microcystis aeruginosa,2,2,2,599.9043,3740.5765,18650.2463,123297.0911,Microcystis,Cyanophyta
+ME,2018-01-23,,0-8m,Rhodomonas minuta,2,2,2,101.6309,474.2773,9578.4844,15893.1752,Rhodomonas,Cryptophyta
+ME,2018-04-20,,0-8m,Rhodomonas minuta,2,2,2,282.3079,479.9235,9460.2234,45231.7319,Rhodomonas,Cryptophyta
+ME,2018-06-11,,0-8m,Synechocystis,2,2,2,8.4692,533.562,119.7313,942.8574,Synechocystis,Cyanophyta
+ME,2018-06-25,,0-8m,Rhodomonas minuta,2,2,2,31.7596,1778.5399,2993.2764,59599.4071,Rhodomonas,Cryptophyta
+ME,2018-06-25,,0-8m,Microcystis aeruginosa,2,2,2,9527.8926,14895.272,380145.763,503202.9164,Microcystis,Cyanophyta
+ME,2018-06-25,,0-8m,Synechocystis,2,2,2,63.5193,3175.9642,897.9848,5612.2463,Synechocystis,Cyanophyta
+ME,2018-07-09,,0-8m,Microcystis aeruginosa,2,2,2,8998.5652,15350.4936,266678.6706,563429.1212,Microcystis,Cyanophyta
+ME,2018-07-23,,0-8m,Microcystis aeruginosa,2,2,2,11221.7401,16402.0807,376043.8782,830305.1187,Microcystis,Cyanophyta
+ME,2018-08-06,,0-8m,Rhodomonas minuta,2,2,2,127.0386,444.635,11973.1055,14899.8518,Rhodomonas,Cryptophyta
+ME,2018-08-06,,0-8m,Microcystis aeruginosa,2,2,2,10004.2872,14264.6272,296484.0539,478011.8926,Microcystis,Cyanophyta
+ME,2018-08-22,,0-8m,Microcystis aeruginosa,2,2,2,3493.5606,24534.3233,110302.189,1057998.247,Microcystis,Cyanophyta
+ME,2018-09-04,,0-8m,Rhodomonas minuta,2,2,2,30.2473,272.2255,2850.7394,9122.3582,Rhodomonas,Cryptophyta
+ME,2018-09-04,,0-8m,Microcystis aeruginosa,2,2,2,4627.8335,8186.9279,155080.0899,297532.6612,Microcystis,Cyanophyta
+ME,2018-09-19,,0-8m,Microcystis aeruginosa,2,2,2,4709.8342,5208.5813,157828.1513,174541.1208,Microcystis,Cyanophyta
+ME,2018-10-02,,0-8m,Microcystis aeruginosa,2,2,2,6733.0441,14641.1949,221459.9193,733153.0137,Microcystis,Cyanophyta
+ME,2018-10-18,,0-8m,Microcystis aeruginosa,2,2,2,1164.5149,3440.6279,33896.0812,115296.4721,Microcystis,Cyanophyta
+ME,2018-10-29,,0-8m,Microcystis aeruginosa,2,2,2,169.3848,9464.3733,5676.1382,317153.9879,Microcystis,Cyanophyta
+ME,2018-11-14,,0-8m,Synechocystis,2,2,2,21.1731,1333.905,88.6899,2357.1435,Synechocystis,Cyanophyta
+ME,2018-11-30,,0-8m,Rhodomonas minuta,2,2,2,123.5097,158.7982,4138.8477,14966.3819,Rhodomonas,Cryptophyta
+ME,2018-11-30,,0-8m,Synechocystis,2,2,2,17.6442,776.3468,73.9082,1371.8824,Synechocystis,Cyanophyta
+ME,2019-04-03,,0-8m,Chrysophyceae,2,2,2,70.577,2223.1749,7458.8013,48192.4299,,Chrysophyta
+ME,2019-05-28,,0-8m,Microcystis aeruginosa,2,2,2,24.5608,68.168,823.0394,2284.331,Microcystis,Cyanophyta
+ME,2019-06-24,,0-8m,Microcystis aeruginosa,2,2,2,338.7695,1580.9244,11352.268,84536.0193,Microcystis,Cyanophyta
+ME,2019-07-08,,0-8m,Microcystis aeruginosa,2,2,2,1867.4669,2350.2135,68057.1077,123795.1458,Microcystis,Cyanophyta
+ME,2019-07-22,,0-8m,Microcystis aeruginosa,2,2,2,8363.3724,8880.9487,308874.0036,333683.5031,Microcystis,Cyanophyta
+ME,2019-08-05,,0-8m,Microcystis aeruginosa,2,2,2,30912.7181,84673.1913,1578122.08,3554257.936,Microcystis,Cyanophyta
+ME,2019-08-05,,0-8m,Woronichinia naegeliana,2,2,2,254.0771,10713.5816,5986.54,252432.9256,Woronichinia,Cyanophyta
+ME,2019-08-21,,0-8m,Microcystis aeruginosa,2,2,2,65001.4004,149990.202,2801053.345,6474765.777,Microcystis,Cyanophyta
+ME,2019-08-21,,0-8m,Woronichinia naegeliana,2,2,2,338.7695,5081.5427,7982.0534,119731.0296,Woronichinia,Cyanophyta
+ME,2019-09-04,,0-8m,Microcystis aeruginosa,2,2,2,26466.3682,131954.9601,971429.5193,4464051.658,Microcystis,Cyanophyta
+ME,2019-10-04,,0-8m,Microcystis aeruginosa,2,2,2,15498.7052,697414.0665,519366.262,23370568.07,Microcystis,Cyanophyta
+ME,2019-10-28,,0-8m,Microcystis aeruginosa,2,2,2,4615.7346,26493.3357,154674.6518,887799.5533,Microcystis,Cyanophyta
+ME,2019-11-20,,0-8m,Microcystis aeruginosa,2,2,2,55.05,626.7236,1844.7436,21001.7094,Microcystis,Cyanophyta
+ME,2020-05-15,,0-8m,Chlorococcaceae,2,2,2,0.5113,5.6462,189.2045,2141.5603,,Chlorophyta
+ME,2020-05-15,,0-8m,Chrysophyceae,2,2,2,5.6462,152.4463,596.7041,1376.1936,,Chrysophyta
+ME,2020-06-02,,0-8m,Microcystis aeruginosa,2,2,2,108.8902,120.9891,3648.9433,7145.8517,Microcystis,Cyanophyta
+ME,2020-06-12,,0-8m,Microcystis aeruginosa,2,2,2,1092.5317,1998.7401,36611.0644,129194.2155,Microcystis,Cyanophyta
+ME,2020-06-24,,0-8m,Microcystis aeruginosa,2,2,2,4149.9265,10304.2422,165574.599,345298.3725,Microcystis,Cyanophyta
+ME,2020-07-08,,0-8m,Microcystis aeruginosa,2,2,2,2858.3678,12571.5249,95784.7614,798594.8822,Microcystis,Cyanophyta
+ME,2020-07-22,,0-8m,Microcystis aeruginosa,2,2,2,14538.8583,14821.1662,533638.616,676177.9778,Microcystis,Cyanophyta
+ME,2020-08-06,,0-8m,Microcystis aeruginosa,2,2,2,9527.8926,12139.2409,319282.7381,484333.861,Microcystis,Cyanophyta
+ME,2020-08-20,,0-8m,Microcystis aeruginosa,2,2,2,21120.1618,22943.1653,768832.8625,1010745.473,Microcystis,Cyanophyta
+ME,2020-09-18,,0-8m,Microcystis aeruginosa,2,2,2,7834.045,22316.4459,262521.198,690803.6782,Microcystis,Cyanophyta
+ME,2020-10-08,,0-8m,Microcystis aeruginosa,2,2,2,2032.6171,4176.8799,68113.6081,139968.4047,Microcystis,Cyanophyta
+ME,2020-11-03,,0-8m,Microcystis aeruginosa,2,2,2,133.088,294.911,2740.9345,5751.3663,Microcystis,Cyanophyta
+MO,2019-04-30,,0-2m,Microcystis aeruginosa,2,2,2,88.2212,123.5097,1247.2011,2771.551,Microcystis,Cyanophyta
+MO,2019-05-14,,0-2m,Microcystis aeruginosa,2,2,2,25.4077,208.9079,359.1939,2953.3655,Microcystis,Cyanophyta
+MO,2019-05-29,,0-2m,Microcystis aeruginosa,2,2,2,2.5408,6.3519,85.142,212.8552,Microcystis,Cyanophyta
+MO,2019-05-29,,0-2m,Woronichinia naegeliana,2,2,2,19.0558,224.8583,448.9905,5298.098,Woronichinia,Cyanophyta
+MO,2019-06-12,,0-2m,Microcystis aeruginosa,2,2,2,681.7736,914.6777,15955.27,45258.3434,Microcystis,Cyanophyta
+MO,2019-06-26,,0-2m,Microcystis aeruginosa,2,2,2,804.5776,5556.3282,33970.1511,165312.1401,Microcystis,Cyanophyta
+MO,2019-06-26,,0-2m,Woronichinia naegeliana,2,2,2,71.5764,112.9232,1628.6713,2660.6845,Woronichinia,Cyanophyta
+MO,2019-07-10,,0-2m,Microcystis aeruginosa,2,2,2,14609.4353,16303.2976,431506.2045,676213.7815,Microcystis,Cyanophyta
+MO,2019-07-10,,0-2m,Woronichinia naegeliana,2,2,2,127.0386,9845.489,2993.27,231978.8714,Woronichinia,Cyanophyta
+MO,2019-07-23,,0-2m,Microcystis aeruginosa,2,2,2,13259.6505,20516.7287,392959.0238,671832.4277,Microcystis,Cyanophyta
+MO,2019-07-23,,0-2m,Woronichinia naegeliana,2,2,2,381.1157,1429.1839,8979.826,33674.2878,Woronichinia,Cyanophyta
+MO,2019-08-06,,0-2m,Microcystis aeruginosa,2,2,2,19620.401,66977.5559,807475.6403,2361383.097,Microcystis,Cyanophyta
+MO,2019-08-06,,0-2m,Woronichinia naegeliana,2,2,2,221.546,811.6353,5041.1255,19123.6696,Woronichinia,Cyanophyta
+MO,2019-08-21,,0-2m,Microcystis aeruginosa,2,2,2,24278.4818,52810.9912,968667.7221,2487988.608,Microcystis,Cyanophyta
+MO,2019-08-21,,0-2m,Raphidiopsis raciborskii,2,2,2,198.4978,33227.5725,2806.1973,490315.0909,Raphidiopsis,Cyanophyta
+MO,2019-09-05,,0-2m,Microcystis aeruginosa,2,2,2,10448.9222,22231.7493,385799.9702,843937.2124,Microcystis,Cyanophyta
+MO,2019-10-07,,0-2m,Microcystis aeruginosa,2,2,2,2512.5406,10704.1822,100245.8457,363960.1574,Microcystis,Cyanophyta
+MO,2019-10-29,,0-2m,Microcystis aeruginosa,2,2,2,536.3851,4276.9651,26540.3865,143322.4769,Microcystis,Cyanophyta
+MO,2019-11-25,,0-2m,Microcystis aeruginosa,2,2,2,38.8173,363.4715,548.7685,14611.6203,Microcystis,Cyanophyta
+MO,2020-07-09,,0-2m,Microcystis aeruginosa,2,2,2,3557.0799,4411.5379,141921.0849,147831.8472,Microcystis,Cyanophyta
+MO,2020-07-09,,0-2m,Woronichinia naegeliana,2,2,2,8.4692,306.7559,199.5513,6980.02,Woronichinia,Cyanophyta
+MO,2020-09-17,,0-2m,Microcystis aeruginosa,2,2,2,8860.9401,9051.4979,321278.2505,390048.9593,Microcystis,Cyanophyta

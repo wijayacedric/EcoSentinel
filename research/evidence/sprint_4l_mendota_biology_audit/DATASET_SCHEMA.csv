@@ -1,0 +1,16 @@
+column_name,eml_definition,eml_unit_or_type,role,notes,raw_verified
+lakeid,lake name abbreviation,string (no unit),lake identifier,Actual codes/values not verified; must filter Mendota.,no - raw data not acquired
+year4,year,nominalYear,date,Check consistency with sampledate.,no - raw data not acquired
+sampledate,sample date,date,date,No sample time in schema; day-level only.,no - raw data not acquired
+sta,station number,string/integer (no explicit unit),station,Deep-hole station expected; actual values not verified.,no - raw data not acquired
+depth_range,depth range,"string (e.g., 0-8 m)",depth integration,Mendota described as 0-8 m composite; actual per-row values not verified.,no - raw data not acquired
+division,division,string (taxonomic),taxonomy,Cyanobacteria are a division; actual category values not verified.,no - raw data not acquired
+taxa_name,taxon name,string (taxonomic),taxonomy,Species-level expected; unresolved taxa may occur.,no - raw data not acquired
+gald,avg greatest axial linear dimension,micrometer,cell size,Used in biovolume geometry; missing/zero handling not verified.,no - raw data not acquired
+cells_per_nu,cells per natural unit (NU),number,abundance,"Natural unit = colony, filament or single cell.",no - raw data not acquired
+nu_per_ml,natural units (NU) per milliliter,numberPerMilliliter,abundance,Density of natural units.,no - raw data not acquired
+cells_per_ml,cells per milliliter,numberPerMilliliter,abundance,Cell density; independent biological variable.,no - raw data not acquired
+biovolume_conc,biovolume concentration,EML unit not populated; methods: 10^6 um3/mL = 1 mm3/mL,biovolume,Primary biomass proxy; computed from cell geometry x density.,no - raw data not acquired
+biomass_conc,biomass concentration,milligramsPerLiter,biomass,Methods assume cell density ~ water: 1 mm3/mL -> 1 mg/L.,no - raw data not acquired
+relative_total_biovolume,relative total biovolume,percent,composition,Within-sample relative contribution.,no - raw data not acquired
+genus,genus,string (taxonomic),taxonomy,Genus-level field; relationship to taxa_name not verified.,no - raw data not acquired

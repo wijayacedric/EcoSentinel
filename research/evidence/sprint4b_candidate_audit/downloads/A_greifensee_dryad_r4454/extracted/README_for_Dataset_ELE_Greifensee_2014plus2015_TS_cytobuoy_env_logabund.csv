@@ -1,0 +1,45 @@
+Column number,Variable,Unit ,Explanation
+1,datetime,,"Date and time, rounded to the hour for alignment of all measurements"
+2,depth,metres,Depth in metres
+3,dens_clean,log(cells per mL),Log(Phytoplankton cell density) in cleaned Cytobuoy data
+4,dens_euks,log(cells per mL),Log(Eukaryote cell density) in cleaned Cytobuoy data
+5,dens_cyanos,log(cells per mL),Log(Cyanobacteria cell density) in cleaned Cytobuoy data
+6,temp,degrees C,Temperature
+7,CondF,uS.cm-1,Conductivity
+8,O2ppm,parts per million,Oxygen concentration
+9,pH,,pH
+10,nitrate_dissolved,ug.L-1,Dissolved nitrate concentration from lab measurements
+11,ammonia,ug.L-1,"Ammonia concentration from lab measurements. If value below detection limit of 5 uM, a value of 3 was used instead."
+12,phosphate_dissolved,ug.L-1,"Dissolved phosphate concentration from lab measurements, corrected. If value below detection limit of 1.0 uM, a value of 0.5 was used instead."
+13,par,uE.m-2.s-1,Irradiance estimated from regression on light profiles
+14,par_surf_instant,uE.m-2.s-1,Instantaneous surface irradiance estimated from regression on light profiles
+15,par_surf_integrated,uE.m-2.s-1,Mean irradiance at water surface (measurements integrated over 30-minute time intervals) over 4 hours
+16,thermcline_depth,metres,Estimated depth of the mixed layer
+17,carnivores,milligrams per 100 litres,"Dry weight of carnivorous zooplankton large than 1300 um in size, corrected for depths sampled"
+18,grazers_150,milligrams per 100 litres,"Dry weight of herbivorous zooplankton between 150 and 300 um in size, corrected for depths sampled"
+19,grazers_300,milligrams per 100 litres,"Dry weight of herbivorous zooplankton between 300 and 600 um in size, corrected for depths sampled"
+20,grazers_600,milligrams per 100 litres,"Dry weight of herbivorous zooplankton between 600 and 1300 um in size, corrected for depths sampled"
+21,grazers_all,milligrams per 100 litres,"Dry weight of herbivorous zooplankton between 150 and 1300 um in size, corrected for depths sampled"
+22,wind_speed_min,km.h-1,Average minimum wind speed
+23,wind_speed_mean,km.h-1,Average mean wind speed
+24,wind_speed_max,km.h-1,Average maximum wind speed
+25,temp_air,degrees C,Average air temperature
+26,pressure_air,millibars,Average air pressure
+27,rain_accumulation,,Average rain accumulation
+28,rain_duration,,Average rain duration
+29,rain_intensity,,Average rain intensity
+30,water_inflow,m3.s-1,Volume of water flowing into Greifensee through the major inflow point
+31,water_inflow_temp,degrees C,Temperature of water flowing into Greifensee through the major inflow point
+32,nh4_inflow_conc,uM,Concentration of ammonia flowing into Greifensee through the major inflow point
+33,no3_inflow_conc,uM,Concentration of nitrate flowing into Greifensee through the major inflow point
+34,po4_inflow_conc,uM,Concentration of phosphate flowing into Greifensee through the major inflow point
+35,po4_inflow,umol.s-1,Mass of phosphate flowing into Greifensee through the major inflow point
+36,phosphate_dissolved_interp,uM,Interpolated dissolved phosphate concentration (phosphate_dissolved)
+37,nitrate_dissolved_interp,uM,Interpolated dissolved nitrate concentration (nitrate_dissolved)
+38,ammonia_interp,uM,Interpolated ammonia concentration (ammonia)
+39,grazers_150_interp,milligrams per 100 litres,"Interpolated values of grazers_150 for every hour, using a GAM"
+40,grazers_300_interp,milligrams per 100 litres,"Interpolated values of grazers_300 for every hour, using a GAM"
+41,grazers_600_interp,milligrams per 100 litres,"Interpolated values of grazers_600 for every hour, using a GAM"
+42,grazers_all_interp,milligrams per 100 litres,"Interpolated values of grazers_all for every hour, using a GAM"
+43,carnivores_interp,milligrams per 100 litres,"Interpolated values of carnivores for every hour, using a GAM"
+44,cyano_percent,,Cyanobacterial proportion of the phytoplankton community (by cell number)

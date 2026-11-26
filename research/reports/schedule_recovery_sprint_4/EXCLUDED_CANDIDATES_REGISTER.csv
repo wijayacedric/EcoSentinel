@@ -1,0 +1,3 @@
+candidate_id,source_name,reason_excluded,category,date
+EX-001,US EPA NLA phytoplankton as sole confirmatory HF early-warning dataset,Unsuitable as primary confirmatory HF early-warning dataset due probabilistic single-visit survey design; low temporal resolution per lake,D for primary confirmatory use / C for exploratory context,2026-11-22
+EX-002,EEA Waterbase biological EQR-only products as direct biological ground truth,Normalized EQRs are not equivalent to raw independent phytoplankton counts/biovolume; suitability uncertain without raw data inspection,D/C pending inspection,2026-11-22

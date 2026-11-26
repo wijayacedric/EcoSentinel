@@ -1,0 +1,15 @@
+variable,documented_depth,measurement,biological_reference,classification,reason
+avg_do_wtemp,0.5 m,water temperature,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_do_sat,0.5 m,DO % saturation,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_do_raw,0.5 m,DO mg/L,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_ph,0.5 m,pH,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_spec_cond,0.5 m,specific conductance,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_turbidity,0.5 m,turbidity,0-8 m composite,Weakly comparable,surface point vs column composite
+avg_chlor_rfu_turner,0.5 m,chlorophyll RFU,0-8 m composite,Weakly comparable,proxy; sensor-specific; 2006-2019
+avg_chlor_rfu_ysi,0.5 m,chlorophyll RFU,0-8 m composite,Weakly comparable,proxy; sensor-specific; 2019+
+avg_phyco_rfu_turner,0.5 m,phycocyanin RFU,0-8 m composite,Weakly comparable,proxy; sensor-specific; 2006-2019
+avg_phyco_rfu_ysi,0.5 m,phycocyanin RFU,0-8 m composite,Weakly comparable,proxy; sensor-specific; 2019+
+avg_pco2_ppm,1 m,pCO2,0-8 m composite,Weakly comparable,single depth; no biological counterpart
+avg_par_below,1 m,underwater PAR,0-8 m composite,Weakly comparable,"light context, not biomass"
+avg_par,2 m above water,above-water PAR,0-8 m composite,Not comparable,atmospheric context
+meteorology,2-3 m above water,air temp/RH/wind,0-8 m composite,Not comparable,atmospheric context

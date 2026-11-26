@@ -1,0 +1,62 @@
+lakeid,sampledate,taxa_name,division,biovolume,biomass,expected_biomass
+MO,2001-11-26,Monomastix astigmata,Chlorophyta,24.1998,0.0,2.4199799999999998e-05
+MO,2001-11-26,Monoraphidium capricornutum,Chlorophyta,21.4884,0.0,2.14884e-05
+MO,2001-11-26,Miscellaneous,Miscellaneous,48.3997,0.0,4.8399700000000004e-05
+ME,2001-11-26,Aphanocapsa delicatissima ,Cyanophyta,4.8399,0.0,4.8399e-06
+ME,2002-05-20,Chlorococcaceae,Chlorophyta,9.68,0.0,9.679999999999999e-06
+ME,2002-05-20,Gymnodinium sp3 ,Pyrrhophyta,32.6699,0.0,3.26699e-05
+MO,2002-06-05,Chlorococcaceae,Chlorophyta,49.0049,0.0,4.9004899999999996e-05
+MO,2002-06-19,Monoraphidium capricornutum,Chlorophyta,42.9769,0.0,4.29769e-05
+ME,2002-06-19,Synechocystis  ,Cyanophyta,29.04,0.0,2.9039999999999996e-05
+ME,2003-04-03,Monoraphidium arcuatum,Chlorophyta,22.3462,0.0,2.23462e-05
+ME,2003-05-03,Chlorococcaceae,Chlorophyta,9.5166,0.0,9.5166e-06
+ME,2003-05-03,Aphanocapsa delicatissima ,Cyanophyta,35.6874,0.0,3.568739999999999e-05
+MO,2003-05-13,Gymnodinium sp3 ,Pyrrhophyta,41.3647,0.0,4.13647e-05
+MO,2003-07-08,Merismopedia warmingiana,Cyanophyta,35.6874,0.0,3.568739999999999e-05
+ME,2003-09-29,Merismopedia warmingiana,Cyanophyta,15.8611,0.0,1.58611e-05
+MO,2004-04-29,Quadrigula lacustris ,Chlorophyta,35.2979,0.0,3.52979e-05
+MO,2004-04-29,Schroederia judayi ,Chlorophyta,39.7102,0.0,3.97102e-05
+ME,2004-09-07,Merismopedia warmingiana,Cyanophyta,38.0665,0.0,3.80665e-05
+MO,2005-02-03,Synechocystis  ,Cyanophyta,12.6888,0.0,1.26888e-05
+MO,2005-04-18,Synechocystis  ,Cyanophyta,38.0665,0.0,3.80665e-05
+MO,2005-04-27,Schroederia judayi ,Chlorophyta,36.7686,0.0,3.67686e-05
+ME,2005-06-06,Chlamydomonas globosa ,Chlorophyta,33.0918,0.0,3.30918e-05
+ME,2006-05-02,Kephyrion gracilis ,Chrysophyta,42.8249,0.0,4.28249e-05
+ME,2006-05-15,Tetraedron muticum ,Chlorophyta,40.8946,0.0,4.089459999999999e-05
+ME,2006-11-27,Monomastix astigmata,Chlorophyta,28.5499,0.0,2.85499e-05
+MO,2006-12-11,Phormidium mucicola,Cyanophyta,33.3082,0.0,3.33082e-05
+MO,2007-01-05,Monoraphidium capricornutum,Chlorophyta,23.6607,0.0,2.36607e-05
+MO,2007-05-02,Monoraphidium capricornutum,Chlorophyta,14.1964,0.0,1.41964e-05
+MO,2007-05-02,Scenedesmus abundans ,Chlorophyta,18.5574,0.0,1.85574e-05
+MO,2007-05-02,Scenedesmus bijuga ,Chlorophyta,48.5347,0.0,4.85347e-05
+MO,2007-05-02,Aphanothece nidulans ,Cyanophyta,47.583,0.0,4.7582999999999995e-05
+MO,2007-05-02,Coelosphaerium naegelianum ,Cyanophyta,21.4123,0.0,2.1412299999999998e-05
+MO,2007-05-02,Phormidium mucicola,Cyanophyta,41.8732,0.0,4.18732e-05
+MO,2007-05-02,Synechococcus elongatus ,Cyanophyta,4.9962,0.0,4.9962e-06
+MO,2007-05-02,Synechocystis  ,Cyanophyta,12.8471,0.0,1.28471e-05
+MO,2007-05-21,Quadrigula lacustris ,Chlorophyta,10.151,0.0,1.0151e-05
+MO,2007-05-21,Aphanocapsa delicatissima ,Cyanophyta,19.0333,0.0,1.90333e-05
+ME,2007-11-26,Monoraphidium capricornutum,Chlorophyta,17.7455,0.0,1.7745499999999998e-05
+ME,2007-11-26,Quadrigula lacustris ,Chlorophyta,45.6798,0.0,4.5679799999999996e-05
+MO,2007-11-26,Monomastix astigmata,Chlorophyta,45.3173,0.0,4.53173e-05
+ME,2008-02-13,Aphanocapsa delicatissima ,Cyanophyta,13.2175,0.0,1.3217499999999998e-05
+MO,2008-04-30,Monomastix astigmata,Chlorophyta,25.6949,0.0,2.56949e-05
+MO,2008-04-30,Aphanocapsa delicatissima ,Cyanophyta,8.565,0.0,8.564999999999998e-06
+MO,2008-04-30,Synechococcus elongatus ,Cyanophyta,4.2825,0.0,4.282499999999999e-06
+MO,2008-05-14,Chrysococcus minutus ,Chrysophyta,41.226,0.0,4.1225999999999995e-05
+MO,2008-05-14,Synechocystis  ,Cyanophyta,17.1299,0.0,1.71299e-05
+ME,2008-05-28,Aphanothece,Cyanophyta,37.305,0.0,3.7304999999999996e-05
+ME,2008-06-09,Monomastix minuta,Chlorophyta,35.6874,0.0,3.568739999999999e-05
+ME,2008-06-09,Monoraphidium capricornutum,Chlorophyta,23.6607,0.0,2.36607e-05
+ME,2008-07-07,Synechococcus elongatus ,Cyanophyta,35.6874,0.0,3.568739999999999e-05
+MO,2009-05-11,Phormidium mucicola,Cyanophyta,12.8475,0.0,1.28475e-05
+MO,2009-05-11,Synechococcus elongatus ,Cyanophyta,1.4275,0.0,1.4274999999999999e-06
+ME,2009-06-09,Chlamydomonas  ,Chlorophyta,11.42,0.0,1.1419999999999999e-05
+ME,2009-06-09,Monomastix astigmata,Chlorophyta,25.6949,0.0,2.56949e-05
+ME,2009-06-09,Aphanocapsa delicatissima ,Cyanophyta,14.275,0.0,1.4275e-05
+ME,2009-06-09,Synechocystis,Cyanophyta,45.6797,0.0,4.5679699999999996e-05
+ME,2010-05-10,Monoraphidium capricornutum,Chlorophyta,23.6607,0.0,2.36607e-05
+MO,2010-05-13,Merismopedia warmingiana,Cyanophyta,26.4351,0.0,2.6435099999999997e-05
+ME,2010-05-24,Synechococcus elongatus ,Cyanophyta,28.5499,0.0,2.85499e-05
+ME,2010-06-07,Synechocystis  ,Cyanophyta,26.7648,0.0,2.6764799999999998e-05
+MO,2010-11-02,Merismopedia warmingiana,Cyanophyta,24.9812,0.0,2.49812e-05

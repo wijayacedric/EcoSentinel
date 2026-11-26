@@ -1,0 +1,5 @@
+entity_name,object_name,size_bytes,eml_checksum_algorithm,eml_checksum,resolution,acquisition_recommendation,reason,raw_status
+North Temperate Lakes LTER: Daily Meteorological and Metabolism Data - Lake Mendota,ntl129_1_v16.csv,490187,MD5,eb7b3a3848b27074bac4504236ccefc3,daily,ACQUIRE (priority),daily aggregates; variables relevant to EcoSentinel; smallest relevant entity,NOT ACQUIRED
+North Temperate Lakes LTER: Hourly Meteorological and Metabolism Data - Lake Mendota,ntl129_2_v16.csv,11380329,MD5,0dd34827ba275d14a2f7af4b17525d10,hourly,DO NOT ACQUIRE this sprint,larger; daily sufficient for feasibility; retain as future option,NOT ACQUIRED
+North Temperate Lakes LTER: High Resolution Meteorological and Metabolism Data - Lake Mendota,ntl129_3_v16.csv,682487953,MD5,73c4b7ce2170ebaf007d927759759346,1-minute,DO NOT ACQUIRE,682 MB; not needed for daily feasibility,NOT ACQUIRED
+List of sensors used on the Lake Mendota buoy since 2006,mendota_buoy_sensors_v3.csv,1039,MD5,6e5c2a9204fe7e9e15a319a0344ebff0,inventory,ALREADY ACQUIRED,"verified 1,039 B sensor inventory from Sprint 4K",already present

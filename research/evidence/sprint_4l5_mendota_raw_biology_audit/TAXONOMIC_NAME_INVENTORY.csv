@@ -1,0 +1,470 @@
+taxa_name_clean,taxa_name_raw_variants,genus_values,divisions,records,lakes,first_date,last_date,n_dates,genus_first_token_match,flags
+Microcystis aeruginosa,Microcystis aeruginosa|Microcystis aeruginosa ,Microcystis,Cyanophyta,1037,ME|MO|WI,1995-05-23,2020-11-05,462,True,trailing_space
+Chroococcaceae,Chroococcaceae,,Cyanophyta,735,ME|MO|WI,1995-04-24,2020-11-05,605,False,genus_field_mismatch
+Aphanizomenon flos-aquae,Aphanizomenon flos-aquae|Aphanizomenon flos-aquae ,Aphanizomenon,Cyanophyta,687,FI|ME|MO|WI,1995-01-24,2020-11-05,560,True,trailing_space
+Cryptomonas erosa,Cryptomonas erosa|Cryptomonas erosa ,Cryptomonas,Cryptophyta,627,FI|ME|MO|WI,1995-01-24,2020-11-05,534,True,trailing_space
+Synechocystis,Synechocystis|Synechocystis |Synechocystis  ,Synechocystis,Cyanophyta,543,ME|MO|WI,1995-01-24,2020-11-05,447,True,trailing_space;double_space
+Rhodomonas minuta var. nannoplanctica,Rhodomonas minuta var. nannoplanctica,Rhodomonas,Cryptophyta,494,ME|MO|WI,1995-01-24,2010-11-09,370,True,unresolved_or_infraspecific
+Rhodomonas minuta,Rhodomonas minuta|Rhodomonas minuta ,Rhodomonas,Cryptophyta,447,FI|ME|MO,1995-01-24,2020-11-05,328,True,trailing_space
+Chlorococcaceae,Chlorococcaceae,,Chlorophyta,426,FI|ME|MO|WI,1995-03-28,2020-11-05,381,False,genus_field_mismatch
+Schroederia judayi,Schroederia judayi|Schroederia judayi ,Schroederia,Chlorophyta,417,ME|MO|WI,1995-01-24,2020-07-09,348,True,trailing_space
+Aphanothece nidulans,Aphanothece nidulans|Aphanothece nidulans ,Aphanothece,Cyanophyta,397,ME|MO|WI,1995-01-24,2020-11-05,339,True,trailing_space
+Aphanocapsa delicatissima,Aphanocapsa delicatissima|Aphanocapsa delicatissima ,Aphanocapsa,Cyanophyta,396,ME|MO|WI,1995-01-24,2020-11-05,337,True,trailing_space
+Chlamydomonas,Chlamydomonas|Chlamydomonas |Chlamydomonas  ,Chlamydomonas,Chlorophyta,387,ME|MO|WI,1995-04-24,2020-11-05,364,True,trailing_space;double_space
+Synechococcus sp1,Synechococcus sp1 ,Synechococcus,Cyanophyta,379,ME|MO|WI,1999-02-22,2010-11-09,300,True,trailing_space
+Miscellaneous,Miscellaneous,,Miscellaneous,376,FI|ME|MO|WI,1995-01-24,2020-02-27,231,False,genus_field_mismatch
+Coelosphaerium naegelianum,Coelosphaerium naegelianum ,Woronichinia,Cyanophyta,361,ME|MO,1995-07-06,2010-11-09,198,False,trailing_space;genus_field_mismatch
+Monoraphidium capricornutum,Monoraphidium capricornutum,Monoraphidium,Chlorophyta,331,ME|MO|WI,1995-04-24,2020-11-05,297,True,
+Oscillatoria limnetica,Oscillatoria limnetica|Oscillatoria limnetica ,Oscillatoria|Pseudanabaena,Cyanophyta,284,ME|MO|WI,1995-01-24,2010-11-02,213,True,trailing_space
+Oocystis parva,Oocystis parva|Oocystis parva ,Oocystis,Chlorophyta,281,FI|ME|MO|WI,1995-01-24,2020-11-05,252,True,trailing_space
+Erkenia subaequiciliata,Erkenia subaequiciliata|Erkenia subaequiciliata ,Erkenia,Chrysophyta,274,FI|ME|MO|WI,1995-01-24,2012-10-29,248,True,trailing_space
+Sphaerocystis schroeteri,Sphaerocystis schroeteri|Sphaerocystis schroeteri ,Sphaerocystis,Chlorophyta,265,FI|ME|MO|WI,1995-03-28,2020-11-05,240,True,trailing_space
+Synechococcus sp. 1,Synechococcus sp. 1,Synechococcus,Cyanophyta,265,ME|MO,2011-01-19,2020-11-05,247,True,unresolved_or_infraspecific
+Stephanodiscus parvus,Stephanodiscus parvus|Stephanodiscus parvus ,Stephanodiscus,Bacillariophyta,221,ME|MO,2001-11-26,2020-09-17,212,True,trailing_space
+Phormidium mucicola,Phormidium mucicola,Pseudanabaena,Cyanophyta,214,ME|MO,1995-05-23,2010-11-02,173,False,genus_field_mismatch
+Synechococcus elongatus,Synechococcus elongatus|Synechococcus elongatus ,Synechococcus,Cyanophyta,210,ME|MO,1997-05-28,2020-11-05,199,True,trailing_space
+Monoraphidium arcuatum,Monoraphidium arcuatum,Monoraphidium,Chlorophyta,205,FI|ME|MO|WI,1995-01-24,2020-11-05,193,True,
+Chrysochromulina parva,Chrysochromulina parva,Chrysochromulina,Haptophyta,190,ME|MO,2010-02-03,2020-11-05,179,True,
+Pseudanabaena limnetica,Pseudanabaena limnetica,Pseudanabaena,Cyanophyta,165,ME|MO,2011-06-13,2020-11-05,154,True,
+Nitzschia palea,Nitzschia palea|Nitzschia palea ,Nitzschia,Bacillariophyta,159,ME|MO|WI,1995-11-07,2020-11-05,145,True,trailing_space
+Woronichinia naegeliana,Woronichinia naegeliana,Woronichinia,Cyanophyta,159,ME|MO,2011-06-13,2020-11-05,113,True,
+Chromulina,Chromulina|Chromulina |Chromulina  ,Chromulina,Chrysophyta,158,ME|MO,2000-03-29,2018-11-14,150,True,trailing_space;double_space
+Lyngbya limnetica,Lyngbya limnetica|Lyngbya limnetica ,Lyngbya,Cyanophyta,150,ME|MO|WI,1995-04-11,2014-08-20,138,True,trailing_space
+Merismopedia warmingiana,Merismopedia warmingiana,Merismopedia,Cyanophyta,147,ME|MO,2003-07-08,2020-09-17,136,True,
+Monomastix astigmata,Monomastix astigmata,Monomastix,Chlorophyta,146,ME|MO|WI,1997-02-17,2019-06-12,139,True,
+Anabaena flos-aquae,Anabaena flos-aquae|Anabaena flos-aquae ,Anabaena,Cyanophyta,145,ME|MO|WI,1995-01-24,2004-08-03,106,True,trailing_space
+Stephanodiscus niagarae,Stephanodiscus niagarae|Stephanodiscus niagarae ,Stephanodiscus,Bacillariophyta,136,ME|MO|WI,1995-03-28,2020-02-27,123,True,trailing_space
+Pseudanabaena mucicola,Pseudanabaena mucicola,Pseudanabaena,Cyanophyta,136,ME|MO,2011-06-13,2020-11-05,131,True,
+Aulacoseira granulata,Aulacoseira granulata|Aulacoseira granulata ,Aulacoseira,Bacillariophyta,126,ME|MO,1995-07-18,2020-09-17,121,True,trailing_space
+Quadrigula lacustris,Quadrigula lacustris|Quadrigula lacustris ,Quadrigula,Chlorophyta,121,ME|MO|WI,1995-01-24,2020-11-05,116,True,trailing_space
+Merismopedia tenuissima,Merismopedia tenuissima|Merismopedia tenuissima ,Merismopedia,Cyanophyta,119,ME|MO|WI,1995-04-24,2020-10-08,98,True,trailing_space
+Chlamydomonas globosa,Chlamydomonas globosa ,Chlamydomonas,Chlorophyta,116,ME|MO|WI,1995-01-24,2008-04-14,103,True,trailing_space
+Uroglena,Uroglena|Uroglena |Uroglena  ,Uroglena,Chrysophyta,116,ME|MO,1995-03-28,2020-02-27,108,True,trailing_space;double_space
+Cylindrospermopsis raciborskii,Cylindrospermopsis raciborskii|Cylindrospermopsis raciborskii ,Cylindrospermopsis,Cyanophyta,114,ME|MO|WI,1995-08-02,2018-10-02,99,True,trailing_space
+Dictyosphaerium pulchellum,Dictyosphaerium pulchellum|Dictyosphaerium pulchellum ,Dictyosphaerium,Chlorophyta,108,ME|MO|WI,1995-03-28,2016-11-10,101,True,trailing_space
+Aphanothece,Aphanothece|Aphanothece  ,Aphanothece,Cyanophyta,97,ME|MO,1995-08-02,2008-05-28,61,True,trailing_space;double_space
+Cryptomonas rostratiformis,Cryptomonas rostratiformis|Cryptomonas rostratiformis ,Cryptomonas,Cryptophyta,97,ME|MO|WI,1999-03-29,2018-05-07,91,True,trailing_space
+Anabaena circinalis,Anabaena circinalis|Anabaena circinalis ,Anabaena,Cyanophyta,96,ME|MO,1995-08-14,2015-11-03,88,True,trailing_space
+Pyramichlamys dissecta,Pyramichlamys dissecta,Pyramichlamys,Chlorophyta,96,ME|MO|WI,1999-03-29,2020-09-17,95,True,
+Gymnodinium sp3,Gymnodinium sp3 ,Gymnodinium,Pyrrhophyta,95,FI|ME|MO|WI,1995-01-24,2010-05-10,87,True,trailing_space
+Stephanodiscus hantzschii,Stephanodiscus hantzschii|Stephanodiscus hantzschii ,Stephanodiscus,Bacillariophyta,87,ME|MO|WI,1995-01-24,2020-11-05,81,True,trailing_space
+Aphanocapsa elachista,Aphanocapsa elachista|Aphanocapsa elachista ,Aphanocapsa,Cyanophyta,85,ME|MO|WI,1995-04-24,2019-10-29,81,True,trailing_space
+Cyclotella sp1,Cyclotella sp1 ,Cyclotella,Bacillariophyta,84,ME|MO|WI,1998-10-27,2010-05-13,68,True,trailing_space
+Ankistrodesmus falcatus,Ankistrodesmus falcatus|Ankistrodesmus falcatus ,Ankistrodesmus,Chlorophyta,82,ME|MO|WI,2001-09-26,2019-10-07,80,True,trailing_space
+Cyclotella sp. 1,Cyclotella sp. 1,Cyclotella,Bacillariophyta,82,ME|MO,2011-05-31,2020-11-05,80,True,unresolved_or_infraspecific
+Cryptomonas ovata,Cryptomonas ovata|Cryptomonas ovata ,Cryptomonas,Cryptophyta,81,FI|ME|MO,1995-01-24,2014-09-28,57,True,trailing_space
+Anabaena augstumalis,Anabaena augstumalis,Anabaena,Cyanophyta,81,ME|MO,2001-06-04,2020-08-06,71,True,
+Aphanocapsa holsatica,Aphanocapsa holsatica,Aphanocapsa,Cyanophyta,81,ME|MO,2006-10-30,2020-11-05,78,True,
+Synedra filiformis,Synedra filiformis,Synedra,Bacillariophyta,80,ME|MO|WI,1995-08-02,2016-11-10,78,True,
+Aphanizomenon issatschenkoi,Aphanizomenon issatschenkoi,Aphanizomenon,Cyanophyta,77,ME|MO,1998-07-23,2012-10-01,67,True,
+Cyanogranis ferruginea,Cyanogranis ferruginea,Cyanogranis,Cyanophyta,72,ME|MO,2001-09-26,2019-09-05,68,True,
+Anabaena mendotae,Anabaena mendotae,Anabaena,Cyanophyta,71,ME|MO,2004-04-26,2016-10-03,68,True,
+Selenastrum minutum,Selenastrum minutum|Selenastrum minutum ,Selenastrum,Chlorophyta,70,ME|MO|WI,1995-04-24,2020-11-05,68,True,trailing_space
+Planktolyngbya limnetica,Planktolyngbya limnetica,Planktolyngbya,Cyanophyta,70,ME|MO,2015-05-13,2020-11-05,69,True,
+Gomphosphaeria lacustris,Gomphosphaeria lacustris|Gomphosphaeria lacustris ,Gomphosphaeria,Cyanophyta,67,ME|MO|WI,1995-08-14,2020-11-05,64,True,trailing_space
+Planktothrix agardhii,Planktothrix agardhii,Planktothrix,Cyanophyta,67,ME|MO,2008-08-18,2020-11-05,64,True,
+Nitzschia acicularis,Nitzschia acicularis|Nitzschia acicularis ,Nitzschia,Bacillariophyta,66,FI|ME|MO|WI,1995-03-28,2020-11-05,63,True,trailing_space
+Gymnodinium sp2,Gymnodinium sp2 ,Gymnodinium,Pyrrhophyta,62,FI|ME|MO|WI,1995-03-08,2010-07-05,59,True,trailing_space
+Scenedesmus abundans,Scenedesmus abundans|Scenedesmus abundans ,Scenedesmus,Chlorophyta,62,ME|MO|WI,1998-04-13,2020-07-08,62,True,trailing_space
+Mallomonas,Mallomonas|Mallomonas |Mallomonas  ,Mallomonas,Chrysophyta,61,ME|MO|WI,1995-01-24,2020-11-05,61,True,trailing_space;double_space
+Chroococcus minutus,Chroococcus minutus|Chroococcus minutus ,Chroococcus,Cyanophyta,60,ME|MO|WI,1995-12-06,2018-10-29,57,True,trailing_space
+Cyclostephanos invisitatus,Cyclostephanos invisitatus ,Cyclostephanos,Bacillariophyta,54,ME|MO,1995-01-24,1999-01-25,45,True,trailing_space
+Gymnodinium sp. 2,Gymnodinium sp. 2,Gymnodinium,Pyrrhophyta,54,ME|MO,2011-04-18,2020-11-05,54,True,unresolved_or_infraspecific
+Actinastrum hantzschii,Actinastrum hantzschii|Actinastrum hantzschii ,Actinastrum,Chlorophyta,53,ME|MO,1995-10-11,2020-09-17,48,True,trailing_space
+Gymnodinium sp. 3,Gymnodinium sp. 3,Gymnodinium,Pyrrhophyta,53,ME|MO,2011-04-18,2020-02-27,53,True,unresolved_or_infraspecific
+Chrysophyceae,Chrysophyceae,,Chrysophyta,52,ME|MO|WI,1996-02-06,2020-05-12,49,False,genus_field_mismatch
+Scenedesmus bijuga,Scenedesmus bijuga|Scenedesmus bijuga ,Scenedesmus,Chlorophyta,51,ME|MO|WI,1995-01-24,2020-08-06,51,True,trailing_space
+Plagioselmis minuta,Plagioselmis minuta,Plagioselmis,Cryptophyta,51,ME|MO,2019-02-21,2020-11-05,50,True,
+Aulacoseira ambigua,Aulacoseira ambigua|Aulacoseira ambigua ,Aulacoseira,Bacillariophyta,49,ME|MO|WI,1999-05-10,2018-05-07,49,True,trailing_space
+Dolichospermum circinale,Dolichospermum circinale,Dolichospermum,Cyanophyta,49,ME|MO,2016-11-09,2020-11-05,48,True,
+Peridinium umbonatum,Peridinium umbonatum|Peridinium umbonatum ,Peridinium,Pyrrhophyta,48,ME|MO|WI,1995-01-24,2016-03-29,48,True,trailing_space
+Closterium moniliferum,Closterium moniliferum|Closterium moniliferum ,Closterium,Chlorophyta,47,ME|MO|WI,1995-01-24,2020-11-05,45,True,trailing_space
+Scenedesmus quadricauda,Scenedesmus quadricauda|Scenedesmus quadricauda ,Scenedesmus,Chlorophyta,47,ME|MO|WI,1995-07-18,2020-07-09,47,True,trailing_space
+Pseudanabaena,Pseudanabaena|Pseudanabaena |Pseudanabaena  ,Pseudanabaena,Cyanophyta,47,ME|MO,1998-04-13,2020-11-03,45,True,trailing_space;double_space
+Chlamydomonas platystigma,Chlamydomonas platystigma ,Chlamydomonas,Chlorophyta,46,ME|MO|WI,1996-04-03,2007-06-11,41,True,trailing_space
+Aphanizomenon gracile,Aphanizomenon gracile,Aphanizomenon,Cyanophyta,46,ME|MO,2005-08-30,2019-10-07,44,True,
+Scenedesmus serratus,Scenedesmus serratus|Scenedesmus serratus ,Scenedesmus,Chlorophyta,45,ME|MO|WI,1995-11-07,2020-07-09,45,True,trailing_space
+Cuspidothrix issatschenkoi,Cuspidothrix issatschenkoi,Cuspidothrix,Cyanophyta,45,ME|MO,2013-07-22,2019-09-05,43,True,
+Schizochlamys compacta,Schizochlamys compacta ,Schizochlamys,Chlorophyta,44,ME|MO,1995-06-06,1999-01-27,34,True,trailing_space
+Anabaena lemmermannii,Anabaena lemmermannii,Anabaena,Cyanophyta,44,ME|MO,2006-12-11,2015-08-04,41,True,
+Fragilaria capucina,Fragilaria capucina|Fragilaria capucina ,Fragilaria,Bacillariophyta,43,ME|MO,1995-03-28,2019-11-25,39,True,trailing_space
+Cryptomonas gracilis,Cryptomonas gracilis,Cryptomonas,Cryptophyta,40,ME|MO|WI,1995-05-23,2019-06-12,40,True,
+Stephanodiscus medius,Stephanodiscus medius|Stephanodiscus medius ,Stephanodiscus,Bacillariophyta,40,ME|MO,2002-11-19,2020-11-05,40,True,trailing_space
+Monomastix minuta,Monomastix minuta,Monomastix,Chlorophyta,39,ME|MO,2006-11-27,2020-07-09,38,True,
+Asterionella formosa,Asterionella formosa|Asterionella formosa ,Asterionella,Bacillariophyta,38,ME|MO|WI,1995-01-24,2020-02-27,37,True,trailing_space
+Phacotus lendneri,Phacotus lendneri,Phacotus,Chlorophyta,38,ME|MO,1995-04-24,2018-08-07,36,True,
+Cyanocatena planctonica,Cyanocatena planctonica,Cyanocatena,Cyanophyta,38,ME|MO,2004-08-16,2020-08-06,35,True,
+Nitzschia,Nitzschia|Nitzschia |Nitzschia  ,Nitzschia,Bacillariophyta,37,ME|MO|WI,1995-04-11,2019-06-26,30,True,trailing_space;double_space
+Euglena,Euglena|Euglena |Euglena  ,Euglena,Euglenophyta,36,ME|MO|WI,1995-05-23,2019-05-29,36,True,trailing_space;double_space
+Dolichospermum lemmermannii,Dolichospermum lemmermannii,Dolichospermum,Cyanophyta,36,ME|MO,2016-07-18,2019-11-25,36,True,
+Botryococcus braunii,Botryococcus braunii|Botryococcus braunii ,Botryococcus,Chlorophyta,35,ME|MO|WI,1995-05-23,2019-08-06,35,True,trailing_space
+Chroococcus minimus,Chroococcus minimus|Chroococcus minimus ,Chroococcus,Cyanophyta,35,ME|MO|WI,1995-05-23,2018-10-31,35,True,trailing_space
+Navicula,Navicula |Navicula  ,Navicula,Bacillariophyta,34,ME|MO,1998-11-23,2020-09-17,33,True,trailing_space;double_space
+Cryptomonas lucens,Cryptomonas lucens|Cryptomonas lucens ,Cryptomonas,Cryptophyta,33,FI|ME|MO|WI,1995-01-24,2011-06-13,32,True,trailing_space
+Planktolyngbya microspira,Planktolyngbya microspira,Planktolyngbya,Cyanophyta,33,ME|MO,2016-07-18,2020-09-17,32,True,
+Deasonia gigantica,Deasonia gigantica,Deasonia,Chlorophyta,32,ME|MO,1995-04-24,2010-06-21,32,True,
+Ceratium hirundinella,Ceratium hirundinella|Ceratium hirundinella ,Ceratium,Pyrrhophyta,32,ME|MO|WI,1996-10-06,2020-11-05,32,True,trailing_space
+Cocconeis placentula,Cocconeis placentula|Cocconeis placentula ,Cocconeis,Bacillariophyta,31,ME|MO,1995-07-06,2015-06-23,29,True,trailing_space
+Fragilaria crotonensis,Fragilaria crotonensis|Fragilaria crotonensis ,Fragilaria,Bacillariophyta,31,ME|MO,1997-08-18,2020-07-08,30,True,trailing_space
+Oocystis lacustris,Oocystis lacustris|Oocystis lacustris ,Oocystis,Chlorophyta,30,ME|MO,1998-08-02,2020-11-03,29,True,trailing_space
+Anabaena aphanizomenoides,Anabaena aphanizomenoides|Anabaena aphanizomenoides ,Anabaena,Cyanophyta,30,ME|MO,1998-09-02,2014-05-15,29,True,trailing_space
+Cyclotella ocellata,Cyclotella ocellata|Cyclotella ocellata ,Cyclotella,Bacillariophyta,30,ME|MO,2000-05-22,2020-11-05,30,True,trailing_space
+Cyclotella meneghiniana,Cyclotella meneghiniana|Cyclotella meneghiniana ,Cyclotella,Bacillariophyta,29,ME|MO,1998-10-27,2020-11-05,27,True,trailing_space
+Oscillatoria agardhii,Oscillatoria agardhii ,Planktothrix,Cyanophyta,29,ME|MO|WI,1999-08-02,2007-10-29,26,False,trailing_space;genus_field_mismatch
+Synedra cyclopum,Synedra cyclopum|Synedra cyclopum ,Synedra,Bacillariophyta,29,ME|MO,2003-05-27,2017-04-17,29,True,trailing_space
+Mucidosphaerium pulchellum,Mucidosphaerium pulchellum,Mucidosphaerium,Chlorophyta,29,ME|MO,2017-05-03,2020-11-05,29,True,
+Chlamydomonas incerta,Chlamydomonas incerta ,Chlamydomonas,Chlorophyta,28,ME|MO,1995-03-08,2002-04-23,26,True,trailing_space
+Lyngbya lagerheimia var. minor,Lyngbya lagerheimia var. minor,Lyngbya,Cyanophyta,28,ME|MO|WI,1995-08-14,2010-08-30,27,True,unresolved_or_infraspecific
+Fragilaria construens,Fragilaria construens|Fragilaria construens ,Fragilaria,Bacillariophyta,28,ME|MO|WI,1995-11-07,2018-11-14,28,True,trailing_space
+Cyclotella pseudostelligera,Cyclotella pseudostelligera,Cyclotella,Bacillariophyta,28,ME|MO,2009-08-04,2018-11-30,27,True,
+Peridinium,Peridinium|Peridinium |Peridinium  ,Peridinium,Pyrrhophyta,27,ME|MO|WI,1995-05-23,2020-02-27,27,True,trailing_space;double_space
+Anabaena macrospora,Anabaena macrospora|Anabaena macrospora ,Anabaena,Cyanophyta,27,ME|MO|WI,1999-08-30,2015-07-09,27,True,trailing_space
+Dinobryon,Dinobryon|Dinobryon ,Dinobryon,Chrysophyta,26,ME|MO,2004-03-31,2018-11-30,26,True,trailing_space
+Achnanthes minutissima,Achnanthes minutissima ,Achnanthes,Bacillariophyta,25,ME|MO|WI,1995-01-24,2005-11-30,23,True,trailing_space
+Ankistrodesmus convolutus,Ankistrodesmus convolutus|Ankistrodesmus convolutus ,Ankistrodesmus,Chlorophyta,25,ME|MO,1995-09-05,2016-08-15,23,True,trailing_space
+Nitzschia gracilis,Nitzschia gracilis|Nitzschia gracilis ,Nitzschia,Bacillariophyta,25,ME|MO|WI,1999-04-26,2018-09-04,24,True,trailing_space
+Tetrastrum staurogeniaeforme,Tetrastrum staurogeniaeforme|Tetrastrum staurogeniaeforme ,Tetrastrum,Chlorophyta,24,ME|MO|WI,1995-08-30,2018-05-07,24,True,trailing_space
+Lyngbya lagerheimia,Lyngbya lagerheimia,Lyngbya,Cyanophyta,24,ME|MO,2011-09-12,2014-08-20,23,True,
+Coelastrum microporum,Coelastrum microporum|Coelastrum microporum ,Coelastrum,Chlorophyta,23,ME|MO|WI,1995-10-11,2020-05-07,22,True,trailing_space
+Dinobryon sertularia,Dinobryon sertularia ,Dinobryon,Chrysophyta,22,FI|ME|MO|WI,1995-03-28,2007-04-02,20,True,trailing_space
+Chrysococcus minutus,Chrysococcus minutus|Chrysococcus minutus ,Chrysococcus,Chrysophyta,22,FI|ME|MO,1995-03-28,2013-04-29,21,True,trailing_space
+Dactylococcopsis irregularis,Dactylococcopsis irregularis|Dactylococcopsis irregularis ,Dactylococcopsis,Cyanophyta,22,ME|MO|WI,1995-09-11,2019-04-30,22,True,trailing_space
+Cyclotella stelligera,Cyclotella stelligera,Cyclotella,Bacillariophyta,21,ME|MO,2003-08-05,2018-08-22,19,True,
+Rhabdoderma lineare,Rhabdoderma lineare,Rhabdoderma,Cyanophyta,21,ME|MO,2006-05-30,2017-08-23,20,True,
+Ochromonas,Ochromonas |Ochromonas  ,Ochromonas,Chrysophyta,20,ME|MO,1995-05-23,2017-04-19,20,True,trailing_space;double_space
+Lyngbya circumcreta,Lyngbya circumcreta,Lyngbya,Cyanophyta,20,ME|MO,1995-08-30,2001-10-22,18,True,
+Micractinium pusillum,Micractinium pusillum|Micractinium pusillum ,Micractinium,Chlorophyta,20,ME|MO|WI,1997-09-08,2016-11-09,20,True,trailing_space
+Synechococcus leopoliensis,Synechococcus leopoliensis,Synechococcus,Cyanophyta,20,ME|MO,2007-10-29,2020-09-18,19,True,
+Eudorina elegans,Eudorina elegans|Eudorina elegans ,Eudorina,Chlorophyta,19,ME|MO,1995-01-24,2019-04-30,19,True,trailing_space
+Lobomonas,Lobomonas|Lobomonas |Lobomonas  ,Lobomonas,Chlorophyta,19,ME|MO|WI,1995-04-24,2019-04-03,19,True,trailing_space;double_space
+Mallomonas akrokomas,Mallomonas akrokomas ,Mallomonas,Chrysophyta,19,ME|MO|WI,1999-02-22,2009-04-15,18,True,trailing_space
+Fragilaria capucina var. vaucheriae,Fragilaria capucina var. vaucheriae,Fragilaria,Bacillariophyta,19,ME|MO,2002-03-28,2008-04-30,19,True,unresolved_or_infraspecific
+Dolichospermum planctonicum,Dolichospermum planctonicum,Dolichospermum,Cyanophyta,19,ME|MO,2016-11-09,2019-10-07,18,True,
+Schroederia setigera,Schroederia setigera|Schroederia setigera ,Schroederia,Chlorophyta,18,ME|MO|WI,1995-03-28,2019-04-29,18,True,trailing_space
+Oocystis pusilla,Oocystis pusilla|Oocystis pusilla ,Oocystis,Chlorophyta,18,ME|MO,1995-06-06,2020-08-06,18,True,trailing_space
+Merismopedia minima,Merismopedia minima ,Merismopedia,Cyanophyta,18,ME|MO,1997-07-23,2001-06-04,13,True,trailing_space
+Tetraedron minimum,Tetraedron minimum|Tetraedron minimum ,Tetraedron,Chlorophyta,18,ME|MO|WI,1998-07-06,2019-11-20,18,True,trailing_space
+Chroococcus limneticus,Chroococcus limneticus|Chroococcus limneticus ,Chroococcus,Cyanophyta,17,ME|MO|WI,1995-06-06,2016-08-01,17,True,trailing_space
+Microcystis wesenbergii,Microcystis wesenbergii,Microcystis,Cyanophyta,17,ME|MO|WI,2001-08-15,2018-07-10,17,True,
+Fragilaria filiformis,Fragilaria filiformis,Fragilaria,Bacillariophyta,17,ME|MO,2017-08-23,2020-11-05,17,True,
+Chlorophyta,Chlorophyta,,Chlorophyta,16,ME|MO,1995-09-05,2019-10-29,16,False,genus_field_mismatch
+Synura,Synura|Synura |Synura  ,Synura,Chrysophyta,16,ME|MO,1996-06-26,2018-11-14,16,True,trailing_space;double_space
+Aphanocapsa incerta,Aphanocapsa incerta,Aphanocapsa,Cyanophyta,16,ME|MO,2005-07-18,2020-08-20,16,True,
+Romeria,Romeria ,Romeria,Cyanophyta,16,ME|MO,2015-07-09,2020-09-17,16,True,trailing_space
+Limnoraphis birgei,Limnoraphis birgei,Limnoraphis,Cyanophyta,16,ME|MO,2018-08-07,2020-09-17,16,True,
+Navicula cryptocephala,Navicula cryptocephala ,Navicula,Bacillariophyta,15,ME|MO|WI,1996-02-06,2007-01-05,15,True,trailing_space
+Scenedesmus opoliensis var. carinatus,Scenedesmus opoliensis var. carinatus,Scenedesmus,Chlorophyta,15,ME|MO|WI,2001-06-18,2010-05-13,15,True,unresolved_or_infraspecific
+Monoraphidium griffithii,Monoraphidium griffithii,Monoraphidium,Chlorophyta,15,ME|MO,2017-05-03,2020-02-27,15,True,
+Chlamydomonas inepta,Chlamydomonas inepta,Chlamydomonas,Chlorophyta,14,ME|MO,1995-03-08,1998-04-13,11,True,
+Diatoma tenuis,Diatoma tenuis,Diatoma,Bacillariophyta,14,ME|MO,1995-03-28,2019-04-29,14,True,
+Aphanothece clathrata,Aphanothece clathrata|Aphanothece clathrata ,Aphanothece,Cyanophyta,14,ME|MO,1995-10-11,2017-11-03,14,True,trailing_space
+Mougeotia,Mougeotia|Mougeotia |Mougeotia  ,Mougeotia,Chlorophyta,14,ME|MO,2000-09-25,2020-11-05,14,True,trailing_space;double_space
+Anabaena crassa,Anabaena crassa,Anabaena,Cyanophyta,14,ME|MO,2001-08-27,2016-11-10,14,True,
+Stephanodiscus alpinus,Stephanodiscus alpinus,Stephanodiscus,Bacillariophyta,14,ME|MO,2014-09-28,2020-09-17,14,True,
+Sphaerospermopsis aphanizomenoides,Sphaerospermopsis aphanizomenoides,Sphaerospermopsis,Cyanophyta,14,ME|MO,2015-08-18,2019-10-07,14,True,
+Cosmarium,Cosmarium|Cosmarium |Cosmarium  ,Cosmarium,Chlorophyta,13,ME|MO|WI,1996-05-01,2016-11-10,13,True,trailing_space;double_space
+Staurastrum,Staurastrum|Staurastrum |Staurastrum  ,Staurastrum,Chlorophyta,13,ME|MO|WI,2002-07-18,2018-08-06,13,True,trailing_space;double_space
+Synedra ulna,Synedra ulna|Synedra ulna ,Synedra,Bacillariophyta,13,ME|MO,2002-11-19,2020-07-09,13,True,trailing_space
+Cyclostephanos tholiformis,Cyclostephanos tholiformis,Cyclostephanos,Bacillariophyta,13,ME|MO,2005-08-03,2020-11-05,13,True,
+Scenedesmus opoliensis,Scenedesmus opoliensis,Scenedesmus,Chlorophyta,13,ME|MO,2011-05-17,2020-10-08,13,True,
+Dolichospermum macrosporum,Dolichospermum macrosporum,Dolichospermum,Cyanophyta,13,ME|MO,2016-07-19,2020-11-05,13,True,
+Dolichospermum,Dolichospermum ,Dolichospermum,Cyanophyta,13,ME|MO,2017-06-13,2019-05-29,13,True,trailing_space
+Chlamydomonas augustae,Chlamydomonas augustae ,Chlamydomonas,Chlorophyta,12,ME|MO,1995-03-28,1998-04-27,12,True,trailing_space
+Closterium,Closterium |Closterium  ,Closterium,Chlorophyta,12,ME|MO,1995-10-11,2019-10-29,12,True,trailing_space;double_space
+Dinobryon sociale,Dinobryon sociale,Dinobryon,Chrysophyta,12,ME|MO,2005-04-18,2017-10-04,10,True,
+Snowella litoralis,Snowella litoralis,Snowella,Cyanophyta,12,ME|MO,2006-08-07,2020-08-20,12,True,
+,,,Chlorophyta|Miscellaneous,12,ME|MO,2011-01-19,2013-10-30,12,,
+Discostella pseudostelligera,Discostella pseudostelligera,Discostella,Bacillariophyta,12,ME|MO,2019-07-22,2020-11-05,12,True,
+Raphidiopsis raciborskii,Raphidiopsis raciborskii,Raphidiopsis,Cyanophyta,12,ME|MO,2020-08-06,2020-09-17,11,True,
+Pediastrum duplex,Pediastrum duplex,Pediastrum,Chlorophyta,11,ME|MO|WI,1995-09-11,2015-11-02,11,True,
+Lagerheimia quadriseta,Lagerheimia quadriseta|Lagerheimia quadriseta ,Lagerheimia,Chlorophyta,11,ME|WI,2001-07-16,2015-11-02,11,True,trailing_space
+Chlorogonium,Chlorogonium |Chlorogonium  ,Chlorogonium,Chlorophyta,11,ME|MO|WI,2001-08-01,2020-05-07,11,True,trailing_space;double_space
+Scenedesmus acutus,Scenedesmus acutus|Scenedesmus acutus ,Scenedesmus,Chlorophyta,11,ME|MO|WI,2002-04-22,2019-09-05,11,True,trailing_space
+Dolichospermum crassum,Dolichospermum crassum,Dolichospermum,Cyanophyta,11,ME|MO,2018-10-31,2020-09-17,11,True,
+Gymnodinium sp1,Gymnodinium sp1 ,Gymnodinium,Pyrrhophyta,10,ME|MO,1995-03-08,2010-03-30,10,True,trailing_space
+Cyclotella bodanica,Cyclotella bodanica ,Cyclotella,Bacillariophyta,10,FI|ME|MO,1995-03-28,2004-09-08,10,True,trailing_space
+Golenkinia radiata,Golenkinia radiata|Golenkinia radiata ,Golenkinia,Chlorophyta,10,ME|MO|WI,1996-02-06,2016-08-01,10,True,trailing_space
+Kephyrion gracilis,Kephyrion gracilis ,Kephyrion,Chrysophyta,10,ME|MO|WI,1999-04-12,2007-04-02,10,True,trailing_space
+Pseudanabaena galeata,Pseudanabaena galeata|Pseudanabaena galeata ,Pseudanabaena,Cyanophyta,10,ME|MO,2001-01-15,2020-10-08,10,True,trailing_space
+Kephyrion planctonicum,Kephyrion planctonicum,Kephyrion,Chrysophyta,10,ME|MO,2008-04-28,2020-06-12,10,True,
+Dictyosphaerium ehrenbergianum,Dictyosphaerium ehrenbergianum,Dictyosphaerium,Chlorophyta,10,ME|MO,2012-10-01,2020-11-05,10,True,
+Jaaginema angustissimum,Jaaginema angustissimum,Jaaginema,Cyanophyta,10,ME|MO,2018-09-06,2020-07-09,10,True,
+Synedra,Synedra  ,Synedra,Bacillariophyta,9,ME|MO,1995-03-28,2003-04-01,7,True,trailing_space;double_space
+Nitzschia perminuta,Nitzschia perminuta ,Nitzschia,Bacillariophyta,9,ME|MO,1995-09-05,1999-05-26,7,True,trailing_space
+Scenedesmus dimorphus,Scenedesmus dimorphus ,Scenedesmus,Chlorophyta,9,ME|MO|WI,1995-09-05,2002-07-03,9,True,trailing_space
+Gloeocystis,Gloeocystis|Gloeocystis |Gloeocystis  ,Gloeocystis,Chlorophyta,9,ME|MO,1996-04-16,2014-09-28,9,True,trailing_space;double_space
+Aphanocapsa koordersi,Aphanocapsa koordersi,Aphanocapsa,Cyanophyta,9,ME|MO|WI,1996-06-10,2016-06-07,8,True,
+Oscillatoria chlorina,Oscillatoria chlorina ,Oscillatoria,Cyanophyta,9,ME|MO,1998-09-28,2000-10-24,7,True,trailing_space
+Lyngbya subtilis,Lyngbya subtilis|Lyngbya subtilis ,Lyngbya,Cyanophyta,9,MO,2000-04-10,2015-08-04,9,True,trailing_space
+Crucigenia quadrata,Crucigenia quadrata ,Crucigenia,Chlorophyta,9,WI,2001-06-18,2002-08-28,9,True,trailing_space
+Deasonia Gigantica,Deasonia Gigantica,Deasonia,Chlorophyta,9,ME|MO,2011-09-13,2020-06-02,9,True,
+Glenodinium quadridens,Glenodinium quadridens ,Glenodinium,Pyrrhophyta,8,ME|MO,1995-03-28,2007-04-17,6,True,trailing_space
+Gomphonema,Gomphonema |Gomphonema  ,Gomphonema,Bacillariophyta,8,ME,1996-05-01,2018-07-09,8,True,trailing_space;double_space
+Pandorina morum,Pandorina morum|Pandorina morum ,Pandorina,Chlorophyta,8,ME|MO,1996-06-10,2020-07-08,8,True,trailing_space
+Oocystis borgei,Oocystis borgei|Oocystis borgei ,Oocystis,Chlorophyta,8,ME,1997-06-25,2016-06-20,8,True,trailing_space
+Tetraedron caudatum,Tetraedron caudatum|Tetraedron caudatum ,Tetraedron,Chlorophyta,8,ME|WI,2000-05-10,2017-08-23,8,True,trailing_space
+Gloeotrichia echinulata,Gloeotrichia echinulata|Gloeotrichia echinulata ,Gloeotrichia,Cyanophyta,8,ME,2003-07-21,2015-06-08,6,True,trailing_space
+Stichococcus bacillaris,Stichococcus bacillaris,Stichococcus,Chlorophyta,8,ME|MO,2011-08-22,2017-02-06,8,True,
+Planktolyngbya lagerheimia,Planktolyngbya lagerheimia,Planktolyngbya,Cyanophyta,8,ME|MO,2015-08-03,2015-11-03,8,True,
+Lyngbya contorta,Lyngbya contorta ,Lyngbya,Cyanophyta,7,ME|MO,1995-01-24,2003-08-18,7,True,trailing_space
+Amphidinium,Amphidinium|Amphidinium |Amphidinium  ,Amphidinium,Pyrrhophyta,7,ME|MO,1995-03-08,2020-02-27,7,True,trailing_space;double_space
+Oscillatoria tenuis,Oscillatoria tenuis ,Oscillatoria,Cyanophyta,7,FI|ME|MO,1995-03-28,2001-07-17,7,True,trailing_space
+Dinobryon divergens,Dinobryon divergens|Dinobryon divergens ,Dinobryon,Chrysophyta,7,ME|MO|WI,1995-04-24,2020-10-08,7,True,trailing_space
+Synura uvella-sphagnicola,Synura uvella-sphagnicola,Synura,Chrysophyta,7,ME|MO,1996-05-14,2000-04-10,6,True,
+Desmarella,Desmarella|Desmarella  ,Desmarella,Chrysophyta,7,ME|MO,1997-09-30,2013-07-08,7,True,trailing_space;double_space
+Crucigenia tetrapedia,Crucigenia tetrapedia|Crucigenia tetrapedia ,Crucigenia,Chlorophyta,7,ME|MO|WI,1997-10-30,2011-06-13,7,True,trailing_space
+Oscillatoria amphibia,Oscillatoria amphibia ,Oscillatoria,Cyanophyta,7,ME|MO|WI,1998-10-27,2002-11-19,6,True,trailing_space
+Anomoeoneis vitrea,Anomoeoneis vitrea ,Anomoeoneis,Bacillariophyta,7,ME|MO|WI,1999-04-26,2010-07-19,7,True,trailing_space
+Gloeocystis vesiculosa,Gloeocystis vesiculosa|Gloeocystis vesiculosa ,Gloeocystis,Chlorophyta,7,ME|MO,1999-06-21,2011-06-01,7,True,trailing_space
+Anabaena oscillarioides,Anabaena oscillarioides ,Anabaena,Cyanophyta,7,ME|MO,2001-06-04,2010-08-16,7,True,trailing_space
+Dolichospermum spiroides,Dolichospermum spiroides,Dolichospermum,Cyanophyta,7,ME,2018-07-23,2020-08-06,7,True,
+Fragilaria,Fragilaria |Fragilaria  ,Fragilaria,Bacillariophyta,6,FI|ME|MO,1995-03-28,2019-04-16,6,True,trailing_space;double_space
+Cystomonas starrii,Cystomonas starrii,Cystomonas,Chlorophyta,6,ME|MO,1995-09-05,2013-06-24,6,True,
+Carteria platyrhyncha,Carteria platyrhyncha,Carteria,Chlorophyta,6,ME|MO,1995-09-05,2007-04-17,6,True,
+Gonium,Gonium|Gonium |Gonium  ,Gonium,Chlorophyta,6,ME|MO,1997-06-25,2020-08-20,6,True,trailing_space;double_space
+Pediastrum boryanum,Pediastrum boryanum|Pediastrum boryanum ,Pediastrum,Chlorophyta,6,ME|MO,1998-04-13,2016-05-23,6,True,trailing_space
+Scenedesmus,Scenedesmus|Scenedesmus  ,Scenedesmus,Chlorophyta,6,ME|MO,1998-07-23,2012-06-11,5,True,trailing_space;double_space
+Cocconeis placentula var. lineata,Cocconeis placentula var. lineata,Cocconeis,Bacillariophyta,6,ME|MO,1999-04-12,2008-04-17,6,True,unresolved_or_infraspecific
+Scenedesmus intermedius,Scenedesmus intermedius|Scenedesmus intermedius ,Scenedesmus,Chlorophyta,6,ME|MO,1999-08-02,2020-07-08,6,True,trailing_space
+Chrysocapsaceae,Chrysocapsaceae,,Chrysophyta,6,ME|MO,2010-03-29,2019-04-03,6,False,genus_field_mismatch
+Kirchneriella lunaris,Kirchneriella lunaris,Kirchneriella,Chlorophyta,6,ME|MO,2010-08-16,2020-11-05,6,True,
+Geitlerinema,Geitlerinema ,Geitlerinema,Cyanophyta,6,MO,2016-02-04,2016-05-23,6,True,trailing_space
+Colonial,Colonial|Colonial  ,Colonial,Chlorophyta,5,ME|MO,1995-04-11,1997-06-11,5,True,trailing_space;double_space
+Crucigenia crucifera,Crucigenia crucifera|Crucigenia crucifera ,Crucigenia,Chlorophyta,5,ME|MO,1995-08-14,2013-09-30,5,True,trailing_space
+Characium limneticum,Characium limneticum|Characium limneticum ,Characium,Chlorophyta,5,ME|MO,1996-11-25,2013-07-08,5,True,trailing_space
+Anabaena spiroides,Anabaena spiroides ,Anabaena,Cyanophyta,5,ME|MO,1997-06-11,2009-08-04,5,True,trailing_space
+Chlorella vulgaris,Chlorella vulgaris ,Chlorella,Chlorophyta,5,ME,1997-07-09,1997-09-30,5,True,trailing_space
+Tetraedron muticum,Tetraedron muticum ,Tetraedron,Chlorophyta,5,ME|MO,1999-08-02,2006-05-15,5,True,trailing_space
+Cosmarium tenue,Cosmarium tenue ,Cosmarium,Chlorophyta,5,WI,2002-04-22,2002-08-28,5,True,trailing_space
+Fragilaria capucina subsp. rumpens,Fragilaria capucina subsp. rumpens,Fragilaria,Bacillariophyta,5,MO,2003-04-15,2003-10-29,5,True,
+Microcystis flos-aquae,Microcystis flos-aquae,Microcystis,Cyanophyta,5,ME|MO,2005-08-01,2012-07-10,5,True,
+Coelastrum pseudomicroporum,Coelastrum pseudomicroporum,Coelastrum,Chlorophyta,5,ME|MO,2006-09-07,2020-07-09,5,True,
+Microcystis novacekii,Microcystis novacekii,Microcystis,Cyanophyta,5,ME|MO,2006-10-30,2010-10-08,5,True,
+Carteria,Carteria ,Carteria,Chlorophyta,5,ME|MO,2009-04-17,2018-04-24,5,True,trailing_space
+Synedra tenera,Synedra tenera|Synedra tenera ,Synedra,Bacillariophyta,5,ME|MO,2009-04-29,2016-05-11,5,True,trailing_space
+Urosolenia longiseta,Urosolenia longiseta,Urosolenia,Bacillariophyta,5,ME|MO,2009-05-11,2018-09-04,5,True,
+Dictyosphaerium chlorelloides,Dictyosphaerium chlorelloides,Dictyosphaerium,Chlorophyta,5,ME|MO,2013-07-22,2020-02-27,5,True,
+Lyngbya birgei,Lyngbya birgei,Lyngbya,Cyanophyta,5,ME|MO,2017-08-07,2017-07-25,5,True,
+Dinobryon cylindricum,Dinobryon cylindricum ,Dinobryon,Chrysophyta,4,FI|ME|MO,1995-03-28,2009-04-27,3,True,trailing_space
+Synedra cyclopum var. incisa,Synedra cyclopum var. incisa,Synedra,Bacillariophyta,4,ME|MO,1995-03-28,1997-02-17,3,True,unresolved_or_infraspecific
+Aphanothece saxicola,Aphanothece saxicola ,Aphanothece,Cyanophyta,4,ME|MO,1995-03-28,2006-07-24,4,True,trailing_space
+Pyrrhophyta,Pyrrhophyta,,Pyrrhophyta,4,ME|MO,1995-03-28,1996-07-09,4,False,genus_field_mismatch
+Navicula sp1,Navicula sp1 ,Navicula,Bacillariophyta,4,ME|MO,1995-04-11,2001-05-09,3,True,trailing_space
+Scenedesmus sp2,Scenedesmus sp2 ,Scenedesmus,Chlorophyta,4,ME|MO,1995-05-23,1998-09-02,4,True,trailing_space
+Chlorocloster,Chlorocloster  ,Chlorocloster,Xanthophyta,4,ME|MO,1995-09-11,2006-08-08,4,True,trailing_space;double_space
+Gomphonema parvulum,Gomphonema parvulum|Gomphonema parvulum ,Gomphonema,Bacillariophyta,4,ME|MO,1996-05-14,2019-11-25,4,True,trailing_space
+Scenedesmus bicaudatus,Scenedesmus bicaudatus|Scenedesmus bicaudatus ,Scenedesmus,Chlorophyta,4,ME,1996-08-19,2016-06-07,4,True,trailing_space
+Pediastrum simplex,Pediastrum simplex|Pediastrum simplex ,Pediastrum,Chlorophyta,4,ME,1996-10-16,2016-07-18,4,True,trailing_space
+Achnanthes,Achnanthes  ,Achnanthes,Bacillariophyta,4,ME|MO,1997-08-07,2001-07-16,4,True,trailing_space;double_space
+Staurastrum hexacerum,Staurastrum hexacerum|Staurastrum hexacerum ,Staurastrum,Chlorophyta,4,ME|MO|WI,1998-07-23,2015-07-20,4,True,trailing_space
+Rhoicosphenia curvata,Rhoicosphenia curvata ,Rhoicosphenia,Bacillariophyta,4,ME|MO,1999-05-26,2009-06-09,4,True,trailing_space
+Oedogonium,Oedogonium|Oedogonium |Oedogonium  ,Oedogonium,Chlorophyta,4,ME|MO,2000-03-29,2016-03-28,4,True,trailing_space;double_space
+Coelastrum astroideum,Coelastrum astroideum,Coelastrum,Chlorophyta,4,ME|WI,2000-05-22,2002-09-26,4,True,
+Actinocyclus normanii,Actinocyclus normanii|Actinocyclus normanii ,Actinocyclus,Bacillariophyta,4,ME|MO,2001-11-26,2015-07-08,4,True,trailing_space
+Nephroselmis,Nephroselmis |Nephroselmis  ,Nephroselmis,Chlorophyta,4,ME|MO,2002-04-10,2016-11-10,4,True,trailing_space;double_space
+Pediastrum boryanum var. longicorne,Pediastrum boryanum var. longicorne,Pediastrum,Chlorophyta,4,ME|MO,2003-05-27,2010-07-05,4,True,unresolved_or_infraspecific
+Limnothrix redekei,Limnothrix redekei,Limnothrix,Cyanophyta,4,ME|MO,2005-08-30,2017-09-25,4,True,
+Nitzschia subacicularis,Nitzschia subacicularis,Nitzschia,Bacillariophyta,4,ME|MO,2009-05-11,2018-07-23,4,True,
+Ellipsoidion,Ellipsoidion|Ellipsoidion ,Ellipsoidion,Chrysophyta,4,ME|MO,2013-08-06,2014-08-20,4,True,trailing_space
+Pseudanabaena acicularis,Pseudanabaena acicularis,Pseudanabaena,Cyanophyta,4,ME|MO,2015-08-31,2016-07-19,4,True,
+Peridinium inconspicuum,Peridinium inconspicuum,Peridinium,Pyrrhophyta,4,ME|MO,2017-04-17,2019-02-27,4,True,
+Scenedesmus denticulatus,Scenedesmus denticulatus ,Scenedesmus,Chlorophyta,3,MO,1995-08-02,2007-10-29,3,True,trailing_space
+Tetracystis pulchra,Tetracystis pulchra,Tetracystis,Chlorophyta,3,ME,1996-05-01,2002-07-01,3,True,
+Ulothrix,Ulothrix  ,Ulothrix,Chlorophyta,3,ME|MO,1996-07-08,2007-01-05,3,True,trailing_space;double_space
+Phormidium,Phormidium |Phormidium  ,Phormidium,Cyanophyta,3,ME|MO,1997-11-25,2017-04-19,3,True,trailing_space;double_space
+Amphora pediculus,Amphora pediculus,Amphora,Bacillariophyta,3,ME|MO,1998-04-10,2010-05-13,3,True,
+Cyanophyta,Cyanophyta,,Cyanophyta,3,WI,1998-08-07,2001-10-25,3,False,genus_field_mismatch
+Kephyrion,Kephyrion |Kephyrion  ,Kephyrion,Chrysophyta,3,ME,2000-01-24,2020-05-15,3,True,trailing_space;double_space
+Chlamydomonas pumilio,Chlamydomonas pumilio,Chlamydomonas,Chlorophyta,3,ME|MO,2001-05-09,2003-10-27,3,True,
+Navicula tripunctata,Navicula tripunctata ,Navicula,Bacillariophyta,3,ME|MO,2001-06-04,2009-06-09,3,True,trailing_space
+Aulacoseira islandica,Aulacoseira islandica ,Aulacoseira,Bacillariophyta,3,WI,2001-06-18,2002-05-23,3,True,trailing_space
+Peridinium polonicum,Peridinium polonicum ,Peridinium,Pyrrhophyta,3,ME|WI,2001-06-18,2008-04-14,3,True,trailing_space
+Peridinium cinctum,Peridinium cinctum,Peridinium,Pyrrhophyta,3,ME,2004-04-26,2006-11-27,3,True,
+Nitzschia linearis,Nitzschia linearis,Nitzschia,Bacillariophyta,3,ME|MO,2005-04-25,2019-04-15,3,True,
+Coelastrum reticulatum,Coelastrum reticulatum,Coelastrum,Chlorophyta,3,ME,2006-08-07,2011-07-25,3,True,
+Synedra delicatissima,Synedra delicatissima,Synedra,Bacillariophyta,3,ME,2007-04-30,2014-04-29,3,True,
+Monodus,Monodus ,Monodus,Xanthophyta,3,ME,2010-05-10,2014-10-30,3,True,trailing_space
+Gloeococcus minor,Gloeococcus minor,Gloeococcus,Chlorophyta,3,ME|MO,2011-10-03,2018-07-23,3,True,
+Gymnodinium sp. 1,Gymnodinium sp. 1,Gymnodinium,Pyrrhophyta,3,ME|MO,2012-02-22,2018-04-20,3,True,unresolved_or_infraspecific
+Chroomonas,Chroomonas|Chroomonas ,Chroomonas,Cryptophyta,3,ME|MO,2012-10-01,2018-06-25,3,True,trailing_space
+Kephyrion sp5,Kephyrion sp5 ,Kephyrion,Chrysophyta,2,ME,1995-01-24,1995-04-24,2,True,trailing_space
+Scenedesmus quadricauda var. quadrispina,Scenedesmus quadricauda var. quadrispina,Scenedesmus,Chlorophyta,2,FI|MO,1995-03-28,1997-11-25,2,True,unresolved_or_infraspecific
+Mallomonas caudata,Mallomonas caudata ,Mallomonas,Chrysophyta,2,ME|MO,1995-05-23,1995-06-06,2,True,trailing_space
+Stephanodiscus minutulus,Stephanodiscus minutulus|Stephanodiscus minutulus ,Stephanodiscus,Bacillariophyta,2,ME,1995-09-05,2018-05-07,2,True,trailing_space
+Anabaena,Anabaena |Anabaena  ,Anabaena,Cyanophyta,2,MO,1995-10-11,2014-11-05,2,True,trailing_space;double_space
+Elakatothrix gelatinosa,Elakatothrix gelatinosa ,Elakatothrix,Chlorophyta,2,ME,1995-12-06,1999-08-02,2,True,trailing_space
+Lyngbya sp3,Lyngbya sp3,Lyngbya,Cyanophyta,2,ME,1996-02-06,2000-08-28,2,True,
+Fragilaria pinnata,Fragilaria pinnata,Fragilaria,Bacillariophyta,2,ME|MO,1996-02-06,2007-01-05,2,True,
+Eunotia,Eunotia  ,Eunotia,Bacillariophyta,2,ME,1996-05-01,2005-01-31,2,True,trailing_space;double_space
+Crucigenia rectangularis,Crucigenia rectangularis,Crucigenia,Chlorophyta,2,ME|MO,1996-09-17,2013-10-01,2,True,
+Merismopedia elegans,Merismopedia elegans ,Merismopedia,Cyanophyta,2,ME|MO,1997-08-18,1997-09-30,2,True,trailing_space
+Surirella,Surirella  ,Surirella,Bacillariophyta,2,ME,1998-04-10,1998-11-23,2,True,trailing_space;double_space
+Oscillatoria angustissima,Oscillatoria angustissima ,Oscillatoria,Cyanophyta,2,ME|MO,1998-07-06,2001-08-13,2,True,trailing_space
+Scenedesmus longus,Scenedesmus longus ,Scenedesmus,Chlorophyta,2,ME,1998-09-02,1998-09-28,2,True,trailing_space
+Pyramichlamys,Pyramichlamys  ,Pyramichlamys,Chlorophyta,2,ME|MO,1998-10-27,2001-01-17,2,True,trailing_space;double_space
+Cymbella,Cymbella  ,Cymbella,Bacillariophyta,2,ME,1998-11-23,2006-05-30,2,True,trailing_space;double_space
+Staurastrum natator,Staurastrum natator ,Staurastrum,Chlorophyta,2,MO,1999-01-27,2002-08-13,2,True,trailing_space
+Achnanthes exigua,Achnanthes exigua ,Achnanthes,Bacillariophyta,2,ME|WI,1999-04-12,2002-07-18,2,True,trailing_space
+Paulschulzia tenera,Paulschulzia tenera,Paulschulzia,Chlorophyta,2,ME|MO,1999-04-12,2014-09-28,2,True,
+Navicula capitata,Navicula capitata ,Navicula,Bacillariophyta,2,ME|MO,1999-04-26,1999-05-10,2,True,trailing_space
+Trachelomonas,Trachelomonas|Trachelomonas  ,Trachelomonas,Euglenophyta,2,MO,1999-05-10,2005-04-18,2,True,trailing_space;double_space
+Chroococcus turgidus,Chroococcus turgidus ,Chroococcus,Cyanophyta,2,MO,1999-06-21,2007-05-29,2,True,trailing_space
+Lyngbya,Lyngbya  ,Lyngbya,Cyanophyta,2,ME|MO,1999-08-16,2000-09-25,2,True,trailing_space;double_space
+Cyclotella,Cyclotella  ,Cyclotella,Bacillariophyta,2,ME|MO,1999-11-22,2010-07-05,2,True,trailing_space;double_space
+Navicula viridula,Navicula viridula|Navicula viridula ,Navicula,Bacillariophyta,2,ME|MO,2000-03-13,2008-04-14,2,True,trailing_space
+Closterium gracile tenue,Closterium gracile tenue,Closterium,Chlorophyta,2,ME|MO,2000-08-28,2000-09-25,2,True,
+Monomastix,Monomastix,Monomastix,Chlorophyta,2,ME|MO,2001-01-15,2001-06-04,2,True,
+Oscillatoria minnesotensis,Oscillatoria minnesotensis,Oscillatoria,Cyanophyta,2,ME|MO,2001-07-30,2002-08-13,2,True,
+Botryococcus braunii (single),Botryococcus braunii (single) ,Botryococcus,Chlorophyta,2,MO,2001-11-26,2002-06-05,2,True,trailing_space
+Diatoma tenue,Diatoma tenue ,Diatoma,Bacillariophyta,2,ME,2002-04-08,2002-04-24,2,True,trailing_space
+Franceia droescheri,Franceia droescheri|Franceia droescheri ,Franceia,Chlorophyta,2,ME|WI,2002-04-22,2016-08-01,2,True,trailing_space
+Scenedesmus semipulcher,Scenedesmus semipulcher,Scenedesmus,Chlorophyta,2,WI,2002-05-23,2002-07-03,2,True,
+Chloromonas pumilio,Chloromonas pumilio,Chloromonas,Chlorophyta,2,ME|MO,2002-06-03,2004-02-17,2,True,
+Coelastrum proboscideum,Coelastrum proboscideum|Coelastrum proboscideum ,Coelastrum,Chlorophyta,2,ME|WI,2002-07-31,2011-07-25,2,True,trailing_space
+Merismopedia punctata,Merismopedia punctata ,Merismopedia,Cyanophyta,2,ME|MO,2002-10-22,2010-08-30,2,True,trailing_space
+Cyclotella cf ocellata,Cyclotella cf ocellata,Cyclotella,Bacillariophyta,2,ME|MO,2003-04-28,2010-07-20,2,True,unresolved_or_infraspecific
+Trachelomonas volvocina,Trachelomonas volvocina,Trachelomonas,Euglenophyta,2,ME,2004-03-29,2004-04-26,2,True,
+Nitzschia sigma,Nitzschia sigma,Nitzschia,Bacillariophyta,2,ME,2004-04-12,2014-04-29,2,True,
+Stigeoclonium,Stigeoclonium|Stigeoclonium ,Stigeoclonium,Chlorophyta,2,MO,2004-05-13,2017-04-19,2,True,trailing_space
+Spirogyra,Spirogyra|Spirogyra ,Spirogyra,Chlorophyta,2,ME|MO,2005-06-06,2017-04-19,2,True,trailing_space
+Kirchneriella,Kirchneriella ,Kirchneriella,Chlorophyta,2,ME|MO,2006-08-08,2014-08-04,2,True,trailing_space
+Anabaena planctonica,Anabaena planctonica,Anabaena,Cyanophyta,2,ME|MO,2006-10-04,2015-10-07,2,True,
+Myxobaktron salinum,Myxobaktron salinum,Myxobaktron,Cyanophyta,2,ME|MO,2007-02-26,2010-07-19,2,True,
+Ankistrodesmus braunii,Ankistrodesmus braunii,Ankistrodesmus,Chlorophyta,2,ME,2008-05-28,2010-08-30,2,True,
+Oscillatoria,Oscillatoria ,Oscillatoria,Cyanophyta,2,ME|MO,2009-05-11,2010-08-04,2,True,trailing_space
+Selenastrum,Selenastrum|Selenastrum ,Selenastrum,Chlorophyta,2,ME,2009-06-23,2013-04-29,2,True,trailing_space
+Skeletonema potamos,Skeletonema potamos,Skeletonema,Bacillariophyta,2,ME,2010-04-13,2019-04-15,2,True,
+Romeria okensis,Romeria okensis,Romeria,Cyanophyta,2,ME|MO,2010-08-03,2013-07-22,2,True,
+Coelastrum cambricum,Coelastrum cambricum,Coelastrum,Chlorophyta,2,ME|MO,2010-08-30,2010-11-09,2,True,
+Dispora crucigenioides,Dispora crucigenioides,Dispora,Chlorophyta,2,ME|MO,2010-08-30,2012-10-01,2,True,
+Raphidiopsis cf mediterranea,Raphidiopsis cf mediterranea,Raphidiopsis,Cyanophyta,2,MO,2011-08-24,2011-09-13,2,True,unresolved_or_infraspecific
+Carteria globulosa,Carteria globulosa,Carteria,Chlorophyta,2,ME|MO,2012-10-01,2013-05-08,2,True,
+Coelosphaerium kuetzingianum,Coelosphaerium kuetzingianum,Coelosphaerium,Cyanophyta,2,ME|MO,2014-11-05,2016-10-04,2,True,
+Achnanthidium minutissima,Achnanthidium minutissima,Achnanthidium,Bacillariophyta,2,MO,2016-11-10,2017-10-05,2,True,
+Lindavia bodanica,Lindavia bodanica,Lindavia,Bacillariophyta,2,ME,2017-02-06,2017-05-15,2,True,
+Cuspidothrix tropicalis,Cuspidothrix tropicalis,Cuspidothrix,Cyanophyta,2,ME,2017-09-25,2018-09-04,2,True,
+Fragilaria tenera,Fragilaria tenera,Fragilaria,Bacillariophyta,2,ME,2017-10-04,2020-09-18,2,True,
+Hegewaldia parvula,Hegewaldia parvula,Hegewaldia,Chlorophyta,2,ME|MO,2018-10-04,2020-07-08,2,True,
+Ulnaria ulna,Ulnaria ulna,Ulnaria,Bacillariophyta,2,ME,2018-07-09,2020-07-08,2,True,
+Lepocinclis,Lepocinclis ,Lepocinclis,Euglenophyta,2,ME,2019-04-03,2020-07-22,2,True,trailing_space
+Chrysosporum ovalisporum,Chrysosporum ovalisporum,Chrysosporum,Cyanophyta,2,ME,2019-07-08,2020-08-20,2,True,
+Kephyrion sp1,Kephyrion sp1 ,Kephyrion,Chrysophyta,1,FI,1995-03-28,1995-03-28,1,True,trailing_space
+Bacteria (photosynthetic),Bacteria (photosynthetic) ,Bacteria,Bacillariophyta,1,FI,1995-03-28,1995-03-28,1,True,trailing_space
+Cymbella amphicephala,Cymbella amphicephala ,Cymbella,Bacillariophyta,1,MO,1995-03-28,1995-03-28,1,True,trailing_space
+Cryptomonas sp1,Cryptomonas sp1 ,Cryptomonas,Cryptophyta,1,MO,1995-05-23,1995-05-23,1,True,trailing_space
+Palmodictyon viride,Palmodictyon viride ,Palmodictyon,Chlorophyta,1,MO,1995-07-18,1995-07-18,1,True,trailing_space
+Quadrigula chodatti,Quadrigula chodatti,Quadrigula,Chlorophyta,1,MO,1995-08-02,1995-08-02,1,True,
+Polygoniochloris circularis,Polygoniochloris circularis,Polygoniochloris,Chrysophyta,1,ME,1995-10-11,1995-10-11,1,True,
+Spirulina subtilissima,Spirulina subtilissima ,Spirulina,Cyanophyta,1,MO,1995-10-11,1995-10-11,1,True,trailing_space
+Navicula rhynchocephala,Navicula rhynchocephala ,Navicula,Bacillariophyta,1,ME,1995-11-07,1995-11-07,1,True,trailing_space
+Colonial chrysophyte,Colonial chrysophyte ,Colonial,Chrysophyta,1,MO,1996-04-16,1996-04-16,1,True,trailing_space
+Chlamydomonas callosa,Chlamydomonas callosa,Chlamydomonas,Chlorophyta,1,MO,1996-04-16,1996-04-16,1,True,
+Chlamydomonas (palmeloid stage),Chlamydomonas (palmeloid stage) ,Chlamydomonas,Chlorophyta,1,MO,1996-04-16,1996-04-16,1,True,trailing_space
+Chrysocapsa,Chrysocapsa  ,Chrysocapsa,Chrysophyta,1,ME,1996-05-01,1996-05-01,1,True,trailing_space;double_space
+Diploneis,Diploneis  ,Diploneis,Bacillariophyta,1,ME,1996-05-28,1996-05-28,1,True,trailing_space;double_space
+Rhizosolenia,Rhizosolenia  ,Rhizosolenia,Bacillariophyta,1,MO,1996-09-05,1996-09-05,1,True,trailing_space;double_space
+Dinophyceae,Dinophyceae,Dinoflagellate,Pyrrhophyta,1,ME,1996-09-17,1996-09-17,1,False,genus_field_mismatch
+Amphora sp1,Amphora sp1 ,Amphora,Bacillariophyta,1,MO,1996-11-25,1996-11-25,1,True,trailing_space
+Chroococcus,Chroococcus  ,Chroococcus,Cyanophyta,1,MO,1997-02-17,1997-02-17,1,True,trailing_space;double_space
+Pseudanabaena biceps,Pseudanabaena biceps,Pseudanabaena,Cyanophyta,1,ME,1997-05-28,1997-05-28,1,True,
+Cryptophyta,Cryptophyta,,Cryptophyta,1,ME,1997-06-11,1997-06-11,1,False,genus_field_mismatch
+Phacus,Phacus  ,Phacus,Euglenophyta,1,ME,1997-07-23,1997-07-23,1,True,trailing_space;double_space
+Kirchneriella obesa,Kirchneriella obesa ,Kirchneriella,Chlorophyta,1,ME,1997-08-06,1997-08-06,1,True,trailing_space
+Lagerheimia ciliata,Lagerheimia ciliata ,Lagerheimia,Chlorophyta,1,ME,1997-08-18,1997-08-18,1,True,trailing_space
+Monosiga,Monosiga  ,Monosiga,Chrysophyta,1,ME,1998-03-26,1998-03-26,1,True,trailing_space;double_space
+Excentrosphaera viridis,Excentrosphaera viridis ,Excentrosphaera,Chlorophyta,1,ME,1998-04-24,1998-04-24,1,True,trailing_space
+Gloeotrichia,Gloeotrichia  ,Gloeotrichia,Cyanophyta,1,MO,1998-08-02,1998-08-02,1,True,trailing_space;double_space
+Scenedesmus dispar,Scenedesmus dispar ,Scenedesmus,Chlorophyta,1,MO,1998-08-02,1998-08-02,1,True,trailing_space
+Elakatothrix viridis,Elakatothrix viridis ,Elakatothrix,Chlorophyta,1,MO,1998-09-28,1998-09-28,1,True,trailing_space
+Scenedesmus acuminatus,Scenedesmus acuminatus ,Scenedesmus,Chlorophyta,1,MO,1998-09-28,1998-09-28,1,True,trailing_space
+Pedinomonas,Pedinomonas,Pedinomonas,Chlorophyta,1,MO,1998-10-27,1998-10-27,1,True,
+Scenedesmus armatus,Scenedesmus armatus ,Scenedesmus,Chlorophyta,1,ME,1998-11-23,1998-11-23,1,True,trailing_space
+Scenedesmus obtusus,Scenedesmus obtusus ,Scenedesmus,Chlorophyta,1,MO,1998-11-23,1998-11-23,1,True,trailing_space
+Navicula scutelloides,Navicula scutelloides ,Navicula,Bacillariophyta,1,ME,1999-03-29,1999-03-29,1,True,trailing_space
+Kephyrion skujae,Kephyrion skujae ,Kephyrion,Chrysophyta,1,MO,1999-03-29,1999-03-29,1,True,trailing_space
+Caloneis,Caloneis  ,Caloneis,Bacillariophyta,1,ME,1999-05-26,1999-05-26,1,True,trailing_space;double_space
+Synedra nana,Synedra nana ,Synedra,Bacillariophyta,1,ME,1999-05-26,1999-05-26,1,True,trailing_space
+Navicula bacillum,Navicula bacillum ,Navicula,Bacillariophyta,1,ME,1999-05-26,1999-05-26,1,True,trailing_space
+Navicula cf lacunolaciniata,Navicula cf lacunolaciniata,Navicula,Bacillariophyta,1,ME,1999-05-26,1999-05-26,1,True,unresolved_or_infraspecific
+Rhoicosphenia,Rhoicosphenia  ,Rhoicosphenia,Bacillariophyta,1,ME,1999-06-07,1999-06-07,1,True,trailing_space;double_space
+Scenedesmus incrassatulus,Scenedesmus incrassatulus ,Scenedesmus,Chlorophyta,1,ME,1999-08-02,1999-08-02,1,True,trailing_space
+Scenedesmus quadricauda var. longispina,Scenedesmus quadricauda var. longispina,Scenedesmus,Chlorophyta,1,ME,1999-08-02,1999-08-02,1,True,unresolved_or_infraspecific
+Bicosoeca,Bicosoeca,Bicosoeca,Rhodophyta,1,MO,1999-08-02,1999-08-02,1,True,
+Oscillatoria lemmermannii,Oscillatoria lemmermannii,Oscillatoria,Cyanophyta,1,MO,1999-08-30,1999-08-30,1,True,
+Epithemia,Epithemia  ,Epithemia,Bacillariophyta,1,MO,2000-01-25,2000-01-25,1,True,trailing_space;double_space
+Nitzschia sigmoidea,Nitzschia sigmoidea ,Nitzschia,Bacillariophyta,1,ME,2000-03-29,2000-03-29,1,True,trailing_space
+Euglenophyta,Euglenophyta,Euglenophyte,Euglenophyta,1,ME,2000-05-22,2000-05-22,1,False,genus_field_mismatch
+Oscillatoria subtillissima,Oscillatoria subtillissima ,Oscillatoria,Cyanophyta,1,MO,2000-07-03,2000-07-03,1,True,trailing_space
+Coelastrum,Coelastrum  ,Coelastrum,Chlorophyta,1,ME,2000-08-16,2000-08-16,1,True,trailing_space;double_space
+Kirchneriella contorta,Kirchneriella contorta ,Kirchneriella,Chlorophyta,1,MO,2000-08-28,2000-08-28,1,True,trailing_space
+Cymbella minuta,Cymbella minuta ,Cymbella,Bacillariophyta,1,MO,2001-01-15,2001-01-15,1,True,trailing_space
+Lobomonas cf verrucosa,Lobomonas cf verrucosa,Lobomonas,Chlorophyta,1,MO,2001-04-09,2001-04-09,1,True,unresolved_or_infraspecific
+Microcystis,Microcystis  ,Microcystis,Cyanophyta,1,ME,2001-05-07,2001-05-07,1,True,trailing_space;double_space
+Cryptomonas sp3,Cryptomonas sp3 ,Cryptomonas,Cryptophyta,1,MO,2001-05-09,2001-05-09,1,True,trailing_space
+Tetraedron trigonum,Tetraedron trigonum ,Tetraedron,Chlorophyta,1,WI,2001-06-18,2001-06-18,1,True,trailing_space
+Gloeothece,Gloeothece  ,Gloeothece,Cyanophyta,1,WI,2002-08-15,2002-08-15,1,True,trailing_space;double_space
+Aphanocapsa,Aphanocapsa  ,Aphanocapsa,Cyanophyta,1,ME,2002-09-23,2002-09-23,1,True,trailing_space;double_space
+Coelastrum reticulatum var. duplex,Coelastrum reticulatum var. duplex,Coelastrum,Chlorophyta,1,MO,2002-09-23,2002-09-23,1,True,unresolved_or_infraspecific
+Nitzschia amphibia,Nitzschia amphibia ,Nitzschia,Bacillariophyta,1,ME,2002-10-21,2002-10-21,1,True,trailing_space
+Rhizosolenia longiseta,Rhizosolenia longiseta ,Rhizosolenia,Bacillariophyta,1,ME,2003-01-21,2003-01-21,1,True,trailing_space
+Fragilaria capucina capicina,Fragilaria capucina capicina,Fragilaria,Bacillariophyta,1,ME,2003-04-28,2003-04-28,1,True,
+Pseudanabaena franquetii,Pseudanabaena franquetii,Pseudanabaena,Cyanophyta,1,ME,2003-07-21,2003-07-21,1,True,
+Aphanizomenon yezoense,Aphanizomenon yezoense,Aphanizomenon,Cyanophyta,1,MO,2003-09-03,2003-09-03,1,True,
+Cymbella affinis,Cymbella affinis ,Cymbella,Bacillariophyta,1,MO,2003-09-30,2003-09-30,1,True,trailing_space
+Dimorphococcus lunatus,Dimorphococcus lunatus,Dimorphococcus,Chlorophyta,1,MO,2004-03-31,2004-03-31,1,True,
+Anabaenopsis circularis,Anabaenopsis circularis,Anabaenopsis,Cyanophyta,1,ME,2004-08-16,2004-08-16,1,True,
+Chrysosphaerella longispina,Chrysosphaerella longispina,Chrysosphaerella,Chrysophyta,1,ME,2005-04-15,2005-04-15,1,True,
+Anabaena variabilis,Anabaena variabilis,Anabaena,Cyanophyta,1,MO,2006-08-21,2006-08-21,1,True,
+Zygnema,Zygnema ,Zygnema,Chlorophyta,1,MO,2007-01-05,2007-01-05,1,True,trailing_space
+Melosira varians,Melosira varians,Melosira,Bacillariophyta,1,ME,2007-04-16,2007-04-16,1,True,
+Aphanizomenon ovalisporum,Aphanizomenon ovalisporum,Aphanizomenon,Cyanophyta,1,MO,2008-09-05,2008-09-05,1,True,
+Pedinomonas minutissima,Pedinomonas minutissima,Pedinomonas,Chlorophyta,1,ME,2009-06-23,2009-06-23,1,True,
+Lagerheimia,Lagerheimia,Lagerheimia,Chlorophyta,1,ME,2009-08-05,2009-08-05,1,True,
+Navicula gregaria,Navicula gregaria,Navicula,Bacillariophyta,1,ME,2009-09-30,2009-09-30,1,True,
+Synedra arcus,Synedra arcus,Synedra,Bacillariophyta,1,ME,2010-04-13,2010-04-13,1,True,
+Entomoneis cf ornata,Entomoneis cf ornata,Entomoneis,Bacillariophyta,1,ME,2010-05-10,2010-05-10,1,True,unresolved_or_infraspecific
+Surirella minuta,Surirella minuta,Surirella,Bacillariophyta,1,MO,2010-05-13,2010-05-13,1,True,
+Selenastrum gracile,Selenastrum gracile,Selenastrum,Chlorophyta,1,MO,2010-08-16,2010-08-16,1,True,
+Cymbella prostrata,Cymbella prostrata,Cymbella,Bacillariophyta,1,ME,2011-05-02,2011-05-02,1,True,
+Characium,Characium,Characium,Chlorophyta,1,ME,2011-05-17,2011-05-17,1,True,
+Cyanonephron styloides,Cyanonephron styloides,Cyanonephron,Cyanophyta,1,ME,2011-08-22,2011-08-22,1,True,
+Tetrastrum heteracanthum,Tetrastrum heteracanthum,Tetrastrum,Chlorophyta,1,MO,2011-07-26,2011-07-26,1,True,
+Pediastrum tetras,Pediastrum tetras,Pediastrum,Chlorophyta,1,MO,2011-08-24,2011-08-24,1,True,
+Scenedesmus baculiformis,Scenedesmus baculiformis,Scenedesmus,Chlorophyta,1,MO,2011-09-13,2011-09-13,1,True,
+Nitzschia fruticosa,Nitzschia fruticosa,Nitzschia,Bacillariophyta,1,ME,2012-10-01,2012-10-01,1,True,
+Planctonema lauterbornii,Planctonema lauterbornii,Planctonema,Chlorophyta,1,ME,2012-10-29,2012-10-29,1,True,
+Stichogloea olivacea,Stichogloea olivacea,Stichogloea,Chrysophyta,1,MO,2013-05-08,2013-05-08,1,True,
+Chroococcus prescottii,Chroococcus prescottii,Chroococcus,Cyanophyta,1,MO,2013-10-30,2013-10-30,1,True,
+Aulacoseira distans,Aulacoseira distans,Aulacoseira,Bacillariophyta,1,ME,2014-05-14,2014-05-14,1,True,
+Ankistrodesmus spiralis,Ankistrodesmus spiralis,Ankistrodesmus,Chlorophyta,1,MO,2014-10-01,2014-10-01,1,True,
+Anabaenopsis elenkenii,Anabaenopsis elenkenii,Anabaenopsis,Cyanophyta,1,MO,2014-11-05,2014-11-05,1,True,
+Leptolyngbya,Leptolyngbya ,Leptolyngbya,Cyanophyta,1,ME,2015-04-10,2015-04-10,1,True,trailing_space
+Kephyrion gracile,Kephyrion gracile,Kephyrion,Chrysophyta,1,ME,2015-11-02,2015-11-02,1,True,
+Cocconeis pediculus,Cocconeis pediculus,Cocconeis,Bacillariophyta,1,MO,2015-05-13,2015-05-13,1,True,
+Ellipsoidion pachydermum,Ellipsoidion pachydermum,Ellipsoidion,Chrysophyta,1,MO,2015-07-22,2015-07-22,1,True,
+Lagerheimia citriformis,Lagerheimia citriformis,Lagerheimia,Chlorophyta,1,ME,2016-08-15,2016-08-15,1,True,
+Cuspidothrix,Cuspidothrix ,Cuspidothrix,Cyanophyta,1,ME,2016-10-04,2016-10-04,1,True,trailing_space
+Golenkeniopsis parvula,Golenkeniopsis parvula,Golenkeniopsis,Chlorophyta,1,MO,2016-02-04,2016-02-04,1,True,
+Crucigenia truncata,Crucigenia truncata,Crucigenia,Chlorophyta,1,MO,2016-05-11,2016-05-11,1,True,
+Aulacoseira muzzanensis,Aulacoseira muzzanensis,Aulacoseira,Bacillariophyta,1,MO,2016-07-06,2016-07-06,1,True,
+Cyclostephanos dubius,Cyclostephanos dubius,Cyclostephanos,Bacillariophyta,1,ME,2017-05-30,2017-05-30,1,True,
+Tetraedron regulare,Tetraedron regulare,Tetraedron,Chlorophyta,1,ME,2017-07-24,2017-07-24,1,True,
+Merismopedia ferrophila,Merismopedia ferrophila,Merismopedia,Cyanophyta,1,ME,2017-10-04,2017-10-04,1,True,
+Schroederia spiralis,Schroederia spiralis,Schroederia,Chlorophyta,1,MO,2017-07-25,2017-07-25,1,True,
+Sphaerellopsis,Sphaerellopsis ,Sphaerellopsis,Chlorophyta,1,MO,2017-07-25,2017-07-25,1,True,trailing_space
+Kephyrion rubriclaustri,Kephyrion rubriclaustri,Kephyrion,Chrysophyta,1,MO,2017-08-08,2017-08-08,1,True,
+Stephanodiscus,Stephanodiscus ,Stephanodiscus,Bacillariophyta,1,MO,2018-04-24,2018-04-24,1,True,trailing_space
+Acanthoceras zachariasii,Acanthoceras zachariasii,Acanthoceras,Bacillariophyta,1,ME,2018-09-19,2018-09-19,1,True,
+Synechococcus,Synechococcus ,Synechococcus,Cyanophyta,1,ME,2019-04-03,2019-04-03,1,True,trailing_space
+Gyrosigma,Gyrosigma ,Gyrosigma,Bacillariophyta,1,ME,2019-04-15,2019-04-15,1,True,trailing_space
+Tetrastrum glabrum,Tetrastrum glabrum,Tetrastrum,Chlorophyta,1,ME,2019-04-29,2019-04-29,1,True,
+Durinskia,Durinskia ,Durinskia,Pyrrhophyta,1,ME,2020-03-26,2020-03-26,1,True,trailing_space
+Discostella stelligera,Discostella stelligera,Discostella,Bacillariophyta,1,ME,2020-07-08,2020-07-08,1,True,
+Coelastrum sphaericum,Coelastrum sphaericum,Coelastrum,Chlorophyta,1,ME,2020-07-08,2020-07-08,1,True,
+Merismopedia trolleri,Merismopedia trolleri,Merismopedia,Cyanophyta,1,ME,2020-09-18,2020-09-18,1,True,
+Nostocales,Nostocales,,Cyanophyta,1,ME,2020-10-08,2020-10-08,1,False,genus_field_mismatch
+Monoraphidium convolutus,Monoraphidium convolutus,Monoraphidium,Chlorophyta,1,MO,2019-04-30,2019-04-30,1,True,
+Cyclotella atomus,Cyclotella atomus,Cyclotella,Bacillariophyta,1,MO,2019-06-12,2019-06-12,1,True,
+Cyclotella comensis,Cyclotella comensis,Cyclotella,Bacillariophyta,1,MO,2019-07-23,2019-07-23,1,True,
+Romeria leopoliensis,Romeria leopoliensis,Romeria,Cyanophyta,1,MO,2020-09-17,2020-09-17,1,True,
+Lindavia intermedia,Lindavia intermedia,Lindavia,Bacillariophyta,1,MO,2020-11-05,2020-11-05,1,True,

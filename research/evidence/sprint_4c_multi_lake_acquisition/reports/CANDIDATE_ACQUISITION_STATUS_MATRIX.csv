@@ -1,0 +1,9 @@
+candidate,package,repository_verified,file_downloaded,file_integrity_verified,biological_measurement_verified,environmental_measurement_verified,temporal_spatial_pairing_verified,licence_reviewed,human_action_required
+A,Dryad r4454,Yes,Already present (sprint4b),Yes (SHA256),Group-level only,Partial (in-file vars present),Partial,Yes (CC0),None for acquisition; scientific scoping if reused
+B,ERIC 000C2G biological,Yes (DOI resolves),No,No,No,N/A,No,Partial (paper states open; package not verified),Manual download from ERIC (Anubis blocks automated access)
+B,ERIC 000C8P environmental,Yes,No,No,N/A,No,No,Partial (CC0 via DataCite),Manual download from ERIC
+C,NTL 88.31 phytoplankton,Partial (DOI known; metadata inaccessible),No,No,No,N/A,No,No,Manual EDI download / verify PASTA access
+C,Mendota HF temp,No (not accessed),No,No,N/A,No,No,No,Manual EDI download
+C,Mendota microbial observatory,No,No,No,N/A,No,No,No,Manual EDI download
+D,Painter MP6NXF,Yes,Partial (7/56 key files),Yes for 7 files,Partial for inspected files,N/A,Partial,Yes (CC BY-NC-SA 4.0),Decide whether to download remaining 49 files; NC-SA compatibility review
+D,Buffalo Pound buoy FRDR,Yes (landing page reachable),No,No,N/A,No,No,Not re-verified,Globus/FRDR manual download or authenticated transfer

@@ -1,0 +1,12 @@
+division,records,distinct_taxa,biovolume_sum_um3_per_ml,biovolume_share_pct,biomass_sum_mg_per_l,biomass_share_pct
+Cyanophyta,8581,127,1824250812.629,73.195,1824.252,70.79
+Bacillariophyta,1914,110,378019043.45,15.167,378.019,14.669
+Chlorophyta,4368,158,160258786.415,6.43,244.952,9.505
+Cryptophyta,1876,12,76109761.868,3.054,76.11,2.953
+Pyrrhophyta,415,17,29129660.432,1.169,29.13,1.13
+Chrysophyta,871,34,11350035.625,0.455,11.349,0.44
+Haptophyta,190,1,7448804.344,0.299,7.449,0.289
+Miscellaneous,387,2,4474205.445,0.18,4.474,0.174
+Euglenophyta,44,6,1169492.068,0.047,1.17,0.045
+Xanthophyta,7,2,69010.221,0.003,0.069,0.003
+Rhodophyta,1,1,30940.44,0.001,0.031,0.001

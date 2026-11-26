@@ -1,0 +1,3 @@
+variable,paired_dates,paired_records,turner_median,ysi_median,turner_p05,turner_p95,ysi_p05,ysi_p95,median_difference_ysi_minus_turner,median_ratio_ysi_over_turner,p05_ratio,p95_ratio,first_date,last_date
+chlorophyll,156,156,1354.7425,0.39,866.312,4166.552,0.191,3.1625,-1354.3335,0.000332,0.00021,0.000826,2019-04-17,2019-11-02
+phycocyanin,160,160,802.0075,0.5895,328.0093,1439.2451,-0.09365,1.90555,-800.908,0.000835,-0.00026,0.002269,2019-04-17,2019-11-02

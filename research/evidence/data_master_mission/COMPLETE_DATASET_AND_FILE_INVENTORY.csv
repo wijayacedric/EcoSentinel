@@ -1,0 +1,27 @@
+candidate,dataset,file,local_path,bytes,format,role,verified
+Buffalo Pound,Buffalo Pound buoy,CITATION.txt,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/CITATION.txt,323,.txt,documentation,yes
+Buffalo Pound,Buffalo Pound buoy,LICENSE.txt,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/LICENSE.txt,13308,.txt,documentation,yes
+Buffalo Pound,Buffalo Pound buoy,README.txt,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/README.txt,14281,.txt,documentation,yes
+Buffalo Pound,Buffalo Pound buoy,data_flags.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/data_flags.csv,1796,.csv,documentation,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2014_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2014_Cleaned.csv,1689822,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2015_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2015_Cleaned.csv,4271462,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2016_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2016_Cleaned.csv,4016527,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2017_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2017_Cleaned.csv,4776762,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2018_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2018_Cleaned.csv,4178457,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2019_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2019_Cleaned.csv,3676991,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2020_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2020_Cleaned.csv,3569765,.csv,raw_data,yes
+Buffalo Pound,Buffalo Pound buoy,BPBuoyData_2021_Cleaned.csv,data/raw/buffalo_pound/FRDR_dataset_1095_download_621_202611201621/BPBuoyData_2021_Cleaned.csv,3805066,.csv,raw_data,yes
+Buffalo Pound,Painter 2022 Borealis,README.md,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/README.md,4022,.md,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__BP_2018_toxins_0.8m.csv,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_2018_toxins_0.8m.csv,16302,.csv,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__BP_2019_toxins_0.8.csv,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_2019_toxins_0.8.csv,15845,.csv,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__BP_PhytoTax_2018_KP.csv,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_PhytoTax_2018_KP.csv,133635,.csv,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__BP_PhytoTax_2019_KP.csv,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__BP_PhytoTax_2019_KP.csv,65439,.csv,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__Nutrients_Biomass_BP_clean.csv,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__Nutrients_Biomass_BP_clean.csv,2352,.csv,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,data__clean_data__clean_data.md,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/data__clean_data__clean_data.md,64,.md,documentation,yes
+Buffalo Pound,Painter 2022 Borealis,manifest.json,research/evidence/sprint4_global_bio/downloads/painter_borealis_10.5683_SP3_MPNXF/manifest.json,3275,.json,documentation,yes
+Lake Mendota,knb-lter-ntl.88.31,metadata_88.31.xml,research/evidence/sprint_4e1c_mendota_replica_audit/downloads/88.31/metadata_88.31.xml,27408,.xml,raw_data,yes
+Lake Mendota,knb-lter-ntl.130.29,metadata_130.29.xml,research/evidence/sprint_4e1c_mendota_replica_audit/downloads/130.29/metadata_130.29.xml,146354,.xml,raw_data,yes
+Lake Mendota,knb-lter-ntl.415.2,metadata_415.2.xml,research/evidence/sprint_4e1c_mendota_replica_audit/downloads/415.2/metadata_415.2.xml,44814,.xml,raw_data,yes
+Lake Mendota,knb-lter-ntl.129.9,metadata_129.9.xml,research/evidence/data_master_mission/downloads/mendota_129/metadata_129.9.xml,44140,.xml,metadata,yes
+Greifensee,ERIC 000C2G 5p0x 60 packages,COMPLETE_60_PACKAGE_MANIFEST.csv,research/evidence/sprint_4d3_greifensee_complete_acquisition/manifests/COMPLETE_60_PACKAGE_MANIFEST.csv,,.csv,manifest,"yes (prior sprint, SHA256 per manifest)"
+Western Lake Erie,NOAA GLERL-CIGLR-HAB,NO DATA FILES,,,,none,no - NCEI 503

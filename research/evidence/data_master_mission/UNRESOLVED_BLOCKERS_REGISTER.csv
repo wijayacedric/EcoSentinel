@@ -1,0 +1,10 @@
+id,blocker,affected_candidate,type,evidence,resolution,human_required
+B01,EDI PASTA mandatory authentication; no authorised API key in environment,Lake Mendota,authorization,PASTA 403 readDataEntity; EDI portal login redirect; no env credential,User-approved EDI API key or authorised portal download,yes
+B02,DataONE CN serves sysmeta but not public data bytes for NTL objects,Lake Mendota,access/replica,CN object 404; CN resolve 403 gmn.lternet.edu; sysmeta 200,Authorised EDI/DataONE access or LTER direct distribution,yes
+B03,130.29 2015 HR temperature object missing from CN,Lake Mendota,missing replica,CN sysmeta/resolve/solr 404; present in ORE/EML,Acquire via EDI when authorised; assess materiality,yes
+B04,NCEI archive unavailable (503/timeout),Western Lake Erie,server,NCEI accession/ISO/granule 503; direct data path timeout/404,Retry official NCEI access later or authorised manual download,no/retry
+B05,Buffalo Pound biological coverage only 2018-2019,Buffalo Pound,scientific,Painter taxonomy files 2018 (25 dates) and 2019 (17 dates) only,Seek additional years/biological data; otherwise restrict to exploratory 2-season design,no
+B06,No defensible bloom/non-bloom exposure design established for any candidate,All,scientific/governance,No labels created; protocols require independent event adjudication,Gate 2 protocol work after data access/suitability; not authorised now,yes (Gate 2 approval)
+B07,"Greifensee biological endpoint is classifier-derived, not independent",Greifensee,scientific,"4D.4 audit: ROI classifications, no independent microscopy validation",Independent validation dataset or restrict to exploratory,yes
+B08,Mendota prior art extensive (Carpenter 2020/2022; season-ahead forecasting),Lake Mendota,novelty,Web-identified Mendota phycocyanin/chlorophyll HF studies,Formal prior-art differentiation before originality claims,no
+B09,Sprint 4D.5 independent reviews and 4E.2/4E.3 artifacts absent from repository,All (governance),record/process,No files found under sprint_4d5c_handover/reviews/; no 4e2/4e3 evidence directories,Obtain/reconcile review artifacts when available; do not invent conclusions,yes

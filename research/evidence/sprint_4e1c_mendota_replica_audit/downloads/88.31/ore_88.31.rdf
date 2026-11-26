@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cito="http://purl.org/spar/cito/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F88%2F31%2Ff2de15b2fff6ae962a04c150c0a1c510">
+    <cito:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+    <dcterms:identifier>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/88/31/f2de15b2fff6ae962a04c150c0a1c510</dcterms:identifier>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9#aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9">
+    <dcterms:creator>DataONE.org Python ITK 3.5.0</dcterms:creator>
+    <ore:describes rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9#aggregation"/>
+    <dcterms:identifier>doi:10.6073/pasta/bd03330e83fc52a5442bb39e131c95e9</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31">
+    <cito:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Freport%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+    <dcterms:identifier>https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/88/31</dcterms:identifier>
+    <cito:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F88%2F31%2Ff2de15b2fff6ae962a04c150c0a1c510"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9#aggregation"/>
+    <cito:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+    <cito:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9#aggregation">
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F88%2F31%2Ff2de15b2fff6ae962a04c150c0a1c510"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Freport%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Freport%2Feml%2Fknb-lter-ntl%2F88%2F31">
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi:10.6073%2Fpasta%2Fbd03330e83fc52a5442bb39e131c95e9#aggregation"/>
+    <dcterms:identifier>https://pasta.lternet.edu/package/report/eml/knb-lter-ntl/88/31</dcterms:identifier>
+    <cito:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F88%2F31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs:label>Aggregation</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.openarchives.org/ore/terms/"/>
+  </rdf:Description>
+</rdf:RDF>

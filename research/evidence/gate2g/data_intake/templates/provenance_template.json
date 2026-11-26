@@ -1,0 +1,23 @@
+{
+  "source_id": "",
+  "source_title": "",
+  "institution_or_publisher": "",
+  "contact_or_custodian": "",
+  "retrieval_date": "YYYY-MM-DD",
+  "retrieval_method": "download|email_attachment|portal_export|other",
+  "source_url_or_reference": "",
+  "license_or_terms": "",
+  "access_restrictions": "",
+  "file_name_original": "",
+  "file_checksum_sha256": "",
+  "file_format": "",
+  "spatial_scope": "",
+  "temporal_scope": "",
+  "variables_included": [],
+  "methods_documentation": "",
+  "qa_qc_documentation": "",
+  "known_limitations": "",
+  "received_by": "",
+  "human_authorization_for_acquisition": "",
+  "notes": "Template only. Do not include fabricated observations."
+}

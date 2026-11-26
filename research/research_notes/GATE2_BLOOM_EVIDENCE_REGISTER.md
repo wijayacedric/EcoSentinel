@@ -127,6 +127,69 @@ Bounded investigation documented in `research/reports/GATE2D_COMPREHENSIVE_EVIDE
 | 2026-11-22 | Feasibility reconciliation | Option A described as moderate-to-high for narrowly scoped claims in prior report | Overall feasibility **Exploratory only**. 0 independently reconstructed events from accessible evidence; no confirmed non-bloom exposure; matched FAR not defensible; lead-time precision insufficient; statistical inference not defensible. | Integrated assessment |
 | 2026-11-22 | Gate 2C targeted acquisition | Accessibility of Painter/Boyer/BPWTP/WSA evidence not fully re-verified in this targeted pass | Painter 2022 Borealis files confirmed publicly accessible (temp verification; DOYs/anomaly confirmed). Boyer 2025 OA metadata confirmed; raw data/SI remain inaccessible. BPWTP annual report PDFs and WSA water quality portals identified as public access routes but biological suitability unverified. No change to 0 independently reconstructed events; classification remains **C - Exploratory only**. | `research/reports/GATE2C_TARGETED_EVIDENCE_ACQUISITION.md` |
 | 2026-11-22 | Gate 2D comprehensive acquisition | Painter files not in-repo; BPWTP biological content unverified; Boyer 2021 thesis/WSA params not inspected | Painter 2022 files downloaded to `research/evidence/gate2d/painter_2022_borealis/` with checksums verified. BPWTP 2014–2021 annual reports downloaded; monthly microcystin tables extracted (2017–2021) plus 2016 narrative/2014–2015 limited entries as independent lab toxin evidence (sparse, intake-located). Boyer 2021 thesis public and corroborates 2017 context; no raw record-level data. WSA Primary Station inspected—no phytoplankton/cell count/microcystin params visible. No change to 0 independently reconstructed events; matched FAR still not defensible; classification remains **C - Exploratory only**. | `research/reports/GATE2D_COMPREHENSIVE_EVIDENCE_ACQUISITION.md` |
+| 2026-11-22 | Gate 2E reconstruction | Need for source-level Painter/BPWTP reconstruction and anomaly/non-bloom/interval-censoring assessment | Recomputed Painter per-date biomass/cyano proportions from source files; confirmed 2019-07-17 anomaly (taxonomy/group agreement, REP2, toxin sample 25993 present but unverified format). BPWTP microcystin extraction re-verified. No defensible non-bloom exposure; 0 independently reconstructed events; matched FAR not defensible; classification remains **C - Exploratory only**. Data access drafts prepared (UNSENT). | `research/reports/GATE2E_BIOLOGICAL_EVIDENCE_RECONSTRUCTION.md`, `research/reports/GATE2E_DATA_ACCESS_REQUEST_DRAFTS.md` |
+| 2026-11-22 | Gate 2F multi-institutional discovery | Need to exhaust broader public/institutional/repository search for 2014–2021 independent biological records | Searched Borealis/FRDR/ECCC NLET/DataStream/WSA/GeoHub/open.canada/USask HARVEST and targeted researcher/program leads. No new publicly downloadable record-level independent biological dataset found. Confirmed Painter 2023 IP8JSZ is buoy/GAM-derived (not independent ground truth). Identified request-only leads (Boyer SI/raw, BPWTP/WSA historical lab/phyto records, Spence 2025 39-yr BPWTP chl-a reported). No change to 0 independently reconstructed events; matched FAR still not defensible; classification remains **C - Exploratory only**. | `research/reports/GATE2F_COMPREHENSIVE_INSTITUTIONAL_EVIDENCE_INVENTORY.md`, `research/reports/GATE2F_GATE2_FEASIBILITY_REASSESSMENT.md`, `research/evidence/gate2f/search_logs/gate2f_search_log.md` |
+| 2026-11-22 | Gate 2G exploratory readiness | Need to prepare for possible incoming institutional data while preserving Gate 2 safeguards | Audited existing evidence/provenance; investigated Painter 2019-07-17 anomaly (still unresolved; no correction/discard). Created intake templates/provenance/manifest, response-tracking template, read-only validator, sensor audit summarizer, and methods/decisions register. No new biological evidence; 0 independently reconstructed events; non-bloom exposure/matched FAR still not defensible. Classification remains **C - Exploratory only** (technical readiness improved, scientific feasibility unchanged). | `research/reports/GATE2G_EXPLORATORY_READINESS_REPORT.md`, `research/reports/GATE2G_PAINTER_2019_ANOMALY_INVESTIGATION.md`, `research/reports/GATE2G_INSTITUTIONAL_DATA_INTAKE_SPECIFICATION.md`, `research/reports/GATE2G_METHODS_AND_DECISIONS_REGISTER.md` |
+| 2026-11-22 | Gate 2H executable evaluation prototype | Need tested label-free evaluation engine before any approved biological data arrives | Built modular synthetic-only prototype (alert accounting, interval-censored events, exposure-guarded FAR logic, confounding controls, leakage guards). 21/21 unittest tests passed initially; external audit identified H1-H4/M1-M6/L1 issues. Remediated with user-approved provisional semantics (explicit horizon, stale-alert exclusion, onset-overlapping classification, observation-level FA fraction, confirmed/ambiguous episode counts, unknown option a, non-destructive runner, stronger validation). 51/51 tests pass after second independent-audit remediation (N1-N4). No real biological labels/events; 0 independently reconstructed events; confirmatory evaluation still not defensible. Classification remains **C - Exploratory only** (software readiness improved; scientific feasibility unchanged). | `research/reports/GATE2H_EXECUTABLE_EVALUATION_ARCHITECTURE.md`, `research/reports/GATE2H_SYNTHETIC_VALIDATION_REPORT.md`, `research/reports/GATE2H_METHODOLOGICAL_LIMITATIONS.md`, `research/reports/GATE2H_IMPLEMENTATION_AND_TEST_RESULTS.md`, `research/reports/GATE2H_REMEDIATION_AUDIT_DISPOSITION.md`, `research/evidence/gate2h/` |
+
+## Gate 2E reconstruction update (2026-11-22)
+
+Assessment documented in `research/reports/GATE2E_BIOLOGICAL_EVIDENCE_RECONSTRUCTION.md`. Derived analysis: `research/evidence/gate2d/derived/analyze_painter.py` -> `painter_summary.json`. Data access drafts prepared (UNSENT): `research/reports/GATE2E_DATA_ACCESS_REQUEST_DRAFTS.md`.
+
+| Check | Result | Implication |
+|---|---|---|
+| Painter 2018/2019 source inspection | 25/17 discrete DOYs verified; gaps 1–12d (median 4) / 4–16d (median 7.5); per-date biomass/cyano proportions computed from source | Point observations only; interval-censored candidate assessment possible, but no approved event definition |
+| 2019-07-17 anomaly | Confirmed in taxonomy + group biomass (45.81 total, 41.02 cyano, 9 rows, REP2, 0.8 m). Toxin same-date sample 25993 present in 3 fractions; format/units unverified | **Unresolved.** Do not discard/correct/use as termination/non-bloom |
+| Independent non-bloom exposure | Not establishable | Missing/low-toxin/low-biomass single points do not create defensible non-bloom intervals |
+| BPWTP microcystin | 2017–2021 monthly May–Oct tables, 2016 narrative, 2014–2015 limited annual screening verified in extraction | Independent toxin evidence; sparse/monthly/intake-located; no taxonomy/biovolume; cannot establish events or non-bloom exposure |
+| Independently reconstructed events | **0 confirmed** | No pre-approved biological-only reconstruction |
+| Matched-FAR confirmatory evaluation | **Not defensible** | No events, no non-bloom exposure, no approved definitions/design |
+| Final classification | **C — Exploratory only** | No material change to Gate 2D confirmatory conclusion |
+
+## Gate 2F multi-institutional discovery update (2026-11-22)
+
+Assessment documented in `research/reports/GATE2F_COMPREHENSIVE_INSTITUTIONAL_EVIDENCE_INVENTORY.md` and `research/reports/GATE2F_GATE2_FEASIBILITY_REASSESSMENT.md`. Search log: `research/evidence/gate2f/search_logs/gate2f_search_log.md`.
+
+| Check | Result | Implication |
+|---|---|---|
+| Broader repositories/institutions searched | Borealis, FRDR, ECCC NLET, DataStream (limited), WSA Primary Station/GeoHub (limited), open.canada, USask HARVEST, targeted researcher/program web searches | No new publicly downloadable record-level independent biological dataset discovered |
+| Painter 2023 IP8JSZ (Blooms/flows) | Public buoy/GAM/climate/hydrometric files; no phytoplankton taxonomy/biovolume | **Not independent ground truth**; not usable for event reconstruction |
+| ECCC NLET | No Buffalo Pound/Qu'Appelle sites in site CSV; physical-chemical parameters only | No biological event evidence |
+| Boyer 2025 SI/raw | Alternate public routes checked; no accessible SI/repo found | Still request-only (human authorization required) |
+| BPWTP/WSA historical phyto/cell counts/lab chl-a | No new public records located; BPWTP annual microcystin only | Potentially useful but access-restricted/unverified; human-authorized request required |
+| Spence 2025 39-yr BPWTP chl-a (reported) | Referenced in literature; not publicly downloadable | Tier 2 supporting evidence only if obtained/verified; request-only |
+| Independently reconstructed events | **0 confirmed** | Gate 2 remains blocked |
+| Non-bloom exposure / matched-FAR | **Not defensible** | No material change |
+| Final classification | **C — Exploratory only** | No material change from Gate 2E |
+
+## Gate 2G exploratory readiness update (2026-11-22)
+
+Assessment documented in `research/reports/GATE2G_EXPLORATORY_READINESS_REPORT.md`. Supporting reports: `research/reports/GATE2G_PAINTER_2019_ANOMALY_INVESTIGATION.md`, `research/reports/GATE2G_INSTITUTIONAL_DATA_INTAKE_SPECIFICATION.md`, `research/reports/GATE2G_METHODS_AND_DECISIONS_REGISTER.md`.
+
+| Check | Result | Implication |
+|---|---|---|
+| Evidence integrity audit | Painter/BPWTP/derived artifacts and buoy raw data presence checked; provenance/derived separation documented | Reproducibility improved; no evidence content changed |
+| Painter 2019-07-17 anomaly | Reinspected: taxonomy/group agreement confirmed; REP2 all rows; same-date toxin sample 25993 present with 3 fractions; toxin format/units unverified | **Unresolved**; no correction/discard; flag any spanning interval |
+| Sensor exploratory analysis | Used existing audit tables only; created `summarize_existing_sensor_audit.py` | Exploratory context only; no biological labels/events inferred |
+| Institutional intake readiness | Data dictionary/provenance/manifest/response-tracking templates + read-only validator created and tested on synthetic fixture | Technically ready to receive/validate data; no data received |
+| Methods/decisions | Unresolved decisions register created (M1-M18) | No decisions finalized; human Gate 2/3 review required |
+| Independently reconstructed events | **0 confirmed** | Gate 2 remains blocked |
+| Non-bloom exposure / matched-FAR | **Not defensible** | No material change |
+| Final classification | **C — Exploratory only** | Technical readiness improved; scientific feasibility unchanged |
+
+## Gate 2H executable evaluation prototype update (2026-11-22)
+
+Reports: `research/reports/GATE2H_EXECUTABLE_EVALUATION_ARCHITECTURE.md`, `GATE2H_SYNTHETIC_VALIDATION_REPORT.md`, `GATE2H_METHODOLOGICAL_LIMITATIONS.md`, `GATE2H_IMPLEMENTATION_AND_TEST_RESULTS.md`. Code/tests: `research/evidence/gate2h/`.
+
+| Check | Result | Implication |
+|---|---|---|
+| Modular architecture | Ingestion/quality, baselines, multivariate, alert accounting, interval-censored events, synthetic FAR/lead-time logic, guards implemented | Ready for future approved evidence integration; no rewrite expected for core accounting |
+| Synthetic tests | 51/51 unittest tests pass after second audit remediation; deterministic synthetic summary generated with expectation assertions | Software logic validated on synthetic fixtures only; provisional semantics explicit |
+| Confounding/negative controls | Seasonal, AR(1), sensor artifact, replacement, missing-data scenarios included; AR(1) exposed false alarms | Confounding risk remains material in real data |
+| Leakage/exposure guards | No-future-baseline/split/random-split guards; evaluation refuses unverified exposure | Reduces implementation risk; cannot enforce human misconfiguration |
+| Real biological evidence | None added | 0 independently reconstructed events; no defensible non-bloom exposure |
+| Confirmatory evaluation | Not performed | Matched-FAR/lead-time superiority not claimed; Gate 2 still blocked |
+| Final classification | **C — Exploratory only** | Software readiness improved; scientific feasibility unchanged |
 
 ## Provisional handling (NOT approved)
 

@@ -1,0 +1,202 @@
+pattern,year,records
+Melosira,2007,1
+Aulacoseira,1995,6
+Aulacoseira,1996,6
+Aulacoseira,1997,2
+Aulacoseira,1998,6
+Aulacoseira,1999,4
+Aulacoseira,2000,6
+Aulacoseira,2001,9
+Aulacoseira,2002,9
+Aulacoseira,2003,10
+Aulacoseira,2004,3
+Aulacoseira,2005,5
+Aulacoseira,2006,8
+Aulacoseira,2007,4
+Aulacoseira,2008,9
+Aulacoseira,2009,11
+Aulacoseira,2010,11
+Aulacoseira,2011,5
+Aulacoseira,2012,4
+Aulacoseira,2013,10
+Aulacoseira,2014,9
+Aulacoseira,2015,9
+Aulacoseira,2016,9
+Aulacoseira,2017,8
+Aulacoseira,2018,6
+Aulacoseira,2019,5
+Aulacoseira,2020,6
+Oscillatoria,1995,29
+Oscillatoria,1996,25
+Oscillatoria,1997,25
+Oscillatoria,1998,21
+Oscillatoria,1999,18
+Oscillatoria,2000,33
+Oscillatoria,2001,30
+Oscillatoria,2002,33
+Oscillatoria,2003,13
+Oscillatoria,2004,15
+Oscillatoria,2005,17
+Oscillatoria,2006,16
+Oscillatoria,2007,15
+Oscillatoria,2008,15
+Oscillatoria,2009,17
+Oscillatoria,2010,22
+Pseudanabaena/Psuedanabaena,1997,1
+Pseudanabaena/Psuedanabaena,1998,1
+Pseudanabaena/Psuedanabaena,2001,3
+Pseudanabaena/Psuedanabaena,2003,1
+Pseudanabaena/Psuedanabaena,2004,1
+Pseudanabaena/Psuedanabaena,2005,2
+Pseudanabaena/Psuedanabaena,2006,2
+Pseudanabaena/Psuedanabaena,2007,7
+Pseudanabaena/Psuedanabaena,2009,1
+Pseudanabaena/Psuedanabaena,2010,4
+Pseudanabaena/Psuedanabaena,2011,34
+Pseudanabaena/Psuedanabaena,2012,19
+Pseudanabaena/Psuedanabaena,2013,26
+Pseudanabaena/Psuedanabaena,2014,34
+Pseudanabaena/Psuedanabaena,2015,44
+Pseudanabaena/Psuedanabaena,2016,36
+Pseudanabaena/Psuedanabaena,2017,34
+Pseudanabaena/Psuedanabaena,2018,47
+Pseudanabaena/Psuedanabaena,2019,34
+Pseudanabaena/Psuedanabaena,2020,33
+Synedra tenera,2009,1
+Synedra tenera,2011,1
+Synedra tenera,2016,3
+Synedra filiformis,1995,3
+Synedra filiformis,1996,2
+Synedra filiformis,1997,1
+Synedra filiformis,1998,4
+Synedra filiformis,1999,3
+Synedra filiformis,2000,2
+Synedra filiformis,2001,8
+Synedra filiformis,2002,11
+Synedra filiformis,2003,1
+Synedra filiformis,2004,4
+Synedra filiformis,2005,3
+Synedra filiformis,2006,5
+Synedra filiformis,2007,6
+Synedra filiformis,2008,6
+Synedra filiformis,2009,3
+Synedra filiformis,2010,4
+Synedra filiformis,2011,3
+Synedra filiformis,2012,2
+Synedra filiformis,2013,3
+Synedra filiformis,2014,2
+Synedra filiformis,2015,1
+Synedra filiformis,2016,3
+Phacotus,1995,4
+Phacotus,1996,3
+Phacotus,1997,2
+Phacotus,1998,3
+Phacotus,2000,9
+Phacotus,2002,2
+Phacotus,2003,1
+Phacotus,2005,1
+Phacotus,2008,5
+Phacotus,2009,2
+Phacotus,2010,2
+Phacotus,2013,2
+Phacotus,2017,1
+Phacotus,2018,1
+Phormidium mucicola,1995,4
+Phormidium mucicola,1996,6
+Phormidium mucicola,1997,11
+Phormidium mucicola,1998,12
+Phormidium mucicola,1999,17
+Phormidium mucicola,2000,16
+Phormidium mucicola,2001,13
+Phormidium mucicola,2002,10
+Phormidium mucicola,2003,10
+Phormidium mucicola,2004,17
+Phormidium mucicola,2005,11
+Phormidium mucicola,2006,17
+Phormidium mucicola,2007,23
+Phormidium mucicola,2008,15
+Phormidium mucicola,2009,17
+Phormidium mucicola,2010,15
+Glenodinium,1995,6
+Glenodinium,1997,1
+Glenodinium,2007,1
+Chrysococcus,1995,2
+Chrysococcus,1996,5
+Chrysococcus,1998,2
+Chrysococcus,1999,1
+Chrysococcus,2000,1
+Chrysococcus,2001,1
+Chrysococcus,2005,2
+Chrysococcus,2006,1
+Chrysococcus,2008,1
+Chrysococcus,2009,4
+Chrysococcus,2010,1
+Chrysococcus,2013,1
+Microcystis,1995,39
+Microcystis,1996,38
+Microcystis,1997,47
+Microcystis,1998,32
+Microcystis,1999,46
+Microcystis,2000,42
+Microcystis,2001,58
+Microcystis,2002,56
+Microcystis,2003,43
+Microcystis,2004,36
+Microcystis,2005,37
+Microcystis,2006,45
+Microcystis,2007,46
+Microcystis,2008,44
+Microcystis,2009,37
+Microcystis,2010,35
+Microcystis,2011,44
+Microcystis,2012,15
+Microcystis,2013,38
+Microcystis,2014,40
+Microcystis,2015,41
+Microcystis,2016,39
+Microcystis,2017,46
+Microcystis,2018,45
+Microcystis,2019,48
+Microcystis,2020,28
+Cylindrospermopsis raciborskii,1995,9
+Cylindrospermopsis raciborskii,1996,3
+Cylindrospermopsis raciborskii,1997,1
+Cylindrospermopsis raciborskii,1998,1
+Cylindrospermopsis raciborskii,1999,3
+Cylindrospermopsis raciborskii,2000,5
+Cylindrospermopsis raciborskii,2001,12
+Cylindrospermopsis raciborskii,2002,10
+Cylindrospermopsis raciborskii,2003,2
+Cylindrospermopsis raciborskii,2004,1
+Cylindrospermopsis raciborskii,2005,3
+Cylindrospermopsis raciborskii,2006,4
+Cylindrospermopsis raciborskii,2007,6
+Cylindrospermopsis raciborskii,2008,4
+Cylindrospermopsis raciborskii,2009,2
+Cylindrospermopsis raciborskii,2010,7
+Cylindrospermopsis raciborskii,2011,3
+Cylindrospermopsis raciborskii,2012,4
+Cylindrospermopsis raciborskii,2013,2
+Cylindrospermopsis raciborskii,2014,6
+Cylindrospermopsis raciborskii,2015,9
+Cylindrospermopsis raciborskii,2016,8
+Cylindrospermopsis raciborskii,2017,3
+Cylindrospermopsis raciborskii,2018,6
+Erkenia,1995,5
+Erkenia,1996,5
+Erkenia,1997,5
+Erkenia,1998,11
+Erkenia,1999,15
+Erkenia,2000,13
+Erkenia,2001,10
+Erkenia,2002,18
+Erkenia,2003,17
+Erkenia,2004,13
+Erkenia,2005,18
+Erkenia,2006,25
+Erkenia,2007,23
+Erkenia,2008,18
+Erkenia,2009,19
+Erkenia,2010,22
+Erkenia,2011,22
+Erkenia,2012,15

@@ -1,0 +1,6 @@
+candidate_id,source_name,licence,access_type,restrictions,human_decision_required,data_sharing_agreement,contact_required,notes
+BP-001,Painter 2022 Borealis,CC BY-NC-SA 4.0,Public download,NonCommercial; ShareAlike; attribution required,Yes - licence compatibility for intended use/publication must be reviewed,No,No for download,Verify NC-SA compatibility before any derivative/public release.
+BP-002,Boyer 2025 raw data,Unknown,Not publicly located,Unknown; likely author/institution controlled,Yes - any author contact or data request requires human authorization,Possibly,Possibly,Do not contact authors/researchers without explicit human approval.
+BP-004,BPWTP records,Unknown,Institutional,Unknown,Yes,Likely,Yes,Institutional permission required.
+BP-005,WSA records,Unknown,Institutional/government request,Unknown,Yes,Possible,Yes,Government/institutional request path; human approval required.
+GL-002,CEH Cumbrian Lakes plankton,EIDC licence terms apply,Gated download with licence acceptance,Attribution; collaboration requested; licence terms,Yes - licence review before download/use,Licence acceptance,Collaboration invited (not required for all uses?) - verify terms,Do not contact authors without approval; review licence before accepting.

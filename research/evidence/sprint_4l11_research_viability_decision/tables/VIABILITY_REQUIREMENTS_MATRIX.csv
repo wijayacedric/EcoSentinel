@@ -1,0 +1,6 @@
+requirement,status,evidence,genuine_or_resolvable,implication
+Biological validity,Not satisfied,Independent microscopy exists but 0 reconstructed events and 0 defensible non-bloom intervals,Partly resolvable with new multi-year event/non-event biology; not with more sensors,Core blocker
+Temporal validity,Not satisfied,"Mendota 14-day date-only; Buffalo Pound 1–16-day, no sample times",Genuine limitation; requires time-stamped/sub-weekly biology,Lead-time claims not supportable
+Measurement validity,Partially satisfied,HF sensors exist; RFU proxies; Turner/YSI non-comparable; 0.5 m vs 0–8 m; QC gaps,Partly resolvable with cross-calibration/depth profiles/nighttime QC,Comparability limited
+Evaluation validity,Not satisfied,No labels/exposure; matched FAR not estimable; synthetic prototype only,Resolvable only after biological validity and temporal validity,No confirmatory evaluation
+Statistical feasibility,Not satisfied,0 events; 42 Buffalo Pound dates/2 seasons; Mendota 402 but 14-day; no non-event exposure,Genuine; more rows alone do not fix,No meaningful power/evaluation

@@ -1,0 +1,21 @@
+parameter,sensor_mfg,sensor_model,date_began,date_ended,daily_variables,observed_first_unflagged,observed_last_unflagged,observed_valid_unflagged_sum,coverage_note,note
+DO,Zebra Tech,D-Opto,2016,2018,avg_do_raw; avg_do_sat; avg_do_wtemp,2006-07-09,2025-11-18,7075,Column-level observed coverage; not proof this sensor produced every listed date.,Daily DO values exist from 2006; sensor inventory does not list a 2006-2015 DO model.
+DO,PME,miniDOT,2018,2018,avg_do_raw; avg_do_sat; avg_do_wtemp,2006-07-09,2025-11-18,7075,Column-level observed coverage; not proof this sensor produced every listed date.,
+DO,YSI,EXO2 sonde sensor,2019,present,avg_do_raw; avg_do_sat; avg_do_wtemp,2006-07-09,2025-11-18,7075,Column-level observed coverage; not proof this sensor produced every listed date.,
+CO2,Turner Designs,C-sense,2017,present,avg_pco2_ppm,2016-03-22,2025-11-18,1841,Column-level observed coverage; not proof this sensor produced every listed date.,"Daily pCO2 values begin 2016-03-22, earlier than the inventory's 2017 start."
+pH,YSI,EXO2 sonde sensor,2019,present,avg_ph,2019-04-16,2025-11-18,1383,Column-level observed coverage; not proof this sensor produced every listed date.,
+fDOM,YSI,EXO2 sonde sensor,2019,present,avg_fdom,2019-04-16,2025-11-18,1397,Column-level observed coverage; not proof this sensor produced every listed date.,
+Turbidity,YSI,EXO2 sonde sensor,2019,present,avg_turbidity,2019-04-16,2025-11-18,1385,Column-level observed coverage; not proof this sensor produced every listed date.,
+Chlor/Phyco,Turner Designs,Cyclops,2006,2019,avg_chlor_rfu_turner; avg_phyco_rfu_turner,2006-07-09,2019-11-03,4510,Column-level observed coverage; not proof this sensor produced every listed date.,
+Chlor/Phyco,YSI,EXO2 sonde sensor,2019,present,avg_chlor_rfu_ysi; avg_phyco_rfu_ysi,2019-04-16,2025-11-18,2629,Column-level observed coverage; not proof this sensor produced every listed date.,
+Conductivity,YSI,,2006,2006,avg_spec_cond,2019-04-16,2025-11-18,1318,Column-level observed coverage; not proof this sensor produced every listed date.,2006 conductivity values are flagged H/O; no unflagged 2006 value.
+Conductivity,YSI,EXO2 sonde sensor,2019,present,avg_spec_cond,2019-04-16,2025-11-18,1318,Column-level observed coverage; not proof this sensor produced every listed date.,
+Water Temp,Apprise Tech,TempLine,2006,2006,avg_do_wtemp,2006-07-09,2025-11-18,1943,Column-level observed coverage; not proof this sensor produced every listed date.,No separate daily water-temperature column; avg_do_wtemp is labelled YSI water temp but exists from 2006.
+Water Temp,RBR,Concerto,2007,present,avg_do_wtemp,2006-07-09,2025-11-18,1943,Column-level observed coverage; not proof this sensor produced every listed date.,No separate daily water-temperature column; avg_do_wtemp is labelled YSI water temp but exists from 2006.
+Temp/RH,RM Young,41382,2006,2017,avg_air_temp; avg_rel_hum,2006-07-09,2025-11-18,7007,Column-level observed coverage; not proof this sensor produced every listed date.,
+Temp/RH,Vaisala,HMP110,2017,present,avg_air_temp; avg_rel_hum,2006-07-09,2025-11-18,7007,Column-level observed coverage; not proof this sensor produced every listed date.,
+Wind,Vaisala,ultrasonic,2006,2012,avg_wind_speed; avg_wind_dir,2006-07-09,2025-11-18,7102,Column-level observed coverage; not proof this sensor produced every listed date.,
+Wind,RM Young,5106,2013,present,avg_wind_speed; avg_wind_dir,2006-07-09,2025-11-18,7102,Column-level observed coverage; not proof this sensor produced every listed date.,
+IR Skin Temp,Apogee,SI-111,2013,present,,,,0,Column-level observed coverage; not proof this sensor produced every listed date.,No daily skin-temperature column in the daily entity.
+PAR-above,Apogee,SQ-110,2016,present,avg_par,2007-05-18,2025-11-18,1460,Column-level observed coverage; not proof this sensor produced every listed date.,"Sparse unflagged PAR near-zero values (ten 0.0, one 0.002) occur in 2007 before the inventory's 2016 start."
+PAR-below,Apogee,SQ-111,2016,present,avg_par_below,2016-03-22,2025-11-18,1410,Column-level observed coverage; not proof this sensor produced every listed date.,

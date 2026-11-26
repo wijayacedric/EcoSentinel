@@ -1,0 +1,24 @@
+{
+  "checksums": {
+    "bytes": 490187,
+    "md5": "eb7b3a3848b27074bac4504236ccefc3",
+    "sha1": "bb1d8a281a3d580cad45549551abdbaed1ae03fe",
+    "sha256": "104ef1b33769bc0ad1d3e9e6dff28219b743b81ce89ee888460d2df255981343"
+  },
+  "structural": {
+    "lines_including_header": 3997,
+    "data_rows": 3996,
+    "bad_field_counts": 0,
+    "header_columns": 38,
+    "unique_dates": 3996,
+    "duplicate_dates": 0,
+    "year_mismatches": 0,
+    "exact_duplicate_rows": 0,
+    "date_min": "2006-07-09",
+    "date_max": "2025-11-18"
+  },
+  "coverage_mismatches": [],
+  "overlap_mismatches": [],
+  "percentage_issues": [],
+  "all_checks_pass": true
+}

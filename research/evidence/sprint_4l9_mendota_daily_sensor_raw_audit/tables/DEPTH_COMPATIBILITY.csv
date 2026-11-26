@@ -1,0 +1,19 @@
+variable,sensor_depth,measurement,biological_reference,classification,reason
+avg_chlor_rfu_turner,0.5 m,chlorophyll RFU,0-8 m composite,weak/conditional,surface point vs column composite; Turner-only era
+avg_chlor_rfu_ysi,0.5 m,chlorophyll RFU,0-8 m composite,weak/conditional,surface point vs column composite; YSI-era only
+avg_phyco_rfu_turner,0.5 m,phycocyanin RFU,0-8 m composite,weak/conditional,surface point vs column composite; Turner-only era
+avg_phyco_rfu_ysi,0.5 m,phycocyanin RFU,0-8 m composite,weak/conditional,surface point vs column composite; YSI-era only
+avg_do_wtemp,0.5 m,water temperature,0-8 m composite,weak/conditional,surface point vs column composite; pre-2019 provenance ambiguous
+avg_do_sat,0.5 m,DO % saturation,0-8 m composite,weak/conditional,surface point vs column composite
+avg_do_raw,0.5 m,DO mg/L,0-8 m composite,weak/conditional,surface point vs column composite
+avg_ph,0.5 m,pH,0-8 m composite,weak/conditional,surface point vs column composite; short overlap
+avg_spec_cond,0.5 m,specific conductance,0-8 m composite,weak/conditional,surface point vs column composite; short overlap
+avg_turbidity,0.5 m,turbidity,0-8 m composite,weak/conditional,surface point vs column composite; short overlap
+avg_fdom,0.5 m,fDOM,0-8 m composite,weak/conditional,surface point vs column composite; short overlap
+avg_pco2_ppm,1 m,pCO2,0-8 m composite,weak/conditional,single depth; no direct biological counterpart
+avg_par_below,1 m,underwater PAR,0-8 m composite,weak/conditional,"light context, not biomass; short overlap"
+avg_par,2 m above water,above-water PAR,0-8 m composite,not comparable,atmospheric context
+avg_air_temp,2 m above water,air temperature,0-8 m composite,not comparable,atmospheric context
+avg_rel_hum,2 m above water,relative humidity,0-8 m composite,not comparable,atmospheric context
+avg_wind_speed,3 m above water,wind speed,0-8 m composite,not comparable,atmospheric context
+avg_wind_dir,3 m above water,wind direction,0-8 m composite,not comparable,atmospheric context

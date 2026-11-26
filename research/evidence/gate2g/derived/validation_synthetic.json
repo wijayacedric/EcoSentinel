@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-11-22T13:26:12.497604Z",
+  "input": "research/evidence/gate2g/data_intake/tests/synthetic_biological_sample.csv",
+  "kind": "biological",
+  "exists": true,
+  "sha256": "3cf57cdb631828d6c5f886d6d09fa076e6ca12fd408e530ab42d851e8fd615fb",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "rows": 1,
+    "columns": [
+      "source_id",
+      "sample_id",
+      "replicate_id",
+      "sample_date",
+      "sample_time",
+      "location",
+      "latitude",
+      "longitude",
+      "depth_m",
+      "taxon_name",
+      "biomass",
+      "biomass_unit",
+      "qualifier",
+      "detection_limit",
+      "method",
+      "qa_flag",
+      "notes"
+    ],
+    "duplicate_column_names_case_insensitive": 0,
+    "empty_rows": 0,
+    "missing_required_biological_fields": [],
+    "missing_recommended_biological_fields": [
+      "taxon_rank",
+      "cell_count",
+      "cell_count_unit",
+      "biovolume",
+      "biovolume_unit",
+      "chlorophyll_a",
+      "chlorophyll_a_unit",
+      "microcystin",
+      "microcystin_unit",
+      "toxin_method",
+      "detection_limit_unit"
+    ],
+    "sample_date_nonempty_count": 1
+  }
+}

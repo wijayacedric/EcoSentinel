@@ -1,0 +1,3164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.129.42"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=NTL,o=EDI,dc=edirepository,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/9c4b1eecf7a019c7239297b6bf4513c4</alternateIdentifier><title>North Temperate Lakes LTER: High Frequency Data: Meteorological, Dissolved Oxygen, Chlorophyll, Phycocyanin - Lake Mendota Buoy 2006 - current</title>
+      <creator>
+         <individualName>
+            <givenName>John</givenName>
+            <givenName>J</givenName>
+            <surName>Magnuson</surName>
+         </individualName>
+         <organizationName>University of Wisconsin-Madison</organizationName>
+         <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0001-5612-8765</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Stephen</givenName>
+            <givenName>R</givenName>
+            <surName>Carpenter</surName>
+         </individualName>
+         <organizationName>University of Wisconsin-Madison</organizationName>
+         <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0001-8097-8700</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Emily</givenName>
+            <givenName>H</givenName>
+            <surName>Stanley</surName>
+         </individualName>
+         <organizationName>University of Wisconsin-Madison</organizationName>
+         <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+         <userId
+      directory="https://orcid.org">0000-0003-4922-8121</userId>
+      </creator>
+      <metadataProvider>
+         <individualName>
+            <givenName>NTL</givenName>
+            <surName>Information Manager</surName>
+         </individualName>
+         <organizationName>University of Wisconsin-Madison</organizationName>
+         <address>
+            <deliveryPoint>680 North Park Street</deliveryPoint>
+            <city>Madison</city>
+            <administrativeArea>WI</administrativeArea>
+            <postalCode>53706</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>lter.im@limnology.wisc.edu</electronicMailAddress>
+      </metadataProvider>
+      <pubDate>2026-11-19</pubDate>
+      <abstract>
+         <para>The instrumented buoy on Lake Mendota is equipped with limnological and meteorological sensors that provide fundamental information on lake thermal structure, weather conditions, and lake metabolism. Data are collected every minute. Hourly and daily averages are derived from the high resolution (1 minute) data. Hourly and daily values may not be current with high resolution data as they are calculated at the end of the season.</para>
+         <para>Meteorological sensors measure wind speed, wind direction, relative humidity, air temperature, and photosynthetically active radiation (PAR). Not all sensors are deployed each season. A list of sensors used since the first deployment in 2006 is provided as a downloadable CSV file. The buoy is removed during the winter when the lake is ice-covered (typically Dec-Apr). Lake temperature data collected at the same buoy site can be found in an ancillary dataset.</para>
+         <para>Number of sites: 1. Location lat/long: 43.0995, -89.4045</para>
+         <para>Notable events:</para>
+         <para>2017 - A boating mishap caused the loss of air temperature, relative humidity, and wind sensors between May 28 and July 11. The dissolved oxygen sensor had significant biofouling from algae and zebra mussels.</para>
+         <para>2019 - A YSI EXO2 sonde was added to the buoy and includes DO, chlorophyll, phycocyanin, specific conductance, pH, fDOM, and turbidity sensors. The chlorophyll and phycocyanin sensors replace Turner Cyclops 7 fluorometers that had been in use in prior years. Both sets of sensors output RFU, but have significant magnitude differences. The YSI pH, DO, and specific conductance sensors were cleaned and recalibrated every two weeks. Both sets of sensors were deployed in 2019. Beginning with the 2026 revision, chlorophyll and phycocyanin are reported in separate columns for each sensor: suffix _turner (Turner Cyclops 7, 2006-2019) and suffix _ysi (YSI EXO2, 2019-present). Earlier revisions reported a single column containing Turner values through 2018 and YSI values from 2019 on. Turner values for 2019 were added in the 2026 revision, including 2019-11-03, when only the Turner sensors were recording.</para>
+         <para>2020 - Cleaning and calibration of the YSI sensors occurred nearly every week. The dissolved CO2 sensor was not operating between July 2 and September 17.</para>
+         <para>2021 - Due to power and communications issues, the buoy was not operating August 22-31, and data is intermittent between November 8 and December 3. An effective method to keep the underwater PAR sensor mostly free of biofouling algae has been employed.</para>
+         <para>2022 - Buoy was not operating June 6-9 and July 2-5 due to power issues. Underwater PAR sensor unusable after October 1.</para>
+         <para>2023 - Conductivity sensor was not operational Apr 27 - May 24. The sensor was replaced. The wiper for the YSI sonde had failed Nov 4 - 14, which significantly affected four sensors: chlorophyll, phycocyanin, conductivity, and turbidity.</para>
+         <para>2024 - CO2 sensor failed on May 22 and was not used for the rest of the season. The buoy communications were down June 13-19, so no data exists for those dates. The PAR sensor was broken from August 30 - Sept 4.</para>
+         <para>2026 revision - The hourly table was regenerated for all years from the high resolution data. Previous revisions of the hourly table were incomplete for 2009 and 2010 and mixed two hour formats; hour is now the hour of the day (0-23) for all years, and each hourly value is the average of the 1-minute observations within that hour.</para>
+         <para/>
+      </abstract>
+      <keywordSet>
+         <keyword>biological (all)</keyword>
+         <keyword>physical (all)</keyword>
+         <keyword>instrumented buoys</keyword>
+         <keyword>physical limnology</keyword>
+         <keyword>NTL Core Datasets</keyword>
+      </keywordSet>
+      <keywordSet>
+         <keyword>primary production</keyword>
+         <keyword>meteorology</keyword>
+         <keyword>air temperature</keyword>
+         <keyword>chlorophyll a</keyword>
+         <keyword>dissolved oxygen</keyword>
+         <keyword>relative humidity</keyword>
+         <keyword>wind direction</keyword>
+         <keyword>wind speed</keyword>
+         <keyword>ph</keyword>
+         <keyword>specific conductivity</keyword>
+         <keyword>turbidity</keyword>
+         <keyword>dissolved organic carbon</keyword>
+         <keyword>photosynthetically active radiation</keyword>
+         <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+      <distribution
+      id="10.6073/pasta/9c4b1eecf7a019c7239297b6bf4513c4" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/9c4b1eecf7a019c7239297b6bf4513c4</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>Lake Mendota</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-89.4837</westBoundingCoordinate>
+               <eastBoundingCoordinate>-89.3673</eastBoundingCoordinate>
+               <northBoundingCoordinate>43.146</northBoundingCoordinate>
+               <southBoundingCoordinate>43.0766</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2006-06-26</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2025-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>ongoing</para>
+         </description>
+      </maintenance>
+      <contact>
+         <organizationName>NTL LTER</organizationName>
+         <address>
+            <deliveryPoint>680 North Park Street</deliveryPoint>
+            <city>Madison</city>
+            <administrativeArea>WI</administrativeArea>
+            <postalCode>53706</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>lter.im@limnology.wisc.edu</electronicMailAddress>
+         <userId
+        directory="https://ror.org/">04gq8q482</userId>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+      directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <para>see abstract</para>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin 2002</title>
+         <personnel>
+            <individualName>
+               <givenName>John</givenName>
+               <givenName>J</givenName>
+               <surName>Magnuson</surName>
+            </individualName>
+            <organizationName>University of Wisconsin-Madison</organizationName>
+            <role>PI</role>
+         </personnel>
+         <award>
+            <funderName>National Science Foundation LTER</funderName>
+            <awardNumber>LTER 0217533</awardNumber>
+            <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin</title>
+         </award>
+         <relatedProject>
+            <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin 2008</title>
+            <personnel>
+               <individualName>
+                  <givenName>Emily</givenName>
+                  <givenName>H</givenName>
+                  <surName>Stanley</surName>
+               </individualName>
+               <organizationName>University of Wisconsin-Madison</organizationName>
+               <role>PI</role>
+            </personnel>
+            <award>
+               <funderName>National Science Foundation</funderName>
+               <awardNumber>LTER 0822700</awardNumber>
+               <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin</title>
+            </award>
+         </relatedProject>
+         <relatedProject>
+            <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin 2014</title>
+            <personnel>
+               <individualName>
+                  <givenName>Emily</givenName>
+                  <givenName>H</givenName>
+                  <surName>Stanley</surName>
+               </individualName>
+               <organizationName>University of Wisconsin-Madison</organizationName>
+               <role>PI</role>
+            </personnel>
+            <award>
+               <funderName>National Science Foundation</funderName>
+               <awardNumber>LTER 1440297</awardNumber>
+               <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin</title>
+            </award>
+         </relatedProject>
+         <relatedProject>
+            <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin 2021</title>
+            <personnel>
+               <individualName>
+                  <givenName>Emily</givenName>
+                  <givenName>H</givenName>
+                  <surName>Stanley</surName>
+               </individualName>
+               <role>PI</role>
+            </personnel>
+            <award>
+               <funderName>National Science Foundation</funderName>
+               <awardNumber>LTER 2025928</awardNumber>
+               <title>LTER: Comparative Studies of a Suite of Lakes in Wisconsin</title>
+            </award>
+         </relatedProject>
+      </project>
+      <dataTable
+      id="cba9ed12834b8f315d6b10675bb60c5a" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>North Temperate Lakes LTER: Daily Meteorological and Metabolism Data - Lake Mendota</entityName>
+         <entityDescription>North Temperate Lakes LTER: Daily Meteorological and Metabolism Data - Lake Mendota</entityDescription>
+         <physical>
+            <objectName>ntl129_1_v16.csv</objectName>
+            <size
+          unit="byte">490187</size>
+            <authentication
+              method="MD5">eb7b3a3848b27074bac4504236ccefc3</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/cba9ed12834b8f315d6b10675bb60c5a</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="63b7eb06-b1aa-4e97-97c5-a0fa9d424b00">
+               <attributeName>year4</attributeName>
+               <attributeLabel>year4</attributeLabel>
+               <attributeDefinition>Four-digit year</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalYear</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Year">http://qudt.org/vocab/unit/YR</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="353997d3-7a66-452c-bd50-3f60e107f913">
+               <attributeName>sampledate</attributeName>
+               <attributeLabel>sampledate</attributeLabel>
+               <attributeDefinition>Sample Date</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="67cf0e33-a73e-4f0e-b380-d860f5f94bf1">
+               <attributeName>avg_air_temp</attributeName>
+               <attributeDefinition>average air temperature (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="dab07294-279e-4a71-ab16-0e7b4fdb01ac">
+               <attributeName>flag_avg_air_temp</attributeName>
+               <attributeDefinition>data flags avg air temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="ffc44344-aacd-482f-9952-8192ee1a3f53">
+               <attributeName>avg_rel_hum</attributeName>
+               <attributeLabel>avg_rel_hum</attributeLabel>
+               <attributeDefinition>average relative humidity (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="d2d9086b-a340-42d7-8642-62ec1944651a">
+               <attributeName>flag_avg_rel_hum</attributeName>
+               <attributeDefinition>data flags avg relative humidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="fba9d4ab-6a60-41a9-9e91-3e33b3b8ae21">
+               <attributeName>avg_wind_speed</attributeName>
+               <attributeDefinition>daily average wind speed (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meterPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Metre per Second">http://qudt.org/vocab/unit/M-PER-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="7577e7af-783d-4632-83bd-7c7d60b2b418">
+               <attributeName>flag_avg_wind_speed</attributeName>
+               <attributeDefinition>data flags for avg wind speed</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="8a37bf82-ff9f-41bc-a5ab-f37c71161442">
+               <attributeName>avg_wind_dir</attributeName>
+               <attributeDefinition>average of wind direction (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree">http://qudt.org/vocab/unit/DEG</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="5c7a828b-bbe2-4a97-bd65-6d41379945c3">
+               <attributeName>flag_avg_wind_dir</attributeName>
+               <attributeDefinition>data flags for average wind direction</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="ebeea351-7f53-473b-9c3c-e5ae7efae0c3">
+               <attributeName>avg_chlor_rfu_turner</attributeName>
+               <attributeLabel>avg_chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>average of chlorophyll a (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="5f9fcf7a-7486-4f76-b8fa-d172089f9169">
+               <attributeName>flag_avg_chlor_rfu_turner</attributeName>
+               <attributeLabel>flag_avg_chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for average chlorophyll a (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="46d06179-d9e7-48d5-b12f-5323a782a7ad">
+               <attributeName>avg_chlor_rfu_ysi</attributeName>
+               <attributeLabel>avg_chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>average of chlorophyll a (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="bb8339ab-48ac-4eb6-831e-0878de4e9111">
+               <attributeName>flag_avg_chlor_rfu_ysi</attributeName>
+               <attributeLabel>flag_avg_chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for average chlorophyll a (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="8b0797a2-5572-483b-b793-d4a4db3c0279">
+               <attributeName>avg_phyco_rfu_turner</attributeName>
+               <attributeLabel>avg_phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>average of phycocyanin (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a360abc4-40d2-42ff-9864-d2112d7c0150">
+               <attributeName>flag_avg_phyco_rfu_turner</attributeName>
+               <attributeLabel>flag_avg_phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for average phycocyanin (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="324115b5-2201-414d-9f1c-ddd98d0de4f2">
+               <attributeName>avg_phyco_rfu_ysi</attributeName>
+               <attributeLabel>avg_phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>average of phycocyanin (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="4d3793d5-80b3-4375-8fcf-291468d00a0b">
+               <attributeName>flag_avg_phyco_rfu_ysi</attributeName>
+               <attributeLabel>flag_avg_phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for average phycocyanin (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="d6364b2e-851d-4a85-bb7e-17775d9a1a99">
+               <attributeName>avg_par</attributeName>
+               <attributeLabel>avg_par</attributeLabel>
+               <attributeDefinition>average photosynthetically active radiation (2m above water surface)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="b0160776-ff15-4a7b-ac81-a251cbdcc9e7">
+               <attributeName>flag_avg_par</attributeName>
+               <attributeDefinition>data flags for PAR</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c25d2aab-b587-47ed-a0f9-a5a862d2eaff">
+               <attributeName>avg_par_below</attributeName>
+               <attributeLabel>avg_par_below</attributeLabel>
+               <attributeDefinition>average of photosynthetically active radiation (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="ce977c9e-489f-4a3c-a1d6-6d207591e20c">
+               <attributeName>flag_avg_par_below</attributeName>
+               <attributeDefinition>data flags for avg_par_below</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a4e4c8a6-3e12-4ca3-9b2d-119607f8acd0">
+               <attributeName>avg_do_wtemp</attributeName>
+               <attributeDefinition>average of YSI water temp (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="15b3bf7b-8595-4202-ad02-cace6e8d1e0c">
+               <attributeName>flag_avg_do_wtemp</attributeName>
+               <attributeDefinition>data flags avg YSI water temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="befc5f4b-f8c2-4e4c-bb03-8f2f029c22b4">
+               <attributeName>avg_do_sat</attributeName>
+               <attributeLabel>avg_do_sat</attributeLabel>
+               <attributeDefinition>average of dissolved oxygen (% saturation) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="92fad17c-8310-4f9a-881f-648515168082">
+               <attributeName>flag_avg_do_sat</attributeName>
+               <attributeDefinition>data flags avg_do_sat</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="db457c25-8b96-4893-9a61-0dd95c18db5d">
+               <attributeName>avg_do_raw</attributeName>
+               <attributeLabel>avg_do_raw</attributeLabel>
+               <attributeDefinition>average of dissolved oxygen (mg/L) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milligramPerLiter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Milligram per Litre">http://qudt.org/vocab/unit/MilliGM-PER-L</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="e19804d9-4bbb-46ad-bec6-5a79fe52357e">
+               <attributeName>flag_avg_do_raw</attributeName>
+               <attributeDefinition>data flags for avg do raw</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="bd5350fc-7d20-4fa2-9870-9cd03cedb623">
+               <attributeName>avg_pco2_ppm</attributeName>
+               <attributeLabel>avg_pco2_ppm</attributeLabel>
+               <attributeDefinition>average of CO2 (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>partsPerMillion</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Parts per Million">http://qudt.org/vocab/unit/PPM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="ebf38b06-2f30-42df-99ed-6cd89f0fe333">
+               <attributeName>flag_avg_pco2_ppm</attributeName>
+               <attributeDefinition>data flags avg pCO2</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="4075aa95-0fe2-4b31-b002-8b4db8bfacc5">
+               <attributeName>avg_ph</attributeName>
+               <attributeLabel>avg_ph</attributeLabel>
+               <attributeDefinition>average of pH (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="b24ee2a7-bfe6-4938-bd29-0971054e570f">
+               <attributeName>flag_avg_ph</attributeName>
+               <attributeDefinition>data flag for average pH</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="ada767b1-11fe-4af5-a5f1-1ea42af8fedd">
+               <attributeName>avg_fdom</attributeName>
+               <attributeLabel>avg_fdom</attributeLabel>
+               <attributeDefinition>average for fluorescent dissolved organic matter (fDOM) (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="14cdce15-9f11-4a8a-945f-d54fb21bb040">
+               <attributeName>flag_avg_fdom</attributeName>
+               <attributeDefinition>data flag average of fDOM</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="f554bf61-6be0-46e1-8c38-8d8da83ae77c">
+               <attributeName>avg_turbidity</attributeName>
+               <attributeLabel>avg_turbidity</attributeLabel>
+               <attributeDefinition>average of turbidity (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Formazin Nephelometric Unit</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="d9b33446-2620-423a-8eb4-f8baf4b92359">
+               <attributeName>flag_avg_turbidity</attributeName>
+               <attributeDefinition>data flags avg turbidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="ec0207ba-0311-469a-aba2-03d325ec71c7">
+               <attributeName>avg_spec_cond</attributeName>
+               <attributeLabel>avg_spec_cond</attributeLabel>
+               <attributeDefinition>average of specific conductance (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>microsiemens per centimeter</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Microsiemens per Centimetre">http://qudt.org/vocab/unit/MicroS-PER-CentiM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="c550deec-f803-4307-b89d-dd97bd3488e5">
+               <attributeName>flag_avg_spec_cond</attributeName>
+               <attributeDefinition>data flags for avg specific conductance</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+      enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>3996</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="72494d432fe1e977f5326100a733cece" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>North Temperate Lakes LTER: Hourly Meteorological and Metabolism Data - Lake Mendota</entityName>
+         <entityDescription>North Temperate Lakes LTER: Hourly Meteorological and Metabolism Data - Lake Mendota</entityDescription>
+         <physical>
+            <objectName>ntl129_2_v16.csv</objectName>
+            <size
+          unit="byte">11380329</size>
+            <authentication
+              method="MD5">0dd34827ba275d14a2f7af4b17525d10</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/72494d432fe1e977f5326100a733cece</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="4733bbb5-0985-4cf2-9b53-f35a2fd40d38">
+               <attributeName>year4</attributeName>
+               <attributeLabel>year4</attributeLabel>
+               <attributeDefinition>Four-digit year</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalYear</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Year">http://qudt.org/vocab/unit/YR</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="ad1152c3-b91c-498f-9268-a16e046b4c8a">
+               <attributeName>sampledate</attributeName>
+               <attributeLabel>sampledate</attributeLabel>
+               <attributeDefinition>Sample Date</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="6180055b-ca38-47ac-9240-3fb42d21efac">
+               <attributeName>hour</attributeName>
+               <attributeLabel>hour</attributeLabel>
+               <attributeDefinition>hour of the day (0-23); values are averages of the 1-minute observations within that hour</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalHour</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Hour">http://qudt.org/vocab/unit/HR</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="da2a21a5-b9c5-4b66-ba30-a53b5de1d851">
+               <attributeName>avg_air_temp</attributeName>
+               <attributeDefinition>average air temperature (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="d6d614c0-eac8-4be9-9585-0ade7c583d4b">
+               <attributeName>flag_avg_air_temp</attributeName>
+               <attributeDefinition>data flags avg air temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="52539b03-ca5d-4e83-bcc3-4468b60f0490">
+               <attributeName>avg_rel_hum</attributeName>
+               <attributeLabel>avg_rel_hum</attributeLabel>
+               <attributeDefinition>average relative humidity (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="1d2a1610-9ffc-43e0-976e-34447e3306f0">
+               <attributeName>flag_avg_rel_hum</attributeName>
+               <attributeDefinition>data flags avg relative humidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="9089fe2b-6b28-4383-a828-beadf90f6e24">
+               <attributeName>avg_wind_speed</attributeName>
+               <attributeDefinition>average wind speed (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meterPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Metre per Second">http://qudt.org/vocab/unit/M-PER-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="ad927048-ef3e-4a8c-9401-80f361aea64a">
+               <attributeName>flag_avg_wind_speed</attributeName>
+               <attributeDefinition>data flags for avg wind speed</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="f240e09a-8381-4fd8-a201-330de81f2118">
+               <attributeName>avg_wind_dir</attributeName>
+               <attributeDefinition>average of wind direction (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree">http://qudt.org/vocab/unit/DEG</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="f9c27b18-d75b-4dee-80ed-d2611c9cc905">
+               <attributeName>flag_avg_wind_dir</attributeName>
+               <attributeDefinition>data flags for average wind direction</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="493e2ede-37df-4739-833f-64a2ccb1eabe">
+               <attributeName>avg_chlor_rfu_turner</attributeName>
+               <attributeLabel>avg_chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>average of chlorophyll a (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="94513e49-6b2f-4957-9cdd-55b01c7ceb8f">
+               <attributeName>flag_avg_chlor_rfu_turner</attributeName>
+               <attributeLabel>flag_avg_chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for average chlorophyll a (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="2f454a4f-2de5-4ffd-a5e6-94fd056a85a5">
+               <attributeName>avg_chlor_rfu_ysi</attributeName>
+               <attributeLabel>avg_chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>average of chlorophyll a (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="faafda49-518d-4f37-bb07-1a688fbf5e7e">
+               <attributeName>flag_avg_chlor_rfu_ysi</attributeName>
+               <attributeLabel>flag_avg_chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for average chlorophyll a (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="1c7ac3d7-365a-441d-b492-2e976456a70d">
+               <attributeName>avg_phyco_rfu_turner</attributeName>
+               <attributeLabel>avg_phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>average of phycocyanin (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="deb50145-e5da-47b9-884d-4871b062384f">
+               <attributeName>flag_avg_phyco_rfu_turner</attributeName>
+               <attributeLabel>flag_avg_phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for average phycocyanin (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="55f3807b-d5ef-4ac5-8e62-264ed18880b6">
+               <attributeName>avg_phyco_rfu_ysi</attributeName>
+               <attributeLabel>avg_phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>average of phycocyanin (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c5bf0441-618a-4f83-93e4-68932022d9d8">
+               <attributeName>flag_avg_phyco_rfu_ysi</attributeName>
+               <attributeLabel>flag_avg_phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for average phycocyanin (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="754b55da-3e60-4f5d-9b7f-333c7911130b">
+               <attributeName>avg_par</attributeName>
+               <attributeLabel>avg_par</attributeLabel>
+               <attributeDefinition>average photosynthetically active radiation (2m above water surface)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="e4dedc7e-6d36-4ec6-84b0-689e8f996dc4">
+               <attributeName>flag_avg_par</attributeName>
+               <attributeDefinition>data flags for PAR</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c6b6f6f3-8e6d-4f79-a6bf-8c6483251f7f">
+               <attributeName>avg_par_below</attributeName>
+               <attributeLabel>avg_par_below</attributeLabel>
+               <attributeDefinition>average of photosynthetically active radiation (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="30ec184b-50a7-4726-a9ed-b68a71df5e3e">
+               <attributeName>flag_avg_par_below</attributeName>
+               <attributeDefinition>data flags for avg_par_below</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a1abd375-c464-448b-b5ec-fbb5578c8e51">
+               <attributeName>avg_do_wtemp</attributeName>
+               <attributeDefinition>average of YSI water temp (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="e18cee28-68a3-4e88-a768-2cdc471fdad6">
+               <attributeName>flag_avg_do_wtemp</attributeName>
+               <attributeDefinition>data flags avg YSI water temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="193bce61-d6c4-419b-a362-0d845423bd15">
+               <attributeName>avg_do_sat</attributeName>
+               <attributeLabel>avg_do_sat</attributeLabel>
+               <attributeDefinition>average of dissolved oxygen (% saturation) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="fd8b9601-4bf3-4b7e-8430-ecca5000dfbb">
+               <attributeName>flag_avg_do_sat</attributeName>
+               <attributeDefinition>data flags avg_do_sat</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="7024c169-394b-40db-9f7e-c4bc3478dcdd">
+               <attributeName>avg_do_raw</attributeName>
+               <attributeLabel>avg_do_raw</attributeLabel>
+               <attributeDefinition>average of dissolved oxygen (mg/L) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milligramPerLiter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Milligram per Litre">http://qudt.org/vocab/unit/MilliGM-PER-L</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="723050ac-8ef5-4ee7-943a-0d10c476df32">
+               <attributeName>flag_avg_do_raw</attributeName>
+               <attributeDefinition>data flags for avg do raw</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="eb55d234-1d48-45a4-920c-485901ef6dcc">
+               <attributeName>avg_pco2_ppm</attributeName>
+               <attributeLabel>avg_pco2_ppm</attributeLabel>
+               <attributeDefinition>average of CO2 (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>partsPerMillion</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Parts per Million">http://qudt.org/vocab/unit/PPM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="8a72c62d-7d46-4d8c-8db9-2094d99cf807">
+               <attributeName>flag_avg_pco2_ppm</attributeName>
+               <attributeDefinition>data flags avg pCO2</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a2c48c28-7262-4ce5-9dce-bf936e0b97a2">
+               <attributeName>avg_ph</attributeName>
+               <attributeLabel>avg_ph</attributeLabel>
+               <attributeDefinition>average of pH (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="f5313b10-2fdc-482c-9c7c-2e0b4e3e61b7">
+               <attributeName>flag_avg_ph</attributeName>
+               <attributeDefinition>data flag for average pH</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="cb172dd2-daf8-4f55-9948-71fe5b10a1d6">
+               <attributeName>avg_fdom</attributeName>
+               <attributeLabel>avg_fdom</attributeLabel>
+               <attributeDefinition>average of fluorescent dissolved organic matter (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="58b25622-2e19-4bee-893a-34d2443be6d0">
+               <attributeName>flag_avg_fdom</attributeName>
+               <attributeDefinition>data flags for avg fdom</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="38219dcc-5f3b-4e14-a39d-77a87c89777d">
+               <attributeName>avg_turbidity</attributeName>
+               <attributeLabel>avg_turbidity</attributeLabel>
+               <attributeDefinition>average for turbidity (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Formazin Nephelometric Unit</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="6ded2b0c-8ddb-4102-8867-a96071a728a5">
+               <attributeName>flag_avg_turbidity</attributeName>
+               <attributeDefinition>data flag average of turbidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="6e706d6e-eadd-4b20-80bc-c4bb81783b81">
+               <attributeName>avg_spec_cond</attributeName>
+               <attributeLabel>avg_spec_cond</attributeLabel>
+               <attributeDefinition>average of specific conductivity (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>microsiemens per centimeter</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Microsiemens per Centimetre">http://qudt.org/vocab/unit/MicroS-PER-CentiM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="c5489558-2e8b-4011-8581-53c54499f3d2">
+               <attributeName>flag_avg_spec_cond</attributeName>
+               <attributeLabel>flag_avg_spec_cond</attributeLabel>
+               <attributeDefinition>data flags avg specific conductance</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+      enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>93436</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="af29c64a7de5ad797b5709b5f7718cb9" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>North Temperate Lakes LTER: High Resolution Meteorological and Metabolism Data - Lake Mendota</entityName>
+         <entityDescription>North Temperate Lakes LTER: High Resolution Meteorological and Metabolism Data - Lake Mendota</entityDescription>
+         <physical>
+            <objectName>ntl129_3_v16.csv</objectName>
+            <size
+          unit="byte">682487953</size>
+            <authentication
+              method="MD5">73c4b7ce2170ebaf007d927759759346</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/af29c64a7de5ad797b5709b5f7718cb9</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="3bef1227-254c-4bb3-bb9f-23568b871c85">
+               <attributeName>year4</attributeName>
+               <attributeLabel>year4</attributeLabel>
+               <attributeDefinition>Four-digit year</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalYear</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Year">http://qudt.org/vocab/unit/YR</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="52ee9dfc-a9ce-4ffa-96c5-cb8916af42b2">
+               <attributeName>sampledate</attributeName>
+               <attributeLabel>sampledate</attributeLabel>
+               <attributeDefinition>Sample Date</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="e7fb89fc-1c44-4e91-bc8b-1468361b2de4">
+               <attributeName>sampletime</attributeName>
+               <attributeDefinition>sample time</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm:ss</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="1de37fa4-52e7-4135-bedb-7b9c3da5adc8">
+               <attributeName>air_temp</attributeName>
+               <attributeDefinition>air temperature (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="a99b34e2-534c-4983-960e-6a803c1a71d8">
+               <attributeName>flag_air_temp</attributeName>
+               <attributeDefinition>data flags air temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="e03d63e3-034f-4759-a4e1-950bea4016fb">
+               <attributeName>rel_hum</attributeName>
+               <attributeLabel>rel_hum</attributeLabel>
+               <attributeDefinition>relative humidity (2m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="17d43f87-1714-47ce-9336-79da9f7e984e">
+               <attributeName>flag_rel_hum</attributeName>
+               <attributeDefinition>data flags for relative humidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="1adee336-d8f5-42cd-b45b-f5fa56173fe1">
+               <attributeName>wind_speed</attributeName>
+               <attributeDefinition>wind speed (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meterPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Metre per Second">http://qudt.org/vocab/unit/M-PER-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="f8806e83-9e75-46fb-b1e0-ed872c2a78e9">
+               <attributeName>flag_wind_speed</attributeName>
+               <attributeDefinition>data flags for wind speed</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="30f1be35-b3b3-49e6-876f-58eb0d3d9f97">
+               <attributeName>wind_dir</attributeName>
+               <attributeDefinition>wind direction (3m above sfc)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree">http://qudt.org/vocab/unit/DEG</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="d9ee6d9a-298e-4d6b-a71d-a81cddf48243">
+               <attributeName>flag_wind_dir</attributeName>
+               <attributeDefinition>data flags for wind direction</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="155a1cff-599d-4cec-ad39-2bcf7672cbfa">
+               <attributeName>chlor_rfu_turner</attributeName>
+               <attributeLabel>chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>chlorophyll a (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="7978d74f-feba-496c-a2fc-219a6f265979">
+               <attributeName>flag_chlor_rfu_turner</attributeName>
+               <attributeLabel>flag_chlor_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for chlorophyll a (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="288881fe-ef98-4dde-8bad-e5742735dc60">
+               <attributeName>chlor_rfu_ysi</attributeName>
+               <attributeLabel>chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>chlorophyll a (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="f1d6877a-02cd-47e6-b0c8-70e5ab1bc98e">
+               <attributeName>flag_chlor_rfu_ysi</attributeName>
+               <attributeLabel>flag_chlor_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for chlorophyll a (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="4be61271-5e24-452f-9273-4583a15cb72b">
+               <attributeName>phyco_rfu_turner</attributeName>
+               <attributeLabel>phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>phycocyanin (RFU) (0.5m depth), Turner Cyclops 7 fluorometer, 2006-2019</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="af8e8480-fd5c-470e-87ac-4e379ae09dd4">
+               <attributeName>flag_phyco_rfu_turner</attributeName>
+               <attributeLabel>flag_phyco_rfu_turner</attributeLabel>
+               <attributeDefinition>data flags for phycocyanin (RFU), Turner Cyclops 7 fluorometer</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="30ca2a85-c9a7-414c-9539-fa0ee50dc08a">
+               <attributeName>phyco_rfu_ysi</attributeName>
+               <attributeLabel>phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>phycocyanin (RFU) (0.5m depth), YSI EXO2 sonde, 2019-present</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="3c3e8adb-2c12-42a1-9808-a027d14babf1">
+               <attributeName>flag_phyco_rfu_ysi</attributeName>
+               <attributeLabel>flag_phyco_rfu_ysi</attributeLabel>
+               <attributeDefinition>data flags for phycocyanin (RFU), YSI EXO2 sonde</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="7c09b04f-689f-4a80-ab35-19e876f27bd8">
+               <attributeName>do_raw</attributeName>
+               <attributeLabel>do_raw</attributeLabel>
+               <attributeDefinition>dissolved oxygen (mg/L) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milligramPerLiter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Milligram per Litre">http://qudt.org/vocab/unit/MilliGM-PER-L</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="a4016603-e1b6-4d04-93fa-d861a6d86c09">
+               <attributeName>flag_do_raw</attributeName>
+               <attributeDefinition>data flags for do raw</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="b3993325-2f5a-405e-8b94-977ac23d0371">
+               <attributeName>do_sat</attributeName>
+               <attributeLabel>do_sat</attributeLabel>
+               <attributeDefinition>dissolved oxygen (% saturation) (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="cdf4be0d-3767-4a9b-bc04-14898b457c8d">
+               <attributeName>flag_do_sat</attributeName>
+               <attributeDefinition>data flags for do_sat</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c60e65c3-b7ba-412e-bf5d-af9c32e38ade">
+               <attributeName>do_wtemp</attributeName>
+               <attributeDefinition>YSI water temp (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Degree Celsius">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="46b265d6-3cc0-4185-9047-b44b4c507d7d">
+               <attributeName>flag_do_wtemp</attributeName>
+               <attributeDefinition>data flags for YSI water temp</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>Sensor noisy or malfunctioning</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="8eab2fb5-53d2-4557-883c-504e3905b9b4">
+               <attributeName>pco2_ppm</attributeName>
+               <attributeLabel>pco2_ppm</attributeLabel>
+               <attributeDefinition>partial pressure of CO2 (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>partsPerMillion</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Parts per Million">http://qudt.org/vocab/unit/PPM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="246ac67c-d252-45e1-8a64-115b098b25ec">
+               <attributeName>flag_pco2_ppm</attributeName>
+               <attributeDefinition>data flags for pCO2</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="08ff26ba-da53-4de3-9a6f-5dd1eac0abcb">
+               <attributeName>par</attributeName>
+               <attributeDefinition>photosynthetically active radiation (2m above water surface)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="8e7181ba-03f6-4ad1-a39f-e2ad2c8b1419">
+               <attributeName>flag_par</attributeName>
+               <attributeDefinition>data flags for PAR</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a3e333ea-acc2-41ed-a944-bf00dce856e0">
+               <attributeName>par_below</attributeName>
+               <attributeLabel>par_below</attributeLabel>
+               <attributeDefinition>photosynthetically active radiation (1m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromole per Square Metre Second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="249045e6-15c5-4c06-8f0b-af7d589ecf37">
+               <attributeName>flag_par_below</attributeName>
+               <attributeDefinition>data flags for par_below</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="7e3be677-4209-4efb-8db8-6e5af3bfe857">
+               <attributeName>ph</attributeName>
+               <attributeDefinition>pH (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="b06b662c-27a4-4448-8714-ec5d95f48331">
+               <attributeName>flag_ph</attributeName>
+               <attributeDefinition>data flags for pH</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="426a3287-8514-431b-b4a0-8fae849a25f4">
+               <attributeName>fdom</attributeName>
+               <attributeDefinition>fluorescent dissolved organic matter (fDOM) (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>relativeFluorescenceUnits</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="913fb4a1-9b07-4d5f-aeb6-7db97ec654ce">
+               <attributeName>flag_fdom</attributeName>
+               <attributeDefinition>data flags for fDOM</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="e0d17158-9964-4a57-8d7f-26636b3795ad">
+               <attributeName>turbidity</attributeName>
+               <attributeDefinition>turbidity (0.5m depth)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Formazin Nephelometric Unit</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="37da58b5-7467-4b41-91b6-8f060fe7a5a0">
+               <attributeName>flag_turbidity</attributeName>
+               <attributeDefinition>data flags for turbidity</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="d9fdd300-c22d-4971-8154-76c20fb22857">
+               <attributeName>spec_cond</attributeName>
+               <attributeDefinition>specific conductance (0.5m depth)</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>microsiemens per centimeter</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Microsiemens per Centimetre">http://qudt.org/vocab/unit/MicroS-PER-CentiM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="4e7c837b-d9f7-44d2-bef8-f6ab148ca917">
+               <attributeName>flag_spec_cond</attributeName>
+               <attributeDefinition>data flags for specific conductance</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+      enforced="no">
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Sensor off</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>H</code>
+                              <definition>Outside of standard range</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>G</code>
+                              <definition>Sensor - suspected biofouling</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>5583362</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="edddc490dfd553c4c4b9e5d4b86eb2eb" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>List of sensors used on the Lake Mendota buoy since 2006</entityName>
+         <entityDescription>List of sensors used on the Lake Mendota buoy since 2006</entityDescription>
+         <physical>
+            <objectName>mendota_buoy_sensors_v3.csv</objectName>
+            <size
+          unit="byte">1039</size>
+            <authentication
+              method="MD5">6e5c2a9204fe7e9e15a319a0344ebff0</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/129/42/edddc490dfd553c4c4b9e5d4b86eb2eb</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="c0d022cb-0c7d-4ce1-af10-4c6000c078f1">
+               <attributeName>parameter</attributeName>
+               <attributeDefinition>variable being measured</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="9094f39a-324d-4b2b-b113-b5671e0142fb">
+               <attributeName>sensor_mfg</attributeName>
+               <attributeDefinition>sensor manufacturer</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="79651b7a-fceb-4471-8b6e-37ab8239fae3">
+               <attributeName>sensor_model</attributeName>
+               <attributeDefinition>sensor model</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="7095fcfd-5dde-41de-a93e-8616766cc01c">
+               <attributeName>date_began</attributeName>
+               <attributeDefinition>date (year) sensor use began</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="567da6c3-196a-4add-9eb7-ff44b580c19d">
+               <attributeName>date_ended</attributeName>
+               <attributeLabel>date_ended</attributeLabel>
+               <attributeDefinition>date (year) sensor use ended</attributeDefinition>
+               <storageType
+        typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>20</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <importedFromXML
+        dateImported="2026-11-19" filename="knb-lter-ntl.129.42.xml"
+          taxonomicCoverageExempt="True"/>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <stmml:unitList>
+            <stmml:unit
+          id="relativeFluorescenceUnits"
+          name="relativeFluorescenceUnits">
+               <stmml:description>relativeFluorescenceUnits</stmml:description>
+            </stmml:unit>
+            <stmml:unit
+          id="partsPerMillion"
+          name="partsPerMillion">
+               <stmml:description>parts per mission (PPM)</stmml:description>
+            </stmml:unit>
+            <stmml:unit
+          id="Formazin Nephelometric Unit"
+          name="Formazin Nephelometric Unit">
+               <stmml:description>Formazin Nephelometric Unit</stmml:description>
+            </stmml:unit>
+            <stmml:unit
+          id="microsiemens per centimeter"
+        name="microsiemens per centimeter">
+               <stmml:description>microsiemens per centimeter</stmml:description>
+            </stmml:unit>
+         </stmml:unitList>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <emlEditor
+        app="ezEML" release="2026.04.08"/>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

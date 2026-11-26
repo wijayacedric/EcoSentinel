@@ -1,0 +1,16 @@
+table,data_rows,description,canonical_path
+CALCULATION_VERIFICATION.csv,5439,"5,439 row-level comparisons between independent recalculation, Sprint 4L.9 and SQLite",research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/CALCULATION_VERIFICATION.csv
+DISCREPANCY_REGISTER.csv,10,Numerical and interpretive discrepancies; no numerical mismatch found,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/DISCREPANCY_REGISTER.csv
+INDEPENDENT_VARIABLE_COUNTS.csv,18,"Independent variable counts, flags and valid-date counts",research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_VARIABLE_COUNTS.csv
+INDEPENDENT_ANNUAL_COVERAGE.csv,360,Independent variable-year coverage,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_ANNUAL_COVERAGE.csv
+INDEPENDENT_SEASONAL_COVERAGE.csv,72,Independent variable-season coverage,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_SEASONAL_COVERAGE.csv
+INDEPENDENT_INTERVALS.csv,18,"Independent interval buckets, median and maximum gaps",research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_INTERVALS.csv
+INDEPENDENT_OVERLAP.csv,18,Independent same-day and ±1/±3/±7/±14-day biology overlap,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_OVERLAP.csv
+INDEPENDENT_FLAG_COUNTS.csv,65,Independent flag counts and proportions,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/INDEPENDENT_FLAG_COUNTS.csv
+TURNER_YSI_RECHECK.csv,2,Independent 2019 Turner/YSI paired comparison,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/TURNER_YSI_RECHECK.csv
+MULTIVARIATE_COVERAGE.csv,9,Sensor-only complete-case coverage for 9 variable sets,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/MULTIVARIATE_COVERAGE.csv
+BIOLOGY_CORE_COVERAGE.csv,27,"Biology-date complete-case coverage for 9 variable sets, by period",research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/BIOLOGY_CORE_COVERAGE.csv
+BIOLOGY_PAIRWISE_COMPLETE.csv,324,Pairwise same-day biology–sensor complete counts,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/BIOLOGY_PAIRWISE_COMPLETE.csv
+BIOLOGY_MULTIVARIATE_COVERAGE.csv,402,Per-biology-date count/list of valid sensor variables,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/BIOLOGY_MULTIVARIATE_COVERAGE.csv
+PAIRWISE_COMPLETE_CASES.csv,324,Sensor-only pairwise complete-case matrix,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/PAIRWISE_COMPLETE_CASES.csv
+SPATIAL_DEPTH_RECHECK.csv,18,EML depth/flag metadata recheck,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/tables/SPATIAL_DEPTH_RECHECK.csv

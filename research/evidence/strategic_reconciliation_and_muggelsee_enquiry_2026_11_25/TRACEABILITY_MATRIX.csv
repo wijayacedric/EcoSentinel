@@ -1,0 +1,21 @@
+claim_id,claim,evidence_source_ids,report_section,evidence_type,confidence,notes
+T01,No Sprint 4L.15 package exists in the repository,"S01, repository search",Executive §2; Addendum §5,Repository search,High,Searched 4L.15/4L15/sprint_4l15/pivot; only binary matches
+T02,The 4L.14 protocol is PROPOSED — NOT APPROVED; all 15 decisions outstanding; D-15 not approved,"S06,S07,S08",Executive §2; Addendum §7,Repository register/review,High,No approval recorded
+T03,The 4L.14 review verdict is ACCEPT AFTER REVISIONS,"S08,S09,S10",Executive §2; Addendum §1,Repository review,High,16 direct answers; F-01–F-13
+T04,Stage 1 is not an early-warning validation,"S05,S06,S08,S11",Executive §3; Addendum §4,Repository reports,High,No labels/events/lead time/FAR
+T05,Stage 1 is modest but defensible as a measurement audit,"S05,S06,S08,S11",Executive §3; Option A/B/C,Scientific judgement,Moderate-high,Conditional on addendum revisions
+T06,Field study is not feasible for SciFest 2027 as primary,"S17, timeline",Field Study §4; SciFest §5,Official rules + dates,High,Summer 2027 after April–May fairs
+T07,SciFest entry deadline is 11 March 2027; fairs April–May 2027,"S15,S16,S17",SciFest §1,Official competition sources,High,Entry deadline ≠ project completion
+T08,"Müggelsee phytoplankton is weekly growing season / biweekly ice, 1979–ongoing","S20,S24",Müggelsee §2; Stage 2 §4,Primary metadata PDF,High,Species-level microscopy; biovolume/biomass
+T09,Müggelsee biomass uses 1 g/cm3 conversion,S24,Müggelsee §2.3; Stage 2 §4,Primary metadata PDF,High,10^9 µm3 = 1 mg
+T10,Müggelsee HF station is 5-min at 1.5 m from 2001; PC from July 2007,"S22,S25",Müggelsee §3; Stage 2 §4,FRED metadata + station PDF,High,PC not 2001–present
+T11,Müggelsee HF and phytoplankton stations are not strictly co-located,"S24,S25",Müggelsee §4; Stage 2 §4,Coordinates + sampling design,High,HF fixed point; phytoplankton integrated five stations
+T12,Müggelsee data are all rights reserved; request required,"S20,S21,S22,S23",Müggelsee §5; Stage 2 §4,FRED pages,High,Metadata CC BY 4.0; data restricted
+T13,Müggelsee is a credible but unqualified Stage 2 lead,"S20,S22,S24,S25",Executive §4; Stage 2 §6,Inference from metadata,Moderate,No data audit; access unsecured
+T14,Stage 2 criteria are necessary but insufficient,S11; analysis,Stage 2 §2–3,Assessment,High,"Add event definition, access, taxonomy, QC"
+T15,"Recipients are Dr Sabine Hilt and Dr Tom Shatwell, with official IGB emails","S18,S19,S20,S22",Email draft §1,Official IGB profiles + FRED contacts,High,Both relevant to datasets
+T16,The Gmail enquiry was sent and verified in Sent at 10:12 PM,Gmail verification; Sent-folder state,Gmail verification §1–5,Direct browser verification,High,Recipients/subject/body verified before send; sent message opened in Sent
+T17,"EcoSentinel is missing data, not merely information","S11,S05,S06,S08",Executive §1; Option A/B/C,Synthesis,High,Current datasets cannot be rescued by metadata alone
+T18,P3/P4 remain exploratory pending duplicate/biomass resolution,"S06,S09,S10",Addendum §2; D-02/D-08,Review findings,High,F-02/F-09 unresolved
+T19,"D-13 should be conditional proceed or pause, not pivot",S11; Option A/B/C,Executive §3; D-13,Strategic assessment,Moderate-high,Depends on team goals
+T20,The email was sent; the preserved 9:59 PM draft remains unsent,Gmail verification; email draft,Gmail verification §4–5,Verification,High,Send authorised by user; no further send action required

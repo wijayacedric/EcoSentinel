@@ -1,0 +1,596 @@
+{
+  "file": {
+    "path": "research/evidence/sprint_4l_mendota_biology_audit/acquisition/88.31/North_Temperate_Lakes_LTER_-_Phytoplankton_-_Madison_Lakes_Area__f2de15b2fff6ae962a04c150c0a1c510.dat",
+    "bytes": 2448830,
+    "md5": "a0363cc7fdfd6c12889750fea27bd542",
+    "sha256": "a63d7cfa0502e3cdab6d8939f21820f305295e030d4d08bf10bfc69b22829db2",
+    "bom": false,
+    "crlf_count": 18655,
+    "lf_count": 18655,
+    "decoding_error": null,
+    "header": [
+      "lakeid",
+      "year4",
+      "sampledate",
+      "sta",
+      "depth_range",
+      "division",
+      "taxa_name",
+      "gald",
+      "cells_per_nu",
+      "nu_per_ml",
+      "cells_per_ml",
+      "biovolume_conc",
+      "biomass_conc",
+      "relative_total_biovolume",
+      "genus"
+    ],
+    "header_match": true,
+    "header_columns": 15,
+    "rows": 18654,
+    "malformed_rows": 0,
+    "blank_lines": 0,
+    "parse_errors": {},
+    "year_mismatch_count": 0
+  },
+  "coverage": {
+    "rows": 18654,
+    "columns": 15,
+    "unique_dates": 640,
+    "first_date": "1995-01-24",
+    "last_date": "2020-12-10",
+    "by_lake": [
+      {
+        "lakeid": "ME",
+        "records": 9401,
+        "unique_dates": 402,
+        "first_date": "1995-01-24",
+        "last_date": "2020-12-10",
+        "depth_values": {
+          "0-8m": 9361,
+          "0-2m": 40
+        },
+        "sta_values": {
+          "": 8621,
+          "1": 780
+        },
+        "unique_taxa": 391,
+        "unique_genera": 163
+      },
+      {
+        "lakeid": "MO",
+        "records": 8696,
+        "unique_dates": 355,
+        "first_date": "1995-01-24",
+        "last_date": "2020-11-05",
+        "depth_values": {
+          "0-2m": 8386,
+          "0-8m": 310
+        },
+        "sta_values": {
+          "": 8340,
+          "1": 356
+        },
+        "unique_taxa": 360,
+        "unique_genera": 147
+      },
+      {
+        "lakeid": "WI",
+        "records": 532,
+        "unique_dates": 23,
+        "first_date": "1996-08-21",
+        "last_date": "2002-11-20",
+        "depth_values": {
+          "0-2m": 532
+        },
+        "sta_values": {
+          "": 532
+        },
+        "unique_taxa": 108,
+        "unique_genera": 65
+      },
+      {
+        "lakeid": "FI",
+        "records": 25,
+        "unique_dates": 1,
+        "first_date": "1995-03-28",
+        "last_date": "1995-03-28",
+        "depth_values": {
+          "0-2m": 25
+        },
+        "sta_values": {
+          "": 25
+        },
+        "unique_taxa": 23,
+        "unique_genera": 18
+      }
+    ],
+    "month_counts": {
+      "1995-01": 39,
+      "1995-03": 89,
+      "1995-04": 104,
+      "1995-05": 40,
+      "1995-06": 60,
+      "1995-07": 64,
+      "1995-08": 136,
+      "1995-09": 101,
+      "1995-10": 49,
+      "1995-11": 34,
+      "1995-12": 19,
+      "1996-02": 34,
+      "1996-04": 81,
+      "1996-05": 96,
+      "1996-06": 59,
+      "1996-07": 64,
+      "1996-08": 87,
+      "1996-09": 107,
+      "1996-10": 34,
+      "1996-11": 65,
+      "1997-02": 27,
+      "1997-04": 37,
+      "1997-05": 74,
+      "1997-06": 128,
+      "1997-07": 108,
+      "1997-08": 84,
+      "1997-09": 129,
+      "1997-10": 28,
+      "1997-11": 39,
+      "1998-02": 14,
+      "1998-03": 40,
+      "1998-04": 96,
+      "1998-07": 99,
+      "1998-08": 109,
+      "1998-09": 108,
+      "1998-10": 76,
+      "1998-11": 62,
+      "1999-01": 30,
+      "1999-02": 35,
+      "1999-03": 45,
+      "1999-04": 86,
+      "1999-05": 102,
+      "1999-06": 77,
+      "1999-07": 66,
+      "1999-08": 190,
+      "1999-09": 49,
+      "1999-10": 37,
+      "1999-11": 84,
+      "2000-01": 30,
+      "2000-02": 13,
+      "2000-03": 95,
+      "2000-04": 86,
+      "2000-05": 96,
+      "2000-06": 83,
+      "2000-07": 92,
+      "2000-08": 154,
+      "2000-09": 64,
+      "2000-10": 45,
+      "2001-01": 28,
+      "2001-03": 12,
+      "2001-04": 55,
+      "2001-05": 60,
+      "2001-06": 94,
+      "2001-07": 139,
+      "2001-08": 173,
+      "2001-09": 64,
+      "2001-10": 50,
+      "2001-11": 92,
+      "2002-03": 12,
+      "2002-04": 131,
+      "2002-05": 75,
+      "2002-06": 87,
+      "2002-07": 216,
+      "2002-08": 161,
+      "2002-09": 91,
+      "2002-10": 97,
+      "2002-11": 64,
+      "2003-01": 19,
+      "2003-02": 19,
+      "2003-04": 101,
+      "2003-05": 81,
+      "2003-06": 74,
+      "2003-07": 70,
+      "2003-08": 72,
+      "2003-09": 96,
+      "2003-10": 54,
+      "2003-11": 15,
+      "2003-12": 28,
+      "2004-02": 33,
+      "2004-03": 46,
+      "2004-04": 104,
+      "2004-05": 75,
+      "2004-06": 73,
+      "2004-07": 66,
+      "2004-08": 89,
+      "2004-09": 48,
+      "2004-10": 52,
+      "2004-11": 32,
+      "2005-01": 16,
+      "2005-02": 19,
+      "2005-04": 110,
+      "2005-05": 58,
+      "2005-06": 89,
+      "2005-07": 72,
+      "2005-08": 105,
+      "2005-09": 67,
+      "2005-11": 57,
+      "2006-03": 16,
+      "2006-04": 109,
+      "2006-05": 129,
+      "2006-06": 85,
+      "2006-07": 77,
+      "2006-08": 109,
+      "2006-09": 55,
+      "2006-10": 106,
+      "2006-11": 23,
+      "2006-12": 35,
+      "2007-01": 53,
+      "2007-02": 38,
+      "2007-04": 123,
+      "2007-05": 111,
+      "2007-06": 88,
+      "2007-07": 89,
+      "2007-08": 89,
+      "2007-09": 44,
+      "2007-10": 97,
+      "2007-11": 47,
+      "2008-02": 28,
+      "2008-03": 22,
+      "2008-04": 96,
+      "2008-05": 88,
+      "2008-06": 92,
+      "2008-07": 77,
+      "2008-08": 108,
+      "2008-09": 98,
+      "2008-10": 56,
+      "2009-01": 15,
+      "2009-02": 10,
+      "2009-04": 93,
+      "2009-05": 88,
+      "2009-06": 75,
+      "2009-07": 80,
+      "2009-08": 126,
+      "2009-09": 119,
+      "2009-10": 27,
+      "2009-12": 43,
+      "2010-02": 32,
+      "2010-03": 29,
+      "2010-04": 89,
+      "2010-05": 84,
+      "2010-06": 90,
+      "2010-07": 129,
+      "2010-08": 195,
+      "2010-10": 76,
+      "2010-11": 59,
+      "2011-01": 37,
+      "2011-04": 50,
+      "2011-05": 132,
+      "2011-06": 121,
+      "2011-07": 108,
+      "2011-08": 103,
+      "2011-09": 52,
+      "2011-10": 74,
+      "2011-11": 24,
+      "2012-02": 20,
+      "2012-03": 17,
+      "2012-04": 43,
+      "2012-05": 64,
+      "2012-06": 57,
+      "2012-07": 49,
+      "2012-08": 50,
+      "2012-09": 32,
+      "2012-10": 78,
+      "2012-11": 25,
+      "2013-02": 35,
+      "2013-04": 26,
+      "2013-05": 142,
+      "2013-06": 84,
+      "2013-07": 148,
+      "2013-08": 122,
+      "2013-09": 93,
+      "2013-10": 101,
+      "2013-12": 29,
+      "2014-02": 20,
+      "2014-03": 16,
+      "2014-04": 51,
+      "2014-05": 110,
+      "2014-06": 85,
+      "2014-07": 104,
+      "2014-08": 117,
+      "2014-09": 109,
+      "2014-10": 75,
+      "2014-11": 40,
+      "2015-02": 12,
+      "2015-03": 19,
+      "2015-04": 83,
+      "2015-05": 154,
+      "2015-06": 74,
+      "2015-07": 128,
+      "2015-08": 190,
+      "2015-09": 26,
+      "2015-10": 61,
+      "2015-11": 64,
+      "2016-01": 27,
+      "2016-02": 29,
+      "2016-03": 43,
+      "2016-04": 99,
+      "2016-05": 100,
+      "2016-06": 87,
+      "2016-07": 128,
+      "2016-08": 174,
+      "2016-10": 71,
+      "2016-11": 72,
+      "2017-02": 51,
+      "2017-04": 55,
+      "2017-05": 145,
+      "2017-06": 81,
+      "2017-07": 126,
+      "2017-08": 130,
+      "2017-09": 110,
+      "2017-10": 75,
+      "2017-11": 56,
+      "2017-12": 21,
+      "2018-01": 30,
+      "2018-04": 44,
+      "2018-05": 97,
+      "2018-06": 84,
+      "2018-07": 122,
+      "2018-08": 121,
+      "2018-09": 100,
+      "2018-10": 147,
+      "2018-11": 44,
+      "2019-02": 40,
+      "2019-04": 136,
+      "2019-05": 87,
+      "2019-06": 88,
+      "2019-07": 70,
+      "2019-08": 107,
+      "2019-09": 59,
+      "2019-10": 108,
+      "2019-11": 64,
+      "2020-02": 44,
+      "2020-03": 16,
+      "2020-05": 49,
+      "2020-06": 67,
+      "2020-07": 121,
+      "2020-08": 78,
+      "2020-09": 84,
+      "2020-10": 48,
+      "2020-11": 83,
+      "2020-12": 15
+    },
+    "season_counts": {
+      "winter": 1067,
+      "spring": 4942,
+      "summer": 7873,
+      "autumn": 4772
+    }
+  },
+  "gaps": {
+    "ME": {
+      "n": 401,
+      "median": 14,
+      "mean": 23.571072,
+      "min": 2,
+      "max": 120,
+      "ge30": 72,
+      "ge60": 35,
+      "ge90": 6
+    },
+    "MO": {
+      "n": 354,
+      "median": 15.0,
+      "mean": 26.601695,
+      "min": 1,
+      "max": 462,
+      "ge30": 67,
+      "ge60": 34,
+      "ge90": 16
+    },
+    "WI": {
+      "n": 22,
+      "median": 28.0,
+      "mean": 103.727273,
+      "min": 13,
+      "max": 375,
+      "ge30": 8,
+      "ge60": 6,
+      "ge90": 6
+    },
+    "FI": {
+      "n": 0,
+      "median": null,
+      "mean": null,
+      "min": null,
+      "max": null,
+      "ge30": 0,
+      "ge60": 0,
+      "ge90": 0
+    }
+  },
+  "numeric": {
+    "variables": [
+      "gald",
+      "cells_per_nu",
+      "nu_per_ml",
+      "cells_per_ml",
+      "biovolume_conc",
+      "biomass_conc",
+      "relative_total_biovolume"
+    ],
+    "errors": {},
+    "zeros_by_variable_lake": {
+      "gald": {
+        "WI": 3
+      },
+      "biovolume_conc": {
+        "WI": 3
+      },
+      "biomass_conc": {
+        "WI": 3,
+        "MO": 34,
+        "ME": 27
+      },
+      "relative_total_biovolume": {
+        "WI": 3,
+        "MO": 6,
+        "ME": 9
+      },
+      "cells_per_nu": {
+        "ME": 1
+      },
+      "cells_per_ml": {
+        "ME": 1
+      }
+    },
+    "consistency": {
+      "cells_per_ml_vs_cells_per_nu_x_nu_per_ml": {
+        "n": 18653,
+        "max_abs_rel_error": 0.000228,
+        "n_rel_error_gt_0.01": 0,
+        "n_rel_error_gt_0.001": 0
+      },
+      "biomass_vs_biovolume_x_1e-6": {
+        "n": 18651,
+        "max_abs_rel_error": 1101618106138.4382,
+        "n_rel_error_gt_0.01": 2067,
+        "n_rel_error_gt_0.001": 4542
+      },
+      "relative_total_biovolume_vs_group_sum": {
+        "n": 18651,
+        "max_abs_percentage_point_deviation": 283806.87,
+        "n_abs_dev_gt_0.01_pp": 521,
+        "n_abs_dev_gt_1_pp": 144
+      }
+    }
+  },
+  "taxonomy": {
+    "distinct_taxa_clean": 469,
+    "distinct_genera_clean": 177,
+    "divisions": {
+      "Cryptophyta": 1876,
+      "Cyanophyta": 8581,
+      "Pyrrhophyta": 415,
+      "Miscellaneous": 387,
+      "Bacillariophyta": 1914,
+      "Chrysophyta": 871,
+      "Chlorophyta": 4368,
+      "Euglenophyta": 44,
+      "Xanthophyta": 7,
+      "Rhodophyta": 1,
+      "Haptophyta": 190
+    },
+    "trailing_space_records": 8514,
+    "leading_space_records": 0,
+    "double_space_records": 927,
+    "genus_mismatch_records": 889,
+    "genus_mismatch_examples": [
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Phormidium mucicola",
+        "taxa_clean": "Phormidium mucicola",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Phormidium mucicola",
+        "taxa_clean": "Phormidium mucicola",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      },
+      {
+        "taxa_name": "Oscillatoria limnetica ",
+        "taxa_clean": "Oscillatoria limnetica",
+        "genus": "Pseudanabaena",
+        "division": "Cyanophyta"
+      }
+    ],
+    "unresolved_names": 20,
+    "pre_names": 397,
+    "post_names": 265,
+    "only_pre": 204,
+    "only_post": 72
+  },
+  "duplicates": {
+    "exact_duplicate_groups": 29,
+    "exact_duplicate_rows": 58,
+    "key_duplicate_groups": 1009,
+    "key_duplicate_rows": 2048,
+    "max_group_size": 4
+  },
+  "depth": {
+    "by_lake": {
+      "ME": {
+        "0-8m": 9361,
+        "0-2m": 40
+      },
+      "MO": {
+        "0-2m": 8386,
+        "0-8m": 310
+      },
+      "WI": {
+        "0-2m": 532
+      },
+      "FI": {
+        "0-2m": 25
+      }
+    },
+    "sta_by_lake": {
+      "ME": {
+        "": 8621,
+        "1": 780
+      },
+      "MO": {
+        "": 8340,
+        "1": 356
+      },
+      "WI": {
+        "": 532
+      },
+      "FI": {
+        "": 25
+      }
+    },
+    "mendota_non_0_8": 40
+  }
+}

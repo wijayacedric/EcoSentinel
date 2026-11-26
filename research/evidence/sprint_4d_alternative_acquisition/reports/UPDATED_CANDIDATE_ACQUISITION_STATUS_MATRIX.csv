@@ -1,0 +1,8 @@
+candidate,package,repository_verified,file_downloaded,file_integrity_verified,biological_measurement_verified,environmental_measurement_verified,temporal_spatial_pairing_verified,licence_reviewed,human_action_required
+B,ERIC 000C8P environmental,Yes,Yes (6/6),Yes (size+SHA256),N/A,Partial (headers/rows/timestamps inspected; full QC/units audit pending deeper review),No,Partial (CC-BY in package; DataCite/CC0 discrepancy flagged),Licence clarification
+B,ERIC 000C2G biological monthly,Yes,Partial (landing+monthly metadata; 5p0x class_and_feat <=150MB downloaded; large files skipped),Partial,No (files not fully inspected),N/A,No,Partial,Download large 5p0x class_and_feat files; decide on 0p5x/raw/images
+C,NTL 88.31 phytoplankton,Partial (DOI known),No,No,No,N/A,No,No,Manual EDI download / access resolution
+C,Mendota HF temp,No,No,No,N/A,No,No,No,Manual EDI download
+C,Mendota Microbial Observatory,No,No,No,N/A,No,No,No,Manual EDI download
+D,BP buoy FRDR,Yes (local copy provenance),Existing local reused,Yes (SHA256 recorded),N/A,Partial (headers/rows inspected),No,Partial (LICENSE.txt copied),Optional FRDR re-verification
+D,Painter MP6NXF,Yes,Partial (35 relevant + 7 pre-existing),Yes for downloaded files,Partial (key files previously inspected),N/A,Partial,Yes (CC BY-NC-SA 4.0),NC-SA review; optional remaining files

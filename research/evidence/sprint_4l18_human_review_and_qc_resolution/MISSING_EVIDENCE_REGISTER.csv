@@ -1,0 +1,19 @@
+id,area,missing_item,status,why_it_matters,affected_decisions,owner,priority,next_action
+M01,D-05,Duplicate date–species/REP1/REP2 semantics,Unresolved,Determines P3/P4 totals,"D-08,D-02,D-05",Data custodian,Critical,Request written data dictionary/source explanation
+M02,D-05,"Exact Biomass_mg_m3 derivation, density, conversion",Partially verified,Paper verifies microscopy/geometry; exact density/field mapping not stated,"D-02,D-05",Data custodian,Critical,"Request formula, density, worked example"
+M03,D-05,Mendota C/E/G/O/H semantics and numeric ranges,Partially documented,EML gives labels but H has no numeric range; O undefined; C can carry values,D-05,NTL-LTER/data custodian,Critical,"Request numeric H range, O definition, C-with-value guidance"
+M04,D-05,Buffalo Pound B7 semantics,Definition documented; handling not,"B7 is a caution interval, not a removal flag",D-05,Data custodian,Critical,Ask whether B7 is discard vs caution; interval definition
+M05,D-05,Negative RFU meaning,Unresolved,No source supports baseline/zero or biological ordering,D-05,Data custodian/manufacturer,Critical,Request blank/zero convention; retain unresolved
+M06,D-05,Daily coverage/time zone,Unresolved,No time-zone statement; counts vary 42–144/day,"D-05,D-06",Data custodian,Critical,"Request expected cadence, deployment table, time zone"
+M07,D-05,Calibration/maintenance records,Partially described,Data paper describes practice; no per-record coefficients,"D-05,D-06",Data custodian,High,Request logs/summary
+M08,D-05,B7 overlap with high biomass,Not quantified,No authorised count audit,D-05,Data custodian/statistical reviewer,High,Do not calculate without authorisation; request custodian statement
+M09,D-06,Mendota within-day coverage,Not documented,Provider daily mean has no counts,D-06,NTL-LTER,High,Request within-day counts or acknowledge unknown
+M10,D-06,Buffalo Pound date-specific representativeness,Not documented,Coverage varies; no expected cadence,D-06,Data custodian,Critical,Request date-specific cadence/coverage
+M11,Reviewers,Independent scientific reviewer,Not appointed,No name/scope/conflict declaration,D-01–D-13,Project owner,Critical,Identify and invite qualified reviewer
+M12,Reviewers,Independent statistical reviewer,Not appointed,No name/scope/conflict declaration,D-01–D-15,Project owner,Critical,Identify and invite qualified reviewer
+M13,Reviewers,Gate 2 authority,Not identified,No named governance sign-off in package,"D-12,D-13,D-15",Project owner,Critical,Identify authorised governance role
+M14,Count audit,Separate count-audit authorisation,Not authorised,No count audit performed,"D-11,D-15",All approvers,Critical,Define and authorise count-only audit after D-01–D-14
+M15,Licence,Written CC BY-NC-SA/competition review,Not completed,No licence/competition determination,"D-14,D-15",Licence reviewer,Critical,Obtain written review
+M16,Müggelsee,Reply/access terms,Awaiting reply,Email sent 2026-11-25; no reply assumed,Stage 2 only,IGB recipients,High,Await; no follow-up authorised
+M17,SciFest,Venue/personal eligibility,Unverified,Venue not recorded; DOB not recorded,"D-13,D-14",Project owner,Medium,Confirm with teacher/organiser
+M18,D-15,All prior approvals,Not recorded,No D-01–D-14 formal records,D-15,All approvers,Critical,Do not approve; keep analysis off

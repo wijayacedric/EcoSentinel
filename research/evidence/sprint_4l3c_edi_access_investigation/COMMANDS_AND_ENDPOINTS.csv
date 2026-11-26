@@ -1,0 +1,16 @@
+stage,endpoint_or_check,result,secret_exposed
+env,EDI_API_KEY presence,absent,no
+env,launchctl getenv EDI_API_KEY,unset,no
+keychain,security find-generic-password -s ecosentinel-edi,exit 44 not found,no
+config,~/.zsh_history targeted scan,read -s + export; no value,no
+iam,POST https://auth.edirepository.org/auth/v1/key (empty JSON),400 missing key field,no
+pasta,GET /package/metadata/eml/knb-lter-ntl/88/31,403 readMetadata,no
+pasta,GET /package/data/eml/.../f2de15b2...,403 readDataEntity,no
+pasta,GET /package/authz?...,403 isAuthorized,no
+pasta,GET /package/download/eml/knb-lter-ntl/88/31,500,no
+portal,GET /nis/dataviewer?...,200 login page,no
+dataone,CN sysmeta data PID,200; replica LTER only,no
+dataone,CN object data PID,404,no
+dataone,GET gmn.lternet.edu/mn/v2/object/<pid>,403 Apache,no
+dataone,GET gmn.lternet.edu/mn/home,403 Apache,no
+dataone,GET gmn.edirepository.org/mn/v2/object/<pid>,403 Apache,no

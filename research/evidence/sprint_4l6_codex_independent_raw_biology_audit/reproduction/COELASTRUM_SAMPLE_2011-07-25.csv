@@ -1,0 +1,46 @@
+lakeid,year4,sampledate,sta,depth_range,division,taxa_name,gald,cells_per_nu,nu_per_ml,cells_per_ml,biovolume_conc,biomass_conc,relative_total_biovolume,genus
+ME,2011,2011-07-25,1,0-8m,Bacillariophyta,Aulacoseira granulata,80,2,8.4692,16.9385,14367.7232,0.01436772,0.071,Aulacoseira
+ME,2011,2011-07-25,1,0-8m,Bacillariophyta,Cyclotella meneghiniana,16,1,16.9385,16.9385,27245.4602,0.02724546,0.135,Cyclotella
+ME,2011,2011-07-25,1,0-8m,Bacillariophyta,Stephanodiscus parvus,7.3333,1,25.4077,25.4077,4124.0683,0.00412407,0.02,Stephanodiscus
+ME,2011,2011-07-25,1,0-8m,Bacillariophyta,Synedra filiformis,74,1,25.4077,25.4077,6008.9242,0.00600892,0.03,Synedra
+ME,2011,2011-07-25,1,0-8m,Bacillariophyta,Synedra ulna,140,1,3.609,3.609,4547.3944,0.00454739,0.023,Synedra
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Chlorococcaceae,4.6667,1,59.2847,59.2847,3559.4098,0.00355941,0.018,
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Ankistrodesmus convolutus,12,1,25.4077,25.4077,576.4654,0.00057647,0.003,Ankistrodesmus
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Chlamydomonas,5.2,1,101.6309,101.6309,9077.861,0.00907786,0.045,Chlamydomonas
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Coelastrum proboscideum,24,8,3.609,28.8723,9675.2156,0.00967522,0.048,Coelastrum
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Coelastrum reticulatum,0.00018286,0,10,0,7.688e-05,84.6924,283806.87,Coelastrum
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Dictyosphaerium pulchellum,12,4,8.4692,33.877,1024.5432,0.00102454,0.005,Dictyosphaerium
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Monomastix astigmata,4,1,8.4692,8.4692,79.8209,7.982e-05,0,Monomastix
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Monoraphidium arcuatum,12,1,8.4692,8.4692,192.1551,0.00019216,0.001,Monoraphidium
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Monoraphidium capricornutum,4,1,152.4463,152.4463,1190.7274,0.00119073,0.006,Monoraphidium
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Oocystis parva,11.6,2.4,59.2847,142.2832,7698.2619,0.00769826,0.038,Oocystis
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Oocystis pusilla,10,4,25.4077,101.6309,359.1939,0.00035919,0.002,Oocystis
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Scenedesmus opoliensis,24,4,8.4692,33.877,283.8067,0.00028381,0.001,Scenedesmus
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Scenedesmus quadricauda,30,2,8.4692,16.9385,851.4209,0.00085142,0.004,Scenedesmus
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Scenedesmus serratus,4,2,67.7539,135.5078,567.6151,0.00056762,0.003,Scenedesmus
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Schroederia judayi,30,1,8.4692,8.4692,283.8067,0.00028381,0.001,Schroederia
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Selenastrum minutum,9,1,33.877,33.877,2666.3701,0.00266637,0.013,Selenastrum
+ME,2011,2011-07-25,1,0-8m,Chlorophyta,Tetraedron caudatum,8,1,7.2181,7.2181,1098.369,0.00109837,0.005,Tetraedron
+ME,2011,2011-07-25,1,0-8m,Chrysophyta,Chromulina,3,1,8.4692,8.4692,119.7313,0.00011973,0.001,Chromulina
+ME,2011,2011-07-25,1,0-8m,Chrysophyta,Erkenia subaequiciliata,4,1,372.6465,372.6465,11269.9843,0.01126998,0.056,Erkenia
+ME,2011,2011-07-25,1,0-8m,Cryptophyta,Cryptomonas erosa,12,1,67.7539,67.7539,15538.4293,0.01553843,0.077,Cryptomonas
+ME,2011,2011-07-25,1,0-8m,Cryptophyta,Rhodomonas minuta,8,1,143.977,143.977,4824.7139,0.00482471,0.024,Rhodomonas
+ME,2011,2011-07-25,1,0-8m,Cryptophyta,Rhodomonas minuta,12,1,8.4692,8.4692,798.207,0.00079821,0.004,Rhodomonas
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Chroococcaceae,0.8,1,11480.9129,11480.9129,3078.0327,0.00307803,0.015,
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Aphanizomenon flos-aquae,67.2,11.2,2134.2479,23903.5769,19503322.56,19.50332256,96.921,Aphanizomenon
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Aphanocapsa delicatissima,25.6364,24.3636,296.4233,7221.9393,3781.4131,0.00378141,0.019,Aphanocapsa
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Aphanothece nidulans,20.5,20.5,42.3462,868.0969,1053.1878,0.00105319,0.005,Aphanothece
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Chroococcus minimus,20,4,8.4692,33.877,1135.2276,0.00113523,0.006,Chroococcus
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Lyngbya limnetica,80,13.3333,8.4692,112.9229,266.0687,0.00026607,0.001,Lyngbya
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Merismopedia tenuissima,20,32,50.8154,1626.0937,1702.8402,0.00170284,0.008,Merismopedia
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Merismopedia warmingiana,14,20,110.1001,2202.0018,288.242,0.00028824,0.001,Merismopedia
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Microcystis aeruginosa,4.2,1,2794.8485,2794.8485,111509.4238,0.11150942,0.554,Microcystis
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Microcystis aeruginosa,29.6667,20.8333,228.6694,4763.9387,155949.6642,0.15594966,0.775,Microcystis
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Pseudanabaena limnetica,42.5455,11.0606,186.3232,2060.8467,14008.5259,0.01400853,0.07,Pseudanabaena
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Pseudanabaena mucicola,14.6667,4.1111,169.3848,696.3577,1951.1769,0.00195118,0.01,Pseudanabaena
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Synechococcus elongatus,3,1,152.4463,152.4463,239.4626,0.00023946,0.001,Synechococcus
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Synechococcus sp. 1,1.2,1,25258.0083,25258.0083,10156.2451,0.01015625,0.05,Synechococcus
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Synechocystis,1.5,1,762.2314,762.2314,1346.9391,0.00134694,0.007,Synechocystis
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Woronichinia naegeliana,5,1,1321.2011,1321.2011,31130.0082,0.03113001,0.155,Woronichinia
+ME,2011,2011-07-25,1,0-8m,Cyanophyta,Woronichinia naegeliana,124,250,25.4077,6351.9284,149663.7857,0.14966379,0.744,Woronichinia
+ME,2011,2011-07-25,1,0-8m,Pyrrhophyta,Gymnodinium sp. 2,10,1,8.4692,8.4692,1419.0343,0.00141903,0.007,Gymnodinium

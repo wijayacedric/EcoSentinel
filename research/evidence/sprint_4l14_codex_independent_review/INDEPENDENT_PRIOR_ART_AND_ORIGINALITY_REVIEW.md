@@ -1,0 +1,28 @@
+# Independent Prior-Art and Originality Review
+
+## Search approach and finding
+
+Independent search on 25 November 2026 used targeted queries for Lake Mendota high-frequency fluorescence/cyanobacteria, species-specific probe performance, lake field comparisons, negative sensor relationships, and primary USGS monitoring evaluations. Publisher/official source pages and DOI records were prioritized. Search details and access limits are in `EXTERNAL_SEARCH_LOG.md` and `SOURCE_REGISTER.csv`.
+
+The LOW–MODERATE rating is fair but optimistic if read as scientific novelty. Sensor–microscopy relationships, species dependence, optical interferences, and variable field performance are well established. The project’s potential contribution is a local reanalysis of raw/date-level records for two named lakes, not a new method. Painter et al. is especially close for Buffalo Pound: it already combines microscopy-defined species biomass and chlorophyll observations at 0.8 m in 2018–2019, and reports a major late-season *Planktothrix* phase with little corresponding chlorophyll peak. EcoSentinel’s YSI RFU-vs-total-cyanobacteria question differs in instrument channel and aggregation, but the paper must be discussed as direct prior art, not only biomass provenance.
+
+## Relevant primary literature and programmes
+
+1. **Painter et al. 2022**, “Early and late cyanobacterial bloomers in a shallow, eutrophic lake,” *Environmental Science: Processes & Impacts* 24, 1212–1227. [DOI 10.1039/D2EM00078D](https://doi.org/10.1039/D2EM00078D). Full publisher article accessible. Microscopy identifies species; cell geometry yields wet-weight biomass. Directly analyzes Buffalo Pound 2018–19 and chlorophyll vs taxon biomass. Shows the relation varies by taxon and bloom phase.
+2. **Bastien et al. 2011**, “Performance evaluation of phycocyanin probes for the monitoring of cyanobacteria,” *Journal of Environmental Monitoring* 13, 110–118. [DOI 10.1039/C0EM00366B](https://doi.org/10.1039/C0EM00366B). Primary probe evaluation emphasizes species/cell-volume effects and limits in interpreting YSI PC fluorescence.
+3. **Bastien et al. 2019**, “In-situ fluorescence monitoring of cyanobacteria: Laboratory-based quantification of species-specific measurement accuracy,” *Water Research* 154, 330–341. [PubMed record](https://pubmed.ncbi.nlm.nih.gov/31349889/). Culture work reports species-specific sensor–biovolume relationships, mixed-culture overestimation and DOM-related signal loss. Supports interpreting RFU as context-dependent proxy.
+4. **McQuaid et al. 2020**, “Predicting cyanobacterial biovolumes from phycocyanin fluorescence using a handheld fluorometer in the field,” [PubMed record](https://pubmed.ncbi.nlm.nih.gov/32732055/). Finds strong pooled environmental relationships but broad variation among lakes; supports both positive potential and poor general transportability.
+5. **Lake Mendota high-frequency study**, “Stochastic dynamics of Cyanobacteria in long-term high-frequency observations of a eutrophic lake,” *Limnology and Oceanography Letters*. [DOI 10.1002/lol2.10152](https://doi.org/10.1002/lol2.10152). Uses one-minute Turner Cyclops 7 PC/chlorophyll at about 1 m in Mendota 2008–18. Directly relevant to same sensor ecosystem and cyanobacteria variability, though not necessarily the same paired microscopy endpoint.
+6. **USGS Technical Memorandum 1-D10**, “Field techniques for the determination of algal pigment fluorescence in environmental waters.” [Official USGS source](https://pubs.usgs.gov/publication/tm1D10/full). Authoritative methods source explains fluorescence as a proxy affected by species, depth, time of day and system-specific conditions, with QA/reporting guidance.
+7. **USGS Finger Lakes sensor evaluation (2024)**, “Evaluation of sensors for continuous monitoring of harmful algal blooms in the Finger Lakes region, New York, 2019 and 2020.” [Official report](https://pubs.usgs.gov/publication/sir20245010/full). Compares fluorometer channels with laboratory cyanobacterial biovolume and shows between-lake/community dependence.
+8. **Rome et al. 2022**, “Sensor-based detection of algal blooms for public health advisories and long-term monitoring.” [PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9562998/). Field study reports sensor channel relationships can differ from extracted chlorophyll and be weak in particular cyanobacterial communities.
+9. **Painter Supporting Information** [RSC ESI](https://www.rsc.org/suppdata/d2/em/d2em00078d/d2em00078d1.pdf), explicitly provides biomass-by-species plots and relationships between dominant cyanobacterial biomass and chlorophyll.
+
+## Balanced interpretation
+
+Positive studies show PC fluorescence can track biovolume under known community, calibration and matrix conditions. Negative/variable studies show cell size, species, pigment content, lysis, DOM, temperature, turbidity, colony/filament morphology and sensor settings can decouple RFU from cells or biomass. This is not contradictory noise: it means broad proxy claims require site-specific calibration and comparable biological measurements. EcoSentinel does not possess calibration/replicate data to claim that.
+
+## Originality verdict
+
+**Low–moderate (closer to low).** Local raw-data pairing and an honest account of mismatches could be a good student investigation. Novelty would be stronger only if it identifies a specific unresolved local evidence gap, transparently reconciles the previous Painter study, and shows independent student reasoning. It is not an early-warning advance, a sensor validation, or a cross-lake general result.
+

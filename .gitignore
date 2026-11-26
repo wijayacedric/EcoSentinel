@@ -19,3 +19,6 @@ venv/
 
 #exclude backup script
 src/src/02_measurement_availability/backup_script.py
+# Large raw downloads (exceed GitHub file-size limits; kept locally)
+research/evidence/sprint_4d3_greifensee_complete_acquisition/downloads/
+research/evidence/sprint_4d_alternative_acquisition/downloads/

@@ -1,0 +1,31 @@
+id,source,type,identifier_or_url,access_status,use_in_report
+S01,EcoSentinel README,repository document,README.md,Inspected locally,Original research question
+S02,EcoSentinel Scientific Protocol Draft,repository document,documentation/SCIENTIFIC_PROTOCOL_DRAFT.md,Inspected locally,Original design and evaluation requirements
+S03,Sprint 4L.11 Final Strategic Recommendation,repository document,research/evidence/sprint_4l11_research_viability_decision/FINAL_STRATEGIC_RECOMMENDATION.md,Inspected locally,Narrowing decision and counterarguments
+S04,Sprint 4L.12 Pre-Analysis Plan,repository document,research/evidence/sprint_4l12_narrowed_question_protocol/PRE_ANALYSIS_PLAN.md,Inspected locally,Narrowed estimands P1-P4
+S05,Sprint 4L.14 Revised Protocol,repository document,research/evidence/sprint_4l14_protocol_revision/REVISED_PROTOCOL.md,Inspected locally,Current proposed protocol
+S06,Sprint 4L.14 Updated Human Decision Register,repository document,research/evidence/sprint_4l14_protocol_revision/UPDATED_HUMAN_DECISION_REGISTER.md,Inspected locally,D-01-D-15 status
+S07,Sprint 4L.14 Independent Review Executive Report,repository document,research/evidence/sprint_4l14_codex_independent_review/INDEPENDENT_REVIEW_EXECUTIVE_REPORT.md,Inspected locally,ACCEPT AFTER REVISIONS verdict
+S08,Sprint 4L.14 Revision Recommendations,repository document,research/evidence/sprint_4l14_codex_independent_review/REVISION_RECOMMENDATIONS.md,Inspected locally,Ten required addendum items
+S09,Sprint 4F Buffalo Pound Stress Test,repository document,research/evidence/sprint_4f_buffalo_pound_stress_test/SPRINT_4F_EXECUTIVE_REPORT.md,Inspected locally,Buffalo Pound confirmatory failure
+S10,Sprint 4L.9 Mendota Daily Sensor Raw Audit,repository document,research/evidence/sprint_4l9_mendota_daily_sensor_raw_audit/,Inspected locally,Mendota sensor audit and overlap counts
+S11,Sprint 4L.10 Independent Mendota Feasibility Challenge,repository document,research/evidence/sprint_4l10_independent_mendota_feasibility_challenge/FINAL_DATASET_DECISION.md,Inspected locally,Mendota rejection for original question
+S12,Master Data Mission Dataset Comparison Matrix,repository CSV,research/evidence/data_master_mission/DATASET_COMPARISON_MATRIX.csv,Inspected locally,Four-candidate comparison
+S13,Buffalo Pound Correspondence Summary,repository document,research/evidence/buffalo_pound_correspondence_2026_11_25/CORRESPONDENCE_SUMMARY.md,Inspected locally,Leavitt reply and source leads
+S14,Painter et al. 2022 paper,peer-reviewed paper,https://doi.org/10.1039/D2EM00078D,Metadata and methods inspected via independent review,Buffalo Pound microscopy/biomass prior art
+S15,Painter et al. 2022 dataset,research dataset,https://doi.org/10.5683/SP3/MP6NXF,Local copy verified,Buffalo Pound biological data
+S16,Baulch et al. 2025 Data in Brief,peer-reviewed data paper,https://doi.org/10.1016/j.dib.2025.112290,Paper metadata inspected,Buffalo Pound buoy dataset
+S17,Boyer et al. 2025 Freshwater Biology,peer-reviewed paper,https://doi.org/10.1111/fwb.70131,Full text accessed in prior sprint,2017 Buffalo Pound biological sampling
+S18,Buelo et al. 2022 Ecological Applications,peer-reviewed paper,https://doi.org/10.1002/eap.2616,Abstract/search inspected,EWS true/false alarm evaluation
+S19,O'Brien et al. 2023 Nature Communications,peer-reviewed paper,https://doi.org/10.1038/s41467-023-43744-8,Abstract/search inspected,Limited applicability of EWS to empirical lake data
+S20,Cotterill et al. 2019 NZJMFR,peer-reviewed paper,https://doi.org/10.1080/00288330.2019.1617322,Abstract/search inspected,Weak/variable phycocyanin-biovolume relationships
+S21,Bastien et al. 2011 J Environ Monit,peer-reviewed paper,https://doi.org/10.1039/C0EM00366B,Citation from independent review,Phycocyanin probe performance
+S22,Bastien et al. 2019 Water Research,peer-reviewed paper,https://pubmed.ncbi.nlm.nih.gov/31349889/,Citation from independent review,Species-specific fluorescence accuracy
+S23,Thomson-Laing et al. 2020,peer-reviewed paper,https://pubmed.ncbi.nlm.nih.gov/32732055/,Abstract/search inspected,Handheld phycocyanin-biovolume calibration
+S24,Eyring et al. 2025 Greifensee dataset paper,peer-reviewed data paper,https://pmc.ncbi.nlm.nih.gov/articles/PMC12008225/,Abstract/search inspected,Five-year high-frequency Greifensee data
+S25,Boegehold et al. 2023 ESSD,peer-reviewed data paper,https://doi.org/10.5194/essd-15-3853-2023,Citation from repository,Western Lake Erie HAB monitoring
+S26,Müggelsee phytoplankton,research dataset,https://doi.org/10.18728/igb-fred-867.2,Metadata page inspected; data all rights reserved,1979-ongoing phytoplankton biomass/biovolume
+S27,Müggelsee high-frequency station,research dataset,https://doi.org/10.18728/igb-fred-1145.0,Metadata page inspected; data all rights reserved,5-min multiparameter probe from 2001; phycocyanin
+S28,Lake Erken phytoplankton 1989-2011,research dataset,https://doi.org/10.5879/pabf-2q87,Open metadata and download link inspected,Species-level weekly biomass
+S29,Lake Erken high-frequency chlorophyll 2019-2025,research dataset,https://hdl.handle.net/11676.1/M1prtGTFmw9w1asYJ3xZDQM8,Open metadata inspected,HF chlorophyll record; no overlap with 1989-2011 biology
+S30,Takamura & Nakagawa 2012 Kasumigaura data paper,peer-reviewed data paper,Citation identified in O'Brien et al. 2023 reference list,Citation only,Long-term monthly/biweekly phytoplankton since 1978

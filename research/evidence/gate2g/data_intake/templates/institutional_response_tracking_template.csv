@@ -1,0 +1,6 @@
+organisation,contact_name_or_role,contact_channel,date_contacted,response_date,response_status,data_available_summary,access_conditions,license_or_terms,referral_contacts,potential_scientific_value,next_action_requires_human_approval,notes
+University of Saskatchewan (Boyer et al. 2025 corresponding author),TBD,email,TBD,,not_contacted_or_unknown,TBD,TBD,TBD,TBD,High if record-level 2017 biological data,Yes - teacher/adult review and explicit authorization required,UNSENT draft exists in Gate 2E report
+Buffalo Pound Water Treatment Plant,TBD,email/form,TBD,,not_contacted_or_unknown,TBD,TBD,TBD,TBD,High/Medium,Yes,Request phytoplankton/cell counts/biovolume/lab chl-a/toxins/methods/QA
+Saskatchewan Water Security Agency,TBD,email/form,TBD,,not_contacted_or_unknown,TBD,TBD,TBD,TBD,High/Medium,Yes,Request historical biological monitoring records
+Referral organization 1,TBD,TBD,TBD,,unknown,TBD,TBD,TBD,TBD,Unknown,Yes,Do not contact without authorization
+Referral organization 2,TBD,TBD,TBD,,unknown,TBD,TBD,TBD,TBD,Unknown,Yes,Do not contact without authorization

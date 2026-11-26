@@ -1,0 +1,4 @@
+dataset,doi,repository,licence,access_status,reuse_conditions,human_review_required,notes
+NTL phytoplankton knb-lter-ntl.88.31,10.6073/pasta/bd03330e83fc52a5442bb39e131c95e9,EDI/PASTA,Unverified - EDI Data Package licence/policy (typically EDI data policy; requires package-level confirmation),Blocked in this environment (PASTA 403/login redirect),Unverified,Yes,Do not assume reuse rights without package-level licence confirmation.
+Mendota HF buoy temperature,10.6073/PASTA/8CEFF296AD68FA8DA6787076E0A5D992,EDI/PASTA,Unverified,Blocked in this environment (login redirect),Unverified,Yes,
+Mendota Microbial Observatory temp/DO/pH/conductivity,10.6073/PASTA/7E533C197ED8EBD27777A89A2C8D7DFE,EDI/PASTA,Unverified,Blocked in this environment (login redirect),Unverified,Yes,
